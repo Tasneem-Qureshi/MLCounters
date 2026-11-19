@@ -133,11 +133,11 @@ fun ItemScreen(
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(12.dp),
-                    verticalAlignment = Alignment.CenterVertizontally,
+                    verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.SpaceBetween
                 ) {
                     Row(
-                        verticalAlignment = Alignment.CenterVertizontally,
+                        verticalAlignment = Alignment.CenterVertically,
                         modifier = Modifier.weight(1f)
                     ) {
                         if (selectedHero != null) {
@@ -206,7 +206,7 @@ fun ItemScreen(
                         }
                     }
 
-                    Row(verticalAlignment = Alignment.CenterVertizontally) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
                         if (selectedHero != null) {
                             IconButton(
                                 onClick = { viewModel.selectHeroForCounterItems(null) },
@@ -255,7 +255,7 @@ fun ItemScreen(
                         DropdownMenuItem(
                             text = {
                                 Row(
-                                    verticalAlignment = Alignment.CenterVertizontally,
+                                    verticalAlignment = Alignment.CenterVertically,
                                     horizontalArrangement = Arrangement.SpaceBetween,
                                     modifier = Modifier.fillMaxWidth()
                                 ) {

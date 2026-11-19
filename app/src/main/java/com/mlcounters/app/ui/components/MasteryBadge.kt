@@ -82,7 +82,7 @@ fun MasteryBadge(
             )
         ) {
             Row(
-                verticalAlignment = Alignment.CenterVertizontally,
+                verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(
                     horizontal = if (isCompact) 4.dp else 8.dp,
                     vertical = if (isCompact) 2.dp else 4.dp
@@ -132,7 +132,7 @@ fun MasteryBadge(
 
                     DropdownMenuItem(
                         text = {
-                            Row(verticalAlignment = Alignment.CenterVertizontally) {
+                            Row(verticalAlignment = Alignment.CenterVertically) {
                                 Icon(
                                     imageVector = itemIcon,
                                     contentDescription = null,

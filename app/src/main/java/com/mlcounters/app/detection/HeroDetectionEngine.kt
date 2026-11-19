@@ -93,7 +93,7 @@ class HeroDetectionEngine @Inject constructor(
 
         // 3. Convert Bitmap to Mat
         val screenRgbaMat = Mat()
-        val croppedMat: Mat
+        var croppedMat: Mat? = null
         val grayMat = Mat()
         val blurredMat = Mat()
 
@@ -179,7 +179,7 @@ class HeroDetectionEngine @Inject constructor(
             try {
                 blurredMat.release()
                 grayMat.release()
-                if (croppedMat != screenRgbaMat) {
+                if (croppedMat != null && croppedMat != screenRgbaMat) {
                     croppedMat.release()
                 }
                 screenRgbaMat.release()

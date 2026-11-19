@@ -93,12 +93,12 @@ fun CounterCard(
         ) {
             Row(
                 modifier = Modifier.fillMaxWidth(),
-                verticalAlignment = Alignment.CenterVertizontally,
+                verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 // Left: Hero Avatar + Name & Role
                 Row(
-                    verticalAlignment = Alignment.CenterVertizontally,
+                    verticalAlignment = Alignment.CenterVertically,
                     modifier = Modifier.weight(1f)
                 ) {
                     Box(
@@ -134,7 +134,7 @@ fun CounterCard(
                     Spacer(modifier = Modifier.width(12.dp))
 
                     Column {
-                        Row(verticalAlignment = Alignment.CenterVertizontally) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
                             Text(
                                 text = counterHero.name,
                                 style = MaterialTheme.typography.titleMedium,
@@ -162,7 +162,7 @@ fun CounterCard(
                 }
 
                 // Right: Counter Score Badge & Expand Button
-                Row(verticalAlignment = Alignment.CenterVertizontally) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
                     Surface(
                         shape = RoundedCornerShape(8.dp),
                         color = scoreColor.copy(alpha = 0.18f),

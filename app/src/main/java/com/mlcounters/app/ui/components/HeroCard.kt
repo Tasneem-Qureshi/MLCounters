@@ -199,11 +199,11 @@ fun CompactHeroCard(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(6.dp),
-            verticalAlignment = Alignment.CenterVertizontally,
+            verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Row(
-                verticalAlignment = Alignment.CenterVertizontally,
+                verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.weight(1f)
             ) {
                 // Portrait
@@ -257,7 +257,7 @@ fun CompactHeroCard(
             }
 
             Row(
-                verticalAlignment = Alignment.CenterVertizontally,
+                verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(4.dp)
             ) {
                 TierBadge(tier = hero.tier)

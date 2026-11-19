@@ -173,7 +173,7 @@ fun HeroDetailScreen(
                     Spacer(modifier = Modifier.height(10.dp))
 
                     // Hero Name & Tier
-                    Row(verticalAlignment = Alignment.CenterVertizontally) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
                         Text(
                             text = currentHero.name,
                             style = MaterialTheme.typography.headlineMedium.copy(fontWeight = FontWeight.Black),
@@ -188,7 +188,7 @@ fun HeroDetailScreen(
                     // Role Badges
                     Row(
                         horizontalArrangement = Arrangement.spacedBy(6.dp),
-                        verticalAlignment = Alignment.CenterVertizontally
+                        verticalAlignment = Alignment.CenterVertically
                     ) {
                         Surface(
                             shape = RoundedCornerShape(6.dp),

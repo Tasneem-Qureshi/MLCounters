@@ -56,6 +56,16 @@ class CounterViewModel @Inject constructor(
         }
     }
 
+    private data class FilterState(
+        val onlyMastered: Boolean,
+        val role: String?,
+        val query: String
+    )
+
+    private val filterState = combine(_showOnlyMastered, _selectedRole, _searchQuery) { onlyMastered, role, query ->
+        FilterState(onlyMastered, role, query)
+    }
+
     val counters: StateFlow<List<Pair<HeroEntity, Int>>> = _selectedHero.flatMapLatest { hero ->
         if (hero == null) flowOf(emptyList())
         else {
@@ -63,22 +73,20 @@ class CounterViewModel @Inject constructor(
                 heroRepository.getCountersFor(hero.id),
                 heroRepository.getAllHeroes(),
                 masteredHeroes,
-                _showOnlyMastered,
-                _selectedRole,
-                _searchQuery
-            ) { counterEntities, heroes, masteredList, onlyMastered, role, query ->
+                filterState
+            ) { counterEntities, heroes, masteredList, filter ->
                 val heroMap = heroes.associateBy { it.id }
                 val masteredIds = masteredList.map { it.id }.toSet()
 
                 counterEntities.mapNotNull { ce ->
                     val counterHero = heroMap[ce.counterHeroId] ?: return@mapNotNull null
 
-                    val matchesMastered = !onlyMastered || masteredIds.contains(counterHero.id)
-                    val matchesRole = role.isNullOrBlank() || role.equals("All", ignoreCase = true) ||
-                            counterHero.role.equals(role, ignoreCase = true) ||
-                            counterHero.secondaryRole?.equals(role, ignoreCase = true) == true
-                    val matchesQuery = query.isBlank() ||
-                            counterHero.name.contains(query, ignoreCase = true)
+                    val matchesMastered = !filter.onlyMastered || masteredIds.contains(counterHero.id)
+                    val matchesRole = filter.role.isNullOrBlank() || filter.role.equals("All", ignoreCase = true) ||
+                            counterHero.role.equals(filter.role, ignoreCase = true) ||
+                            counterHero.secondaryRole?.equals(filter.role, ignoreCase = true) == true
+                    val matchesQuery = filter.query.isBlank() ||
+                            counterHero.name.contains(filter.query, ignoreCase = true)
 
                     if (matchesMastered && matchesRole && matchesQuery) {
                         counterHero to ce.counterScore
@@ -95,22 +103,20 @@ class CounterViewModel @Inject constructor(
                 heroRepository.getStrongAgainst(hero.id),
                 heroRepository.getAllHeroes(),
                 masteredHeroes,
-                _showOnlyMastered,
-                _selectedRole,
-                _searchQuery
-            ) { strongEntities, heroes, masteredList, onlyMastered, role, query ->
+                filterState
+            ) { strongEntities, heroes, masteredList, filter ->
                 val heroMap = heroes.associateBy { it.id }
                 val masteredIds = masteredList.map { it.id }.toSet()
 
                 strongEntities.mapNotNull { se ->
                     val victimHero = heroMap[se.heroId] ?: return@mapNotNull null
 
-                    val matchesMastered = !onlyMastered || masteredIds.contains(victimHero.id)
-                    val matchesRole = role.isNullOrBlank() || role.equals("All", ignoreCase = true) ||
-                            victimHero.role.equals(role, ignoreCase = true) ||
-                            victimHero.secondaryRole?.equals(role, ignoreCase = true) == true
-                    val matchesQuery = query.isBlank() ||
-                            victimHero.name.contains(query, ignoreCase = true)
+                    val matchesMastered = !filter.onlyMastered || masteredIds.contains(victimHero.id)
+                    val matchesRole = filter.role.isNullOrBlank() || filter.role.equals("All", ignoreCase = true) ||
+                            victimHero.role.equals(filter.role, ignoreCase = true) ||
+                            victimHero.secondaryRole?.equals(filter.role, ignoreCase = true) == true
+                    val matchesQuery = filter.query.isBlank() ||
+                            victimHero.name.contains(filter.query, ignoreCase = true)
 
                     if (matchesMastered && matchesRole && matchesQuery) {
                         victimHero to se.counterScore
