@@ -1,0 +1,5006 @@
+[
+  {
+    "heroId": 1,
+    "counterHeroId": 67,
+    "counterScore": 9,
+    "reason": "Divine Judgment suppresses Aamon through his camouflage, instantly disabling him before he can retrieve shards."
+  },
+  {
+    "heroId": 1,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Orbiting Swords reveals Aamon in camouflage, and Triple Sweep executes him before he can trigger invisible invulnerability."
+  },
+  {
+    "heroId": 1,
+    "counterHeroId": 106,
+    "counterScore": 8,
+    "reason": "Don't Run, Wolf King! and Be Good! provide continuous non-targeted AoE crowd control that pulls Aamon out of camouflage."
+  },
+  {
+    "heroId": 1,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt inflicts non-cleansable suppression when Aamon approaches melee range to unleash shards."
+  },
+  {
+    "heroId": 2,
+    "counterHeroId": 32,
+    "counterScore": 9,
+    "reason": "Time Journey cleanses Akai's Heavy Spin knockback and slow effects for all allies, neutralizing his initiation."
+  },
+  {
+    "heroId": 2,
+    "counterHeroId": 70,
+    "counterScore": 9,
+    "reason": "Speedy Lightwheel deals true damage based on Akai's huge max HP, melting him during Heavy Spin."
+  },
+  {
+    "heroId": 2,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Searing Torrent pushes Akai back and Burst Fireball continuously slows and stuns him from outside spin range."
+  },
+  {
+    "heroId": 2,
+    "counterHeroId": 29,
+    "counterScore": 8,
+    "reason": "Blazing Duet with Demon Hunter Sword easily kites Akai and shreds his high HP pool while Battle Mirror Image repositions away."
+  },
+  {
+    "heroId": 3,
+    "counterHeroId": 27,
+    "counterScore": 9,
+    "reason": "Jeet Kune Do and The Way of Dragon knock Aldous away during his Chase Fate descent, interrupting his basic attack punch."
+  },
+  {
+    "heroId": 3,
+    "counterHeroId": 2,
+    "counterScore": 9,
+    "reason": "Heavy Spin pins Aldous to the wall immediately as he lands with his ultimate, completely wasting his buff duration."
+  },
+  {
+    "heroId": 3,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt suppresses Aldous the moment his ultimate hits an ally, neutralizing his high single-target burst."
+  },
+  {
+    "heroId": 3,
+    "counterHeroId": 90,
+    "counterScore": 8,
+    "reason": "King's Calling stops Aldous from using flickers or mobility dashes and grounds him inside the spear arena."
+  },
+  {
+    "heroId": 4,
+    "counterHeroId": 17,
+    "counterScore": 9,
+    "reason": "Baxia Mark innately halves Alice's Blood Ode healing by 50%, completely stripping her sustain in teamfights."
+  },
+  {
+    "heroId": 4,
+    "counterHeroId": 70,
+    "counterScore": 9,
+    "reason": "Lightwheel Mark deals percentage max HP true damage, shredding Alice's stacked HP pool regardless of magic defense."
+  },
+  {
+    "heroId": 4,
+    "counterHeroId": 33,
+    "counterScore": 8,
+    "reason": "Abysm Strike and physical burst burst Alice down during Blood Ode before she can regenerate significant HP."
+  },
+  {
+    "heroId": 4,
+    "counterHeroId": 109,
+    "counterScore": 8,
+    "reason": "Imperial Justice traps Alice inside a duel ring where she cannot use Flowing Blood to teleport away."
+  },
+  {
+    "heroId": 5,
+    "counterHeroId": 17,
+    "counterScore": 9,
+    "reason": "Innately halves Alpha's Beta, Advance! healing effects while rotating with high mobility to avoid his frontal swings."
+  },
+  {
+    "heroId": 5,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Constant knockbacks from Searing Torrent and stuns from Burst Fireball prevent Alpha from closing distance."
+  },
+  {
+    "heroId": 5,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Shuts down Alpha's tanky build with rapid true damage procs while dashing away from Spear of Alpha."
+  },
+  {
+    "heroId": 5,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dodge Spear of Alpha with Shunpo and kick Alpha out of position with The Way of Dragon."
+  },
+  {
+    "heroId": 6,
+    "counterHeroId": 17,
+    "counterScore": 9,
+    "reason": "Innately slashes Alucard's Fission Wave lifesteal in half while rolling into him with stun and damage reduction."
+  },
+  {
+    "heroId": 6,
+    "counterHeroId": 72,
+    "counterScore": 9,
+    "reason": "Bouncing Ball interrupts Groundsplitter and Whirling Smash leaps, denying Alucard's gap closers."
+  },
+  {
+    "heroId": 6,
+    "counterHeroId": 67,
+    "counterScore": 9,
+    "reason": "Divine Judgment suppresses Alucard as soon as he dives into melee range, allowing the team to burst him."
+  },
+  {
+    "heroId": 6,
+    "counterHeroId": 90,
+    "counterScore": 8,
+    "reason": "King's Calling grounds Alucard, preventing him from leaping or casting pursuit skills."
+  },
+  {
+    "heroId": 7,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Triple Sweep locks down and executes Angela or her host target before Heartguard shield can save them."
+  },
+  {
+    "heroId": 7,
+    "counterHeroId": 56,
+    "counterScore": 8,
+    "reason": "Dark Night Falls blinds the map preventing Angela from selecting allies cleanly, and silence cancels her skill spam."
+  },
+  {
+    "heroId": 7,
+    "counterHeroId": 95,
+    "counterScore": 8,
+    "reason": "Ambush silence and burst kill Angela instantly while she roams between lanes to support allies."
+  },
+  {
+    "heroId": 7,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can kick Angela or her host away from teamfights with The Way of Dragon, isolating the carry."
+  },
+  {
+    "heroId": 8,
+    "counterHeroId": 41,
+    "counterScore": 10,
+    "reason": "Bloody Hunt suppresses Argus during Eternal Evil, wasting the entire 4 seconds of immortality while he cannot attack to heal."
+  },
+  {
+    "heroId": 8,
+    "counterHeroId": 67,
+    "counterScore": 9,
+    "reason": "Divine Judgment suppresses Argus and drags him away while his ultimate runs out uselessly."
+  },
+  {
+    "heroId": 8,
+    "counterHeroId": 2,
+    "counterScore": 9,
+    "reason": "Heavy Spin pushes Argus away and keeps him pinned against a wall throughout Eternal Evil's duration."
+  },
+  {
+    "heroId": 8,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Pushes Argus back with Searing Torrent and chains stuns, preventing him from landing basic attacks to regenerate."
+  },
+  {
+    "heroId": 9,
+    "counterHeroId": 102,
+    "counterScore": 9,
+    "reason": "Leaps repeatedly onto Arlott whenever he uses Dauntless Strike or dashes through marked targets."
+  },
+  {
+    "heroId": 9,
+    "counterHeroId": 90,
+    "counterScore": 9,
+    "reason": "King's Calling completely disables Arlott's Vengeance dashes, making him a stationary target."
+  },
+  {
+    "heroId": 9,
+    "counterHeroId": 72,
+    "counterScore": 9,
+    "reason": "Bouncing Ball knocks Arlott airborne whenever he attempts to dash through targets with Vengeance."
+  },
+  {
+    "heroId": 9,
+    "counterHeroId": 32,
+    "counterScore": 8,
+    "reason": "Time Journey removes Arlott's Final Slash displacement and stuns, ruining his teamfight crowd control combos."
+  },
+  {
+    "heroId": 10,
+    "counterHeroId": 32,
+    "counterScore": 10,
+    "reason": "Time Journey completely cleanses Fatal Links pulls and stuns for the entire team while granting a massive shield."
+  },
+  {
+    "heroId": 10,
+    "counterHeroId": 118,
+    "counterScore": 9,
+    "reason": "Can steal Fatal Links with I Am You and counter-initiate on Atlas's team with a stronger magic-scaling version."
+  },
+  {
+    "heroId": 10,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can use Shunpo to become immune to Fatal Links pull and kick Atlas away with The Way of Dragon."
+  },
+  {
+    "heroId": 10,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Melts Atlas rapidly with percentage true damage when he ejects in Perfect Match form."
+  },
+  {
+    "heroId": 11,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Constant knockback from Searing Torrent and kiting burns stop Aulus from closing the gap to stack The Power of Axe."
+  },
+  {
+    "heroId": 11,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Isolates and kicks Aulus away before he can land fully stacked basic attacks in late-game teamfights."
+  },
+  {
+    "heroId": 11,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Reduces Aulus's attack speed and halves his lifesteal and sustain with Baxia Mark."
+  },
+  {
+    "heroId": 11,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Out-ranges and shreds Aulus with true damage while dodging The Power of Axe swings."
+  },
+  {
+    "heroId": 12,
+    "counterHeroId": 56,
+    "counterScore": 9,
+    "reason": "Dark Night Falls silences Aurora upon approach, preventing her from casting Cold Destruction combos or freezing enemies."
+  },
+  {
+    "heroId": 12,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Can burst Aurora before she can react, forcing out Pride of Ice passive early in the fight."
+  },
+  {
+    "heroId": 12,
+    "counterHeroId": 80,
+    "counterScore": 8,
+    "reason": "Guardian's Bulwark blocks Aurora's Hailstone Blast projectiles, protecting teammates behind the shield."
+  },
+  {
+    "heroId": 12,
+    "counterHeroId": 74,
+    "counterScore": 8,
+    "reason": "Uses Puncture and Thorned Rose invulnerability frames to dodge Aurora's Glacier and Frost shockwaves."
+  },
+  {
+    "heroId": 13,
+    "counterHeroId": 27,
+    "counterScore": 9,
+    "reason": "Uses Shunpo to gain CC immunity through Badang's Fist Crack wall stun combo and kick Badang away."
+  },
+  {
+    "heroId": 13,
+    "counterHeroId": 72,
+    "counterScore": 8,
+    "reason": "Bouncing Ball interrupts Badang's Fist Break dashes and cancels his wall setup."
+  },
+  {
+    "heroId": 13,
+    "counterHeroId": 32,
+    "counterScore": 9,
+    "reason": "Time Journey cleanses Badang's wall stuns and grants allies shield against Fist Crack barrage."
+  },
+  {
+    "heroId": 13,
+    "counterHeroId": 114,
+    "counterScore": 8,
+    "reason": "Molten Scythes and Inferno out-sustain Badang in close melee quarters, overpowering his shield."
+  },
+  {
+    "heroId": 14,
+    "counterHeroId": 17,
+    "counterScore": 9,
+    "reason": "Baxia Mark slashes Balmond's Bloodthirst passive healing in half, neutralizing his teamfight sustain."
+  },
+  {
+    "heroId": 14,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Pushes Balmond away with Searing Torrent and interrupts Cyclone Sweep channeling with Burst Fireball stuns."
+  },
+  {
+    "heroId": 14,
+    "counterHeroId": 33,
+    "counterScore": 8,
+    "reason": "Abysm Strike and physical defense shred easily overwhelm Balmond's armor and execute him."
+  },
+  {
+    "heroId": 14,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Rapid true damage bypasses Balmond's tankiness and kites him outside Cyclone Sweep spin range."
+  },
+  {
+    "heroId": 15,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dodge Deadly Catch shark waves with Shunpo and kick Bane into danger before he can combo."
+  },
+  {
+    "heroId": 15,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Targets Bane's lack of mobility, locking him down with Triple Sweep before he can heal with Ale."
+  },
+  {
+    "heroId": 15,
+    "counterHeroId": 74,
+    "counterScore": 8,
+    "reason": "Invulnerability from Thorned Rose lets him pass right through Deadly Catch waves unharmed."
+  },
+  {
+    "heroId": 15,
+    "counterHeroId": 55,
+    "counterScore": 8,
+    "reason": "Shadow Kill bursts Bane down in 1v1 duels while avoiding his close-range Crab Claw Cannon."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 70,
+    "counterScore": 10,
+    "reason": "Deals massive percentage max HP true damage with Lightwheel Mark, shredding Barats's 25 Big Guy stacks."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 82,
+    "counterScore": 9,
+    "reason": "Chaos Assault deals max HP percentage magic damage, melting Barats regardless of his stacked hybrid defense."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Searing Torrent pushes Barats away continuously, kiting his huge hitbox and preventing Detona's Welcome."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 33,
+    "counterScore": 9,
+    "reason": "Destroys up to 75% of Barats's physical defense with Specter Step, rendering his Big Guy defense useless."
+  },
+  {
+    "heroId": 17,
+    "counterHeroId": 70,
+    "counterScore": 9,
+    "reason": "Lightwheel Mark true damage ignores Baxia Mark's flat damage reduction and cuts through his tankiness."
+  },
+  {
+    "heroId": 17,
+    "counterHeroId": 82,
+    "counterScore": 9,
+    "reason": "Chaos Assault percentage magic damage shreds Baxia's HP pool rapidly while Brilliance keeps her safe."
+  },
+  {
+    "heroId": 17,
+    "counterHeroId": 29,
+    "counterScore": 8,
+    "reason": "Blazing Duet with Demon Hunter Sword melts Baxia while easily dodging Baxia-Shield Unity rolls."
+  },
+  {
+    "heroId": 17,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Constantly knocks Baxia out of Shield Unity rolling form with Burst Fireball stuns and Searing Torrent."
+  },
+  {
+    "heroId": 18,
+    "counterHeroId": 80,
+    "counterScore": 10,
+    "reason": "Guardian's Bulwark blocks Beatrix's Wesker shotgun blasts, Nibiru volleys, and Renner sniper bullets completely."
+  },
+  {
+    "heroId": 18,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Can ambush Beatrix and execute her with Triple Sweep before she can switch weapons or retaliate."
+  },
+  {
+    "heroId": 18,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can bypass Beatrix's zoning with Shunpo and kick her into the team with The Way of Dragon."
+  },
+  {
+    "heroId": 18,
+    "counterHeroId": 95,
+    "counterScore": 8,
+    "reason": "Silences Beatrix from stealth, eliminating her before she can fire Bennett or Wesker bursts."
+  },
+  {
+    "heroId": 19,
+    "counterHeroId": 70,
+    "counterScore": 9,
+    "reason": "True damage bypasses Belerick's high HP pool and doesn't trigger Deadly Thorns damage reflection effectively."
+  },
+  {
+    "heroId": 19,
+    "counterHeroId": 82,
+    "counterScore": 9,
+    "reason": "Deals max HP percentage magic damage from safe distance, eliminating Belerick without suffering physical reflect."
+  },
+  {
+    "heroId": 19,
+    "counterHeroId": 32,
+    "counterScore": 8,
+    "reason": "Time Journey cleanses Wrath of Dryad's AoE taunt and immobilization, saving teammates caught in the roots."
+  },
+  {
+    "heroId": 19,
+    "counterHeroId": 33,
+    "counterScore": 8,
+    "reason": "Shreds Belerick's physical defense and bursts him down with Abysm Strike."
+  },
+  {
+    "heroId": 20,
+    "counterHeroId": 72,
+    "counterScore": 9,
+    "reason": "Bouncing Ball knocks Benedetta up on every sword dash and interrupts her Alecto: Final Blow slash."
+  },
+  {
+    "heroId": 20,
+    "counterHeroId": 90,
+    "counterScore": 10,
+    "reason": "King's Calling completely grounds Benedetta, locking all her sword intent dashes and blink skills."
+  },
+  {
+    "heroId": 20,
+    "counterHeroId": 102,
+    "counterScore": 9,
+    "reason": "Leaps repeatedly onto Benedetta every time she dashes with passive sword intent or skills."
+  },
+  {
+    "heroId": 20,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt suppresses Benedetta instantly, preventing her from casting An Eye for an Eye parry."
+  },
+  {
+    "heroId": 21,
+    "counterHeroId": 80,
+    "counterScore": 9,
+    "reason": "Guardian's Bulwark blocks Brody's Abyss Corrosion basic attack projectiles and Torn-Apart Memory bullets."
+  },
+  {
+    "heroId": 21,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Ambushing Brody with Triple Sweep bursts him down before he can apply 4 Abyss Marks for his ultimate."
+  },
+  {
+    "heroId": 21,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dive Brody with Shunpo CC immunity, dodging Corrosive Strike stun and executing The Way of Dragon."
+  },
+  {
+    "heroId": 21,
+    "counterHeroId": 55,
+    "counterScore": 8,
+    "reason": "Quad Shadow and Ougi: Shadow Kill burst Brody down while staying untargetable during his slow windup attacks."
+  },
+  {
+    "heroId": 22,
+    "counterHeroId": 80,
+    "counterScore": 10,
+    "reason": "Guardian's Bulwark blocks Bruno's Volley Shot bouncing ball and Wave of the World ultimate entirely."
+  },
+  {
+    "heroId": 22,
+    "counterHeroId": 19,
+    "counterScore": 9,
+    "reason": "Deadly Thorns continuously reflects Bruno's high-damage critical basic attacks right back at him."
+  },
+  {
+    "heroId": 22,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Triple Sweep locks down and obliterates squishy Bruno before he can retrieve power balls or kick."
+  },
+  {
+    "heroId": 22,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Dives past Bruno's Flying Tackle with Shunpo and knocks him away from the fight with The Way of Dragon."
+  },
+  {
+    "heroId": 23,
+    "counterHeroId": 32,
+    "counterScore": 10,
+    "reason": "Time Journey cleanses Curse of Blood link effects, preventing damage and CC from sharing across allies."
+  },
+  {
+    "heroId": 23,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Pushes Carmilla back with Searing Torrent whenever she attempts to sprint forward with Crimson Flower."
+  },
+  {
+    "heroId": 23,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Melts Carmilla's stolen defense stats with true damage, taking her down before she can stack sustain."
+  },
+  {
+    "heroId": 23,
+    "counterHeroId": 121,
+    "counterScore": 8,
+    "reason": "Can cleanse Carmilla's stun with Needles in Flowers and trigger Crossbow of Tang safely from range."
+  },
+  {
+    "heroId": 24,
+    "counterHeroId": 56,
+    "counterScore": 9,
+    "reason": "Dark Night Falls silences Cecilion, preventing him from spamming Bat Impact or activating Bats Feast."
+  },
+  {
+    "heroId": 24,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Locks down and bursts Cecilion before he can build distance or stack Overflow mana in late game."
+  },
+  {
+    "heroId": 24,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can easily close the gap with Shunpo and kick Cecilion out of his safe backline position."
+  },
+  {
+    "heroId": 24,
+    "counterHeroId": 74,
+    "counterScore": 8,
+    "reason": "Uses dashes to dodge Bat Impact and Thorned Rose to burst Cecilion down in close quarters."
+  },
+  {
+    "heroId": 25,
+    "counterHeroId": 80,
+    "counterScore": 10,
+    "reason": "Guardian's Bulwark blocks the entire barrage of Meteor Shower, completely negating her ultimate damage."
+  },
+  {
+    "heroId": 25,
+    "counterHeroId": 17,
+    "counterScore": 9,
+    "reason": "Drastically reduces multi-hit damage from Meteor Shower and rolls into Chang'e to cancel her shield."
+  },
+  {
+    "heroId": 25,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Ambush with Triple Sweep instantly destroys Chang'e's Crescent Moon shield and executes her."
+  },
+  {
+    "heroId": 25,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Flanks and kicks Chang'e out of her Meteor Shower channeling with The Way of Dragon."
+  },
+  {
+    "heroId": 26,
+    "counterHeroId": 32,
+    "counterScore": 9,
+    "reason": "Time Journey cleanses Chip's Shortcut crash knockup and AoE slows for the entire team."
+  },
+  {
+    "heroId": 26,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Shreds Chip's tanky HP bar with rapid true damage while he attempts to channel portals."
+  },
+  {
+    "heroId": 26,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt suppresses Chip when he arrives through a portal, preventing him from activating Overtime stun."
+  },
+  {
+    "heroId": 26,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Knocks Chip and arriving allies away from portals with Searing Torrent and stun zones."
+  },
+  {
+    "heroId": 27,
+    "counterHeroId": 102,
+    "counterScore": 9,
+    "reason": "Counter-leaps repeatedly onto Chou whenever he uses Jeet Kune Do leaps or Shunpo dashes."
+  },
+  {
+    "heroId": 27,
+    "counterHeroId": 90,
+    "counterScore": 9,
+    "reason": "King's Calling grounds Chou, preventing him from casting Jeet Kune Do, Shunpo, or The Way of Dragon."
+  },
+  {
+    "heroId": 27,
+    "counterHeroId": 72,
+    "counterScore": 8,
+    "reason": "Bouncing Ball knocks Chou up whenever he attempts to execute Jeet Kune Do dashes."
+  },
+  {
+    "heroId": 27,
+    "counterHeroId": 32,
+    "counterScore": 8,
+    "reason": "Time Journey's CC cleanse and shield save allies targeted by The Way of Dragon kick combo."
+  },
+  {
+    "heroId": 28,
+    "counterHeroId": 17,
+    "counterScore": 9,
+    "reason": "Innately cuts Cici's Delight spell vamp and healing in half while slowing her Yo-yo Blitz movement."
+  },
+  {
+    "heroId": 28,
+    "counterHeroId": 90,
+    "counterScore": 9,
+    "reason": "King's Calling grounds Cici, preventing her from using Buoyant Bounce to reposition during Yo-yo Blitz."
+  },
+  {
+    "heroId": 28,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt suppresses Cici, halting her continuous spinning attacks and movement speed bonuses."
+  },
+  {
+    "heroId": 28,
+    "counterHeroId": 33,
+    "counterScore": 8,
+    "reason": "Shreds Cici's defense and out-damages her sustained Yo-yo attacks with high burst in the EXP lane."
+  },
+  {
+    "heroId": 29,
+    "counterHeroId": 19,
+    "counterScore": 10,
+    "reason": "Deadly Thorns reflects massive magic damage each time Claude fires rapid multi-hits with Blazing Duet."
+  },
+  {
+    "heroId": 29,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Triple Sweep eliminates Claude before he can activate Battle Mirror Image or Blazing Duet in teamfights."
+  },
+  {
+    "heroId": 29,
+    "counterHeroId": 80,
+    "counterScore": 8,
+    "reason": "Guardian's Bulwark blocks Claude's basic attack projectiles and halts Blazing Duet bullets."
+  },
+  {
+    "heroId": 29,
+    "counterHeroId": 72,
+    "counterScore": 8,
+    "reason": "Bouncing Ball interrupts Claude's Battle Mirror Image dash if he blinks close to the team."
+  },
+  {
+    "heroId": 30,
+    "counterHeroId": 80,
+    "counterScore": 9,
+    "reason": "Guardian's Bulwark blocks Clint's Quick Draw piercing basic attacks and Grenade Bombardment projectiles."
+  },
+  {
+    "heroId": 30,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Can burst Clint down instantly from bushes before Clint can use Trapping Recoil to peel away."
+  },
+  {
+    "heroId": 30,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Uses Shunpo to ignore Clint's Trapping Recoil immobilize and kick Clint into danger."
+  },
+  {
+    "heroId": 30,
+    "counterHeroId": 55,
+    "counterScore": 8,
+    "reason": "Dives Clint with Quad Shadow and executes with Shadow Kill while avoiding his skill shots."
+  },
+  {
+    "heroId": 31,
+    "counterHeroId": 80,
+    "counterScore": 9,
+    "reason": "Guardian's Bulwark blocks Cyclops's Stardust Shock and Planets Attack orbs, stopping his combo cold."
+  },
+  {
+    "heroId": 31,
+    "counterHeroId": 56,
+    "counterScore": 8,
+    "reason": "Silences Cyclops, disabling his rapid cooldown skill-spamming kit and bursting him in the dark."
+  },
+  {
+    "heroId": 31,
+    "counterHeroId": 74,
+    "counterScore": 8,
+    "reason": "Uses Thorned Rose and Puncture invulnerability to dodge Star Power Lockdown's root projectile."
+  },
+  {
+    "heroId": 31,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Mitigates multi-hit damage from Planets Attack with Baxia Mark and rolls into Cyclops."
+  },
+  {
+    "heroId": 32,
+    "counterHeroId": 41,
+    "counterScore": 9,
+    "reason": "Bloody Hunt inflicts Suppression, which cannot be cleansed by Diggie's Time Journey ultimate."
+  },
+  {
+    "heroId": 32,
+    "counterHeroId": 67,
+    "counterScore": 9,
+    "reason": "Divine Judgment suppresses Diggie and drags him away, completely bypassing Time Journey's CC cleanse."
+  },
+  {
+    "heroId": 32,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Single-target burst with Triple Sweep executes Diggie before he can react with Time Journey."
+  },
+  {
+    "heroId": 32,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "The Way of Dragon can suppress or instantly kick Diggie away if timed outside his ultimate shield."
+  },
+  {
+    "heroId": 33,
+    "counterHeroId": 114,
+    "counterScore": 9,
+    "reason": "Molten Scythes and Inferno out-sustain Dyrroth in melee trades, burning him down with true damage."
+  },
+  {
+    "heroId": 33,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Constant knockback from Searing Torrent prevents Dyrroth from landing Specter Step or Abysm Strike."
+  },
+  {
+    "heroId": 33,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dodge Abysm Strike with Shunpo's immunity and kick Dyrroth away from close range."
+  },
+  {
+    "heroId": 33,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Halves Dyrroth's Wrath of the Abyss lifesteal while reducing his physical burst."
+  },
+  {
+    "heroId": 34,
+    "counterHeroId": 70,
+    "counterScore": 9,
+    "reason": "Deals percentage max HP true damage, shredding Edith's massive tank form HP and defense."
+  },
+  {
+    "heroId": 34,
+    "counterHeroId": 82,
+    "counterScore": 9,
+    "reason": "Percentage magic damage tears through Edith's defense and executes her when she transitions to marksman form."
+  },
+  {
+    "heroId": 34,
+    "counterHeroId": 32,
+    "counterScore": 8,
+    "reason": "Time Journey cleanses Earth Shatter knockups and Onward flips, neutralizing Edith's crowd control."
+  },
+  {
+    "heroId": 34,
+    "counterHeroId": 33,
+    "counterScore": 8,
+    "reason": "Shreds Edith's physical defense by up to 75%, leaving her vulnerable to heavy physical burst."
+  },
+  {
+    "heroId": 35,
+    "counterHeroId": 17,
+    "counterScore": 10,
+    "reason": "Innately slashes Esmeralda's Frostmoon Shield absorption and regen in half with Baxia Mark."
+  },
+  {
+    "heroId": 35,
+    "counterHeroId": 70,
+    "counterScore": 9,
+    "reason": "True damage completely bypasses Esmeralda's huge shields, dealing direct lethal damage to her HP."
+  },
+  {
+    "heroId": 35,
+    "counterHeroId": 33,
+    "counterScore": 9,
+    "reason": "Strips Esmeralda's physical defense and bursts her down with Abysm Strike before shields can accumulate."
+  },
+  {
+    "heroId": 35,
+    "counterHeroId": 82,
+    "counterScore": 8,
+    "reason": "Percentage-based magic damage quickly melts Esmeralda through her Frostmoon Shield barriers."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 17,
+    "counterScore": 10,
+    "reason": "Baxia Mark provides an innate 50% anti-heal aura, nullifying Estes's Moonlight Immersion and Blessing of Moon Goddess."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 83,
+    "counterScore": 10,
+    "reason": "Duality passive groups together enemies clustered around Estes, triggering catastrophic chain CC and burst."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 23,
+    "counterScore": 9,
+    "reason": "Curse of Blood links everyone clustered around Estes, transferring massive burst damage across the entire team."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Can pick off Estes instantly with Triple Sweep before he can trigger Blessing of Moon Goddess."
+  },
+  {
+    "heroId": 37,
+    "counterHeroId": 74,
+    "counterScore": 9,
+    "reason": "Can use Thorned Rose to become invulnerable and dodge Electric Arrow stun and Thunder's Wrath."
+  },
+  {
+    "heroId": 37,
+    "counterHeroId": 56,
+    "counterScore": 8,
+    "reason": "Dark Night Falls silences Eudora, preventing her from casting her point-and-click stun combo."
+  },
+  {
+    "heroId": 37,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Shunpo provides CC immunity against Electric Arrow, allowing Chou to kick Eudora with The Way of Dragon."
+  },
+  {
+    "heroId": 37,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Ambushing Eudora with Triple Sweep bursts her down before she can cast Forked Lightning."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 72,
+    "counterScore": 10,
+    "reason": "Khufra's Bouncing Ball stops Fanny's cables mid-air and knocks her airborne, interrupting her mobility and flight."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 90,
+    "counterScore": 10,
+    "reason": "King's Calling grounds Fanny, preventing her from firing Steel Cables or dashing altogether."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 41,
+    "counterScore": 9,
+    "reason": "Bloody Hunt inflicts non-cleansable suppression the second Fanny cables into melee range."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Triple Sweep locks onto Fanny mid-flight, knocking her up and bursting her before she can spin."
+  },
+  {
+    "heroId": 39,
+    "counterHeroId": 118,
+    "counterScore": 10,
+    "reason": "Can steal Cult Altar with I Am You, giving her entire team the exact same extra-life buff."
+  },
+  {
+    "heroId": 39,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Anti-heal reduces the HP restored when Cult Altar's extra life triggers, weakening team survival."
+  },
+  {
+    "heroId": 39,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Kicks Faramis or key allies out of the Cult Altar zone with The Way of Dragon."
+  },
+  {
+    "heroId": 39,
+    "counterHeroId": 2,
+    "counterScore": 8,
+    "reason": "Heavy Spin knocks enemy heroes completely out of Faramis's Cult Altar circle."
+  },
+  {
+    "heroId": 40,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Flanks and executes Floryn with Triple Sweep before she can trigger Bloom to heal her team."
+  },
+  {
+    "heroId": 40,
+    "counterHeroId": 56,
+    "counterScore": 8,
+    "reason": "Silences Floryn and blinds the map, stopping her from landing Sprout stuns or supporting allies."
+  },
+  {
+    "heroId": 40,
+    "counterHeroId": 95,
+    "counterScore": 8,
+    "reason": "Stalks and bursts Floryn in the backline with silence and ambush critical strikes."
+  },
+  {
+    "heroId": 40,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Baxia Mark reduces the healing effectiveness of Floryn's Bloom across sustained skirmishes."
+  },
+  {
+    "heroId": 41,
+    "counterHeroId": 32,
+    "counterScore": 9,
+    "reason": "Time Journey cleanses Iron Hook pulls and Auto Win stuns for teammates caught out of position."
+  },
+  {
+    "heroId": 41,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Melts Franco's high HP pool with percentage true damage when he tries to frontline."
+  },
+  {
+    "heroId": 41,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can use Shunpo to absorb Iron Hook with crowd control immunity and counter-initiate on Franco."
+  },
+  {
+    "heroId": 41,
+    "counterHeroId": 48,
+    "counterScore": 8,
+    "reason": "Ancestral Gift provides CC immunity near walls, making Grock immune to Franco's Iron Hook."
+  },
+  {
+    "heroId": 42,
+    "counterHeroId": 70,
+    "counterScore": 9,
+    "reason": "Lightwheel Mark deals percentage max HP true damage, shredding Fredrinn's massive crystalline armor and HP."
+  },
+  {
+    "heroId": 42,
+    "counterHeroId": 17,
+    "counterScore": 9,
+    "reason": "Halves Fredrinn's crystalline energy HP conversion with Baxia Mark, gutting his sustain."
+  },
+  {
+    "heroId": 42,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Pushes Fredrinn away with Searing Torrent and interrupts Appraiser's Wrath windup with constant stuns."
+  },
+  {
+    "heroId": 42,
+    "counterHeroId": 82,
+    "counterScore": 8,
+    "reason": "Percentage magic damage tears through Fredrinn's defense while Brilliance protects her from Appraiser's Wrath."
+  },
+  {
+    "heroId": 43,
+    "counterHeroId": 17,
+    "counterScore": 9,
+    "reason": "Reduces Freya's Valkyrie shield absorption and lifesteal by 50% while mitigating her basic attack burst."
+  },
+  {
+    "heroId": 43,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Pushes Freya away with Searing Torrent, keeping her outside melee range while her Valkyrie timer expires."
+  },
+  {
+    "heroId": 43,
+    "counterHeroId": 2,
+    "counterScore": 8,
+    "reason": "Heavy Spin pins Freya against walls, wasting her Valkyrie transformation without letting her hit basic attacks."
+  },
+  {
+    "heroId": 43,
+    "counterHeroId": 72,
+    "counterScore": 8,
+    "reason": "Bouncing Ball interrupts Freya's Leap of Faith and halts her engagement."
+  },
+  {
+    "heroId": 44,
+    "counterHeroId": 70,
+    "counterScore": 9,
+    "reason": "Deals true damage that completely bypasses Gatotkaca's Steel Bones physical defense scaling."
+  },
+  {
+    "heroId": 44,
+    "counterHeroId": 82,
+    "counterScore": 9,
+    "reason": "Chaos Assault deals percentage magic damage, ignoring Gatotkaca's physical armor and melting him quickly."
+  },
+  {
+    "heroId": 44,
+    "counterHeroId": 32,
+    "counterScore": 8,
+    "reason": "Time Journey cleanses Avatar of the Guardian's AoE airborne knockup, neutralizing his teamfight engage."
+  },
+  {
+    "heroId": 44,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Searing Torrent pushes Gatotkaca back, kiting him easily so he cannot land Unbreakable taunts."
+  },
+  {
+    "heroId": 45,
+    "counterHeroId": 39,
+    "counterScore": 10,
+    "reason": "Ghost Bursters deals exponential AoE damage when Gloo splits into 12 Goo entities, instantly wiping Gloo out."
+  },
+  {
+    "heroId": 45,
+    "counterHeroId": 120,
+    "counterScore": 9,
+    "reason": "Chained Nether Snare and Eternal Guard trigger explosive chain reactions against Gloo's multiple Goos."
+  },
+  {
+    "heroId": 45,
+    "counterHeroId": 29,
+    "counterScore": 9,
+    "reason": "Blazing Duet triggers Demon Hunter Sword on every single Goo, regenerating huge health while shredding Gloo."
+  },
+  {
+    "heroId": 45,
+    "counterHeroId": 5,
+    "counterScore": 8,
+    "reason": "Beta, Advance! deals massive true damage and heals Alpha rapidly against Gloo's clustered Goos."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 107,
+    "counterScore": 10,
+    "reason": "Can easily burst Gord with Triple Sweep the moment Gord roots himself in place to channel Mystic Gush."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 80,
+    "counterScore": 8,
+    "reason": "Guardian's Bulwark blocks Gord's Mystic Projectile and Mystic Injunction orbs, stopping his combo."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 27,
+    "counterScore": 9,
+    "reason": "Flanks Gord during Mystic Gush and kicks him into the enemy team with The Way of Dragon."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 56,
+    "counterScore": 9,
+    "reason": "Dark Night Falls silences Gord and bursts him before he can finish channeling his ultimate."
+  },
+  {
+    "heroId": 47,
+    "counterHeroId": 80,
+    "counterScore": 10,
+    "reason": "Guardian's Bulwark blocks Granger's Rhapsody bullets and Death Sonata ultimate cannon shots entirely."
+  },
+  {
+    "heroId": 47,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Locks down and bursts Granger with Triple Sweep before Granger can use Rondo to dash away."
+  },
+  {
+    "heroId": 47,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dodge Rhapsody with Shunpo and kick Granger into danger with The Way of Dragon."
+  },
+  {
+    "heroId": 47,
+    "counterHeroId": 55,
+    "counterScore": 8,
+    "reason": "Dives Granger with Quad Shadow and executes with Shadow Kill while untargetable."
+  },
+  {
+    "heroId": 48,
+    "counterHeroId": 70,
+    "counterScore": 9,
+    "reason": "Percentage max HP true damage melts Grock's massive physical defense and HP pool easily."
+  },
+  {
+    "heroId": 48,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Pushes Grock away with Searing Torrent and interrupts Wild Charge setups with constant burns and slows."
+  },
+  {
+    "heroId": 48,
+    "counterHeroId": 82,
+    "counterScore": 8,
+    "reason": "Chaos Assault tears through Grock's magic defense, taking down the stone titan rapidly."
+  },
+  {
+    "heroId": 48,
+    "counterHeroId": 29,
+    "counterScore": 8,
+    "reason": "Blazing Duet with Demon Hunter Sword kites Grock effectively around Guardian's Barrier walls."
+  },
+  {
+    "heroId": 49,
+    "counterHeroId": 32,
+    "counterScore": 10,
+    "reason": "Time Journey cleanses Guinevere's Spatial Migration knockup and shields allies from Violet Requiem."
+  },
+  {
+    "heroId": 49,
+    "counterHeroId": 27,
+    "counterScore": 9,
+    "reason": "Can use Shunpo's CC immunity to absorb Spatial Migration and kick Guinevere mid-combo."
+  },
+  {
+    "heroId": 49,
+    "counterHeroId": 56,
+    "counterScore": 8,
+    "reason": "Silences Guinevere upon approach, preventing her from jumping or activating Violet Requiem."
+  },
+  {
+    "heroId": 49,
+    "counterHeroId": 121,
+    "counterScore": 8,
+    "reason": "Needles in Flowers instantly cleanses Guinevere's airborne knockup, allowing Wanwan to stack weaknesses."
+  },
+  {
+    "heroId": 50,
+    "counterHeroId": 72,
+    "counterScore": 9,
+    "reason": "Bouncing Ball interrupts Gusion's Sword Spike dash, preventing him from retrieving daggers."
+  },
+  {
+    "heroId": 50,
+    "counterHeroId": 90,
+    "counterScore": 9,
+    "reason": "King's Calling grounds Gusion, completely disabling Incandescence dashes and Sword Spike blinks."
+  },
+  {
+    "heroId": 50,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Triple Sweep locks down and executes Gusion before he can complete his multi-dagger combo."
+  },
+  {
+    "heroId": 50,
+    "counterHeroId": 106,
+    "counterScore": 8,
+    "reason": "Pulls and stuns Gusion with Don't Run, Wolf King! the instant he dashes in to collect blades."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 80,
+    "counterScore": 9,
+    "reason": "Guardian's Bulwark blocks Hanabi's bouncing Petal Blades and Forbidden Jutsu: Higanbana ultimate."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Destroys Hanabi's Ninjutsu: Equinox shield and knocks her airborne with Triple Sweep for an instant pickoff."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Dives past Hanabi's shield with Shunpo and kicks her into the open with The Way of Dragon."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 95,
+    "counterScore": 8,
+    "reason": "Silences Hanabi from stealth, disabling her shield generation and killing her before she can react."
+  },
+  {
+    "heroId": 52,
+    "counterHeroId": 79,
+    "counterScore": 10,
+    "reason": "Easily vaults across walls with Finch Poise to hunt down and assassinate Hanzo's defenseless main body."
+  },
+  {
+    "heroId": 52,
+    "counterHeroId": 95,
+    "counterScore": 10,
+    "reason": "Can stealth behind enemy lines to locate and execute Hanzo's stationary physical body during Kinjutsu: Pinnacle Ninja."
+  },
+  {
+    "heroId": 52,
+    "counterHeroId": 3,
+    "counterScore": 9,
+    "reason": "Chase Fate reveals Hanzo's true body location and crashes directly into it across the entire map."
+  },
+  {
+    "heroId": 52,
+    "counterHeroId": 55,
+    "counterScore": 8,
+    "reason": "Quad Shadow allows Hayabusa to bypass Hanzo's demon ninja form and burst his vulnerable real body."
+  },
+  {
+    "heroId": 53,
+    "counterHeroId": 90,
+    "counterScore": 10,
+    "reason": "King's Calling completely disables Harith's Chrono Dash inside the Zaman Force matrix."
+  },
+  {
+    "heroId": 53,
+    "counterHeroId": 72,
+    "counterScore": 10,
+    "reason": "Bouncing Ball knocks Harith airborne every time he attempts to dash through Zaman Force."
+  },
+  {
+    "heroId": 53,
+    "counterHeroId": 102,
+    "counterScore": 10,
+    "reason": "Leaps repeatedly onto Harith each time Harith casts Chrono Dash, overwhelming him with AoE slams."
+  },
+  {
+    "heroId": 53,
+    "counterHeroId": 67,
+    "counterScore": 9,
+    "reason": "Divine Judgment suppresses Harith, preventing him from dashing or generating shields."
+  },
+  {
+    "heroId": 54,
+    "counterHeroId": 80,
+    "counterScore": 10,
+    "reason": "Guardian's Bulwark blocks Harley's Poker Trick card stream and Deadly Magic ring projectile."
+  },
+  {
+    "heroId": 54,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Can intercept Harley with Triple Sweep when he uses Space Escape to blink into range."
+  },
+  {
+    "heroId": 54,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dodge Deadly Magic with Shunpo and kick Harley when he returns to his magic hat."
+  },
+  {
+    "heroId": 54,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Baxia Mark reduces damage from Poker Trick and rolls directly onto Harley."
+  },
+  {
+    "heroId": 55,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Triple Sweep targets Hayabusa before he can cast Ougi: Shadow Kill or escape with Quad Shadow."
+  },
+  {
+    "heroId": 55,
+    "counterHeroId": 41,
+    "counterScore": 9,
+    "reason": "Bloody Hunt suppresses Hayabusa the moment he blinks to a phantom shadow in melee range."
+  },
+  {
+    "heroId": 55,
+    "counterHeroId": 72,
+    "counterScore": 8,
+    "reason": "Bouncing Ball knocks Hayabusa up when he attempts to dash to his Quad Shadow markers."
+  },
+  {
+    "heroId": 55,
+    "counterHeroId": 67,
+    "counterScore": 8,
+    "reason": "Divine Judgment suppresses Hayabusa, preventing shadow blinks and executing him."
+  },
+  {
+    "heroId": 56,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Can ambush Helcurt with Triple Sweep before Helcurt can apply Deadly Stinger poison stacks."
+  },
+  {
+    "heroId": 56,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Uses Shunpo to resist Helcurt's silence and kick him with The Way of Dragon."
+  },
+  {
+    "heroId": 56,
+    "counterHeroId": 32,
+    "counterScore": 8,
+    "reason": "Time Journey cleanses Helcurt's silence and slow, protecting the team during Dark Night Falls."
+  },
+  {
+    "heroId": 56,
+    "counterHeroId": 67,
+    "counterScore": 8,
+    "reason": "Divine Judgment suppresses Helcurt through his stealth or ambush, securing an easy kill."
+  },
+  {
+    "heroId": 57,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Pushes Hilda back with Searing Torrent and continuously stuns her, keeping her away from bushes."
+  },
+  {
+    "heroId": 57,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Lightwheel Mark true damage melts Hilda's massive bush shield and HP regeneration."
+  },
+  {
+    "heroId": 57,
+    "counterHeroId": 33,
+    "counterScore": 8,
+    "reason": "Shreds Hilda's physical defense and executes her with Abysm Strike before she can retreat to bushes."
+  },
+  {
+    "heroId": 57,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Kicks Hilda out of bushes with The Way of Dragon, denying her Wilderness Blessing shields."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 70,
+    "counterScore": 10,
+    "reason": "Karrie's Lightwheel Mark true damage obliterates Hylos's colossal combined HP and mana pool regardless of defense."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 82,
+    "counterScore": 9,
+    "reason": "Chaos Assault tears through Hylos's health pool with percentage magic damage while staying out of Ring of Punishment."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Searing Torrent pushes Hylos off Glorious Pathway and chains stuns to prevent him from closing the distance."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 29,
+    "counterScore": 8,
+    "reason": "Shreds Hylos's massive HP bar in seconds with Demon Hunter Sword on-hit damage during Blazing Duet."
+  },
+  {
+    "heroId": 59,
+    "counterHeroId": 80,
+    "counterScore": 9,
+    "reason": "Guardian's Bulwark blocks Irithel's Heavy Crossbow bolts and Strafe arrows completely."
+  },
+  {
+    "heroId": 59,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Ambushing Irithel with Triple Sweep eliminates her before she can kite with Heavy Crossbow."
+  },
+  {
+    "heroId": 59,
+    "counterHeroId": 19,
+    "counterScore": 8,
+    "reason": "Reflects Irithel's multi-hit basic attacks with Deadly Thorns, damaging her as she kites."
+  },
+  {
+    "heroId": 59,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can close the gap with Shunpo and kick Irithel out of position with The Way of Dragon."
+  },
+  {
+    "heroId": 60,
+    "counterHeroId": 80,
+    "counterScore": 10,
+    "reason": "Guardian's Bulwark blocks Ixia's Full Barrage fan-shaped firing zone, protecting the team behind the shield."
+  },
+  {
+    "heroId": 60,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Can easily dive and burst Ixia with Triple Sweep while she is rooted in place during Full Barrage."
+  },
+  {
+    "heroId": 60,
+    "counterHeroId": 27,
+    "counterScore": 9,
+    "reason": "Flanks and kicks Ixia out of her stationary Full Barrage zone with The Way of Dragon."
+  },
+  {
+    "heroId": 60,
+    "counterHeroId": 79,
+    "counterScore": 8,
+    "reason": "Vaults directly onto Ixia from walls during Full Barrage and executes her with Tempest of Blades."
+  },
+  {
+    "heroId": 61,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Pushes Jawhead away with Searing Torrent whenever he attempts to sprint forward with Ejector."
+  },
+  {
+    "heroId": 61,
+    "counterHeroId": 32,
+    "counterScore": 8,
+    "reason": "Time Journey cleanses Jawhead's Unstoppable Force launch and Ejector throws for the team."
+  },
+  {
+    "heroId": 61,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can use Shunpo's CC immunity to absorb Jawhead's throw and counter-kick with The Way of Dragon."
+  },
+  {
+    "heroId": 61,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Shreds Jawhead's tank build with true damage while dodging Smart Missiles."
+  },
+  {
+    "heroId": 62,
+    "counterHeroId": 32,
+    "counterScore": 9,
+    "reason": "Time Journey cleanses the massive stun of Rapid Touchdown crash, protecting all nearby teammates."
+  },
+  {
+    "heroId": 62,
+    "counterHeroId": 2,
+    "counterScore": 8,
+    "reason": "Heavy Spin can push Johnson away and pin him to walls after the crash, preventing passenger follow-ups."
+  },
+  {
+    "heroId": 62,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Lightwheel Mark true damage melts Johnson's massive electro-airbag shields and physical armor."
+  },
+  {
+    "heroId": 62,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Uses Shunpo to absorb the crash impact and kicks Johnson away before his passengers can combo."
+  },
+  {
+    "heroId": 63,
+    "counterHeroId": 90,
+    "counterScore": 10,
+    "reason": "King's Calling completely grounds Joy, disabling her Meow, Rhythm of Joy! dashes and ultimate activation."
+  },
+  {
+    "heroId": 63,
+    "counterHeroId": 72,
+    "counterScore": 10,
+    "reason": "Bouncing Ball knocks Joy up on her dash, interrupting her beat timing and preventing Ha, Electrifying Beats!."
+  },
+  {
+    "heroId": 63,
+    "counterHeroId": 102,
+    "counterScore": 9,
+    "reason": "Counter-leaps repeatedly onto Joy each time she dashes on the beat, overwhelming her with damage."
+  },
+  {
+    "heroId": 63,
+    "counterHeroId": 41,
+    "counterScore": 9,
+    "reason": "Bloody Hunt inflicts non-cleansable suppression that stops Joy instantly during her dash sequence."
+  },
+  {
+    "heroId": 64,
+    "counterHeroId": 56,
+    "counterScore": 9,
+    "reason": "Helcurt's Dark Night Falls silences Julian, preventing him from casting the 3-skill chain needed to enhance abilities."
+  },
+  {
+    "heroId": 64,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Bursts Julian with Triple Sweep before he can trigger enhanced skills or Sword invulnerability."
+  },
+  {
+    "heroId": 64,
+    "counterHeroId": 67,
+    "counterScore": 8,
+    "reason": "Divine Judgment suppresses Julian, locking him down before he can activate Enhanced Scythe or Chain."
+  },
+  {
+    "heroId": 64,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt suppresses Julian before he can chain skill combinations."
+  },
+  {
+    "heroId": 65,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt can suppress Kadita before she dives into Rough Waves or right as she emerges."
+  },
+  {
+    "heroId": 65,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Can burst Kadita before she triggers Ocean Oddity or Thalassophobia passive healing."
+  },
+  {
+    "heroId": 65,
+    "counterHeroId": 74,
+    "counterScore": 8,
+    "reason": "Uses Thorned Rose invulnerability to avoid Rough Waves burst damage completely."
+  },
+  {
+    "heroId": 65,
+    "counterHeroId": 67,
+    "counterScore": 8,
+    "reason": "Divine Judgment suppresses Kadita before she can cast Breath of the Ocean."
+  },
+  {
+    "heroId": 66,
+    "counterHeroId": 56,
+    "counterScore": 9,
+    "reason": "Dark Night Falls silences Kagura, preventing her from casting Seimei Umbrella Open or Rasho Umbrella Flee."
+  },
+  {
+    "heroId": 66,
+    "counterHeroId": 67,
+    "counterScore": 9,
+    "reason": "Divine Judgment suppresses Kagura, completely bypassing Rasho Umbrella Flee's CC cleanse."
+  },
+  {
+    "heroId": 66,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Can burst Kagura before she can react with Rasho Umbrella Flee purify."
+  },
+  {
+    "heroId": 66,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Dives Kagura with Shunpo and kicks her away from her Seimei Umbrella with The Way of Dragon."
+  },
+  {
+    "heroId": 67,
+    "counterHeroId": 32,
+    "counterScore": 8,
+    "reason": "Auto-Alarm Bomb provides early poke and Time Journey gives massive shields to mitigate Kaja's burst."
+  },
+  {
+    "heroId": 67,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Pushes Kaja away with Searing Torrent before Kaja can sprint close with Lightning Bomb or Ring of Order."
+  },
+  {
+    "heroId": 67,
+    "counterHeroId": 48,
+    "counterScore": 8,
+    "reason": "Ancestral Gift makes Grock immune to crowd control near walls, preventing easy picks by Kaja."
+  },
+  {
+    "heroId": 67,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Shreds Kaja's HP from range while avoiding his short-range Divine Judgment leash."
+  },
+  {
+    "heroId": 68,
+    "counterHeroId": 32,
+    "counterScore": 9,
+    "reason": "Time Journey cleanses Kalea's tidal knockups and water wave stuns for the entire allied team."
+  },
+  {
+    "heroId": 68,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Easily shreds Kalea's tanky ocean barrier with true damage while dodging her slow wave animations."
+  },
+  {
+    "heroId": 68,
+    "counterHeroId": 56,
+    "counterScore": 8,
+    "reason": "Silences Kalea upon engage, preventing her from channeling water support barriers or healing allies."
+  },
+  {
+    "heroId": 68,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Shunpo provides CC immunity through Kalea's surging water waves to kick her into danger."
+  },
+  {
+    "heroId": 69,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Triple Sweep locks down and executes Karina before she can trigger Dance of Blades physical immunity."
+  },
+  {
+    "heroId": 69,
+    "counterHeroId": 41,
+    "counterScore": 9,
+    "reason": "Bloody Hunt suppresses Karina in melee range, completely bypassing her Dance of Blades basic attack evasion."
+  },
+  {
+    "heroId": 69,
+    "counterHeroId": 67,
+    "counterScore": 9,
+    "reason": "Divine Judgment suppresses Karina, allowing the team to eliminate her before Shadow Assault resets."
+  },
+  {
+    "heroId": 69,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Baxia Mark reduces Karina's magic burst and counters her continuous dive attempts."
+  },
+  {
+    "heroId": 70,
+    "counterHeroId": 80,
+    "counterScore": 10,
+    "reason": "Guardian's Bulwark blocks Karrie's Spinning Lightwheel and basic attack projectiles, stopping her passive."
+  },
+  {
+    "heroId": 70,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Bursts Karrie down instantly with Triple Sweep before she can use Phantom Step to kite."
+  },
+  {
+    "heroId": 70,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Uses Shunpo to dive past Karrie's slow and kicks her out of position with The Way of Dragon."
+  },
+  {
+    "heroId": 70,
+    "counterHeroId": 19,
+    "counterScore": 8,
+    "reason": "Deadly Thorns reflects damage when Karrie triggers high attack speed."
+  },
+  {
+    "heroId": 71,
+    "counterHeroId": 17,
+    "counterScore": 9,
+    "reason": "Baxia Mark slashes Khaleed's Quicksand Guard HP regeneration by 50%, severely reducing his sustain."
+  },
+  {
+    "heroId": 71,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Searing Torrent interrupts Khaleed's Quicksand Guard channeling and Desert Tornado slashes."
+  },
+  {
+    "heroId": 71,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can interrupt Khaleed's Quicksand Guard with Jeet Kune Do knockup and kick him with The Way of Dragon."
+  },
+  {
+    "heroId": 71,
+    "counterHeroId": 33,
+    "counterScore": 8,
+    "reason": "Shreds Khaleed's physical defense and bursts him down during his slow skill windups."
+  },
+  {
+    "heroId": 72,
+    "counterHeroId": 32,
+    "counterScore": 9,
+    "reason": "Time Journey cleanses Tyrant's Revenge knockup and Tyrant's Rage wall stuns for the entire team."
+  },
+  {
+    "heroId": 72,
+    "counterHeroId": 70,
+    "counterScore": 9,
+    "reason": "Percentage max HP true damage melts Khufra while keeping outside Bouncing Ball radius."
+  },
+  {
+    "heroId": 72,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Constant knockbacks from Searing Torrent prevent Khufra from preparing Tyrant's Revenge leaps."
+  },
+  {
+    "heroId": 72,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dodge Tyrant's Revenge with Shunpo and kick Khufra away from initiating positions."
+  },
+  {
+    "heroId": 73,
+    "counterHeroId": 80,
+    "counterScore": 10,
+    "reason": "Guardian's Bulwark blocks Kimmy's continuous spray of basic attack projectiles completely."
+  },
+  {
+    "heroId": 73,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Eliminates Kimmy instantly with Triple Sweep before she can kite with Maximum Charge."
+  },
+  {
+    "heroId": 73,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Dives past Kimmy's spray with Shunpo and kicks her into the allied team with The Way of Dragon."
+  },
+  {
+    "heroId": 73,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Baxia Mark reduces damage from Kimmy's multi-hit chemical bullets while rolling onto her."
+  },
+  {
+    "heroId": 74,
+    "counterHeroId": 72,
+    "counterScore": 10,
+    "reason": "Khufra's Bouncing Ball stops Lancelot's Puncture mid-dash and knocks him airborne."
+  },
+  {
+    "heroId": 74,
+    "counterHeroId": 90,
+    "counterScore": 10,
+    "reason": "King's Calling completely grounds Lancelot, disabling Puncture, Thorned Rose, and Phantom Execution."
+  },
+  {
+    "heroId": 74,
+    "counterHeroId": 102,
+    "counterScore": 9,
+    "reason": "Counter-leaps repeatedly onto Lancelot every time he uses Puncture to reset dashes on minions."
+  },
+  {
+    "heroId": 74,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Triple Sweep locks onto Lancelot and knocks him airborne before he can enter Thorned Rose invulnerability."
+  },
+  {
+    "heroId": 75,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Searing Torrent pushes Lapu-Lapu away and continuous stuns interrupt his Heavy Sword combo setups."
+  },
+  {
+    "heroId": 75,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "True damage bypasses Lapu-Lapu's massive damage reduction buffs during Heavy Sword stance."
+  },
+  {
+    "heroId": 75,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Reduces Lapu-Lapu's spell vamp and shield absorption by 50% while mitigating physical damage."
+  },
+  {
+    "heroId": 75,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dodge Lapu-Lapu's heavy slashes with Shunpo and kick him away from the fight."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 107,
+    "counterScore": 10,
+    "reason": "Saber's Triple Sweep ambushes Layla and executes her instantly due to her complete lack of mobility skills."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 95,
+    "counterScore": 10,
+    "reason": "Stealth silence and burst assassinate Layla before she can utilize her superior attack range."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 27,
+    "counterScore": 9,
+    "reason": "Can easily close the gap with Shunpo and kick Layla into danger with The Way of Dragon."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 55,
+    "counterScore": 9,
+    "reason": "Dives onto Layla with Quad Shadow and obliterates her with Shadow Kill."
+  },
+  {
+    "heroId": 77,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Searing Torrent pushes Barbiel away and continuous stuns keep Leomord from landing critical strikes."
+  },
+  {
+    "heroId": 77,
+    "counterHeroId": 32,
+    "counterScore": 8,
+    "reason": "Time Journey cleanses Leomord's Phantom Steed slow and knockback effects during teamfights."
+  },
+  {
+    "heroId": 77,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "True damage melts Leomord rapidly while kiting around his mounted skill angles."
+  },
+  {
+    "heroId": 77,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can kick mounted Leomord away from the fight with The Way of Dragon, wasting his mounted duration."
+  },
+  {
+    "heroId": 78,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Tracks Lesley through Master of Camouflage and bursts her down with Triple Sweep before she can shoot."
+  },
+  {
+    "heroId": 78,
+    "counterHeroId": 80,
+    "counterScore": 9,
+    "reason": "Guardian's Bulwark blocks Lesley's Ultimate Snipe bullets completely, protecting low-health teammates."
+  },
+  {
+    "heroId": 78,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dive Lesley with Shunpo CC immunity, ignoring Tactical Grenade pushback to kick her with The Way of Dragon."
+  },
+  {
+    "heroId": 78,
+    "counterHeroId": 55,
+    "counterScore": 8,
+    "reason": "Quad Shadow dives past Lesley's camouflage and Shadow Kill executes her without retaliation."
+  },
+  {
+    "heroId": 79,
+    "counterHeroId": 72,
+    "counterScore": 10,
+    "reason": "Khufra's Bouncing Ball stops Ling's Defiant Sword mid-air and knocks him off walls."
+  },
+  {
+    "heroId": 79,
+    "counterHeroId": 90,
+    "counterScore": 10,
+    "reason": "King's Calling completely grounds Ling, preventing him from leaping to walls or dashing between swords."
+  },
+  {
+    "heroId": 79,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Triple Sweep knocks Ling up the moment he drops from a wall, executing him before he can ult."
+  },
+  {
+    "heroId": 79,
+    "counterHeroId": 41,
+    "counterScore": 9,
+    "reason": "Bloody Hunt suppresses Ling immediately when he descends, leaving no window for Tempest of Blades."
+  },
+  {
+    "heroId": 80,
+    "counterHeroId": 32,
+    "counterScore": 9,
+    "reason": "Time Journey cleanses Lolita's Noumenon Blast massive AoE stun, shielding the team from follow-up damage."
+  },
+  {
+    "heroId": 80,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Searing Torrent easily interrupts Lolita's Noumenon Blast channeling from outside her range."
+  },
+  {
+    "heroId": 80,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can interrupt Noumenon Blast with Jeet Kune Do knockup and kick Lolita away with The Way of Dragon."
+  },
+  {
+    "heroId": 80,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "True damage bypasses Guardian's Bulwark shield absorption and shreds Lolita's health."
+  },
+  {
+    "heroId": 81,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Pushes Lukas away with Searing Torrent and chains stuns, keeping him from maintaining beast-form rage."
+  },
+  {
+    "heroId": 81,
+    "counterHeroId": 70,
+    "counterScore": 9,
+    "reason": "True damage melts Lukas's augmented health pool and beast armor in close-quarters trades."
+  },
+  {
+    "heroId": 81,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Cuts Lukas's sustain and healing in half while rotating around his frontal charge abilities."
+  },
+  {
+    "heroId": 81,
+    "counterHeroId": 90,
+    "counterScore": 8,
+    "reason": "King's Calling grounds Lukas, preventing him from dashing or initiating with beast lunges."
+  },
+  {
+    "heroId": 82,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Locks down and bursts Lunox before she can switch into Power of Brilliance invulnerability."
+  },
+  {
+    "heroId": 82,
+    "counterHeroId": 56,
+    "counterScore": 9,
+    "reason": "Dark Night Falls silences Lunox, preventing her from casting Chaos Assault or triggering Brilliance escape."
+  },
+  {
+    "heroId": 82,
+    "counterHeroId": 80,
+    "counterScore": 8,
+    "reason": "Guardian's Bulwark blocks Lunox's Starlight Pulse and Chaos Assault projectiles."
+  },
+  {
+    "heroId": 82,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dive and kick Lunox before she activates Brilliance, securing a swift pickoff."
+  },
+  {
+    "heroId": 83,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Targets Luo Yi's lack of mobility, locking her down with Triple Sweep before she can apply Yin-Yang marks."
+  },
+  {
+    "heroId": 83,
+    "counterHeroId": 56,
+    "counterScore": 8,
+    "reason": "Silences Luo Yi upon approach, preventing her from casting Duality combos or opening Diversion portals."
+  },
+  {
+    "heroId": 83,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Dives Luo Yi with Shunpo and kicks her away with The Way of Dragon before she can trigger Yin-Yang reactions."
+  },
+  {
+    "heroId": 83,
+    "counterHeroId": 74,
+    "counterScore": 8,
+    "reason": "Uses Thorned Rose invulnerability to avoid Luo Yi's Yin-Yang yank and burst her down."
+  },
+  {
+    "heroId": 84,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Bursts Lylia instantly with Triple Sweep before she can react with Black Shoes to restore her HP and mana."
+  },
+  {
+    "heroId": 84,
+    "counterHeroId": 41,
+    "counterScore": 9,
+    "reason": "Bloody Hunt suppresses Lylia, completely preventing her from casting Black Shoes during the suppression."
+  },
+  {
+    "heroId": 84,
+    "counterHeroId": 67,
+    "counterScore": 9,
+    "reason": "Divine Judgment suppresses Lylia and drags her away, locking Black Shoes and allowing an instant execute."
+  },
+  {
+    "heroId": 84,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Dives Lylia with Shunpo and kicks her away from her Shadow Crystal fields with The Way of Dragon."
+  },
+  {
+    "heroId": 85,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Searing Torrent pushes Martis back and continuous stuns kite him outside Ashura's Wrath melee range."
+  },
+  {
+    "heroId": 85,
+    "counterHeroId": 41,
+    "counterScore": 9,
+    "reason": "Bloody Hunt suppresses Martis, completely ignoring Mortal Coil's crowd control immunity."
+  },
+  {
+    "heroId": 85,
+    "counterHeroId": 67,
+    "counterScore": 9,
+    "reason": "Divine Judgment suppresses Martis through Mortal Coil, locking him down for the team to burst."
+  },
+  {
+    "heroId": 85,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Reduces Martis's spell vamp and lifesteal by 50% while mitigating his physical damage."
+  },
+  {
+    "heroId": 86,
+    "counterHeroId": 17,
+    "counterScore": 9,
+    "reason": "Drastically reduces Masha's high attack speed and halves her HP recovery with Baxia Mark."
+  },
+  {
+    "heroId": 86,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Pushes Masha back with Searing Torrent, kiting her easily and preventing her from shredding HP bars."
+  },
+  {
+    "heroId": 86,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "True damage cuts through Masha's multiple HP bars regardless of her high base health."
+  },
+  {
+    "heroId": 86,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can kick Masha away during Ancient Strength rampage with The Way of Dragon."
+  },
+  {
+    "heroId": 87,
+    "counterHeroId": 72,
+    "counterScore": 9,
+    "reason": "Bouncing Ball knocks Mathilda up when she flies around targets with Circling Eagle."
+  },
+  {
+    "heroId": 87,
+    "counterHeroId": 90,
+    "counterScore": 9,
+    "reason": "King's Calling grounds Mathilda, preventing Guiding Wind dashes and Circling Eagle flight."
+  },
+  {
+    "heroId": 87,
+    "counterHeroId": 41,
+    "counterScore": 9,
+    "reason": "Bloody Hunt suppresses Mathilda as she circles into melee range with Circling Eagle."
+  },
+  {
+    "heroId": 87,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Triple Sweep knocks Mathilda airborne mid-flight, bursting her before she can shield allies."
+  },
+  {
+    "heroId": 88,
+    "counterHeroId": 80,
+    "counterScore": 9,
+    "reason": "Guardian's Bulwark blocks Melissa's Needles! needle throws and basic attacks entirely."
+  },
+  {
+    "heroId": 88,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Ambushing Melissa with Triple Sweep executes her before she can throw Muddles or deploy Cuddles field."
+  },
+  {
+    "heroId": 88,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dive Melissa with Shunpo and kick her out of her Go Away! protective barrier with The Way of Dragon."
+  },
+  {
+    "heroId": 88,
+    "counterHeroId": 19,
+    "counterScore": 8,
+    "reason": "Deadly Thorns reflects heavy magic damage back to Melissa each time she fires rapid basic attacks."
+  },
+  {
+    "heroId": 89,
+    "counterHeroId": 32,
+    "counterScore": 10,
+    "reason": "Time Journey cleanses Minoan Fury's 3-stage ground slam knockups and grants allies a shield."
+  },
+  {
+    "heroId": 89,
+    "counterHeroId": 70,
+    "counterScore": 9,
+    "reason": "Deals percentage max HP true damage, melting Minotaur's rage form defense effortlessly."
+  },
+  {
+    "heroId": 89,
+    "counterHeroId": 118,
+    "counterScore": 9,
+    "reason": "Steals Minoan Fury with I Am You and counter-initiates with a devastating magic-scaling shockwave."
+  },
+  {
+    "heroId": 89,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Pushes Minotaur away with Searing Torrent, interrupting his Despair Stomp engagement."
+  },
+  {
+    "heroId": 90,
+    "counterHeroId": 32,
+    "counterScore": 8,
+    "reason": "Time Journey cleanses Spear of Glory pulls and Shield Assault stuns for hooked allies."
+  },
+  {
+    "heroId": 90,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "True damage bypasses Minsitthar's Shield Assault damage reduction and melts his tankiness."
+  },
+  {
+    "heroId": 90,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Pushes Minsitthar away with Searing Torrent and kiting burns keep him from landing King's Calling."
+  },
+  {
+    "heroId": 90,
+    "counterHeroId": 82,
+    "counterScore": 8,
+    "reason": "Chaos Assault percentage magic damage shreds Minsitthar while Brilliance keeps her safe outside his arena."
+  },
+  {
+    "heroId": 91,
+    "counterHeroId": 19,
+    "counterScore": 9,
+    "reason": "Deadly Thorns reflects devastating damage back to Miya when she activates Moon Blessing attack speed."
+  },
+  {
+    "heroId": 91,
+    "counterHeroId": 80,
+    "counterScore": 9,
+    "reason": "Guardian's Bulwark blocks Miya's multi-arrow basic attack barrage, neutralizing her damage output."
+  },
+  {
+    "heroId": 91,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Can burst Miya with Triple Sweep the moment she emerges from Hidden Moonlight concealment."
+  },
+  {
+    "heroId": 91,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Dives past Miya's rain of arrows with Shunpo and kicks her with The Way of Dragon."
+  },
+  {
+    "heroId": 92,
+    "counterHeroId": 80,
+    "counterScore": 10,
+    "reason": "Guardian's Bulwark blocks Moskov's piercing basic attacks and Spear of Destruction ultimate projectile."
+  },
+  {
+    "heroId": 92,
+    "counterHeroId": 19,
+    "counterScore": 9,
+    "reason": "Deadly Thorns continuously punishes Moskov's extreme attack speed with reflected magic damage."
+  },
+  {
+    "heroId": 92,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Ambushing Moskov with Triple Sweep executes him before he can blink with Abyss Walker."
+  },
+  {
+    "heroId": 92,
+    "counterHeroId": 72,
+    "counterScore": 8,
+    "reason": "Bouncing Ball knocks Moskov up when he blinks with Abyss Walker, stopping his positioning."
+  },
+  {
+    "heroId": 93,
+    "counterHeroId": 80,
+    "counterScore": 9,
+    "reason": "Lolita's Guardian's Bulwark blocks Nana's Magic Boomerang and Molina Smooch charges completely."
+  },
+  {
+    "heroId": 93,
+    "counterHeroId": 56,
+    "counterScore": 8,
+    "reason": "Dark Night Falls silences Nana, preventing her from placing Molina or casting Molina Blitz."
+  },
+  {
+    "heroId": 93,
+    "counterHeroId": 74,
+    "counterScore": 8,
+    "reason": "Uses Thorned Rose invulnerability to avoid Molina Blitz shockwaves and burst Nana's passive."
+  },
+  {
+    "heroId": 93,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Can easily trigger Nana's Molina's Gift passive with Triple Sweep, forcing her out of the fight."
+  },
+  {
+    "heroId": 94,
+    "counterHeroId": 80,
+    "counterScore": 10,
+    "reason": "Guardian's Bulwark blocks Natan's basic attack projectiles and reverse boomerang shots entirely."
+  },
+  {
+    "heroId": 94,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Bursts Natan down with Triple Sweep before he can summon his Entropy? clone or stack attack speed."
+  },
+  {
+    "heroId": 94,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Dives past Natan's Interference with Shunpo and kicks Natan away from his reverse clone."
+  },
+  {
+    "heroId": 94,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Baxia Mark reduces Natan's continuous magic damage output while rolling into him."
+  },
+  {
+    "heroId": 95,
+    "counterHeroId": 58,
+    "counterScore": 9,
+    "reason": "Ring of Punishment reveals Natalia from Assassin Instinct stealth and Ring of Order stuns her immediately."
+  },
+  {
+    "heroId": 95,
+    "counterHeroId": 104,
+    "counterScore": 9,
+    "reason": "Light of Retribution automatically targets and reveals nearby invisible heroes, breaking Natalia's stealth."
+  },
+  {
+    "heroId": 95,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Orbiting Swords reveals Natalia and Triple Sweep executes her before she can land silence strikes."
+  },
+  {
+    "heroId": 95,
+    "counterHeroId": 106,
+    "counterScore": 8,
+    "reason": "Pulls Natalia out of smoke bomb with Don't Run, Wolf King! and chains crowd control."
+  },
+  {
+    "heroId": 96,
+    "counterHeroId": 41,
+    "counterScore": 9,
+    "reason": "Bloody Hunt inflicts non-cleansable suppression that stops Nolan before he can trigger cosmic rifts."
+  },
+  {
+    "heroId": 96,
+    "counterHeroId": 67,
+    "counterScore": 9,
+    "reason": "Divine Judgment suppresses Nolan, preventing him from cleansing crowd control with The Mutation."
+  },
+  {
+    "heroId": 96,
+    "counterHeroId": 72,
+    "counterScore": 9,
+    "reason": "Bouncing Ball knocks Nolan up when he attempts to dash through rift cracks with Charge."
+  },
+  {
+    "heroId": 96,
+    "counterHeroId": 90,
+    "counterScore": 9,
+    "reason": "King's Calling grounds Nolan, disabling all his dimensional dashes and rift activations."
+  },
+  {
+    "heroId": 97,
+    "counterHeroId": 79,
+    "counterScore": 9,
+    "reason": "Vaults over terrain to hunt down Novaria in the backline, dodging her Astral Sphere snipes with ease."
+  },
+  {
+    "heroId": 97,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Ambushing Novaria in bushes executes her with Triple Sweep before she can cast Astral Recall."
+  },
+  {
+    "heroId": 97,
+    "counterHeroId": 55,
+    "counterScore": 8,
+    "reason": "Dives Novaria with Quad Shadow across long distances and bursts her with Shadow Kill."
+  },
+  {
+    "heroId": 97,
+    "counterHeroId": 80,
+    "counterScore": 8,
+    "reason": "Guardian's Bulwark blocks Novaria's Astral Recall sphere, protecting teammates from sniper burst."
+  },
+  {
+    "heroId": 98,
+    "counterHeroId": 80,
+    "counterScore": 9,
+    "reason": "Guardian's Bulwark blocks Obsidia's basic attack bone shards and skill projectiles completely."
+  },
+  {
+    "heroId": 98,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Ambushing Obsidia with Triple Sweep eliminates her before she can stack dark bone marks on targets."
+  },
+  {
+    "heroId": 98,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dive Obsidia with Shunpo and kick her into the allied team with The Way of Dragon."
+  },
+  {
+    "heroId": 98,
+    "counterHeroId": 19,
+    "counterScore": 8,
+    "reason": "Deadly Thorns continuously reflects damage back to Obsidia when she attacks at high attack speed."
+  },
+  {
+    "heroId": 99,
+    "counterHeroId": 119,
+    "counterScore": 10,
+    "reason": "Searing Torrent pushes Odette back and immediately cancels Swan Song channeling from a safe distance."
+  },
+  {
+    "heroId": 99,
+    "counterHeroId": 27,
+    "counterScore": 10,
+    "reason": "Jeet Kune Do knockup or The Way of Dragon kick immediately cancels Odette's Swan Song ultimate."
+  },
+  {
+    "heroId": 99,
+    "counterHeroId": 61,
+    "counterScore": 9,
+    "reason": "Ejector throw or Unstoppable Force immediately interrupts Swan Song channeling."
+  },
+  {
+    "heroId": 99,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Triple Sweep knocks Odette airborne, instantly canceling Swan Song and executing her."
+  },
+  {
+    "heroId": 100,
+    "counterHeroId": 90,
+    "counterScore": 10,
+    "reason": "King's Calling grounds Paquito, completely disabling Heavy Left Punch dashes and Jab combos."
+  },
+  {
+    "heroId": 100,
+    "counterHeroId": 72,
+    "counterScore": 9,
+    "reason": "Bouncing Ball knocks Paquito up on his Jab and Heavy Left Punch dashes, disrupting Champ Stance."
+  },
+  {
+    "heroId": 100,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt suppresses Paquito the moment he dives in, neutralizing his rapid combo burst."
+  },
+  {
+    "heroId": 100,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Pushes Paquito away with Searing Torrent and stuns him continuously, denying his close-range boxing."
+  },
+  {
+    "heroId": 101,
+    "counterHeroId": 27,
+    "counterScore": 10,
+    "reason": "Flanks and kicks Pharsa out of Feathered Air Strike channeling with The Way of Dragon."
+  },
+  {
+    "heroId": 101,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Can dive into Feathered Air Strike range and execute Pharsa with Triple Sweep before she can fly away."
+  },
+  {
+    "heroId": 101,
+    "counterHeroId": 79,
+    "counterScore": 9,
+    "reason": "Vaults from walls directly into Pharsa's air strike circle and bursts her with Tempest of Blades."
+  },
+  {
+    "heroId": 101,
+    "counterHeroId": 80,
+    "counterScore": 8,
+    "reason": "Guardian's Bulwark can block Energy Impact and Noumenon Blast stuns Pharsa during her ultimate."
+  },
+  {
+    "heroId": 102,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Deals percentage true damage while refraining from using dashes if possible, melting his shield."
+  },
+  {
+    "heroId": 102,
+    "counterHeroId": 33,
+    "counterScore": 8,
+    "reason": "Shreds Phoveus's physical defense and bursts him down with Abysm Strike during duel trades."
+  },
+  {
+    "heroId": 102,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Halves the shield absorption from Phoveus's Demonic Force while mitigating his magic damage."
+  },
+  {
+    "heroId": 102,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt suppresses Phoveus mid-leap, locking him down without allowing Infernal Pursuit chains."
+  },
+  {
+    "heroId": 103,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Focuses Popol directly with Triple Sweep, eliminating the squishy marksman while ignoring Kupa."
+  },
+  {
+    "heroId": 103,
+    "counterHeroId": 80,
+    "counterScore": 8,
+    "reason": "Guardian's Bulwark blocks Popol's spear throws and Bite 'Em, Kupa! projectiles."
+  },
+  {
+    "heroId": 103,
+    "counterHeroId": 29,
+    "counterScore": 8,
+    "reason": "Blazing Duet with Demon Hunter Sword melts both Popol and Kupa simultaneously, using Kupa for lifesteal."
+  },
+  {
+    "heroId": 103,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Uses Shunpo to bypass Kupa's bite and kicks Popol away from his protective beast with The Way of Dragon."
+  },
+  {
+    "heroId": 104,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Targets Rafaela's low durability, executing her with Triple Sweep before Holy Healing can trigger."
+  },
+  {
+    "heroId": 104,
+    "counterHeroId": 56,
+    "counterScore": 8,
+    "reason": "Dark Night Falls silences Rafaela, preventing her from casting Holy Baptism stun or healing allies."
+  },
+  {
+    "heroId": 104,
+    "counterHeroId": 95,
+    "counterScore": 8,
+    "reason": "Stealth silence and burst assassinate Rafaela in the backline during team rotations."
+  },
+  {
+    "heroId": 104,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Baxia Mark slashes the healing output of Holy Healing across all nearby allies."
+  },
+  {
+    "heroId": 105,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Searing Torrent pushes Roger away in wolf form and chains stuns to prevent melee shredding."
+  },
+  {
+    "heroId": 105,
+    "counterHeroId": 41,
+    "counterScore": 9,
+    "reason": "Bloody Hunt suppresses Roger when he leaps into wolf melee range, shutting down his execution burst."
+  },
+  {
+    "heroId": 105,
+    "counterHeroId": 72,
+    "counterScore": 8,
+    "reason": "Bouncing Ball knocks Roger up when he leaps with Bloodthirsty Howl or Lycan Pounce."
+  },
+  {
+    "heroId": 105,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Out-kites Roger in human form and shreds his wolf form with true damage."
+  },
+  {
+    "heroId": 106,
+    "counterHeroId": 17,
+    "counterScore": 10,
+    "reason": "Baxia Mark innately cuts Ruby's massive spell vamp and lifesteal by 50%, stripping her sustain."
+  },
+  {
+    "heroId": 106,
+    "counterHeroId": 32,
+    "counterScore": 9,
+    "reason": "Time Journey cleanses Ruby's I'm Offended! scythe pull and Don't Run, Wolf King! stuns for the team."
+  },
+  {
+    "heroId": 106,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Percentage max HP true damage melts Ruby's tankiness while dashing away from her scythe hooks."
+  },
+  {
+    "heroId": 106,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Continuous knockbacks from Searing Torrent keep Ruby at bay and prevent her from hooking targets."
+  },
+  {
+    "heroId": 107,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can predict Saber's dive and use Shunpo's CC immunity to absorb Triple Sweep and counter-kick."
+  },
+  {
+    "heroId": 107,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt can suppress Saber before or as he initiates, canceling his burst combo."
+  },
+  {
+    "heroId": 107,
+    "counterHeroId": 2,
+    "counterScore": 8,
+    "reason": "Heavy Spin knocks Saber away from squishy allies when he attempts to lock on with Triple Sweep."
+  },
+  {
+    "heroId": 107,
+    "counterHeroId": 32,
+    "counterScore": 8,
+    "reason": "Time Journey shield absorbs a huge portion of Triple Sweep damage, saving the squishy target."
+  },
+  {
+    "heroId": 108,
+    "counterHeroId": 32,
+    "counterScore": 9,
+    "reason": "Time Journey cleanses Abyssal Arrow stuns and Auto-Alarm Bombs can safely detonate Abyssal Traps."
+  },
+  {
+    "heroId": 108,
+    "counterHeroId": 80,
+    "counterScore": 9,
+    "reason": "Guardian's Bulwark blocks Selena's Abyssal Arrow completely, preventing long-range stuns."
+  },
+  {
+    "heroId": 108,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Shunpo provides CC immunity against Abyssal Arrow stuns, allowing Chou to counter-dive Selena."
+  },
+  {
+    "heroId": 108,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Can ambush and burst Selena with Triple Sweep before she can switch into Abyssal form."
+  },
+  {
+    "heroId": 109,
+    "counterHeroId": 32,
+    "counterScore": 9,
+    "reason": "Time Journey cleanses Imperial Justice's binding effect, allowing trapped allies to escape the duel ring."
+  },
+  {
+    "heroId": 109,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Searing Torrent pushes Silvanna back and cancels Spiral Strangling channeling immediately."
+  },
+  {
+    "heroId": 109,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dodge Imperial Justice with Shunpo and cancel Spiral Strangling with Jeet Kune Do knockup."
+  },
+  {
+    "heroId": 109,
+    "counterHeroId": 2,
+    "counterScore": 8,
+    "reason": "Heavy Spin pushes Silvanna away inside her own Imperial Justice ring, wasting her duel buffs."
+  },
+  {
+    "heroId": 110,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Constant knockbacks from Searing Torrent and slow burns stop Sora from closing in with power charges."
+  },
+  {
+    "heroId": 110,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Rapid true damage shreds Sora's armor and health pool while kiting outside his heavy swing range."
+  },
+  {
+    "heroId": 110,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Halves Sora's combat sustain and healing while rotating with high mobility to avoid his frontal bursts."
+  },
+  {
+    "heroId": 110,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Shunpo dodges Sora's charge abilities and The Way of Dragon kicks him away from teamfights."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 106,
+    "counterScore": 10,
+    "reason": "Don't Run, Wolf King! and Be Good! pull and stun all Sun clones simultaneously, granting massive spell vamp healing."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 14,
+    "counterScore": 9,
+    "reason": "Cyclone Sweep hits all Sun clones, dealing immense damage while spinning and healing rapidly."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 5,
+    "counterScore": 9,
+    "reason": "Beta, Advance! triggers true damage and massive healing on every Sun clone struck by skill sweeps."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 29,
+    "counterScore": 8,
+    "reason": "Blazing Duet triggers Demon Hunter Sword on all Sun clones, stacking maximum lifesteal."
+  },
+  {
+    "heroId": 112,
+    "counterHeroId": 90,
+    "counterScore": 9,
+    "reason": "King's Calling grounds Suyou, disabling his tap-cast dashes and mortal form gap closers."
+  },
+  {
+    "heroId": 112,
+    "counterHeroId": 72,
+    "counterScore": 9,
+    "reason": "Bouncing Ball interrupts Suyou's mortal form blinks and knocks him airborne during skill dashes."
+  },
+  {
+    "heroId": 112,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt suppresses Suyou through his immortal form damage reduction, locking him down completely."
+  },
+  {
+    "heroId": 112,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "True damage bypasses Suyou's immortal form damage reduction and melts him in teamfights."
+  },
+  {
+    "heroId": 113,
+    "counterHeroId": 70,
+    "counterScore": 10,
+    "reason": "Percentage max HP true damage bypasses Terizla's Body of Smith damage reduction passive."
+  },
+  {
+    "heroId": 113,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Pushes Terizla back with Searing Torrent and continuously stuns him, keeping him outside hammer range."
+  },
+  {
+    "heroId": 113,
+    "counterHeroId": 32,
+    "counterScore": 9,
+    "reason": "Time Journey cleanses Penalty Zone's hook chains and slows, freeing trapped teammates."
+  },
+  {
+    "heroId": 113,
+    "counterHeroId": 82,
+    "counterScore": 8,
+    "reason": "Percentage-based magic damage quickly melts Terizla while Brilliance keeps her safe from hammer slams."
+  },
+  {
+    "heroId": 114,
+    "counterHeroId": 17,
+    "counterScore": 10,
+    "reason": "Baxia Mark cuts Thamuz's Grand Lord Lava burst healing in half, neutralizing his brawling power."
+  },
+  {
+    "heroId": 114,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Constant knockback from Searing Torrent and slow burns kite Thamuz infinitely outside scythe range."
+  },
+  {
+    "heroId": 114,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "True damage shreds Thamuz's high health pool while Phantom Step keeps her outside his lava aura."
+  },
+  {
+    "heroId": 114,
+    "counterHeroId": 33,
+    "counterScore": 8,
+    "reason": "Destroys Thamuz's physical armor with Specter Step and executes him with Abysm Strike."
+  },
+  {
+    "heroId": 115,
+    "counterHeroId": 32,
+    "counterScore": 10,
+    "reason": "Diggie's Time Journey cleanses Tigreal's Implosion suction stun and Sacred Hammer pushes, nullifying his entire setup."
+  },
+  {
+    "heroId": 115,
+    "counterHeroId": 118,
+    "counterScore": 10,
+    "reason": "Valentina steals Implosion with I Am You and counter-initiates with a devastating magic-scaling suction stun."
+  },
+  {
+    "heroId": 115,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Pushes Tigreal back with Searing Torrent whenever he attempts to slide in with Sacred Hammer."
+  },
+  {
+    "heroId": 115,
+    "counterHeroId": 70,
+    "counterScore": 8,
+    "reason": "Melts Tigreal's massive HP and armor with true damage from outside his melee range."
+  },
+  {
+    "heroId": 116,
+    "counterHeroId": 17,
+    "counterScore": 10,
+    "reason": "Baxia's Baxia Mark innately cuts Uranus's Radiance HP regeneration in half, stripping his core tankiness."
+  },
+  {
+    "heroId": 116,
+    "counterHeroId": 70,
+    "counterScore": 10,
+    "reason": "Karrie deals massive percentage max HP true damage with Lightwheel Mark, shredding Uranus effortlessly."
+  },
+  {
+    "heroId": 116,
+    "counterHeroId": 33,
+    "counterScore": 9,
+    "reason": "Shreds Uranus's physical defense and bursts him down with Abysm Strike before Radiance can regenerate HP."
+  },
+  {
+    "heroId": 116,
+    "counterHeroId": 82,
+    "counterScore": 9,
+    "reason": "Chaos Assault deals max HP percentage magic damage, melting Uranus in seconds."
+  },
+  {
+    "heroId": 117,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Can ambush and burst Vale with Triple Sweep before Vale can unleash Wind Blow knockup combos."
+  },
+  {
+    "heroId": 117,
+    "counterHeroId": 56,
+    "counterScore": 8,
+    "reason": "Dark Night Falls silences Vale, stopping him from executing his Windstorm knockup and burst combination."
+  },
+  {
+    "heroId": 117,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dodge Wind Blow with Shunpo's CC immunity and kick Vale into the open with The Way of Dragon."
+  },
+  {
+    "heroId": 117,
+    "counterHeroId": 74,
+    "counterScore": 8,
+    "reason": "Uses Thorned Rose invulnerability to dodge Windstorm burst and strike down Vale."
+  },
+  {
+    "heroId": 118,
+    "counterHeroId": 56,
+    "counterScore": 8,
+    "reason": "Silences Valentina upon ambush, preventing her from casting Shadow Strike or copying ultimates."
+  },
+  {
+    "heroId": 118,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Triple Sweep locks onto Valentina and executes her before she can utilize stolen ultimates."
+  },
+  {
+    "heroId": 118,
+    "counterHeroId": 67,
+    "counterScore": 8,
+    "reason": "Divine Judgment suppresses Valentina, locking her down so she cannot cast I Am You or dash away."
+  },
+  {
+    "heroId": 118,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dive Valentina with Shunpo and kick her into danger with The Way of Dragon."
+  },
+  {
+    "heroId": 119,
+    "counterHeroId": 80,
+    "counterScore": 9,
+    "reason": "Guardian's Bulwark blocks Valir's Burst Fireball and Searing Torrent flames completely."
+  },
+  {
+    "heroId": 119,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Triple Sweep locks down and executes Valir before he can activate Vengeance purify or firewalls."
+  },
+  {
+    "heroId": 119,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dive Valir with Shunpo and kick him away before he can chain Burst Fireball stuns."
+  },
+  {
+    "heroId": 119,
+    "counterHeroId": 74,
+    "counterScore": 8,
+    "reason": "Dashes through Valir's flame walls with Puncture and Thorned Rose invulnerability."
+  },
+  {
+    "heroId": 120,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Locks down and bursts Vexana with Triple Sweep before she can summon Eternal Guard."
+  },
+  {
+    "heroId": 120,
+    "counterHeroId": 56,
+    "counterScore": 8,
+    "reason": "Silences Vexana, preventing her from casting Chained Snare horrifiers or summoning her knight."
+  },
+  {
+    "heroId": 120,
+    "counterHeroId": 74,
+    "counterScore": 8,
+    "reason": "Uses Thorned Rose invulnerability to dodge Deathly Grasp fear and burst Vexana down."
+  },
+  {
+    "heroId": 120,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Uses Shunpo to absorb Deathly Grasp CC and kicks Vexana away from her Eternal Guard knight."
+  },
+  {
+    "heroId": 121,
+    "counterHeroId": 102,
+    "counterScore": 10,
+    "reason": "Phoveus counter-leaps repeatedly onto Wanwan every time she hops with Tiger Pace basic attacks."
+  },
+  {
+    "heroId": 121,
+    "counterHeroId": 72,
+    "counterScore": 9,
+    "reason": "Bouncing Ball knocks Wanwan up when she attempts to hop with Tiger Pace, disrupting weakness breaks."
+  },
+  {
+    "heroId": 121,
+    "counterHeroId": 90,
+    "counterScore": 9,
+    "reason": "King's Calling completely grounds Wanwan, disabling Tiger Pace hops and Needles in Flowers."
+  },
+  {
+    "heroId": 121,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt suppresses Wanwan, locking her in place before she can trigger Crossbow of Tang."
+  },
+  {
+    "heroId": 122,
+    "counterHeroId": 70,
+    "counterScore": 9,
+    "reason": "True damage cuts directly into X.Borg's Firaga Armor and melts his true health pool in seconds."
+  },
+  {
+    "heroId": 122,
+    "counterHeroId": 119,
+    "counterScore": 9,
+    "reason": "Pushes X.Borg back with Searing Torrent and interrupts Fire Missile spraying with constant stuns."
+  },
+  {
+    "heroId": 122,
+    "counterHeroId": 33,
+    "counterScore": 8,
+    "reason": "Shreds X.Borg's Firaga Armor with Specter Step and bursts him before he can trigger Last Insanity."
+  },
+  {
+    "heroId": 122,
+    "counterHeroId": 17,
+    "counterScore": 8,
+    "reason": "Cuts the healing X.Borg receives from Firaga supplies in half while mitigating fire damage."
+  },
+  {
+    "heroId": 123,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Triple Sweep ambushes and executes Xavier before he can enter Transcendence state or cast Dawning Light."
+  },
+  {
+    "heroId": 123,
+    "counterHeroId": 56,
+    "counterScore": 9,
+    "reason": "Helcurt's Dark Night Falls silences Xavier, preventing him from casting Infinite Extension combos."
+  },
+  {
+    "heroId": 123,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Flanks Xavier with Shunpo and kicks him out of his backline artillery position with The Way of Dragon."
+  },
+  {
+    "heroId": 123,
+    "counterHeroId": 79,
+    "counterScore": 8,
+    "reason": "Vaults directly onto Xavier from walls, bypassing his mystic barriers and bursting him down."
+  },
+  {
+    "heroId": 124,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Ambushing Yi Sun-shin with Triple Sweep bursts him down before he can weapon-swap or dash with Traceless."
+  },
+  {
+    "heroId": 124,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Dives past Yi Sun-shin's Traceless with Shunpo and kicks him into danger with The Way of Dragon."
+  },
+  {
+    "heroId": 124,
+    "counterHeroId": 72,
+    "counterScore": 8,
+    "reason": "Bouncing Ball interrupts Yi Sun-shin's Traceless dashes and stops him from retrieving fleet buffs."
+  },
+  {
+    "heroId": 124,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt suppresses Yi Sun-shin in melee range, shutting down his weapon-switching passives."
+  },
+  {
+    "heroId": 125,
+    "counterHeroId": 27,
+    "counterScore": 9,
+    "reason": "Can dodge Yin's Instant Blast stun with Shunpo and kick Lieh away inside My Turn domain."
+  },
+  {
+    "heroId": 125,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt suppresses Lieh inside My Turn domain, wasting his entire ultimate duration."
+  },
+  {
+    "heroId": 125,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Pushes Lieh back with Searing Torrent inside the domain and chains stuns to prevent Frenzy Strike."
+  },
+  {
+    "heroId": 125,
+    "counterHeroId": 2,
+    "counterScore": 8,
+    "reason": "Heavy Spin pins Lieh to the wall inside My Turn, running out his transformation clock safely."
+  },
+  {
+    "heroId": 126,
+    "counterHeroId": 41,
+    "counterScore": 10,
+    "reason": "Bloody Hunt suppresses Yve during Real World Manipulation, instantly canceling her chessboard ultimate."
+  },
+  {
+    "heroId": 126,
+    "counterHeroId": 67,
+    "counterScore": 10,
+    "reason": "Divine Judgment suppresses Yve during Real World Manipulation, immediately terminating the chessboard."
+  },
+  {
+    "heroId": 126,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Can dive into the chessboard and burst Yve with Triple Sweep before she can finish sliding blocks."
+  },
+  {
+    "heroId": 126,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Flanks and kicks Yve with The Way of Dragon to cancel Real World Manipulation."
+  },
+  {
+    "heroId": 127,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Ambushing Zetian with Triple Sweep bursts her down before she can cast celestial burst spells."
+  },
+  {
+    "heroId": 127,
+    "counterHeroId": 56,
+    "counterScore": 9,
+    "reason": "Dark Night Falls silences Zetian, preventing her from casting phoenix fireburst combos."
+  },
+  {
+    "heroId": 127,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Dives past Zetian's skill zones with Shunpo and kicks her into the allied team with The Way of Dragon."
+  },
+  {
+    "heroId": 127,
+    "counterHeroId": 74,
+    "counterScore": 8,
+    "reason": "Uses Thorned Rose invulnerability to avoid Zetian's imperial blast zones and strike back."
+  },
+  {
+    "heroId": 128,
+    "counterHeroId": 29,
+    "counterScore": 9,
+    "reason": "Blazing Duet with Demon Hunter Sword melts both Zhask and his Nightmarish Spawn while gaining massive lifesteal."
+  },
+  {
+    "heroId": 128,
+    "counterHeroId": 107,
+    "counterScore": 8,
+    "reason": "Bursts Zhask with Triple Sweep before he can merge into his enhanced Nightmarish Spawn."
+  },
+  {
+    "heroId": 128,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can kick Zhask out of his spawn fusion area or kick him away when he emerges with The Way of Dragon."
+  },
+  {
+    "heroId": 128,
+    "counterHeroId": 55,
+    "counterScore": 8,
+    "reason": "Shadow Kill strikes Zhask directly, bypassing the spawn during isolated duels."
+  },
+  {
+    "heroId": 129,
+    "counterHeroId": 56,
+    "counterScore": 9,
+    "reason": "Dark Night Falls silences Zhuxin, instantly stopping her Lantern Flare channeling and soul snaring."
+  },
+  {
+    "heroId": 129,
+    "counterHeroId": 107,
+    "counterScore": 9,
+    "reason": "Triple Sweep knocks Zhuxin airborne and bursts her down before she can accumulate 10 Soul Snare stacks."
+  },
+  {
+    "heroId": 129,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Dives Zhuxin with Shunpo CC immunity, ignoring her airborne lift to kick her with The Way of Dragon."
+  },
+  {
+    "heroId": 129,
+    "counterHeroId": 32,
+    "counterScore": 9,
+    "reason": "Time Journey cleanses Zhuxin's airborne lift and slow effects for the entire allied team."
+  },
+  {
+    "heroId": 130,
+    "counterHeroId": 41,
+    "counterScore": 8,
+    "reason": "Bloody Hunt suppresses Zilong the moment he attempts to Spear Flip an ally, shutting him down."
+  },
+  {
+    "heroId": 130,
+    "counterHeroId": 27,
+    "counterScore": 8,
+    "reason": "Can dodge Spear Strike with Shunpo and kick Zilong away before he can land basic attack flurries."
+  },
+  {
+    "heroId": 130,
+    "counterHeroId": 114,
+    "counterScore": 8,
+    "reason": "Molten Scythes and Inferno out-sustain and burn Zilong in close melee combat."
+  },
+  {
+    "heroId": 130,
+    "counterHeroId": 119,
+    "counterScore": 8,
+    "reason": "Searing Torrent pushes Zilong back during Supreme Warrior, denying his melee charge."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 1,
+    "counterScore": 9,
+    "reason": "Aamon's camouflage allows him to bypass frontlines unseen and execute Layla with lethal shard burst before she can attack."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 1,
+    "counterScore": 9,
+    "reason": "Aamon easily slips past Gord's skillshot trajectory while camouflaged and deletes him during Mystic Gush channeling."
+  },
+  {
+    "heroId": 123,
+    "counterHeroId": 1,
+    "counterScore": 8,
+    "reason": "Aamon's untargetable camouflage frames dodge Xavier's skillshot lasers, allowing him to close in and burst Xavier."
+  },
+  {
+    "heroId": 99,
+    "counterHeroId": 2,
+    "counterScore": 9,
+    "reason": "Akai's Heavy Spin continuously pushes and interrupts Odette's Swan Song channeling, completely shutting down her ultimate."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 3,
+    "counterScore": 9,
+    "reason": "Chase Fate locks onto immobile Layla globally, and Contract: Soul Steal one-shots her with stacked physical damage."
+  },
+  {
+    "heroId": 78,
+    "counterHeroId": 3,
+    "counterScore": 8,
+    "reason": "Aldous's ultimate reveals Lesley through Master of Camouflage and closes the distance to burst her down."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 4,
+    "counterScore": 9,
+    "reason": "Alice's Blood Ode leeches massive HP from all of Sun's doppelgangers simultaneously, providing virtually infinite sustain."
+  },
+  {
+    "heroId": 13,
+    "counterHeroId": 4,
+    "counterScore": 8,
+    "reason": "Alice can easily teleport out of Badang's Fist Crack wall trap using Flowing Blood while continuously damaging him."
+  },
+  {
+    "heroId": 14,
+    "counterHeroId": 4,
+    "counterScore": 8,
+    "reason": "Blood Ode drains Balmond's health while ignoring his Cyclone Sweep, out-sustaining him in close combat."
+  },
+  {
+    "heroId": 113,
+    "counterHeroId": 5,
+    "counterScore": 8,
+    "reason": "Spear of Alpha stuns Terizla out of hammer windups and Alpha's true damage cuts through Terizla's damage reduction."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 6,
+    "counterScore": 9,
+    "reason": "Alucard's Groundsplitter and Whirling Smash close the distance instantly on immobile Layla and execute her with lifesteal."
+  },
+  {
+    "heroId": 91,
+    "counterHeroId": 6,
+    "counterScore": 8,
+    "reason": "Alucard gap-closes past Miya's arrows and out-damages her with Fission Wave lifesteal before she can kite."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 6,
+    "counterScore": 8,
+    "reason": "Alucard easily leaps out of Gord's Mystic Projectile stun and shreds Gord with basic attack pursuits."
+  },
+  {
+    "heroId": 107,
+    "counterHeroId": 7,
+    "counterScore": 8,
+    "reason": "Angela's Heartguard grants a massive shield and movement speed to allies dived by Saber, neutralizing his assassination."
+  },
+  {
+    "heroId": 50,
+    "counterHeroId": 7,
+    "counterScore": 8,
+    "reason": "Heartguard protects squishy carries from Gusion's burst combo, while Love Waves continuously heals and speeds them up."
+  },
+  {
+    "heroId": 55,
+    "counterHeroId": 7,
+    "counterScore": 8,
+    "reason": "Heartguard's instant shield saves isolated targets from lethal damage during Hayabusa's Shadow Kill."
+  },
+  {
+    "heroId": 125,
+    "counterHeroId": 8,
+    "counterScore": 9,
+    "reason": "Argus counters Yin inside My Turn domain; when Yin transforms into Lieh, Argus triggers Eternal Evil to absorb all burst and kill Yin."
+  },
+  {
+    "heroId": 13,
+    "counterHeroId": 8,
+    "counterScore": 9,
+    "reason": "Argus activates Eternal Evil to become completely immune to death inside Badang's Fist Crack wall trap, healing off Badang."
+  },
+  {
+    "heroId": 130,
+    "counterHeroId": 8,
+    "counterScore": 8,
+    "reason": "Argus absorbs Zilong's rapid spear strikes with Eternal Evil and turns the duel around to execute Zilong."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 9,
+    "counterScore": 9,
+    "reason": "Arlott repeatedly dashes through Gord with Dauntless Strike and Vengeance, easily interrupting and deleting the immobile mage."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 9,
+    "counterScore": 9,
+    "reason": "Arlott dashes across minion waves with Vengeance to instantly close the gap on Layla and stun her with Final Slash."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 9,
+    "counterScore": 8,
+    "reason": "Arlott's Dauntless Strike breaks Hanabi's shield and chains rapid Vengeance slashes to burst her down."
+  },
+  {
+    "heroId": 91,
+    "counterHeroId": 10,
+    "counterScore": 9,
+    "reason": "Atlas uses Perfect Match to charge onto Miya and pulls her with Fatal Links into allied burst before she can react."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 10,
+    "counterScore": 9,
+    "reason": "Atlas easily initiates on immobile Layla with Perfect Match and throws her into the allied team with Fatal Links."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 10,
+    "counterScore": 8,
+    "reason": "Atlas pulls Estes and his clustered healing circle together with Fatal Links, setting them up for team wipe combos."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 11,
+    "counterScore": 9,
+    "reason": "Aulus's massive late-game cleave basic attacks hit Sun and all his clones, wiping them out in a couple of critical strikes."
+  },
+  {
+    "heroId": 14,
+    "counterHeroId": 11,
+    "counterScore": 8,
+    "reason": "Aulus out-scales Balmond in late-game trades, out-damaging Cyclone Sweep with empowered basic attacks."
+  },
+  {
+    "heroId": 57,
+    "counterHeroId": 11,
+    "counterScore": 8,
+    "reason": "The Power of Axe enables Aulus to trade blow-for-blow with Hilda, shredding her armor and out-sustaining her in extended duels."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 12,
+    "counterScore": 9,
+    "reason": "Aurora's instant point-and-click freeze freezes Fanny mid-cable flight, crashing her into the ground for an instant kill."
+  },
+  {
+    "heroId": 50,
+    "counterHeroId": 12,
+    "counterScore": 8,
+    "reason": "Aurora freezes Gusion the moment he dashes in with Sword Spike, completely interrupting his dagger combo."
+  },
+  {
+    "heroId": 55,
+    "counterHeroId": 12,
+    "counterScore": 8,
+    "reason": "Aurora can freeze Hayabusa before he can cast Shadow Kill, allowing the team to eliminate him."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 13,
+    "counterScore": 9,
+    "reason": "Badang knocks Gord into terrain with Qigong Fist and traps him with Fist Crack, obliterating the immobile mage."
+  },
+  {
+    "heroId": 99,
+    "counterHeroId": 13,
+    "counterScore": 9,
+    "reason": "Badang's Qigong Fist knockback immediately cancels Odette's Swan Song channeling and pins her against walls."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 13,
+    "counterScore": 8,
+    "reason": "Badang traps defenseless Layla against created obstacle walls with Fist Break and bursts her with Fist Crack."
+  },
+  {
+    "heroId": 45,
+    "counterHeroId": 14,
+    "counterScore": 9,
+    "reason": "Balmond uses Cyclone Sweep against Gloo's split Goos, healing to maximum health while dealing heavy damage."
+  },
+  {
+    "heroId": 128,
+    "counterHeroId": 14,
+    "counterScore": 8,
+    "reason": "Balmond clears Zhask's Nightmarish Spawn easily with Cyclone Sweep and executes Zhask with Lethal Counter."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 15,
+    "counterScore": 8,
+    "reason": "Bane's Deadly Catch shark waves knock up all Sun clones, and Crab Claw Cannon bounces repeatedly between them for huge burst."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 15,
+    "counterScore": 8,
+    "reason": "Bane zones Layla out of teamfights with Deadly Catch and bursts her with empowered splash attacks."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 15,
+    "counterScore": 8,
+    "reason": "Bane knocks Gord out of Mystic Gush with Deadly Catch sharks and finishes him with Crab Claw Cannon."
+  },
+  {
+    "heroId": 3,
+    "counterHeroId": 16,
+    "counterScore": 9,
+    "reason": "Barats intercepts Aldous's ultimate with Detona's Welcome, devouring him and spitting him into a wall with heavy stun."
+  },
+  {
+    "heroId": 6,
+    "counterHeroId": 16,
+    "counterScore": 8,
+    "reason": "Barats's high durability and Detona's Welcome suppress Alucard as soon as he dives into melee range."
+  },
+  {
+    "heroId": 125,
+    "counterHeroId": 16,
+    "counterScore": 8,
+    "reason": "Inside My Turn domain, Barats out-tanks Lieh and suppresses him with Detona's Welcome, turning the tables on Yin."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 18,
+    "counterScore": 9,
+    "reason": "Beatrix uses Wesker shotgun up close to shred Hylos's massive HP pool or Renner sniper to poke him from safe range."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 18,
+    "counterScore": 8,
+    "reason": "Beatrix easily snipes stationary Gord during Mystic Gush with Renner's long-range sniper shots."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 18,
+    "counterScore": 8,
+    "reason": "Beatrix out-trades Layla in early and mid game with superior burst from Nibiru and Wesker."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 20,
+    "counterScore": 9,
+    "reason": "Benedetta's constant dashes easily avoid Gord's skillshots, and Alecto: Final Blow slashes him down instantly."
+  },
+  {
+    "heroId": 123,
+    "counterHeroId": 20,
+    "counterScore": 8,
+    "reason": "Benedetta uses her multiple dashes to weave around Xavier's skill boundaries and execute him from behind."
+  },
+  {
+    "heroId": 126,
+    "counterHeroId": 20,
+    "counterScore": 8,
+    "reason": "Benedetta dashes directly into Yve's chessboard with CC-immune slashes, bursting Yve down."
+  },
+  {
+    "heroId": 70,
+    "counterHeroId": 21,
+    "counterScore": 9,
+    "reason": "Brody's superior basic attack range and movement-while-charging allow him to out-poke Karrie safely."
+  },
+  {
+    "heroId": 92,
+    "counterHeroId": 21,
+    "counterScore": 8,
+    "reason": "Brody out-ranges Moskov's short attack reach, applying Abyss Marks from safe distance and executing with Torn-Apart Memory."
+  },
+  {
+    "heroId": 43,
+    "counterHeroId": 21,
+    "counterScore": 8,
+    "reason": "Brody easily kites Freya using Corrosive Strike stun to jump away whenever she leaps in."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 22,
+    "counterScore": 9,
+    "reason": "Bruno's high critical volley shots chunk Layla's health bar in 1-2 hits before she can trade effectively."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 22,
+    "counterScore": 8,
+    "reason": "Bruno slides through Hanabi's shield with Flying Tackle stun and eliminates her with Wave of the World."
+  },
+  {
+    "heroId": 37,
+    "counterHeroId": 22,
+    "counterScore": 8,
+    "reason": "Bruno out-ranges Eudora's stun with power ball kicks and bursts her down before she can approach."
+  },
+  {
+    "heroId": 104,
+    "counterHeroId": 23,
+    "counterScore": 8,
+    "reason": "Carmilla links allies clustered around Rafaela's Holy Healing, multiplying incoming damage on the whole group."
+  },
+  {
+    "heroId": 89,
+    "counterHeroId": 23,
+    "counterScore": 8,
+    "reason": "Carmilla links Minotaur and his allies with Curse of Blood when Minotaur dives, causing team wipe damage."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 24,
+    "counterScore": 9,
+    "reason": "Cecilion out-ranges and continuously kites Hylos with Bat Impact, stacking infinite mana and shredding his health."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 24,
+    "counterScore": 8,
+    "reason": "Cecilion's late-game AoE Bat Impact burst overwhelms the clustered healing circle of Estes."
+  },
+  {
+    "heroId": 115,
+    "counterHeroId": 24,
+    "counterScore": 8,
+    "reason": "Cecilion zones Tigreal out with Sanguine Claws and Bat Impact, punishing Tigreal's slow approach."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 25,
+    "counterScore": 9,
+    "reason": "Chang'e's Meteor Shower shreds Barats's huge hitbox from extreme range, melting his HP before he can close the gap."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 25,
+    "counterScore": 8,
+    "reason": "Chang'e continuously slows Hylos with Crescent Moon and melts him from safe distance with Meteor Shower."
+  },
+  {
+    "heroId": 17,
+    "counterHeroId": 25,
+    "counterScore": 8,
+    "reason": "Meteor Shower chips away Baxia's HP pool from long range outside his shield roll range."
+  },
+  {
+    "heroId": 130,
+    "counterHeroId": 26,
+    "counterScore": 9,
+    "reason": "Chip summons the entire allied team via Shortcut portal directly onto Zilong when he attempts to split-push."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 26,
+    "counterScore": 8,
+    "reason": "Chip uses Shortcut to coordinate an instant 5-man gank on Sun whenever he pushes side lanes alone."
+  },
+  {
+    "heroId": 8,
+    "counterHeroId": 26,
+    "counterScore": 8,
+    "reason": "Chip opens portals to rotate teammates around Argus, isolating him after his ultimate expires."
+  },
+  {
+    "heroId": 113,
+    "counterHeroId": 28,
+    "counterScore": 9,
+    "reason": "Yo-yo Blitz allows Cici to continuously damage and kite Terizla while staying safely outside his slow hammer swings."
+  },
+  {
+    "heroId": 42,
+    "counterHeroId": 28,
+    "counterScore": 8,
+    "reason": "Cici out-maneuvers Fredrinn with Buoyant Bounce, chipping his HP down while staying outside his taunt range."
+  },
+  {
+    "heroId": 116,
+    "counterHeroId": 28,
+    "counterScore": 8,
+    "reason": "Cici's continuous Yo-yo strikes poke Uranus down while her mobility prevents him from landing basic attacks."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 30,
+    "counterScore": 9,
+    "reason": "Clint's Quick Draw passive out-ranges and out-bursts Layla in the early and mid game, shutting down her farm."
+  },
+  {
+    "heroId": 92,
+    "counterHeroId": 30,
+    "counterScore": 8,
+    "reason": "Clint traps Moskov with Trapping Recoil when Moskov blinks in and executes him with Grenade Bombardment."
+  },
+  {
+    "heroId": 91,
+    "counterHeroId": 30,
+    "counterScore": 8,
+    "reason": "Clint's high burst damage chunks Miya from range before she can stack attack speed."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 31,
+    "counterScore": 8,
+    "reason": "Star Power Lockdown roots Fanny mid-cable and Planets Attack spheres track and burst her down."
+  },
+  {
+    "heroId": 50,
+    "counterHeroId": 31,
+    "counterScore": 8,
+    "reason": "Star Power Lockdown immobilizes Gusion when he dashes in, stopping his dagger recall combo."
+  },
+  {
+    "heroId": 74,
+    "counterHeroId": 31,
+    "counterScore": 8,
+    "reason": "Planets Attack spheres continuously track Lancelot even through his fast dashes."
+  },
+  {
+    "heroId": 42,
+    "counterHeroId": 33,
+    "counterScore": 8,
+    "reason": "Specter Step strips Fredrinn's high armor and Abysm Strike executes him before he can cast Appraiser's Wrath."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 34,
+    "counterScore": 9,
+    "reason": "Edith interrupts Fanny's cables with Onward flip and chains Earth Shatter knockup to lock her down."
+  },
+  {
+    "heroId": 79,
+    "counterHeroId": 34,
+    "counterScore": 8,
+    "reason": "Edith flips Ling out of his landing position with Onward and knocks him up with Earth Shatter."
+  },
+  {
+    "heroId": 63,
+    "counterHeroId": 34,
+    "counterScore": 8,
+    "reason": "Edith's heavy CC combo interrupts Joy's rhythm dashes and prevents her from stacking her ultimate."
+  },
+  {
+    "heroId": 53,
+    "counterHeroId": 35,
+    "counterScore": 9,
+    "reason": "Esmeralda's Frostmoon Shield absorbs Harith's Chrono Dash shields, turning Harith's defense into her own HP."
+  },
+  {
+    "heroId": 25,
+    "counterHeroId": 35,
+    "counterScore": 9,
+    "reason": "Esmeralda absorbs Chang'e's Crescent Moon shield with Frostmoon Shield, stripping Chang'e's mobility and damage buffs."
+  },
+  {
+    "heroId": 62,
+    "counterHeroId": 35,
+    "counterScore": 8,
+    "reason": "Esmeralda continuously drains Johnson's Electro-airbag shield, gaining massive health from his armor."
+  },
+  {
+    "heroId": 101,
+    "counterHeroId": 36,
+    "counterScore": 8,
+    "reason": "Blessing of Moon Goddess and Moonlight Immersion easily sustain the team through Pharsa's long-range air strike poke."
+  },
+  {
+    "heroId": 123,
+    "counterHeroId": 36,
+    "counterScore": 8,
+    "reason": "Estes out-heals Xavier's poke damage, keeping the entire team healthy to push objectives."
+  },
+  {
+    "heroId": 97,
+    "counterHeroId": 36,
+    "counterScore": 8,
+    "reason": "Estes rapidly heals allies hit by Novaria's Astral Recall snipes, negating her attrition value."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 37,
+    "counterScore": 8,
+    "reason": "Eudora's point-and-click Electric Arrow stun immediately stops Fanny mid-cable and deletes her with Thunder's Wrath."
+  },
+  {
+    "heroId": 79,
+    "counterHeroId": 37,
+    "counterScore": 8,
+    "reason": "Electric Arrow stuns Ling the moment he lands from a wall, allowing Eudora to one-shot him with Forked Lightning."
+  },
+  {
+    "heroId": 55,
+    "counterHeroId": 37,
+    "counterScore": 8,
+    "reason": "Eudora's instant stun combo eliminates Hayabusa before he can cast Shadow Kill."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 38,
+    "counterScore": 9,
+    "reason": "Fanny cables across the map in seconds and executes defenseless Layla with Tornado Strike before she can react."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 38,
+    "counterScore": 9,
+    "reason": "Fanny dives past Gord's skillshots with Steel Cables and shreds him while he is channeling Mystic Gush."
+  },
+  {
+    "heroId": 24,
+    "counterHeroId": 38,
+    "counterScore": 8,
+    "reason": "Fanny quickly closes distance on Cecilion with cables, eliminating him within his minimum skill range."
+  },
+  {
+    "heroId": 10,
+    "counterHeroId": 39,
+    "counterScore": 9,
+    "reason": "Cult Altar counters Atlas's Fatal Links initiation by giving the entire team temporary invincibility and extra HP."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 39,
+    "counterScore": 8,
+    "reason": "Ghost Bursters triggers multiple explosions off all of Sun's clones, deleting the clones and heavily damaging Sun."
+  },
+  {
+    "heroId": 54,
+    "counterHeroId": 40,
+    "counterScore": 8,
+    "reason": "Bloom provides a global heal and cleanses anti-heal debuffs, saving allies targeted by Harley's Deadly Magic."
+  },
+  {
+    "heroId": 55,
+    "counterHeroId": 40,
+    "counterScore": 8,
+    "reason": "Floryn's global Bloom healing restores health to isolated allies being targeted by Hayabusa's Shadow Kill."
+  },
+  {
+    "heroId": 101,
+    "counterHeroId": 40,
+    "counterScore": 8,
+    "reason": "Bloom keeps the entire team sustained against Pharsa's bombardment during base sieges."
+  },
+  {
+    "heroId": 6,
+    "counterHeroId": 42,
+    "counterScore": 8,
+    "reason": "Fredrinn absorbs Alucard's melee burst, taunts him with Spire Strike, and executes him with Appraiser's Wrath."
+  },
+  {
+    "heroId": 5,
+    "counterHeroId": 42,
+    "counterScore": 8,
+    "reason": "Fredrinn out-tanks Alpha's damage and uses Piercing Strike and Appraiser's Wrath to turn the duel around."
+  },
+  {
+    "heroId": 125,
+    "counterHeroId": 42,
+    "counterScore": 8,
+    "reason": "Fredrinn out-lasts Lieh inside My Turn domain, absorbing the burst and nuking Yin with Appraiser's Wrath."
+  },
+  {
+    "heroId": 130,
+    "counterHeroId": 43,
+    "counterScore": 9,
+    "reason": "Freya's Valkyrie transformation grants massive shields and splash stuns that easily overpower Zilong in melee trades."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 43,
+    "counterScore": 8,
+    "reason": "Valkyrie's splashing basic attacks hit Sun and all his clones, stunning and clearing them instantly."
+  },
+  {
+    "heroId": 6,
+    "counterHeroId": 43,
+    "counterScore": 8,
+    "reason": "Freya out-damages and out-shields Alucard in close-range 1v1 brawls with Leap of Faith and Valkyrie."
+  },
+  {
+    "heroId": 91,
+    "counterHeroId": 44,
+    "counterScore": 9,
+    "reason": "Steel Bones converts lost HP into physical defense, and Unbreakable taunts Miya, reflecting heavy magic damage."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 44,
+    "counterScore": 9,
+    "reason": "Avatar of the Guardian knocks up immobile Layla from extreme range, allowing Gatotkaca to taunt and crush her."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 44,
+    "counterScore": 8,
+    "reason": "Steel Bones gains massive physical defense from all of Sun's basic attacks, unleashing continuous counter-slams."
+  },
+  {
+    "heroId": 78,
+    "counterHeroId": 45,
+    "counterScore": 9,
+    "reason": "Pass, Pass splits into multiple Goos that block Lesley's single-target shots, easily latching onto and killing her."
+  },
+  {
+    "heroId": 107,
+    "counterHeroId": 45,
+    "counterScore": 8,
+    "reason": "Gloo's split Goos confuse Saber's single-target targeting, and Grab, Grab attaches to Saber to drag him into danger."
+  },
+  {
+    "heroId": 130,
+    "counterHeroId": 45,
+    "counterScore": 8,
+    "reason": "Gloo splits when Zilong charges, attaching to Zilong and immobilizing him while redirecting damage."
+  },
+  {
+    "heroId": 115,
+    "counterHeroId": 46,
+    "counterScore": 9,
+    "reason": "Mystic Gush melts Tigreal and grouped frontliners with continuous true damage from long range."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 46,
+    "counterScore": 8,
+    "reason": "Mystic Injunction and Mystic Gush shred Hylos's huge health pool with true damage while kiting him."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 46,
+    "counterScore": 8,
+    "reason": "Gord's AoE true damage from Mystic Gush shreds the clumped healing cluster of Estes."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 47,
+    "counterScore": 9,
+    "reason": "Granger out-maneuvers Layla with Rondo dashes and snipes her with Death Sonata from outside her range."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 47,
+    "counterScore": 8,
+    "reason": "Rhapsody allows Granger to circle around Gord while firing bullets, avoiding Gord's frontal skillshots."
+  },
+  {
+    "heroId": 37,
+    "counterHeroId": 47,
+    "counterScore": 8,
+    "reason": "Granger's long-range Death Sonata cannon shots burst Eudora down from outside her stun reach."
+  },
+  {
+    "heroId": 10,
+    "counterHeroId": 48,
+    "counterScore": 8,
+    "reason": "Grock uses Ancestral Gift to walk through Atlas's Fatal Links without being pulled, counter-charging with Wild Charge."
+  },
+  {
+    "heroId": 115,
+    "counterHeroId": 48,
+    "counterScore": 8,
+    "reason": "Grock charges into Tigreal with Wild Charge near walls, ignoring Tigreal's CC and knocking him up."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 49,
+    "counterScore": 9,
+    "reason": "Spatial Migration jumps onto immobile Layla from bushes and Violet Requiem knocks her airborne until eliminated."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 49,
+    "counterScore": 9,
+    "reason": "Guinevere easily jumps over Gord's skills with Spatial Migration, knocking him up and canceling Mystic Gush."
+  },
+  {
+    "heroId": 123,
+    "counterHeroId": 49,
+    "counterScore": 8,
+    "reason": "Guinevere dives Xavier with Spatial Migration, knocking him airborne before he can deploy mystic barriers."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 50,
+    "counterScore": 9,
+    "reason": "Gusion's Sword Spike and Incandescence allow him to teleport directly onto Layla and burst her with 10 daggers instantly."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 50,
+    "counterScore": 9,
+    "reason": "Gusion teleports behind Gord during Mystic Gush, obliterating him with a full dagger burst combo."
+  },
+  {
+    "heroId": 101,
+    "counterHeroId": 50,
+    "counterScore": 8,
+    "reason": "Gusion dashes directly into Pharsa's air strike circle and bursts her down before she can escape in bird form."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 51,
+    "counterScore": 8,
+    "reason": "Petal Blades bounce continuously between Sun and his clones, dealing massive passive splash damage."
+  },
+  {
+    "heroId": 45,
+    "counterHeroId": 51,
+    "counterScore": 8,
+    "reason": "Hanabi's Petal Blades bounce endlessly through all 12 of Gloo's split Goos, shredding them in seconds."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 51,
+    "counterScore": 8,
+    "reason": "Hanabi's bouncing blades spread damage through the entire enemy team clustered around Estes."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 52,
+    "counterScore": 8,
+    "reason": "Kinjutsu: Pinnacle Ninja lets Hanzo attack Layla with his demon form from across two screens with zero personal risk."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 52,
+    "counterScore": 8,
+    "reason": "Hanzo's demon form dives immobile Gord with Ninjutsu: Devastator, dodging skillshots and bursting him down."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 52,
+    "counterScore": 8,
+    "reason": "Hanzo steals Hanabi's jungle creeps and dives her safely from behind terrain with his demon ninja form."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 53,
+    "counterScore": 9,
+    "reason": "Chrono Dash allows Harith to constantly dash around Gord, dodging all skillshots while dealing heavy magic burst."
+  },
+  {
+    "heroId": 119,
+    "counterHeroId": 53,
+    "counterScore": 8,
+    "reason": "Harith's frequent dashes with Zaman Force easily weave through Valir's fireballs, closing in to burst him."
+  },
+  {
+    "heroId": 97,
+    "counterHeroId": 53,
+    "counterScore": 8,
+    "reason": "Harith easily dodges Novaria's sniper spheres with Chrono Dash and dives her in the backline."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 54,
+    "counterScore": 9,
+    "reason": "Space Escape lets Harley teleport right in front of Layla, land Deadly Magic and Poker Trick, and blink back safely."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 54,
+    "counterScore": 9,
+    "reason": "Harley teleports past Gord's frontal laser with Space Escape and bursts him down with Deadly Magic cards."
+  },
+  {
+    "heroId": 24,
+    "counterHeroId": 54,
+    "counterScore": 8,
+    "reason": "Harley blinks into Cecilion's minimum range where Bat Impact deals reduced damage and deletes him."
+  },
+  {
+    "heroId": 79,
+    "counterHeroId": 57,
+    "counterScore": 9,
+    "reason": "Hilda invades Ling's blue buff early game with Wilderness Blessing shield, killing him or denying his energy source."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 57,
+    "counterScore": 8,
+    "reason": "Hilda invades Fanny's early jungle, disrupting her cable setups and forcing her to retreat without buff."
+  },
+  {
+    "heroId": 55,
+    "counterHeroId": 57,
+    "counterScore": 8,
+    "reason": "Hilda bullies Hayabusa in the early jungle with high base damage and bush shields, slowing his farm."
+  },
+  {
+    "heroId": 69,
+    "counterHeroId": 58,
+    "counterScore": 8,
+    "reason": "Ring of Punishment damages Karina through her basic attack evasion and Glorious Pathway speeds allies up to kite her."
+  },
+  {
+    "heroId": 56,
+    "counterHeroId": 58,
+    "counterScore": 8,
+    "reason": "Hylos absorbs Helcurt's burst with his massive HP pool and stuns him with Ring of Order."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 59,
+    "counterScore": 9,
+    "reason": "Irithel fires Heavy Crossbow bolts while moving, kiting Barats continuously outside his melee range."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 59,
+    "counterScore": 8,
+    "reason": "Irithel's ability to shoot while moving allows her to kite Hylos outside Ring of Punishment range."
+  },
+  {
+    "heroId": 116,
+    "counterHeroId": 59,
+    "counterScore": 8,
+    "reason": "Irithel continuously kites Uranus with Heavy Crossbow, shredding his armor with Strafe while dodging skills."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 60,
+    "counterScore": 8,
+    "reason": "Full Barrage unleashes a wide firing arc that damages and debuffs the entire team clumped around Estes."
+  },
+  {
+    "heroId": 115,
+    "counterHeroId": 60,
+    "counterScore": 8,
+    "reason": "Full Barrage fires continuous lifesteal shots into Tigreal's team from long range outside his engage zone."
+  },
+  {
+    "heroId": 89,
+    "counterHeroId": 60,
+    "counterScore": 8,
+    "reason": "Ixia's Full Barrage punishes Minotaur's slow teamfight advance with continuous fan-shaped damage."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 61,
+    "counterScore": 8,
+    "reason": "Jawhead sprints in with Ejector and tosses defenseless Layla straight into the waiting allied team."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 61,
+    "counterScore": 8,
+    "reason": "Jawhead charges Gord with Unstoppable Force, canceling Mystic Gush and throwing him with Ejector."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 62,
+    "counterScore": 9,
+    "reason": "Rapid Touchdown crashes directly into immobile Layla from across the map, stunning and bursting her instantly."
+  },
+  {
+    "heroId": 91,
+    "counterHeroId": 62,
+    "counterScore": 8,
+    "reason": "Rapid Touchdown delivers an allied mage straight onto Miya, eliminating her before she can activate concealment."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 62,
+    "counterScore": 8,
+    "reason": "Rapid Touchdown easily targets and crashes into stationary Gord during Mystic Gush channeling."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 63,
+    "counterScore": 9,
+    "reason": "Joy's rhythm dashes weave through all of Gord's skillshots, and her ultimate shreds him while she is CC-immune."
+  },
+  {
+    "heroId": 123,
+    "counterHeroId": 63,
+    "counterScore": 8,
+    "reason": "Joy dashes past Xavier's skill boundaries with CC immunity and bursts him down with Electrifying Beats."
+  },
+  {
+    "heroId": 126,
+    "counterHeroId": 63,
+    "counterScore": 8,
+    "reason": "Joy dashes directly into Yve's Real World Manipulation, ignoring slows and deleting Yve."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 64,
+    "counterScore": 9,
+    "reason": "Julian dives Layla with Enhanced Chain, rooting her in place and executing her with Enhanced Scythe slashes."
+  },
+  {
+    "heroId": 91,
+    "counterHeroId": 64,
+    "counterScore": 8,
+    "reason": "Enhanced Chain roots Miya before she can kite, and Julian's enhanced skills burst her down in close quarters."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 64,
+    "counterScore": 8,
+    "reason": "Julian's enhanced skills hit all Sun clones with heavy magic splash and spell vamp, turning clones into healing."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 65,
+    "counterScore": 9,
+    "reason": "Breath of the Ocean knocks up Layla and Rough Waves delivers lethal untargetable magic burst instantly."
+  },
+  {
+    "heroId": 101,
+    "counterHeroId": 65,
+    "counterScore": 8,
+    "reason": "Kadita swims into Pharsa's air strike with Ocean Oddity and bursts her with Rough Waves."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 65,
+    "counterScore": 8,
+    "reason": "Kadita dives underneath Gord's laser with Ocean Oddity and one-shots him with Rough Waves."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 66,
+    "counterScore": 9,
+    "reason": "Kagura pokes Layla from extreme safety with Seimei Umbrella and deletes her with Yin Yang Overturn combo."
+  },
+  {
+    "heroId": 37,
+    "counterHeroId": 66,
+    "counterScore": 8,
+    "reason": "Kagura uses Rasho Umbrella Flee to remove Eudora's stun and counter-bursts her with her umbrella."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 66,
+    "counterScore": 8,
+    "reason": "Kagura throws Seimei Umbrella to interrupt Gord's positioning and bursts him with Yin Yang Overturn."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 67,
+    "counterScore": 9,
+    "reason": "Divine Judgment suppresses Fanny mid-flight, dragging her into the team for an unavoidable execution."
+  },
+  {
+    "heroId": 79,
+    "counterHeroId": 67,
+    "counterScore": 9,
+    "reason": "Divine Judgment suppresses Ling the instant he lands, preventing Tempest of Blades from triggering."
+  },
+  {
+    "heroId": 63,
+    "counterHeroId": 67,
+    "counterScore": 9,
+    "reason": "Divine Judgment suppresses Joy through her beat sequence, completely shutting down her ultimate."
+  },
+  {
+    "heroId": 5,
+    "counterHeroId": 68,
+    "counterScore": 8,
+    "reason": "Kalea's surging tidal waves knock Alpha back whenever he initiates, disrupting his Spear of Alpha combo."
+  },
+  {
+    "heroId": 14,
+    "counterHeroId": 68,
+    "counterScore": 8,
+    "reason": "Kalea pushes Balmond away with water waves, stopping him from approaching with Cyclone Sweep."
+  },
+  {
+    "heroId": 114,
+    "counterHeroId": 68,
+    "counterScore": 8,
+    "reason": "Kalea zones Thamuz away with tidal knockbacks, keeping allies safe from his Molten Scythes."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 69,
+    "counterScore": 9,
+    "reason": "Dance of Blades makes Karina completely immune to Layla's basic attacks while closing in to one-shot her."
+  },
+  {
+    "heroId": 91,
+    "counterHeroId": 69,
+    "counterScore": 9,
+    "reason": "Dance of Blades reflects and deflects all of Miya's arrows while Karina closes in with Shadow Assault."
+  },
+  {
+    "heroId": 92,
+    "counterHeroId": 69,
+    "counterScore": 8,
+    "reason": "Karina blocks Moskov's basic attacks with Dance of Blades, closing the distance and resetting skills."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 71,
+    "counterScore": 9,
+    "reason": "Desert Tornado hits Sun and all his clones, dealing massive spinning physical damage and quickly clearing them."
+  },
+  {
+    "heroId": 130,
+    "counterHeroId": 71,
+    "counterScore": 8,
+    "reason": "Khaleed out-damages Zilong in early trades with Desert Tornado and sustains through damage with Quicksand Guard."
+  },
+  {
+    "heroId": 13,
+    "counterHeroId": 71,
+    "counterScore": 8,
+    "reason": "Khaleed absorbs Badang's burst with Quicksand Guard damage reduction and counters with Desert Tornado."
+  },
+  {
+    "heroId": 116,
+    "counterHeroId": 73,
+    "counterScore": 8,
+    "reason": "Kimmy sprays continuous chemical bullets while moving, kiting Uranus endlessly outside his melee range."
+  },
+  {
+    "heroId": 14,
+    "counterHeroId": 73,
+    "counterScore": 8,
+    "reason": "Kimmy out-kites Balmond with continuous mobile shooting, chipping his health down while dodging Cyclone Sweep."
+  },
+  {
+    "heroId": 113,
+    "counterHeroId": 73,
+    "counterScore": 8,
+    "reason": "Kimmy fires while moving to easily kite Terizla outside his slow hammer range."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 74,
+    "counterScore": 9,
+    "reason": "Thorned Rose provides invulnerability frames to dodge Gord's stun and Puncture dashes slice Gord down."
+  },
+  {
+    "heroId": 101,
+    "counterHeroId": 74,
+    "counterScore": 9,
+    "reason": "Lancelot uses Thorned Rose invulnerability inside Pharsa's air strike and executes her with Phantom Execution."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 74,
+    "counterScore": 9,
+    "reason": "Puncture allows Lancelot to dash through minions to reach Layla, deleting her with Thorned Rose."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 75,
+    "counterScore": 9,
+    "reason": "Lapu-Lapu's Heavy Sword stance grants CC immunity and massive AoE damage, diving past peel to eliminate Layla."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 75,
+    "counterScore": 8,
+    "reason": "Heavy Sword stance ignores Gord's Mystic Projectile stun and crushes Gord with Raging Slash."
+  },
+  {
+    "heroId": 101,
+    "counterHeroId": 75,
+    "counterScore": 8,
+    "reason": "Lapu-Lapu leaps directly into Pharsa's air strike zone with CC immunity and executes her."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 76,
+    "counterScore": 8,
+    "reason": "In the late game, Layla out-ranges Barats by a huge margin, melting his health pool from extreme safety."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 76,
+    "counterScore": 8,
+    "reason": "Layla attacks Hylos from far outside his reach with Malefic Gun, shredding him before he can close the distance."
+  },
+  {
+    "heroId": 14,
+    "counterHeroId": 76,
+    "counterScore": 8,
+    "reason": "Layla kites Balmond from extreme range in late game, killing him before he can sprint close."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 77,
+    "counterScore": 9,
+    "reason": "Phantom Steed charges onto Layla, and Leomord's guaranteed critical strikes execute her when her HP drops below 50%."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 77,
+    "counterScore": 8,
+    "reason": "Leomord's mounted basic attacks cleave in an arc, wiping out Sun clones with guaranteed critical hits."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 77,
+    "counterScore": 8,
+    "reason": "Leomord mounts Barbiel to charge past Gord's skillshots, knocking him back and executing him."
+  },
+  {
+    "heroId": 95,
+    "counterHeroId": 78,
+    "counterScore": 8,
+    "reason": "Lesley's Master of Camouflage prevents basic attack lock-on and Ultimate Snipe reveals invisible enemies."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 78,
+    "counterScore": 8,
+    "reason": "Lethal Shot true damage allows Lesley to out-poke Layla from safe range and burst her down."
+  },
+  {
+    "heroId": 92,
+    "counterHeroId": 78,
+    "counterScore": 8,
+    "reason": "Lesley out-ranges Moskov's short attack reach, chunking him with true damage crits from outside his range."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 81,
+    "counterScore": 9,
+    "reason": "Lukas uses beast-form lunges to close the distance on Layla instantly and overpowers her with heavy claw strikes."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 81,
+    "counterScore": 8,
+    "reason": "Lukas charges through Gord's skills with enhanced beast durability and mauls him in close combat."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 81,
+    "counterScore": 8,
+    "reason": "Lukas's beast transformation breaks Hanabi's shield with ferocious burst, taking her down in seconds."
+  },
+  {
+    "heroId": 89,
+    "counterHeroId": 83,
+    "counterScore": 8,
+    "reason": "Duality pulls Minotaur and his allies together when they group to engage, disrupting their formation."
+  },
+  {
+    "heroId": 10,
+    "counterHeroId": 83,
+    "counterScore": 8,
+    "reason": "Luo Yi marks Atlas and arriving enemies with Yin-Yang reactions, pulling them together and bursting them down."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 84,
+    "counterScore": 9,
+    "reason": "Lylia spams Shadow Crystal explosions that continuously slow and kite Barats outside his melee range."
+  },
+  {
+    "heroId": 113,
+    "counterHeroId": 84,
+    "counterScore": 8,
+    "reason": "Lylia's heavy slows from Shadow Crystals keep Terizla from landing hammer strikes, kiting him endlessly."
+  },
+  {
+    "heroId": 14,
+    "counterHeroId": 84,
+    "counterScore": 8,
+    "reason": "Lylia slows Balmond with Shadow Crystals, kiting Cyclone Sweep and resetting HP with Black Shoes."
+  },
+  {
+    "heroId": 115,
+    "counterHeroId": 85,
+    "counterScore": 9,
+    "reason": "Mortal Coil grants crowd control immunity through Tigreal's Implosion and knocks Tigreal away."
+  },
+  {
+    "heroId": 10,
+    "counterHeroId": 85,
+    "counterScore": 8,
+    "reason": "Martis uses Mortal Coil's CC immunity to ignore Fatal Links and knocks Atlas away with his twin blades."
+  },
+  {
+    "heroId": 2,
+    "counterHeroId": 85,
+    "counterScore": 8,
+    "reason": "Mortal Coil's CC immunity allows Martis to resist Akai's Heavy Spin push and retaliate."
+  },
+  {
+    "heroId": 130,
+    "counterHeroId": 86,
+    "counterScore": 9,
+    "reason": "Masha disarms Zilong with Howl Shock, preventing him from basic attacking, and shreds him with extreme attack speed."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 86,
+    "counterScore": 8,
+    "reason": "Masha disarms Sun and quickly melts his real HP bar using her percentage HP basic attacks."
+  },
+  {
+    "heroId": 8,
+    "counterHeroId": 86,
+    "counterScore": 8,
+    "reason": "Masha can disarm Argus during Eternal Evil, preventing him from landing basic attacks to regenerate HP."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 87,
+    "counterScore": 8,
+    "reason": "Soul Bloom fires homing wisps that burst squishy Layla, and Guiding Wind gives allies mobility to dive her."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 87,
+    "counterScore": 8,
+    "reason": "Mathilda easily dodges Gord's skillshots with Circling Eagle, knocking Gord up and bursting him."
+  },
+  {
+    "heroId": 101,
+    "counterHeroId": 87,
+    "counterScore": 8,
+    "reason": "Mathilda dives into Pharsa's air strike with Circling Eagle, stunning Pharsa and shielding diving allies."
+  },
+  {
+    "heroId": 114,
+    "counterHeroId": 88,
+    "counterScore": 9,
+    "reason": "Go Away! field pushes Thamuz away and prevents him from getting into melee scythe range, neutralizing his damage."
+  },
+  {
+    "heroId": 6,
+    "counterHeroId": 88,
+    "counterScore": 8,
+    "reason": "Melissa deploys Cuddles with Go Away! to keep diving Alucard pushed outside basic attack reach."
+  },
+  {
+    "heroId": 130,
+    "counterHeroId": 88,
+    "counterScore": 8,
+    "reason": "Go Away! barrier blocks Zilong's charge, preventing him from landing Spear Flip while Melissa attacks with Muddles."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 89,
+    "counterScore": 9,
+    "reason": "Minoan Fury unleashes 3-stage AoE knockups that interrupt Fanny's cables and lock her down for the team."
+  },
+  {
+    "heroId": 79,
+    "counterHeroId": 89,
+    "counterScore": 8,
+    "reason": "Minotaur knocks Ling down from walls with Despair Stomp and chains Minoan Fury knockups."
+  },
+  {
+    "heroId": 74,
+    "counterHeroId": 89,
+    "counterScore": 8,
+    "reason": "Minoan Fury's wide AoE knockups catch Lancelot as soon as his Thorned Rose ends."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 91,
+    "counterScore": 8,
+    "reason": "Miya's late-game split arrows with full attack speed shred Barats's massive health pool from safety."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 91,
+    "counterScore": 8,
+    "reason": "Miya uses Hidden Moonlight to reposition and melts Hylos with extreme attack speed and critical strikes."
+  },
+  {
+    "heroId": 14,
+    "counterHeroId": 91,
+    "counterScore": 8,
+    "reason": "Miya out-ranges and shreds Balmond with Moon Blessing flurries before he can reach her."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 92,
+    "counterScore": 9,
+    "reason": "Moskov's basic attacks pierce through all Sun clones, triggering massive multi-hit lifesteal and CDR."
+  },
+  {
+    "heroId": 91,
+    "counterHeroId": 92,
+    "counterScore": 8,
+    "reason": "Moskov teleports with Abyss Walker to pin Miya against a wall with Spear of Misery, bursting her down."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 92,
+    "counterScore": 8,
+    "reason": "Moskov's piercing basic attacks shoot through frontliners to strike Estes and the backline simultaneously."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 93,
+    "counterScore": 9,
+    "reason": "Molina Smooch morphs Fanny into a helpless animal mid-cable, completely stopping her flight and defense."
+  },
+  {
+    "heroId": 50,
+    "counterHeroId": 93,
+    "counterScore": 8,
+    "reason": "Nana places Molina to transform Gusion the moment he dashes in, canceling his dagger recall."
+  },
+  {
+    "heroId": 74,
+    "counterHeroId": 93,
+    "counterScore": 8,
+    "reason": "Molina Smooch tracks and transforms Lancelot, preventing him from resetting Puncture dashes."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 94,
+    "counterScore": 9,
+    "reason": "Natan summons his Entropy? clone to fire reverse magic projectiles, shredding Barats's large hitbox."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 94,
+    "counterScore": 8,
+    "reason": "Natan doubles his continuous magic damage with Entropy? to melt Hylos rapidly while kiting backwards."
+  },
+  {
+    "heroId": 19,
+    "counterHeroId": 94,
+    "counterScore": 8,
+    "reason": "Natan out-ranges Belerick with basic attack magic projectiles, tearing down his HP pool."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 95,
+    "counterScore": 9,
+    "reason": "Natalia silences Gord from behind with Assassin Instinct, deleting him before he can turn around."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 96,
+    "counterScore": 9,
+    "reason": "Nolan creates cosmic rifts with rapid dashes, bursting squishy Layla in fractions of a second."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 96,
+    "counterScore": 9,
+    "reason": "Nolan dashes past Gord's skillshots and executes him instantly with cosmic rift dimensional explosions."
+  },
+  {
+    "heroId": 123,
+    "counterHeroId": 96,
+    "counterScore": 8,
+    "reason": "Nolan's fast rift dashes weave through Xavier's boundaries, bursting him before he can react."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 97,
+    "counterScore": 9,
+    "reason": "Novaria snipes stationary Gord from across two screens with Astral Recall, chunking 80% of his HP."
+  },
+  {
+    "heroId": 99,
+    "counterHeroId": 97,
+    "counterScore": 9,
+    "reason": "Astral Recall snipes Odette from outside her Swan Song radius, dealing lethal damage while she channels."
+  },
+  {
+    "heroId": 101,
+    "counterHeroId": 97,
+    "counterScore": 8,
+    "reason": "Novaria snipes Pharsa from outside air strike range with Astral Recall, forcing her to cancel ultimate."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 98,
+    "counterScore": 8,
+    "reason": "Obsidia stacks dark bone marks on Barats's huge hitbox, unleashing execution burst that shreds his health."
+  },
+  {
+    "heroId": 116,
+    "counterHeroId": 98,
+    "counterScore": 8,
+    "reason": "Obsidia's continuous bone shard fire breaks through Uranus's regen, executing him from long range."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 98,
+    "counterScore": 8,
+    "reason": "Obsidia out-trades Layla with dark bone shard burst and passive execution damage."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 99,
+    "counterScore": 8,
+    "reason": "Swan Song deals continuous massive AoE magic damage that overwhelms Estes's clustered healing team."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 99,
+    "counterScore": 8,
+    "reason": "Swan Song hits Sun and all of his clones simultaneously, melting them in seconds and shielding Odette."
+  },
+  {
+    "heroId": 45,
+    "counterHeroId": 99,
+    "counterScore": 8,
+    "reason": "Swan Song radiates lethal AoE magic damage across all 12 of Gloo's split Goos, destroying Gloo instantly."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 100,
+    "counterScore": 9,
+    "reason": "Paquito dashes across minion waves with Champ Stance jabs and deletes Layla with Knockout Strike."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 100,
+    "counterScore": 9,
+    "reason": "Paquito easily dodges Gord's stun with Heavy Left Punch and bursts Gord down with rapid boxing combos."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 100,
+    "counterScore": 8,
+    "reason": "Paquito generates massive shields from hitting Sun clones with skills and bursts Sun down with Knockout Strike."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 101,
+    "counterScore": 9,
+    "reason": "Feathered Air Strike bombards immobile Layla from extreme range where she cannot shoot back."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 101,
+    "counterScore": 9,
+    "reason": "Pharsa drops air strikes directly onto Gord during Mystic Gush, eliminating him while he is rooted."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 101,
+    "counterScore": 8,
+    "reason": "Feathered Air Strike bombards Hanabi from safe distance, breaking her shield and forcing her to retreat."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 103,
+    "counterScore": 9,
+    "reason": "Bite 'Em, Kupa! sends Kupa to stun Layla from long range, allowing Popol to burst her down with spear flurries."
+  },
+  {
+    "heroId": 92,
+    "counterHeroId": 103,
+    "counterScore": 8,
+    "reason": "Kupa acts as a physical shield blocking Moskov's direct line of sight while stunning him with Popol's commands."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 103,
+    "counterScore": 8,
+    "reason": "Popol places Popol's Surprise traps to root Sun and commands Kupa to maul Sun down."
+  },
+  {
+    "heroId": 78,
+    "counterHeroId": 104,
+    "counterScore": 8,
+    "reason": "Light of Retribution automatically tracks and reveals Lesley in camouflage, preventing her from stealth sniping."
+  },
+  {
+    "heroId": 1,
+    "counterHeroId": 104,
+    "counterScore": 8,
+    "reason": "Light of Retribution reveals Aamon through his camouflage shards, allowing allies to target and burst him."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 105,
+    "counterScore": 9,
+    "reason": "Roger pokes Layla from human form and leaps in with Lycan Pounce to execute her in wolf form."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 105,
+    "counterScore": 9,
+    "reason": "Roger transforms into wolf form and dives Gord, ignoring his slows and tearing him down with rapid melee claws."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 105,
+    "counterScore": 8,
+    "reason": "Roger breaks Hanabi's shield with Hunter's Focus and executes her with Bloodthirsty Howl and wolf slashes."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 106,
+    "counterScore": 9,
+    "reason": "Don't Run, Wolf King! pulls Fanny out of her cable flight, stopping her momentum and stunning her."
+  },
+  {
+    "heroId": 45,
+    "counterHeroId": 106,
+    "counterScore": 8,
+    "reason": "Ruby pulls all of Gloo's split Goos together with her scythe, regenerating her entire health bar instantly."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 108,
+    "counterScore": 9,
+    "reason": "Abyssal Arrow lands an extreme 3-second stun on immobile Layla from long range, and Abyssal form executes her."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 108,
+    "counterScore": 9,
+    "reason": "Selena stuns stationary Gord with Abyssal Arrow during Mystic Gush and executes him in demon form."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 108,
+    "counterScore": 8,
+    "reason": "Abyssal Arrow breaks Hanabi's passive shield and stuns her, followed by lethal Abyssal claws."
+  },
+  {
+    "heroId": 79,
+    "counterHeroId": 109,
+    "counterScore": 8,
+    "reason": "Imperial Justice traps Ling upon landing, preventing him from leaping back to walls or dashing."
+  },
+  {
+    "heroId": 38,
+    "counterHeroId": 109,
+    "counterScore": 8,
+    "reason": "Imperial Justice binds Fanny inside the ring, stopping her from cabling out and shredding her with Spiral Strangling."
+  },
+  {
+    "heroId": 14,
+    "counterHeroId": 110,
+    "counterScore": 8,
+    "reason": "Sora's heavy martial charges overpower Balmond in lane trades, bursting him down with high impact strikes."
+  },
+  {
+    "heroId": 116,
+    "counterHeroId": 110,
+    "counterScore": 8,
+    "reason": "Sora bursts Uranus with charged abilities before Uranus can accumulate enough Radiance regen stacks."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 110,
+    "counterScore": 8,
+    "reason": "Sora cleaves through Sun's clones with wide martial sweeps, isolating and bursting Sun down."
+  },
+  {
+    "heroId": 78,
+    "counterHeroId": 111,
+    "counterScore": 9,
+    "reason": "Sun's clones surround Lesley, blocking her single-target basic attacks and shredding her physical defense."
+  },
+  {
+    "heroId": 107,
+    "counterHeroId": 111,
+    "counterScore": 8,
+    "reason": "Sun's clones confuse Saber's target lock, often absorbing Triple Sweep while the real Sun retaliates."
+  },
+  {
+    "heroId": 130,
+    "counterHeroId": 111,
+    "counterScore": 8,
+    "reason": "Sun overwhelms Zilong with numbers; clone attacks trigger physical defense reduction and melt Zilong."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 112,
+    "counterScore": 9,
+    "reason": "Suyou tap-casts mortal form dashes to close in on Layla, then holds immortal form for CC-immune execution cleaves."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 112,
+    "counterScore": 9,
+    "reason": "Suyou rapidly dashes past Gord's skillshots with mortal stance and crushes him with immortal stance cleave."
+  },
+  {
+    "heroId": 123,
+    "counterHeroId": 112,
+    "counterScore": 8,
+    "reason": "Suyou weaves through Xavier's boundaries with tap dashes and uses hold casts to ignore CC and burst him."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 113,
+    "counterScore": 9,
+    "reason": "Penalty Zone traps Sun and all his clones, and Executioner hammer slams crush them with massive AoE damage."
+  },
+  {
+    "heroId": 13,
+    "counterHeroId": 113,
+    "counterScore": 8,
+    "reason": "Terizla out-trades Badang with high passive damage reduction and smashes Badang with Executioner."
+  },
+  {
+    "heroId": 130,
+    "counterHeroId": 113,
+    "counterScore": 8,
+    "reason": "Terizla tanks Zilong's charge easily with Body of Smith and slows Zilong down with Revenge strikes."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 114,
+    "counterScore": 9,
+    "reason": "Inferno lava bursts trigger continuously off Sun's clones, burning Sun down while healing Thamuz."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 115,
+    "counterScore": 9,
+    "reason": "Sacred Hammer slides in and Implosion pulls and stuns defenseless Layla, setting her up for an allied team wipe."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 115,
+    "counterScore": 9,
+    "reason": "Tigreal pushes Gord out of Mystic Gush with Sacred Hammer and locks him down with Implosion."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 115,
+    "counterScore": 8,
+    "reason": "Tigreal breaks Hanabi's shield with Sacred Hammer and pulls her whole team together with Implosion."
+  },
+  {
+    "heroId": 13,
+    "counterHeroId": 116,
+    "counterScore": 9,
+    "reason": "Uranus out-heals Badang's burst with Radiance stacks and chips Badang down with Ionic Edge."
+  },
+  {
+    "heroId": 14,
+    "counterHeroId": 116,
+    "counterScore": 8,
+    "reason": "Uranus continuously heals through Balmond's Cyclone Sweep, wearing Balmond down in extended skirmishes."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 116,
+    "counterScore": 8,
+    "reason": "Sun's multiple clone attacks quickly stack Uranus's Radiance to maximum 20 stacks, granting huge HP regen."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 117,
+    "counterScore": 9,
+    "reason": "Wind Blow knocks up immobile Layla from long range and Windstorm unleashes lethal burst to delete her."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 117,
+    "counterScore": 9,
+    "reason": "Vale easily knocks up stationary Gord during Mystic Gush and executes him with Windstorm."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 117,
+    "counterScore": 8,
+    "reason": "Vale's Wind Blow: Control pulls and knocks up the clustered enemies around Estes, deleting them with Windstorm."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 120,
+    "counterScore": 8,
+    "reason": "Chained Snare and Eternal Guard trigger chain explosions off Sun clones, dealing devastating AoE damage."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 120,
+    "counterScore": 8,
+    "reason": "Vexana summons Eternal Guard onto enemies clumped around Estes, knocking them airborne and bursting them down."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 121,
+    "counterScore": 9,
+    "reason": "Wanwan hops circles around Barats with Tiger Pace, breaking all 4 weaknesses to trigger Crossbow of Tang safely."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 121,
+    "counterScore": 9,
+    "reason": "Wanwan kites Hylos easily with Tiger Pace hops and cleanses his stun with Needles in Flowers."
+  },
+  {
+    "heroId": 113,
+    "counterHeroId": 121,
+    "counterScore": 8,
+    "reason": "Wanwan hops around slow Terizla, easily dodging hammer strikes while unlocking Crossbow of Tang."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 122,
+    "counterScore": 9,
+    "reason": "Fire Missiles spray continuous true damage onto Barats's large hitbox while X.Borg kites safely with Firaga Armor."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 122,
+    "counterScore": 8,
+    "reason": "X.Borg continuously burns Hylos with true damage from Fire Missiles, out-kiting him with armor mobility."
+  },
+  {
+    "heroId": 113,
+    "counterHeroId": 122,
+    "counterScore": 8,
+    "reason": "X.Borg's Fire Missiles poke Terizla from outside hammer range, melting his health with true damage."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 123,
+    "counterScore": 9,
+    "reason": "Dawning Light global laser snipe and Transcendence mystic fields chunk and execute Layla from long range."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 123,
+    "counterScore": 8,
+    "reason": "Xavier roots Gord during Mystic Gush with Mystic Field and snipes him with Dawning Light."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 123,
+    "counterScore": 8,
+    "reason": "Xavier's Infinite Extension and Dawning Light pierce through the entire healing cluster around Estes."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 124,
+    "counterScore": 8,
+    "reason": "Mountain Shocker reveals Layla on the map and rains cannon fire, while Yi Sun-shin closes in with weapon-swap crits."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 124,
+    "counterScore": 8,
+    "reason": "Mountain Shocker cannon fire interrupts Gord's positioning and forces him to cancel Mystic Gush."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 124,
+    "counterScore": 8,
+    "reason": "Mountain Shocker reveals and damages Hanabi globally, letting Yi Sun-shin dive her with Traceless."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 125,
+    "counterScore": 9,
+    "reason": "My Turn pulls defenseless Layla into 1v1 domain where she has no peel or escape, executing her with Frenzy Strike."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 125,
+    "counterScore": 9,
+    "reason": "Yin dives Gord and activates My Turn, isolating Gord inside his domain and crushing him with Lieh punches."
+  },
+  {
+    "heroId": 123,
+    "counterHeroId": 125,
+    "counterScore": 8,
+    "reason": "Yin traps Xavier in My Turn domain, closing the gap instantly and bursting him down."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 126,
+    "counterScore": 8,
+    "reason": "Real World Manipulation covers a massive chessboard zone with extreme slows, trapping the clustered Estes team."
+  },
+  {
+    "heroId": 58,
+    "counterHeroId": 126,
+    "counterScore": 8,
+    "reason": "Real World Manipulation slows Hylos to a crawl, preventing him from engaging while Yve taps down his health."
+  },
+  {
+    "heroId": 115,
+    "counterHeroId": 126,
+    "counterScore": 8,
+    "reason": "Yve zones Tigreal out of teamfights with Real World Manipulation slows, preventing his engage."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 127,
+    "counterScore": 8,
+    "reason": "Zetian unleashes imperial phoenix firebursts that delete immobile Layla from long range before she can trade."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 127,
+    "counterScore": 8,
+    "reason": "Zetian drops celestial burst spells directly on top of stationary Gord, obliterating him during his ultimate."
+  },
+  {
+    "heroId": 36,
+    "counterHeroId": 127,
+    "counterScore": 8,
+    "reason": "Zetian bombards the clustered cluster of Estes's team with wide celestial fireburst zones."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 128,
+    "counterScore": 8,
+    "reason": "Nightmarish Spawn lasers Barats down with continuous magic damage from outside his melee range."
+  },
+  {
+    "heroId": 116,
+    "counterHeroId": 128,
+    "counterScore": 8,
+    "reason": "Zhask places Nightmarish Spawn to continuously DPS Uranus from safety while Zhask stays protected."
+  },
+  {
+    "heroId": 111,
+    "counterHeroId": 128,
+    "counterScore": 8,
+    "reason": "Zhask merges into his enhanced Nightmarish Spawn, gaining massive shields and death rays that melt Sun clones."
+  },
+  {
+    "heroId": 113,
+    "counterHeroId": 129,
+    "counterScore": 9,
+    "reason": "Lantern Flare stacks Soul Snare on slow Terizla, lifting him airborne and tossing him repeatedly away."
+  },
+  {
+    "heroId": 16,
+    "counterHeroId": 129,
+    "counterScore": 9,
+    "reason": "Zhuxin continuously channels Lantern Flare on Barats's large hitbox, tossing him around and disabling him."
+  },
+  {
+    "heroId": 42,
+    "counterHeroId": 129,
+    "counterScore": 8,
+    "reason": "Zhuxin stacks Soul Snare on Fredrinn from safe range, lifting him airborne before he can land taunts."
+  },
+  {
+    "heroId": 76,
+    "counterHeroId": 130,
+    "counterScore": 9,
+    "reason": "Supreme Warrior sprint grants CC immunity to slows, allowing Zilong to flip Layla with Spear Flip and one-shot her."
+  },
+  {
+    "heroId": 46,
+    "counterHeroId": 130,
+    "counterScore": 8,
+    "reason": "Zilong sprints past Gord's skillshots with Supreme Warrior and flips him with Spear Flip for an easy pickoff."
+  },
+  {
+    "heroId": 51,
+    "counterHeroId": 130,
+    "counterScore": 8,
+    "reason": "Zilong sprints in with Supreme Warrior, breaks Hanabi's shield with Spear Strike, and flips her with Spear Flip."
+  }
+]

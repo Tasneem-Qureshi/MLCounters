@@ -1,0 +1,1042 @@
+[
+  {
+    "id": 1,
+    "name": "Aamon",
+    "role": "Assassin",
+    "secondaryRole": "Mage",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/aamon.png",
+    "tier": "A"
+  },
+  {
+    "id": 2,
+    "name": "Akai",
+    "role": "Tank",
+    "secondaryRole": "Support",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/akai.png",
+    "tier": "A"
+  },
+  {
+    "id": 3,
+    "name": "Aldous",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/aldous.png",
+    "tier": "B"
+  },
+  {
+    "id": 4,
+    "name": "Alice",
+    "role": "Mage",
+    "secondaryRole": "Tank",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/alice.png",
+    "tier": "A"
+  },
+  {
+    "id": 5,
+    "name": "Alpha",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/alpha.png",
+    "tier": "S"
+  },
+  {
+    "id": 6,
+    "name": "Alucard",
+    "role": "Fighter",
+    "secondaryRole": "Assassin",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/alucard.png",
+    "tier": "B"
+  },
+  {
+    "id": 7,
+    "name": "Angela",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/angela.png",
+    "tier": "S"
+  },
+  {
+    "id": 8,
+    "name": "Argus",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/argus.png",
+    "tier": "B"
+  },
+  {
+    "id": 9,
+    "name": "Arlott",
+    "role": "Fighter",
+    "secondaryRole": "Assassin",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/arlott.png",
+    "tier": "S"
+  },
+  {
+    "id": 10,
+    "name": "Atlas",
+    "role": "Tank",
+    "secondaryRole": "Support",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/atlas.png",
+    "tier": "A"
+  },
+  {
+    "id": 11,
+    "name": "Aulus",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/aulus.png",
+    "tier": "B"
+  },
+  {
+    "id": 12,
+    "name": "Aurora",
+    "role": "Mage",
+    "secondaryRole": "Support",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/aurora.png",
+    "tier": "S"
+  },
+  {
+    "id": 13,
+    "name": "Badang",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/badang.png",
+    "tier": "B"
+  },
+  {
+    "id": 14,
+    "name": "Balmond",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/balmond.png",
+    "tier": "B"
+  },
+  {
+    "id": 15,
+    "name": "Bane",
+    "role": "Fighter",
+    "secondaryRole": "Mage",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/bane.png",
+    "tier": "A"
+  },
+  {
+    "id": 16,
+    "name": "Barats",
+    "role": "Tank",
+    "secondaryRole": "Fighter",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/barats.png",
+    "tier": "S"
+  },
+  {
+    "id": 17,
+    "name": "Baxia",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/baxia.png",
+    "tier": "A"
+  },
+  {
+    "id": 18,
+    "name": "Beatrix",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/beatrix.png",
+    "tier": "A"
+  },
+  {
+    "id": 19,
+    "name": "Belerick",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/belerick.png",
+    "tier": "A"
+  },
+  {
+    "id": 20,
+    "name": "Benedetta",
+    "role": "Assassin",
+    "secondaryRole": "Fighter",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/benedetta.png",
+    "tier": "A"
+  },
+  {
+    "id": 21,
+    "name": "Brody",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/brody.png",
+    "tier": "S"
+  },
+  {
+    "id": 22,
+    "name": "Bruno",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/bruno.png",
+    "tier": "S"
+  },
+  {
+    "id": 23,
+    "name": "Carmilla",
+    "role": "Support",
+    "secondaryRole": "Tank",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/carmilla.png",
+    "tier": "B"
+  },
+  {
+    "id": 24,
+    "name": "Cecilion",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/cecilion.png",
+    "tier": "A"
+  },
+  {
+    "id": 25,
+    "name": "Chang'e",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/change.png",
+    "tier": "B"
+  },
+  {
+    "id": 26,
+    "name": "Chip",
+    "role": "Tank",
+    "secondaryRole": "Support",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/chip.png",
+    "tier": "S"
+  },
+  {
+    "id": 27,
+    "name": "Chou",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/chou.png",
+    "tier": "A"
+  },
+  {
+    "id": 28,
+    "name": "Cici",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/cici.png",
+    "tier": "S"
+  },
+  {
+    "id": 29,
+    "name": "Claude",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/claude.png",
+    "tier": "S"
+  },
+  {
+    "id": 30,
+    "name": "Clint",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/clint.png",
+    "tier": "A"
+  },
+  {
+    "id": 31,
+    "name": "Cyclops",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/cyclops.png",
+    "tier": "B"
+  },
+  {
+    "id": 32,
+    "name": "Diggie",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/diggie.png",
+    "tier": "S"
+  },
+  {
+    "id": 33,
+    "name": "Dyrroth",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/dyrroth.png",
+    "tier": "A"
+  },
+  {
+    "id": 34,
+    "name": "Edith",
+    "role": "Tank",
+    "secondaryRole": "Marksman",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/edith.png",
+    "tier": "A"
+  },
+  {
+    "id": 35,
+    "name": "Esmeralda",
+    "role": "Mage",
+    "secondaryRole": "Tank",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/esmeralda.png",
+    "tier": "A"
+  },
+  {
+    "id": 36,
+    "name": "Estes",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/estes.png",
+    "tier": "A"
+  },
+  {
+    "id": 37,
+    "name": "Eudora",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/eudora.png",
+    "tier": "B"
+  },
+  {
+    "id": 38,
+    "name": "Fanny",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/fanny.png",
+    "tier": "S"
+  },
+  {
+    "id": 39,
+    "name": "Faramis",
+    "role": "Support",
+    "secondaryRole": "Mage",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/faramis.png",
+    "tier": "S"
+  },
+  {
+    "id": 40,
+    "name": "Floryn",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/floryn.png",
+    "tier": "A"
+  },
+  {
+    "id": 41,
+    "name": "Franco",
+    "role": "Tank",
+    "secondaryRole": "Support",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/franco.png",
+    "tier": "A"
+  },
+  {
+    "id": 42,
+    "name": "Fredrinn",
+    "role": "Tank",
+    "secondaryRole": "Fighter",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/fredrinn.png",
+    "tier": "S"
+  },
+  {
+    "id": 43,
+    "name": "Freya",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/freya.png",
+    "tier": "A"
+  },
+  {
+    "id": 44,
+    "name": "Gatotkaca",
+    "role": "Tank",
+    "secondaryRole": "Fighter",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/gatotkaca.png",
+    "tier": "A"
+  },
+  {
+    "id": 45,
+    "name": "Gloo",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/gloo.png",
+    "tier": "B"
+  },
+  {
+    "id": 46,
+    "name": "Gord",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/gord.png",
+    "tier": "B"
+  },
+  {
+    "id": 47,
+    "name": "Granger",
+    "role": "Marksman",
+    "secondaryRole": "Assassin",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/granger.png",
+    "tier": "A"
+  },
+  {
+    "id": 48,
+    "name": "Grock",
+    "role": "Tank",
+    "secondaryRole": "Fighter",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/grock.png",
+    "tier": "A"
+  },
+  {
+    "id": 49,
+    "name": "Guinevere",
+    "role": "Fighter",
+    "secondaryRole": "Mage",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/guinevere.png",
+    "tier": "S"
+  },
+  {
+    "id": 50,
+    "name": "Gusion",
+    "role": "Assassin",
+    "secondaryRole": "Mage",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/gusion.png",
+    "tier": "A"
+  },
+  {
+    "id": 51,
+    "name": "Hanabi",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/hanabi.png",
+    "tier": "B"
+  },
+  {
+    "id": 52,
+    "name": "Hanzo",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/hanzo.png",
+    "tier": "B"
+  },
+  {
+    "id": 53,
+    "name": "Harith",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/harith.png",
+    "tier": "S"
+  },
+  {
+    "id": 54,
+    "name": "Harley",
+    "role": "Mage",
+    "secondaryRole": "Assassin",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/harley.png",
+    "tier": "A"
+  },
+  {
+    "id": 55,
+    "name": "Hayabusa",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/hayabusa.png",
+    "tier": "S"
+  },
+  {
+    "id": 56,
+    "name": "Helcurt",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/helcurt.png",
+    "tier": "S"
+  },
+  {
+    "id": 57,
+    "name": "Hilda",
+    "role": "Fighter",
+    "secondaryRole": "Tank",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/hilda.png",
+    "tier": "A"
+  },
+  {
+    "id": 58,
+    "name": "Hylos",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/hylos.png",
+    "tier": "S"
+  },
+  {
+    "id": 59,
+    "name": "Irithel",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/irithel.png",
+    "tier": "A"
+  },
+  {
+    "id": 60,
+    "name": "Ixia",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/ixia.png",
+    "tier": "A"
+  },
+  {
+    "id": 61,
+    "name": "Jawhead",
+    "role": "Fighter",
+    "secondaryRole": "Tank",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/jawhead.png",
+    "tier": "A"
+  },
+  {
+    "id": 62,
+    "name": "Johnson",
+    "role": "Tank",
+    "secondaryRole": "Support",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/johnson.png",
+    "tier": "B"
+  },
+  {
+    "id": 63,
+    "name": "Joy",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/joy.png",
+    "tier": "S"
+  },
+  {
+    "id": 64,
+    "name": "Julian",
+    "role": "Fighter",
+    "secondaryRole": "Mage",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/julian.png",
+    "tier": "S"
+  },
+  {
+    "id": 65,
+    "name": "Kadita",
+    "role": "Mage",
+    "secondaryRole": "Assassin",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/kadita.png",
+    "tier": "A"
+  },
+  {
+    "id": 66,
+    "name": "Kagura",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/kagura.png",
+    "tier": "A"
+  },
+  {
+    "id": 67,
+    "name": "Kaja",
+    "role": "Support",
+    "secondaryRole": "Fighter",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/kaja.png",
+    "tier": "A"
+  },
+  {
+    "id": 68,
+    "name": "Kalea",
+    "role": "Support",
+    "secondaryRole": "Tank",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/kalea.png",
+    "tier": "A"
+  },
+  {
+    "id": 69,
+    "name": "Karina",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/karina.png",
+    "tier": "A"
+  },
+  {
+    "id": 70,
+    "name": "Karrie",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/karrie.png",
+    "tier": "S"
+  },
+  {
+    "id": 71,
+    "name": "Khaleed",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/khaleed.png",
+    "tier": "A"
+  },
+  {
+    "id": 72,
+    "name": "Khufra",
+    "role": "Tank",
+    "secondaryRole": "Support",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/khufra.png",
+    "tier": "S"
+  },
+  {
+    "id": 73,
+    "name": "Kimmy",
+    "role": "Marksman",
+    "secondaryRole": "Mage",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/kimmy.png",
+    "tier": "B"
+  },
+  {
+    "id": 74,
+    "name": "Lancelot",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/lancelot.png",
+    "tier": "A"
+  },
+  {
+    "id": 75,
+    "name": "Lapu-Lapu",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/lapu_lapu.png",
+    "tier": "A"
+  },
+  {
+    "id": 76,
+    "name": "Layla",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/layla.png",
+    "tier": "B"
+  },
+  {
+    "id": 77,
+    "name": "Leomord",
+    "role": "Fighter",
+    "secondaryRole": "Assassin",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/leomord.png",
+    "tier": "B"
+  },
+  {
+    "id": 78,
+    "name": "Lesley",
+    "role": "Marksman",
+    "secondaryRole": "Assassin",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/lesley.png",
+    "tier": "A"
+  },
+  {
+    "id": 79,
+    "name": "Ling",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/ling.png",
+    "tier": "S"
+  },
+  {
+    "id": 80,
+    "name": "Lolita",
+    "role": "Support",
+    "secondaryRole": "Tank",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/lolita.png",
+    "tier": "S"
+  },
+  {
+    "id": 81,
+    "name": "Lukas",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/lukas.png",
+    "tier": "S"
+  },
+  {
+    "id": 82,
+    "name": "Lunox",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/lunox.png",
+    "tier": "S"
+  },
+  {
+    "id": 83,
+    "name": "Luo Yi",
+    "role": "Mage",
+    "secondaryRole": "Support",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/luo_yi.png",
+    "tier": "A"
+  },
+  {
+    "id": 84,
+    "name": "Lylia",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/lylia.png",
+    "tier": "A"
+  },
+  {
+    "id": 85,
+    "name": "Martis",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/martis.png",
+    "tier": "S"
+  },
+  {
+    "id": 86,
+    "name": "Masha",
+    "role": "Fighter",
+    "secondaryRole": "Tank",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/masha.png",
+    "tier": "A"
+  },
+  {
+    "id": 87,
+    "name": "Mathilda",
+    "role": "Support",
+    "secondaryRole": "Assassin",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/mathilda.png",
+    "tier": "S"
+  },
+  {
+    "id": 88,
+    "name": "Melissa",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/melissa.png",
+    "tier": "A"
+  },
+  {
+    "id": 89,
+    "name": "Minotaur",
+    "role": "Tank",
+    "secondaryRole": "Support",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/minotaur.png",
+    "tier": "S"
+  },
+  {
+    "id": 90,
+    "name": "Minsitthar",
+    "role": "Fighter",
+    "secondaryRole": "Support",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/minsitthar.png",
+    "tier": "A"
+  },
+  {
+    "id": 91,
+    "name": "Miya",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/miya.png",
+    "tier": "B"
+  },
+  {
+    "id": 92,
+    "name": "Moskov",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/moskov.png",
+    "tier": "S"
+  },
+  {
+    "id": 93,
+    "name": "Nana",
+    "role": "Mage",
+    "secondaryRole": "Support",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/nana.png",
+    "tier": "S"
+  },
+  {
+    "id": 94,
+    "name": "Natan",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/natan.png",
+    "tier": "S"
+  },
+  {
+    "id": 95,
+    "name": "Natalia",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/natalia.png",
+    "tier": "A"
+  },
+  {
+    "id": 96,
+    "name": "Nolan",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/nolan.png",
+    "tier": "S"
+  },
+  {
+    "id": 97,
+    "name": "Novaria",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/novaria.png",
+    "tier": "S"
+  },
+  {
+    "id": 98,
+    "name": "Obsidia",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/obsidia.png",
+    "tier": "S"
+  },
+  {
+    "id": 99,
+    "name": "Odette",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/odette.png",
+    "tier": "B"
+  },
+  {
+    "id": 100,
+    "name": "Paquito",
+    "role": "Fighter",
+    "secondaryRole": "Assassin",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/paquito.png",
+    "tier": "S"
+  },
+  {
+    "id": 101,
+    "name": "Pharsa",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/pharsa.png",
+    "tier": "A"
+  },
+  {
+    "id": 102,
+    "name": "Phoveus",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/phoveus.png",
+    "tier": "S"
+  },
+  {
+    "id": 103,
+    "name": "Popol and Kupa",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/popol_and_kupa.png",
+    "tier": "A"
+  },
+  {
+    "id": 104,
+    "name": "Rafaela",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/rafaela.png",
+    "tier": "A"
+  },
+  {
+    "id": 105,
+    "name": "Roger",
+    "role": "Fighter",
+    "secondaryRole": "Marksman",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/roger.png",
+    "tier": "S"
+  },
+  {
+    "id": 106,
+    "name": "Ruby",
+    "role": "Fighter",
+    "secondaryRole": "Tank",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/ruby.png",
+    "tier": "S"
+  },
+  {
+    "id": 107,
+    "name": "Saber",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/saber.png",
+    "tier": "A"
+  },
+  {
+    "id": 108,
+    "name": "Selena",
+    "role": "Assassin",
+    "secondaryRole": "Mage",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/selena.png",
+    "tier": "A"
+  },
+  {
+    "id": 109,
+    "name": "Silvanna",
+    "role": "Fighter",
+    "secondaryRole": "Mage",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/silvanna.png",
+    "tier": "B"
+  },
+  {
+    "id": 110,
+    "name": "Sora",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/sora.png",
+    "tier": "A"
+  },
+  {
+    "id": 111,
+    "name": "Sun",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/sun.png",
+    "tier": "B"
+  },
+  {
+    "id": 112,
+    "name": "Suyou",
+    "role": "Assassin",
+    "secondaryRole": "Fighter",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/suyou.png",
+    "tier": "S"
+  },
+  {
+    "id": 113,
+    "name": "Terizla",
+    "role": "Fighter",
+    "secondaryRole": "Tank",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/terizla.png",
+    "tier": "S"
+  },
+  {
+    "id": 114,
+    "name": "Thamuz",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/thamuz.png",
+    "tier": "A"
+  },
+  {
+    "id": 115,
+    "name": "Tigreal",
+    "role": "Tank",
+    "secondaryRole": "Support",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/tigreal.png",
+    "tier": "S"
+  },
+  {
+    "id": 116,
+    "name": "Uranus",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/uranus.png",
+    "tier": "B"
+  },
+  {
+    "id": 117,
+    "name": "Vale",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/vale.png",
+    "tier": "B"
+  },
+  {
+    "id": 118,
+    "name": "Valentina",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/valentina.png",
+    "tier": "S"
+  },
+  {
+    "id": 119,
+    "name": "Valir",
+    "role": "Mage",
+    "secondaryRole": "Support",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/valir.png",
+    "tier": "A"
+  },
+  {
+    "id": 120,
+    "name": "Vexana",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/vexana.png",
+    "tier": "S"
+  },
+  {
+    "id": 121,
+    "name": "Wanwan",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/wanwan.png",
+    "tier": "A"
+  },
+  {
+    "id": 122,
+    "name": "X.Borg",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/x_borg.png",
+    "tier": "A"
+  },
+  {
+    "id": 123,
+    "name": "Xavier",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/xavier.png",
+    "tier": "A"
+  },
+  {
+    "id": 124,
+    "name": "Yi Sun-shin",
+    "role": "Assassin",
+    "secondaryRole": "Marksman",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/yi_sun_shin.png",
+    "tier": "B"
+  },
+  {
+    "id": 125,
+    "name": "Yin",
+    "role": "Fighter",
+    "secondaryRole": "Assassin",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/yin.png",
+    "tier": "B"
+  },
+  {
+    "id": 126,
+    "name": "Yve",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/yve.png",
+    "tier": "A"
+  },
+  {
+    "id": 127,
+    "name": "Zetian",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/zetian.png",
+    "tier": "S"
+  },
+  {
+    "id": 128,
+    "name": "Zhask",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/zhask.png",
+    "tier": "S"
+  },
+  {
+    "id": 129,
+    "name": "Zhuxin",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/zhuxin.png",
+    "tier": "S"
+  },
+  {
+    "id": 130,
+    "name": "Zilong",
+    "role": "Fighter",
+    "secondaryRole": "Assassin",
+    "portraitUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/portraits/zilong.png",
+    "tier": "C"
+  }
+]

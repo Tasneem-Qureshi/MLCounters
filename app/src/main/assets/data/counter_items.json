@@ -1,0 +1,2342 @@
+[
+  {
+    "againstHeroId": 1,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Aamon's lethal burst combo."
+  },
+  {
+    "againstHeroId": 1,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Aamon's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 1,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Aamon's execute."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Akai's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Akai's high physical armor."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Akai's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 3,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Aldous's physical damage scaling during extended melee brawls."
+  },
+  {
+    "againstHeroId": 3,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice lowers Aldous's attack rate and halves any sustain or shield absorption in lane trades."
+  },
+  {
+    "againstHeroId": 3,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces the duration of Aldous's crowd control effects by 30% (pair with Purify spell if needed)."
+  },
+  {
+    "againstHeroId": 4,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Alice's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 4,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Alice's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 4,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Alice for percentage max HP."
+  },
+  {
+    "againstHeroId": 5,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Alpha's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 5,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Alpha's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 5,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Alpha for percentage max HP."
+  },
+  {
+    "againstHeroId": 6,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Alucard's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 6,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Alucard's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 6,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Alucard for percentage max HP."
+  },
+  {
+    "againstHeroId": 7,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Angela's physical damage scaling during extended melee brawls."
+  },
+  {
+    "againstHeroId": 7,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice lowers Angela's attack rate and halves any sustain or shield absorption in lane trades."
+  },
+  {
+    "againstHeroId": 7,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces the duration of Angela's crowd control effects by 30% (pair with Purify spell if needed)."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Argus's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Argus's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Argus's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 9,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Arlott's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 9,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Arlott's lethal dive combo."
+  },
+  {
+    "againstHeroId": 9,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Arlott exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 10,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Atlas's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 10,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Atlas's high physical armor."
+  },
+  {
+    "againstHeroId": 10,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Atlas's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 11,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Aulus's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 11,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Aulus's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 11,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Aulus's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 12,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Aurora's lethal burst combo."
+  },
+  {
+    "againstHeroId": 12,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Aurora's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 12,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Aurora's execute."
+  },
+  {
+    "againstHeroId": 13,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Badang's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 13,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Badang's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 13,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Badang's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 14,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Balmond's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 14,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Balmond's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 14,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Balmond for percentage max HP."
+  },
+  {
+    "againstHeroId": 15,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Bane's lethal burst combo."
+  },
+  {
+    "againstHeroId": 15,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Bane's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 15,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Bane's execute."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Barats's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Barats's high physical armor."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Barats's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Baxia's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Baxia's high physical armor."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Baxia's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 18,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor reflects Beatrix's rapid basic attacks back as physical damage and significantly reduces incoming critical damage."
+  },
+  {
+    "againstHeroId": 18,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice lowers Beatrix's attack speed to 70% of base and cuts lifesteal sustain by 50%."
+  },
+  {
+    "againstHeroId": 18,
+    "itemId": 21,
+    "priority": 2,
+    "reason": "Wind of Nature grants 2 seconds of total immunity to Beatrix's physical basic attacks, winning duel exchanges."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Belerick's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Belerick's high physical armor."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Belerick's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 20,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Benedetta's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 20,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Benedetta's lethal dive combo."
+  },
+  {
+    "againstHeroId": 20,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Benedetta exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Brody's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Brody's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Brody's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 22,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor reflects Bruno's rapid basic attacks back as physical damage and significantly reduces incoming critical damage."
+  },
+  {
+    "againstHeroId": 22,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice lowers Bruno's attack speed to 70% of base and cuts lifesteal sustain by 50%."
+  },
+  {
+    "againstHeroId": 22,
+    "itemId": 21,
+    "priority": 2,
+    "reason": "Wind of Nature grants 2 seconds of total immunity to Bruno's physical basic attacks, winning duel exchanges."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Carmilla's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Carmilla's high physical armor."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Carmilla's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Cecilion's lethal burst combo."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Cecilion's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Cecilion's execute."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Radiant Armor stacks continuous magic damage reduction, completely neutralizing Chang'e's multi-hit magic spells."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 4,
+    "priority": 2,
+    "reason": "Athena's Shield provides a 25% magic damage reduction barrier to survive Chang'e's initial spell engagement."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces magic damage taken and cuts the duration of Chang'e's continuous slows and stuns by 30%."
+  },
+  {
+    "againstHeroId": 26,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Chip's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 26,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Chip's high physical armor."
+  },
+  {
+    "againstHeroId": 26,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Chip's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Chou's physical damage scaling during extended melee brawls."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice lowers Chou's attack rate and halves any sustain or shield absorption in lane trades."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces the duration of Chou's crowd control effects by 30% (pair with Purify spell if needed)."
+  },
+  {
+    "againstHeroId": 28,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Cici's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 28,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Cici's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 28,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Cici for percentage max HP."
+  },
+  {
+    "againstHeroId": 29,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor reflects Claude's rapid basic attacks back as physical damage and significantly reduces incoming critical damage."
+  },
+  {
+    "againstHeroId": 29,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice lowers Claude's attack speed to 70% of base and cuts lifesteal sustain by 50%."
+  },
+  {
+    "againstHeroId": 29,
+    "itemId": 21,
+    "priority": 2,
+    "reason": "Wind of Nature grants 2 seconds of total immunity to Claude's physical basic attacks, winning duel exchanges."
+  },
+  {
+    "againstHeroId": 30,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Clint's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 30,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Clint's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 30,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Clint's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 31,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Radiant Armor stacks continuous magic damage reduction, completely neutralizing Cyclops's multi-hit magic spells."
+  },
+  {
+    "againstHeroId": 31,
+    "itemId": 4,
+    "priority": 2,
+    "reason": "Athena's Shield provides a 25% magic damage reduction barrier to survive Cyclops's initial spell engagement."
+  },
+  {
+    "againstHeroId": 31,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces magic damage taken and cuts the duration of Cyclops's continuous slows and stuns by 30%."
+  },
+  {
+    "againstHeroId": 32,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Diggie's physical damage scaling during extended melee brawls."
+  },
+  {
+    "againstHeroId": 32,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice lowers Diggie's attack rate and halves any sustain or shield absorption in lane trades."
+  },
+  {
+    "againstHeroId": 32,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces the duration of Diggie's crowd control effects by 30% (pair with Purify spell if needed)."
+  },
+  {
+    "againstHeroId": 33,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Dyrroth's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 33,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Dyrroth's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 33,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Dyrroth for percentage max HP."
+  },
+  {
+    "againstHeroId": 34,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Edith's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 34,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Edith's high physical armor."
+  },
+  {
+    "againstHeroId": 34,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Edith's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 35,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Esmeralda's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 35,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Esmeralda's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 35,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Esmeralda for percentage max HP."
+  },
+  {
+    "againstHeroId": 36,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Estes's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 36,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Estes's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 36,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Estes for percentage max HP."
+  },
+  {
+    "againstHeroId": 37,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Eudora's lethal burst combo."
+  },
+  {
+    "againstHeroId": 37,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Eudora's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 37,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Eudora's execute."
+  },
+  {
+    "againstHeroId": 38,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Fanny's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 38,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Fanny's lethal dive combo."
+  },
+  {
+    "againstHeroId": 38,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Fanny exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 39,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Faramis's lethal burst combo."
+  },
+  {
+    "againstHeroId": 39,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Faramis's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 39,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Faramis's execute."
+  },
+  {
+    "againstHeroId": 40,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Floryn's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 40,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Floryn's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 40,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Floryn for percentage max HP."
+  },
+  {
+    "againstHeroId": 41,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Franco's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 41,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Franco's high physical armor."
+  },
+  {
+    "againstHeroId": 41,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Franco's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Fredrinn's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Fredrinn's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Fredrinn for percentage max HP."
+  },
+  {
+    "againstHeroId": 43,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Freya's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 43,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Freya's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 43,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Freya's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 44,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Gatotkaca's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 44,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Gatotkaca's high physical armor."
+  },
+  {
+    "againstHeroId": 44,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Gatotkaca's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 45,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Gloo's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 45,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Gloo's high physical armor."
+  },
+  {
+    "againstHeroId": 45,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Gloo's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Radiant Armor stacks continuous magic damage reduction, completely neutralizing Gord's multi-hit magic spells."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 4,
+    "priority": 2,
+    "reason": "Athena's Shield provides a 25% magic damage reduction barrier to survive Gord's initial spell engagement."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces magic damage taken and cuts the duration of Gord's continuous slows and stuns by 30%."
+  },
+  {
+    "againstHeroId": 47,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Granger's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 47,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Granger's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 47,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Granger's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 48,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Grock's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 48,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Grock's high physical armor."
+  },
+  {
+    "againstHeroId": 48,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Grock's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 49,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Guinevere's lethal burst combo."
+  },
+  {
+    "againstHeroId": 49,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Guinevere's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 49,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Guinevere's execute."
+  },
+  {
+    "againstHeroId": 50,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Gusion's lethal burst combo."
+  },
+  {
+    "againstHeroId": 50,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Gusion's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 50,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Gusion's execute."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Hanabi's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Hanabi's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Hanabi's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 52,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Hanzo's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 52,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Hanzo's lethal dive combo."
+  },
+  {
+    "againstHeroId": 52,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Hanzo exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 53,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Harith's lethal burst combo."
+  },
+  {
+    "againstHeroId": 53,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Harith's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 53,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Harith's execute."
+  },
+  {
+    "againstHeroId": 54,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Radiant Armor stacks continuous magic damage reduction, completely neutralizing Harley's multi-hit magic spells."
+  },
+  {
+    "againstHeroId": 54,
+    "itemId": 4,
+    "priority": 2,
+    "reason": "Athena's Shield provides a 25% magic damage reduction barrier to survive Harley's initial spell engagement."
+  },
+  {
+    "againstHeroId": 54,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces magic damage taken and cuts the duration of Harley's continuous slows and stuns by 30%."
+  },
+  {
+    "againstHeroId": 55,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Hayabusa's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 55,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Hayabusa's lethal dive combo."
+  },
+  {
+    "againstHeroId": 55,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Hayabusa exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 56,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Helcurt's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 56,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Helcurt's lethal dive combo."
+  },
+  {
+    "againstHeroId": 56,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Helcurt exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 57,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Hilda's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 57,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Hilda's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 57,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Hilda for percentage max HP."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Hylos's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Hylos's high physical armor."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Hylos's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 59,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor reflects Irithel's rapid basic attacks back as physical damage and significantly reduces incoming critical damage."
+  },
+  {
+    "againstHeroId": 59,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice lowers Irithel's attack speed to 70% of base and cuts lifesteal sustain by 50%."
+  },
+  {
+    "againstHeroId": 59,
+    "itemId": 21,
+    "priority": 2,
+    "reason": "Wind of Nature grants 2 seconds of total immunity to Irithel's physical basic attacks, winning duel exchanges."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Ixia's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Ixia's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Ixia's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 61,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Jawhead's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 61,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Jawhead's high physical armor."
+  },
+  {
+    "againstHeroId": 61,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Jawhead's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 62,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Johnson's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 62,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Johnson's high physical armor."
+  },
+  {
+    "againstHeroId": 62,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Johnson's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Joy's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Joy's lethal dive combo."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Joy exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Julian's lethal burst combo."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Julian's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Julian's execute."
+  },
+  {
+    "againstHeroId": 65,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Kadita's lethal burst combo."
+  },
+  {
+    "againstHeroId": 65,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Kadita's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 65,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Kadita's execute."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Kagura's lethal burst combo."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Kagura's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Kagura's execute."
+  },
+  {
+    "againstHeroId": 67,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Kaja's physical damage scaling during extended melee brawls."
+  },
+  {
+    "againstHeroId": 67,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice lowers Kaja's attack rate and halves any sustain or shield absorption in lane trades."
+  },
+  {
+    "againstHeroId": 67,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces the duration of Kaja's crowd control effects by 30% (pair with Purify spell if needed)."
+  },
+  {
+    "againstHeroId": 68,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Kalea's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 68,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Kalea's high physical armor."
+  },
+  {
+    "againstHeroId": 68,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Kalea's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 69,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Karina's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 69,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Karina's lethal dive combo."
+  },
+  {
+    "againstHeroId": 69,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Karina exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 70,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor reflects Karrie's rapid basic attacks back as physical damage and significantly reduces incoming critical damage."
+  },
+  {
+    "againstHeroId": 70,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice lowers Karrie's attack speed to 70% of base and cuts lifesteal sustain by 50%."
+  },
+  {
+    "againstHeroId": 70,
+    "itemId": 21,
+    "priority": 2,
+    "reason": "Wind of Nature grants 2 seconds of total immunity to Karrie's physical basic attacks, winning duel exchanges."
+  },
+  {
+    "againstHeroId": 71,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Khaleed's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 71,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Khaleed's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 71,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Khaleed for percentage max HP."
+  },
+  {
+    "againstHeroId": 72,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Khufra's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 72,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Khufra's high physical armor."
+  },
+  {
+    "againstHeroId": 72,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Khufra's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor reflects Kimmy's rapid basic attacks back as physical damage and significantly reduces incoming critical damage."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice lowers Kimmy's attack speed to 70% of base and cuts lifesteal sustain by 50%."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 21,
+    "priority": 2,
+    "reason": "Wind of Nature grants 2 seconds of total immunity to Kimmy's physical basic attacks, winning duel exchanges."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Lancelot's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Lancelot's lethal dive combo."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Lancelot exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 75,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Lapu-Lapu's physical damage scaling during extended melee brawls."
+  },
+  {
+    "againstHeroId": 75,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice lowers Lapu-Lapu's attack rate and halves any sustain or shield absorption in lane trades."
+  },
+  {
+    "againstHeroId": 75,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces the duration of Lapu-Lapu's crowd control effects by 30% (pair with Purify spell if needed)."
+  },
+  {
+    "againstHeroId": 76,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Layla's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 76,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Layla's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 76,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Layla's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 77,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Leomord's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 77,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Leomord's lethal dive combo."
+  },
+  {
+    "againstHeroId": 77,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Leomord exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 78,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Lesley's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 78,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Lesley's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 78,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Lesley's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 79,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Ling's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 79,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Ling's lethal dive combo."
+  },
+  {
+    "againstHeroId": 79,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Ling exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 80,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Lolita's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 80,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Lolita's high physical armor."
+  },
+  {
+    "againstHeroId": 80,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Lolita's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 81,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Lukas's physical damage scaling during extended melee brawls."
+  },
+  {
+    "againstHeroId": 81,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice lowers Lukas's attack rate and halves any sustain or shield absorption in lane trades."
+  },
+  {
+    "againstHeroId": 81,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces the duration of Lukas's crowd control effects by 30% (pair with Purify spell if needed)."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Lunox's lethal burst combo."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Lunox's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Lunox's execute."
+  },
+  {
+    "againstHeroId": 83,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Luo Yi's lethal burst combo."
+  },
+  {
+    "againstHeroId": 83,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Luo Yi's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 83,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Luo Yi's execute."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Lylia's lethal burst combo."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Lylia's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Lylia's execute."
+  },
+  {
+    "againstHeroId": 85,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Martis's physical damage scaling during extended melee brawls."
+  },
+  {
+    "againstHeroId": 85,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice lowers Martis's attack rate and halves any sustain or shield absorption in lane trades."
+  },
+  {
+    "againstHeroId": 85,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces the duration of Martis's crowd control effects by 30% (pair with Purify spell if needed)."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Masha's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Masha's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Masha's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 87,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Mathilda's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 87,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Mathilda's lethal dive combo."
+  },
+  {
+    "againstHeroId": 87,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Mathilda exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 88,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Melissa's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 88,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Melissa's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 88,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Melissa's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 89,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Minotaur's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 89,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Minotaur's high physical armor."
+  },
+  {
+    "againstHeroId": 89,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Minotaur's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 90,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Minsitthar's physical damage scaling during extended melee brawls."
+  },
+  {
+    "againstHeroId": 90,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice lowers Minsitthar's attack rate and halves any sustain or shield absorption in lane trades."
+  },
+  {
+    "againstHeroId": 90,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces the duration of Minsitthar's crowd control effects by 30% (pair with Purify spell if needed)."
+  },
+  {
+    "againstHeroId": 91,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor reflects Miya's rapid basic attacks back as physical damage and significantly reduces incoming critical damage."
+  },
+  {
+    "againstHeroId": 91,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice lowers Miya's attack speed to 70% of base and cuts lifesteal sustain by 50%."
+  },
+  {
+    "againstHeroId": 91,
+    "itemId": 21,
+    "priority": 2,
+    "reason": "Wind of Nature grants 2 seconds of total immunity to Miya's physical basic attacks, winning duel exchanges."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor reflects Moskov's rapid basic attacks back as physical damage and significantly reduces incoming critical damage."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice lowers Moskov's attack speed to 70% of base and cuts lifesteal sustain by 50%."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 21,
+    "priority": 2,
+    "reason": "Wind of Nature grants 2 seconds of total immunity to Moskov's physical basic attacks, winning duel exchanges."
+  },
+  {
+    "againstHeroId": 93,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Nana's lethal burst combo."
+  },
+  {
+    "againstHeroId": 93,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Nana's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 93,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Nana's execute."
+  },
+  {
+    "againstHeroId": 94,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Natan's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 94,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Natan's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 94,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Natan's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 95,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Natalia's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 95,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Natalia's lethal dive combo."
+  },
+  {
+    "againstHeroId": 95,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Natalia exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 96,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Nolan's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 96,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Nolan's lethal dive combo."
+  },
+  {
+    "againstHeroId": 96,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Nolan exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 97,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Novaria's lethal burst combo."
+  },
+  {
+    "againstHeroId": 97,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Novaria's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 97,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Novaria's execute."
+  },
+  {
+    "againstHeroId": 98,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Obsidia's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 98,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Obsidia's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 98,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Obsidia's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 99,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Odette's lethal burst combo."
+  },
+  {
+    "againstHeroId": 99,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Odette's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 99,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Odette's execute."
+  },
+  {
+    "againstHeroId": 100,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Paquito's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 100,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Paquito's lethal dive combo."
+  },
+  {
+    "againstHeroId": 100,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Paquito exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 101,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Pharsa's lethal burst combo."
+  },
+  {
+    "againstHeroId": 101,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Pharsa's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 101,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Pharsa's execute."
+  },
+  {
+    "againstHeroId": 102,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Phoveus's physical damage scaling during extended melee brawls."
+  },
+  {
+    "againstHeroId": 102,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice lowers Phoveus's attack rate and halves any sustain or shield absorption in lane trades."
+  },
+  {
+    "againstHeroId": 102,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces the duration of Phoveus's crowd control effects by 30% (pair with Purify spell if needed)."
+  },
+  {
+    "againstHeroId": 103,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Popol and Kupa's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 103,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Popol and Kupa's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 103,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Popol and Kupa's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 104,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Rafaela's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 104,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Rafaela's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 104,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Rafaela for percentage max HP."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Roger's physical damage scaling during extended melee brawls."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice lowers Roger's attack rate and halves any sustain or shield absorption in lane trades."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces the duration of Roger's crowd control effects by 30% (pair with Purify spell if needed)."
+  },
+  {
+    "againstHeroId": 106,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Ruby's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 106,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Ruby's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 106,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Ruby for percentage max HP."
+  },
+  {
+    "againstHeroId": 107,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Saber's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 107,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Saber's lethal dive combo."
+  },
+  {
+    "againstHeroId": 107,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Saber exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 108,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Selena's lethal burst combo."
+  },
+  {
+    "againstHeroId": 108,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Selena's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 108,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Selena's execute."
+  },
+  {
+    "againstHeroId": 109,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Silvanna's lethal burst combo."
+  },
+  {
+    "againstHeroId": 109,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Silvanna's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 109,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Silvanna's execute."
+  },
+  {
+    "againstHeroId": 110,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Sora's physical damage scaling during extended melee brawls."
+  },
+  {
+    "againstHeroId": 110,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice lowers Sora's attack rate and halves any sustain or shield absorption in lane trades."
+  },
+  {
+    "againstHeroId": 110,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces the duration of Sora's crowd control effects by 30% (pair with Purify spell if needed)."
+  },
+  {
+    "againstHeroId": 111,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Sun's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 111,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Sun's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 111,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Sun's physical attack by up to 24% when hit by their damaging skills."
+  },
+  {
+    "againstHeroId": 112,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Suyou's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 112,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Suyou's lethal dive combo."
+  },
+  {
+    "againstHeroId": 112,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Suyou exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 113,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Terizla's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 113,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Terizla's high physical armor."
+  },
+  {
+    "againstHeroId": 113,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Terizla's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Thamuz's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Thamuz's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Thamuz for percentage max HP."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 16,
+    "priority": 1,
+    "reason": "Demon Hunter Sword deals 8% of Tigreal's current HP per basic attack, tearing through their massive HP pool."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 15,
+    "priority": 1,
+    "reason": "Malefic Roar gains proportional physical penetration against Tigreal's high physical armor."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 33,
+    "priority": 1,
+    "reason": "Divine Glaive penetrates up to 60% of Tigreal's magic resistance, allowing mages to melt this tank."
+  },
+  {
+    "againstHeroId": 116,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice applies Lifebane aura, cutting Uranus's massive HP regeneration and shields by 50%."
+  },
+  {
+    "againstHeroId": 116,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd reduces Uranus's healing by 50% on physical hit and grants 8% bonus damage against high extra HP."
+  },
+  {
+    "againstHeroId": 116,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand applies 50% anti-heal for magic damage dealers while burning Uranus for percentage max HP."
+  },
+  {
+    "againstHeroId": 117,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Vale's lethal burst combo."
+  },
+  {
+    "againstHeroId": 117,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Vale's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 117,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Vale's execute."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Valentina's lethal burst combo."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Valentina's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Valentina's execute."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Radiant Armor stacks continuous magic damage reduction, completely neutralizing Valir's multi-hit magic spells."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 4,
+    "priority": 2,
+    "reason": "Athena's Shield provides a 25% magic damage reduction barrier to survive Valir's initial spell engagement."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces magic damage taken and cuts the duration of Valir's continuous slows and stuns by 30%."
+  },
+  {
+    "againstHeroId": 120,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Vexana's lethal burst combo."
+  },
+  {
+    "againstHeroId": 120,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Vexana's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 120,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Vexana's execute."
+  },
+  {
+    "againstHeroId": 121,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor reflects Wanwan's rapid basic attacks back as physical damage and significantly reduces incoming critical damage."
+  },
+  {
+    "againstHeroId": 121,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice lowers Wanwan's attack speed to 70% of base and cuts lifesteal sustain by 50%."
+  },
+  {
+    "againstHeroId": 121,
+    "itemId": 21,
+    "priority": 2,
+    "reason": "Wind of Nature grants 2 seconds of total immunity to Wanwan's physical basic attacks, winning duel exchanges."
+  },
+  {
+    "againstHeroId": 122,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces X.Borg's physical damage scaling during extended melee brawls."
+  },
+  {
+    "againstHeroId": 122,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice lowers X.Borg's attack rate and halves any sustain or shield absorption in lane trades."
+  },
+  {
+    "againstHeroId": 122,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces the duration of X.Borg's crowd control effects by 30% (pair with Purify spell if needed)."
+  },
+  {
+    "againstHeroId": 123,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Xavier's lethal burst combo."
+  },
+  {
+    "againstHeroId": 123,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Xavier's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 123,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Xavier's execute."
+  },
+  {
+    "againstHeroId": 124,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Yi Sun-shin's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 124,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Yi Sun-shin's lethal dive combo."
+  },
+  {
+    "againstHeroId": 124,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Yi Sun-shin exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 125,
+    "itemId": 3,
+    "priority": 1,
+    "reason": "Antique Cuirass reduces Yin's physical attack by 8% per skill hit (up to 24%), nullifying their skill burst."
+  },
+  {
+    "againstHeroId": 125,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature grants 2 seconds of complete physical immunity to dodge Yin's lethal dive combo."
+  },
+  {
+    "againstHeroId": 125,
+    "itemId": 9,
+    "priority": 2,
+    "reason": "Immortality resurrects the fallen hero with a shield after Yin exhausts their ultimate and cooldowns."
+  },
+  {
+    "againstHeroId": 126,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Radiant Armor stacks continuous magic damage reduction, completely neutralizing Yve's multi-hit magic spells."
+  },
+  {
+    "againstHeroId": 126,
+    "itemId": 4,
+    "priority": 2,
+    "reason": "Athena's Shield provides a 25% magic damage reduction barrier to survive Yve's initial spell engagement."
+  },
+  {
+    "againstHeroId": 126,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces magic damage taken and cuts the duration of Yve's continuous slows and stuns by 30%."
+  },
+  {
+    "againstHeroId": 127,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Zetian's lethal burst combo."
+  },
+  {
+    "againstHeroId": 127,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Zetian's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 127,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Zetian's execute."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Radiant Armor stacks continuous magic damage reduction, completely neutralizing Zhask's multi-hit magic spells."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 4,
+    "priority": 2,
+    "reason": "Athena's Shield provides a 25% magic damage reduction barrier to survive Zhask's initial spell engagement."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots reduces magic damage taken and cuts the duration of Zhask's continuous slows and stuns by 30%."
+  },
+  {
+    "againstHeroId": 129,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "Athena's Shield triggers an immediate 25% magic damage reduction shield against Zhuxin's lethal burst combo."
+  },
+  {
+    "againstHeroId": 129,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Tough Boots provides magic resistance and reduces Zhuxin's crowd control stun duration by 30%."
+  },
+  {
+    "againstHeroId": 129,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor provides magic defense and an emergency shield that saves physical carries from Zhuxin's execute."
+  },
+  {
+    "againstHeroId": 130,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor provides heavy physical armor and reflects Zilong's empowered basic attacks."
+  },
+  {
+    "againstHeroId": 130,
+    "itemId": 2,
+    "priority": 2,
+    "reason": "Dominance Ice cripples Zilong's attack pacing and halves any shield or lifesteal recovery."
+  },
+  {
+    "againstHeroId": 130,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass reduces Zilong's physical attack by up to 24% when hit by their damaging skills."
+  }
+]

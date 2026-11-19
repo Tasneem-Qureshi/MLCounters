@@ -1,0 +1,672 @@
+[
+  {
+    "id": 1,
+    "name": "Blade Armor",
+    "type": "Defense",
+    "subType": "Physical Defense",
+    "description": "Reflects basic attack damage back to the attacker and reduces critical damage taken.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/blade_armor.png",
+    "stats": "{\"physDef\": 90, \"critDmgReduction\": 20}",
+    "passive": "Vengeance - When taking damage from basic attacks, deals physical damage equal to 25% of incoming damage plus 25% of hero's physical defense back to the attacker and slows them by 15% for 1s."
+  },
+  {
+    "id": 2,
+    "name": "Dominance Ice",
+    "type": "Defense",
+    "subType": "Physical Defense",
+    "description": "Crucial anti-heal and anti-attack speed aura item that debilitates marksmen and sustain bruisers.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/dominance_ice.png",
+    "stats": "{\"physDef\": 55, \"mana\": 500, \"moveSpeed\": 5}",
+    "passive": "Arctic Cold - Reduces attack speed of nearby enemy heroes to 70% of base value. Lifebane - Reduces shield and HP regen of nearby enemies by 50%."
+  },
+  {
+    "id": 3,
+    "name": "Antique Cuirass",
+    "type": "Defense",
+    "subType": "Physical Defense",
+    "description": "Essential physical armor against skill-reliant physical assassins and fighters.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/antique_cuirass.png",
+    "stats": "{\"hp\": 920, \"physDef\": 40, \"hpRegen\": 4}",
+    "passive": "Deter - When hit by an enemy hero's skill, reduces their physical attack by 8% for 2s, stacking up to 3 times (max 24% physical attack reduction)."
+  },
+  {
+    "id": 4,
+    "name": "Athena's Shield",
+    "type": "Defense",
+    "subType": "Magic Defense",
+    "description": "Primary magic defense item offering massive burst magic damage reduction upon taking magic hits.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/athenas_shield.png",
+    "stats": "{\"hp\": 900, \"magicDef\": 62, \"hpRegen\": 2}",
+    "passive": "Shield - Triggered when taking magic damage. Reduces magic damage taken by 25% for 3s (cools down after 5s out of combat)."
+  },
+  {
+    "id": 5,
+    "name": "Radiant Armor",
+    "type": "Defense",
+    "subType": "Magic Defense",
+    "description": "Sustained magic defense armor engineered to counter continuous and multi-hit magic damage.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/radiant_armor.png",
+    "stats": "{\"hp\": 950, \"magicDef\": 40, \"hpRegen\": 12}",
+    "passive": "Holy Blessing - Taking magic damage increases magic damage reduction by 6-20 (scales with level) for 3s, stacking up to 6 times."
+  },
+  {
+    "id": 6,
+    "name": "Oracle",
+    "type": "Defense",
+    "subType": "Magic Defense",
+    "description": "Enhances shield capacity and HP regen rate, highly synergistic with sustain fighters and tanks.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/oracle.png",
+    "stats": "{\"hp\": 850, \"magicDef\": 42, \"cooldownReduction\": 10}",
+    "passive": "Bless - Increases shield absorption effects and HP regeneration received by 30%."
+  },
+  {
+    "id": 7,
+    "name": "Brute Force Breastplate",
+    "type": "Defense",
+    "subType": "Hybrid Defense",
+    "description": "Offensive and defensive armor granting stacking hybrid defense, movement speed, and crowd control resilience.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/brute_force_breastplate.png",
+    "stats": "{\"hp\": 600, \"physDef\": 23, \"magicDef\": 23, \"cooldownReduction\": 10}",
+    "passive": "Brute Force - Dealing damage grants 6 physical attack/magic power, 4 hybrid defense, and 2% movement speed per stack for 4s (up to 6 stacks). At max stacks, grants 15% CC duration reduction."
+  },
+  {
+    "id": 8,
+    "name": "Twilight Armor",
+    "type": "Defense",
+    "subType": "Physical Defense",
+    "description": "Protects against high single-hit physical burst and periodically deals AoE magic damage based on HP.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/twilight_armor.png",
+    "stats": "{\"hp\": 1200, \"cooldownReduction\": 10}",
+    "passive": "Twilight - Caps single-instance physical damage exceeding 600, reducing excess damage by 20%. Dealing damage also inflicts bonus magic damage equal to 35 + 5% extra HP."
+  },
+  {
+    "id": 9,
+    "name": "Immortality",
+    "type": "Defense",
+    "subType": "Physical Defense",
+    "description": "Resurrects the fallen hero upon defeat, offering a critical second chance in teamfights.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/immortality.png",
+    "stats": "{\"hp\": 800, \"physDef\": 20}",
+    "passive": "Immortal - Resurrects 2.5s after death with 16% max HP and a 220-1200 shield that lasts 3s (cooldown 210s)."
+  },
+  {
+    "id": 10,
+    "name": "Queen's Wings",
+    "type": "Defense",
+    "subType": "Hybrid Defense",
+    "description": "Clutch survival item granting drastic damage reduction, cooldown refund, and hybrid lifesteal at low HP.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/queens_wings.png",
+    "stats": "{\"hp\": 600, \"cooldownReduction\": 10, \"hybridLifesteal\": 10}",
+    "passive": "Demonize - When HP drops below 40%, gains 30% damage reduction for 3s, resets skill cooldowns by 2s, and increases hybrid lifesteal by 15% (cooldown 60s)."
+  },
+  {
+    "id": 11,
+    "name": "Guardian Helmet",
+    "type": "Defense",
+    "subType": "Physical Defense",
+    "description": "Massive flat HP boost providing continuous out-of-combat health regeneration without needing to recall.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/guardian_helmet.png",
+    "stats": "{\"hp\": 1550, \"hpRegen\": 20}",
+    "passive": "Recovery - Regenerates 2.5% max HP per second outside combat. Each kill or assist increases regen by 0.5% max HP per second (up to 3.5%)."
+  },
+  {
+    "id": 12,
+    "name": "Thunder Belt",
+    "type": "Defense",
+    "subType": "Hybrid Defense",
+    "description": "Defensive item that permanently stacks hybrid defense and delivers slowing true damage on basic attacks.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/thunder_belt.png",
+    "stats": "{\"hp\": 800, \"manaRegen\": 6, \"cooldownReduction\": 10, \"physDef\": 15, \"magicDef\": 15}",
+    "passive": "Thunderbolt - After casting a skill, the next basic attack deals 50 + 5% total HP true damage, slows enemies by 40-80%, and permanently grants 1 physical defense and 1 magic defense when hitting an enemy hero."
+  },
+  {
+    "id": 13,
+    "name": "Cursed Helmet",
+    "type": "Defense",
+    "subType": "Magic Defense",
+    "description": "Tank wave-clearing and jungle-burn armor radiating continuous magic burn damage.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/cursed_helmet.png",
+    "stats": "{\"hp\": 1200, \"magicDef\": 25}",
+    "passive": "Burning Soul - Deals magic damage equal to 1.2% max HP per second to nearby enemies (damage increased by 140% against minions and creeps)."
+  },
+  {
+    "id": 14,
+    "name": "Blade of Despair",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "The highest flat physical damage weapon in MLBB, granting execution power against weakened foes.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/blade_of_despair.png",
+    "stats": "{\"physAtk\": 160, \"moveSpeed\": 5}",
+    "passive": "Despair - Attacking enemy units with HP below 50% grants 25% extra physical attack for 2s."
+  },
+  {
+    "id": 15,
+    "name": "Malefic Roar",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Armor-shredding firearm that penetrates tank physical defense proportionally to their armor value.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/malefic_roar.png",
+    "stats": "{\"physAtk\": 60, \"physPen\": 20}",
+    "passive": "Armor Buster - When attacking an enemy, gains 0.125% bonus physical penetration for each point of the enemy's physical defense (capped at 40% bonus penetration)."
+  },
+  {
+    "id": 16,
+    "name": "Demon Hunter Sword",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Anti-tank basic attack weapon dealing current HP percentage damage on hit with stacking lifesteal.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/demon_hunter_sword.png",
+    "stats": "{\"physAtk\": 35, \"atkSpeed\": 25}",
+    "passive": "Devour - Basic attacks deal 8% of the target's current HP as additional physical damage. Each basic attack grants 3% physical lifesteal for 3s (up to 5 stacks)."
+  },
+  {
+    "id": 17,
+    "name": "Endless Battle",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "All-around physical sustain and burst weapon infusing basic attacks with true damage following skill usage.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/endless_battle.png",
+    "stats": "{\"physAtk\": 60, \"manaRegen\": 5, \"hp\": 250, \"cooldownReduction\": 10, \"moveSpeed\": 5, \"hybridLifesteal\": 8}",
+    "passive": "Divine Justice - After using a skill, the next basic attack deals 60% physical attack as additional true damage (1.5s cooldown) and grants 10% movement speed."
+  },
+  {
+    "id": 18,
+    "name": "War Axe",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Brawler battleaxe that stacks physical damage, cooldown reduction, spell vamp, and true damage in combat.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/war_axe.png",
+    "stats": "{\"physAtk\": 25, \"hp\": 550, \"cooldownReduction\": 10, \"spellVamp\": 12}",
+    "passive": "Fighting Spirit - Dealing damage grants 12 physical attack and 2% extra spell vamp per stack every second up to 6 stacks. At max stacks, deals 10% extra true damage based on original damage."
+  },
+  {
+    "id": 19,
+    "name": "Sea Halberd",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Physical anti-heal polearm cutting enemy regeneration and shields while punishing high-HP targets.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/sea_halberd.png",
+    "stats": "{\"physAtk\": 80, \"atkSpeed\": 20}",
+    "passive": "Lifebane - Dealing damage reduces enemy shield and HP regen by 50% for 3s. Punish - Increases damage dealt by 8% against enemy heroes with higher extra HP."
+  },
+  {
+    "id": 20,
+    "name": "Rose Gold Meteor",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Hybrid offensive weapon granting magic resistance and an automatic life-saving shield at low HP.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/rose_gold_meteor.png",
+    "stats": "{\"physAtk\": 60, \"magicDef\": 30, \"lifesteal\": 10}",
+    "passive": "Lifeline - When HP drops below 30%, immediately gains a 510-1350 point shield and 25 magic defense for 3s (40s cooldown)."
+  },
+  {
+    "id": 21,
+    "name": "Wind of Nature",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Marksman weapon with an active ability that grants 2 seconds of total immunity to all physical damage.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/wind_of_nature.png",
+    "stats": "{\"physAtk\": 30, \"atkSpeed\": 20, \"lifesteal\": 10}",
+    "passive": "Wind Chant (Active) - Grants immunity to all physical damage for 2s (1s for non-Marksman heroes). Cooldown: 70s."
+  },
+  {
+    "id": 22,
+    "name": "Berserker's Fury",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Premier critical strike item massively boosting critical chance, critical multiplier, and physical attack.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/berserkers_fury.png",
+    "stats": "{\"physAtk\": 65, \"critChance\": 25, \"critDamage\": 40}",
+    "passive": "Doom - Critical hits grant 5% extra physical attack for 2s."
+  },
+  {
+    "id": 23,
+    "name": "Haas's Claws",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Sustained combat claws delivering top-tier lifesteal, critical chance, and bonus attack speed on crits.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/haass_claws.png",
+    "stats": "{\"physAtk\": 30, \"atkSpeed\": 20, \"critChance\": 20, \"lifesteal\": 25}",
+    "passive": "Frenzy - Critical strikes grant 20% extra attack speed for 2s."
+  },
+  {
+    "id": 24,
+    "name": "Windtalker",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Fast-firing weapon providing attack speed, movement speed, and bouncing magic cyclone procs.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/windtalker.png",
+    "stats": "{\"atkSpeed\": 40, \"moveSpeed\": 20, \"critChance\": 10}",
+    "passive": "Typhoon - Every 5-3s, basic attack triggers a typhoon dealing 150-362 magic damage to up to 3 enemies (can crit). Each typhoon cast increases movement speed by 5%."
+  },
+  {
+    "id": 25,
+    "name": "Hunter Strike",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Assassin penetration weapon giving high cooldown reduction, flat armor penetration, and rapid speed bursts.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/hunter_strike.png",
+    "stats": "{\"physAtk\": 80, \"cooldownReduction\": 10, \"physPen\": 15}",
+    "passive": "Retribution - Dealing damage to the same enemy hero or creep 5 times in a row increases movement speed by 50% that decays over 3s (cooldown 8s)."
+  },
+  {
+    "id": 26,
+    "name": "Blade of the Heptaseas",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Ambush dagger that dramatically empowers the next basic attack after leaving combat or stalking in bushes.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/blade_of_the_heptaseas.png",
+    "stats": "{\"physAtk\": 70, \"hp\": 250, \"physPen\": 15}",
+    "passive": "Ambush - If no damage is taken or dealt within 5s, the next basic attack deals 160 + 40% physical attack as bonus physical damage and slows target by 40% for 1.5s."
+  },
+  {
+    "id": 27,
+    "name": "Corrosion Scythe",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "On-hit slowing scythe that continuously ramps up self attack speed while impeding enemy retreat.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/corrosion_scythe.png",
+    "stats": "{\"physAtk\": 30, \"atkSpeed\": 35, \"moveSpeed\": 5}",
+    "passive": "Corrosion - Basic attacks deal 80 bonus physical damage and slow enemy target by 8% (stacks up to 5 times). Impulse - Basic attacks grant 6% attack speed for 3s (stacks up to 5 times)."
+  },
+  {
+    "id": 28,
+    "name": "Golden Staff",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Converts all critical strike chance into flat attack speed and triggers on-hit effects twice every 3 hits.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/golden_staff.png",
+    "stats": "{\"physAtk\": 55, \"atkSpeed\": 15}",
+    "passive": "Swift - Cannot deal critical hits; each 1% critical strike chance gained is converted into 1% attack speed. Endless Strike - Every 3rd basic attack triggers on-hit effects 2 extra times."
+  },
+  {
+    "id": 29,
+    "name": "Great Dragon Spear",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Physical lance providing attack, cooldown reduction, crit chance, and high burst movement speed after casting Ultimate.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/great_dragon_spear.png",
+    "stats": "{\"physAtk\": 70, \"cooldownReduction\": 10, \"critChance\": 20}",
+    "passive": "Supreme Warrior - After casting Ultimate, gains 15% movement speed that decays over 7.5s (cooldown 15s)."
+  },
+  {
+    "id": 30,
+    "name": "Malefic Gun",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Marksman firearm providing extended basic attack range and movement speed on hit.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/malefic_gun.png",
+    "stats": "{\"physAtk\": 45, \"atkSpeed\": 25, \"lifesteal\": 10}",
+    "passive": "Malefic Energy - Active: Increases basic attack range by 15% for 3s. Passive: Basic attacks grant 10% movement speed for 1s."
+  },
+  {
+    "id": 31,
+    "name": "Scarlet Phantom",
+    "type": "Physical",
+    "subType": "Physical Attack",
+    "description": "Classic critical attack speed weapon that spikes attack speed and critical rate on critical hits.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/scarlet_phantom.png",
+    "stats": "{\"physAtk\": 30, \"atkSpeed\": 20, \"critChance\": 25}",
+    "passive": "Frenzy - Critical hits increase the hero's attack speed by 30% and crit chance by 5% for 2s."
+  },
+  {
+    "id": 32,
+    "name": "Holy Crystal",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Apex magic amplifier scaling total magic power by up to 35% for maximum late-game spell burst.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/holy_crystal.png",
+    "stats": "{\"magicPower\": 185}",
+    "passive": "Mystery - Increases total magic power by 21-35% (scales with hero level)."
+  },
+  {
+    "id": 33,
+    "name": "Divine Glaive",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Magic penetration staff that cuts through high enemy magic resistance proportionally.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/divine_glaive.png",
+    "stats": "{\"magicPower\": 60, \"magicPen\": 40}",
+    "passive": "Spellbreaker - When attacking an enemy, gains 0.1% bonus magic penetration for each point of the enemy's magic defense (capped at 20% bonus)."
+  },
+  {
+    "id": 34,
+    "name": "Blood Wings",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Ultimate mage item granting colossal magic power, bonus HP, and a regenerable magic shield.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/blood_wings.png",
+    "stats": "{\"magicPower\": 175, \"hp\": 500}",
+    "passive": "Guard - Generates a shield absorbing 800 + 100% magic power. When shield breaks, gains 30 movement speed for 1s. Shield regenerates after 20s out of combat."
+  },
+  {
+    "id": 35,
+    "name": "Glowing Wand",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Inflicts continuous burn damage based on target max HP and applies anti-heal (Lifebane) to negate healing and shields.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/glowing_wand.png",
+    "stats": "{\"magicPower\": 75, \"hp\": 400, \"moveSpeed\": 5}",
+    "passive": "Scorch - Magic damage burns targets for 3s, dealing magic damage equal to 1.5% of target's max HP per second. Lifebane - Reduces enemy shield and HP regen by 50% for 3s."
+  },
+  {
+    "id": 36,
+    "name": "Ice Queen Wand",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Slowing scepter that reduces enemy movement speed by up to 30% upon hitting them with skills.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/ice_queen_wand.png",
+    "stats": "{\"magicPower\": 75, \"spellVamp\": 10, \"mana\": 300, \"moveSpeed\": 7}",
+    "passive": "Ice Bound - Skills dealing damage to enemy heroes slow them by 10% for 2s, stacking up to 3 times (max 30% slow)."
+  },
+  {
+    "id": 37,
+    "name": "Lightning Truncheon",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "AoE magic burst weapon releasing bouncing lightning bolts that scale with total magic power.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/lightning_truncheon.png",
+    "stats": "{\"magicPower\": 75, \"cooldownReduction\": 10, \"moveSpeed\": 5}",
+    "passive": "Resonate - Every 6s, the next skill resonates, dealing 50-1000 magic damage (scales with magic power) to up to 3 enemies and granting 30% movement speed for 2s."
+  },
+  {
+    "id": 38,
+    "name": "Clock of Destiny",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Scaling mage item providing magic power, mana, and stacking hybrid defense upon hitting skills.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/clock_of_destiny.png",
+    "stats": "{\"magicPower\": 45, \"hp\": 400, \"mana\": 800}",
+    "passive": "Destiny - Dealing magic damage to enemy heroes grants 4-8 hybrid defense per stack for 5s (up to 6 stacks). At max stacks, recovers 5% max HP and mana."
+  },
+  {
+    "id": 39,
+    "name": "Genius Wand",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Early-to-mid game flat magic defense shredder reducing enemy magic defense on every spell hit.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/genius_wand.png",
+    "stats": "{\"magicPower\": 75, \"moveSpeed\": 5, \"magicPen\": 10}",
+    "passive": "Magic - Dealing damage to enemy heroes reduces their magic defense by 3-7 (scales with level) for 2s, stacking up to 3 times."
+  },
+  {
+    "id": 40,
+    "name": "Concentrated Energy",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Primary spell lifesteal item providing sustained healing and ramping magic power in prolonged fights.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/concentrated_energy.png",
+    "stats": "{\"magicPower\": 70, \"hp\": 700, \"hybridLifesteal\": 20}",
+    "passive": "Recharge - Dealing magic damage grants 5 bonus magic power for 5s, up to 6 stacks. At max stacks, increases magic damage dealt by 12%."
+  },
+  {
+    "id": 41,
+    "name": "Enchanted Talisman",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Essential mana book providing continuous max mana regeneration and raising the cooldown reduction cap.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/enchanted_talisman.png",
+    "stats": "{\"magicPower\": 50, \"hp\": 250, \"cooldownReduction\": 20}",
+    "passive": "Mana Spring - Regenerates 15% max mana every 10s. Stream - Increases maximum cooldown reduction cap by 5% (up to 45%)."
+  },
+  {
+    "id": 42,
+    "name": "Fleeting Time",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Ultimate-reset artifact instantly refunding 30% of Ultimate cooldown on hero kills or assists.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/fleeting_time.png",
+    "stats": "{\"magicPower\": 70, \"hp\": 350, \"cooldownReduction\": 15}",
+    "passive": "Timestream - Hero kills or assists immediately reduce the current cooldown of the hero's Ultimate by 30%."
+  },
+  {
+    "id": 43,
+    "name": "Winter Crown",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Universal stasis survival item allowing heroes to freeze and become invulnerable for 2 seconds while continuing channeled skills.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/winter_crown.png",
+    "stats": "{\"physAtk\": 45, \"magicPower\": 60, \"hp\": 400}",
+    "passive": "Frozen (Active) - Enter a frozen state for 2s, becoming immune to all damage and CC, but unable to move or attack (active skills continue channeling). Cooldown: 100s."
+  },
+  {
+    "id": 44,
+    "name": "Feather of Heaven",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Attack speed magic artifact adding scaling bonus magic damage to basic attacks.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/feather_of_heaven.png",
+    "stats": "{\"magicPower\": 55, \"atkSpeed\": 20, \"cooldownReduction\": 5, \"hybridLifesteal\": 10}",
+    "passive": "Affliction - Basic attacks deal bonus magic damage equal to 50 + 30% magic power. Impulse - Basic attacks grant 6% attack speed for 3s, up to 5 stacks."
+  },
+  {
+    "id": 45,
+    "name": "Starlium Scythe",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Empowers basic attacks with true damage following skill casts, tailored for hybrid magic assassins.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/starlium_scythe.png",
+    "stats": "{\"magicPower\": 70, \"cooldownReduction\": 10, \"hybridLifesteal\": 8, \"manaRegen\": 6}",
+    "passive": "Crisis - After casting a skill, the next basic attack deals 100 + 100% magic power as true damage and grants 10% movement speed (1.5s cooldown)."
+  },
+  {
+    "id": 46,
+    "name": "Wishing Lantern",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Artillery magic lantern unleashing homing butterflies that deal percentage current HP magic damage to tanky targets.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/wishing_lantern.png",
+    "stats": "{\"magicPower\": 70, \"cooldownReduction\": 10}",
+    "passive": "Butterfly Goddess - For every 800 magic damage dealt to an enemy hero, unleashes a Butterfly dealing magic damage equal to 10% of their current HP."
+  },
+  {
+    "id": 47,
+    "name": "Necklace of Durance",
+    "type": "Magic",
+    "subType": "Magic Power",
+    "description": "Classic magic anti-heal amulet that cuts enemy healing and shields by 50% upon dealing damage.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/necklace_of_durance.png",
+    "stats": "{\"magicPower\": 60, \"cooldownReduction\": 10, \"hybridLifesteal\": 8}",
+    "passive": "Lifebane - Dealing damage reduces enemy shield and HP regen effects by 50% for 3s."
+  },
+  {
+    "id": 48,
+    "name": "Warrior Boots",
+    "type": "Movement",
+    "subType": "Movement Speed",
+    "description": "Physical defense boots granting stacking armor against enemy basic attacks.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/warrior_boots.png",
+    "stats": "{\"moveSpeed\": 40, \"physDef\": 18}",
+    "passive": "Valor - Physical defense increases by 4 each time a basic attack is received, up to 20 bonus defense (lasts 3s)."
+  },
+  {
+    "id": 49,
+    "name": "Tough Boots",
+    "type": "Movement",
+    "subType": "Movement Speed",
+    "description": "Magic resistance footwear reducing the duration of crowd control effects by 30%.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/tough_boots.png",
+    "stats": "{\"moveSpeed\": 40, \"magicDef\": 18}",
+    "passive": "Fortitude - Reduces duration of crowd control effects (stuns, slows, freezes) by 30%."
+  },
+  {
+    "id": 50,
+    "name": "Arcane Boots",
+    "type": "Movement",
+    "subType": "Movement Speed",
+    "description": "Magic penetration boots maximizing early damage burst for mages and magic assassins.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/arcane_boots.png",
+    "stats": "{\"moveSpeed\": 40, \"magicPen\": 10}",
+    "passive": "Penetration - Increases flat magic penetration by 10."
+  },
+  {
+    "id": 51,
+    "name": "Rapid Boots",
+    "type": "Movement",
+    "subType": "Movement Speed",
+    "description": "Fastest boots in the game, providing massive out-of-combat movement speed for roamers.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/rapid_boots.png",
+    "stats": "{\"moveSpeed\": 65}",
+    "passive": "Side Effect - Dealing or taking damage slows the hero's movement speed by 25 for 5s."
+  },
+  {
+    "id": 52,
+    "name": "Magic Shoes",
+    "type": "Movement",
+    "subType": "Movement Speed",
+    "description": "Utility footwear granting 10% cooldown reduction for skill-reliant heroes.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/magic_shoes.png",
+    "stats": "{\"moveSpeed\": 40, \"cooldownReduction\": 10}",
+    "passive": "Cooldown - Increases cooldown reduction by 10%."
+  },
+  {
+    "id": 53,
+    "name": "Swift Boots",
+    "type": "Movement",
+    "subType": "Movement Speed",
+    "description": "Attack speed boots favored by marksmen and basic attack carries.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/swift_boots.png",
+    "stats": "{\"moveSpeed\": 40, \"atkSpeed\": 15}",
+    "passive": "Agility - Increases attack speed by 15%."
+  },
+  {
+    "id": 54,
+    "name": "Demon Shoes",
+    "type": "Movement",
+    "subType": "Movement Speed",
+    "description": "Mana regeneration boots replenishing mana on minion and hero eliminations.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/demon_shoes.png",
+    "stats": "{\"moveSpeed\": 40, \"manaRegen\": 10}",
+    "passive": "Mysticism - Eliminating enemy heroes or assists recovers 10% max mana. Eliminating minions recovers 4% max mana."
+  },
+  {
+    "id": 55,
+    "name": "Ice Retribution",
+    "type": "Jungle",
+    "subType": "Jungling",
+    "description": "Jungler retribution spell upgrade that steals movement speed from the targeted enemy hero.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/ice_retribution.png",
+    "stats": "{\"creepDamage\": 150}",
+    "passive": "Hunter - Retribution deals 100 true damage to heroes, steals 72-100 movement speed from them for 3s, and deals 150% damage to creeps."
+  },
+  {
+    "id": 56,
+    "name": "Flame Retribution",
+    "type": "Jungle",
+    "subType": "Jungling",
+    "description": "Jungler retribution spell upgrade that siphons physical attack and magic power from the enemy hero.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/flame_retribution.png",
+    "stats": "{\"creepDamage\": 150}",
+    "passive": "Hunter - Retribution deals 100 true damage to heroes and steals 32-52 physical attack and magic power from the target for 3s."
+  },
+  {
+    "id": 57,
+    "name": "Bloody Retribution",
+    "type": "Jungle",
+    "subType": "Jungling",
+    "description": "Tank jungler retribution spell upgrade that siphons enemy HP based on self extra HP over 3s.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/bloody_retribution.png",
+    "stats": "{\"creepDamage\": 150}",
+    "passive": "Hunter - Retribution deals true damage to enemy heroes equal to 250 + 12% of user's extra HP over 3s while healing the user for the same amount."
+  },
+  {
+    "id": 58,
+    "name": "Behemoth's Hunter",
+    "type": "Jungle",
+    "subType": "Jungling",
+    "description": "Tough Boots blessed with Bloody Retribution, maximizing resilience and jungle HP drain for tank junglers.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/behemoths_hunter.png",
+    "stats": "{\"moveSpeed\": 40, \"magicDef\": 18, \"creepDamage\": 150}",
+    "passive": "Fortitude & Bloody Hunter - Reduces CC duration by 30% and upgrades Retribution to siphon 250 + 12% extra HP over 3s."
+  },
+  {
+    "id": 59,
+    "name": "Flame Hunter",
+    "type": "Jungle",
+    "subType": "Jungling",
+    "description": "Swift Boots blessed with Flame Retribution, providing attack speed and attack-stealing power for carry junglers.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/flame_hunter.png",
+    "stats": "{\"moveSpeed\": 40, \"atkSpeed\": 15, \"creepDamage\": 150}",
+    "passive": "Agility & Flame Hunter - Grants 15% attack speed and upgrades Retribution to steal 32-52 attack power from the target."
+  },
+  {
+    "id": 60,
+    "name": "Ice Hunter",
+    "type": "Jungle",
+    "subType": "Jungling",
+    "description": "Warrior Boots blessed with Ice Retribution, granting physical defense and movement speed theft for fighter junglers.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/ice_hunter.png",
+    "stats": "{\"moveSpeed\": 40, \"physDef\": 18, \"creepDamage\": 150}",
+    "passive": "Valor & Ice Hunter - Grants stacking physical defense and upgrades Retribution to steal enemy movement speed."
+  },
+  {
+    "id": 61,
+    "name": "Star Shard",
+    "type": "Jungle",
+    "subType": "Jungling",
+    "description": "Classic magical jungle item providing magic power, mana regen, and stacking creep damage.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/star_shard.png",
+    "stats": "{\"magicPower\": 30, \"manaRegen\": 3, \"cooldownReduction\": 10, \"creepDamage\": 50}",
+    "passive": "Gorge - Defeating jungle creeps increases damage dealt by 0.5%, up to 15 stacks."
+  },
+  {
+    "id": 62,
+    "name": "Conceal",
+    "type": "Roaming",
+    "subType": "Roaming",
+    "description": "Active roaming blessing granting camouflage and massive team movement speed for surprise teamfight initiation.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/conceal.png",
+    "stats": "{\"roamGold\": 100}",
+    "passive": "Conceal (Active) - Grants concealment and 30-75% movement speed to user and nearby allies for 5s (cooldown 80s). Ends upon dealing or taking damage."
+  },
+  {
+    "id": 63,
+    "name": "Dire Hit",
+    "type": "Roaming",
+    "subType": "Roaming",
+    "description": "Lethal roaming blessing executing weakened enemies with bonus percentage max HP hybrid damage.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/dire_hit.png",
+    "stats": "{\"roamGold\": 100}",
+    "passive": "Dire Hit - When damaging an enemy hero whose HP is below 35%, deals extra hybrid damage equal to 7-18% of target's max HP (30s cooldown)."
+  },
+  {
+    "id": 64,
+    "name": "Encourage",
+    "type": "Roaming",
+    "subType": "Roaming",
+    "description": "Support aura blessing providing physical attack, magic power, and attack speed to all nearby allies.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/encourage.png",
+    "stats": "{\"roamGold\": 100}",
+    "passive": "Encourage - Grants nearby allied heroes 13-33 physical attack and magic power, plus 9-18% attack speed."
+  },
+  {
+    "id": 65,
+    "name": "Favor",
+    "type": "Roaming",
+    "subType": "Roaming",
+    "description": "Healing roaming blessing granting large burst HP restoration to the most wounded ally when using heal or shield skills.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/favor.png",
+    "stats": "{\"roamGold\": 100}",
+    "passive": "Favor - Casting a heal or shield skill restores an additional 300-750 HP to the nearby allied hero with the lowest HP (10s cooldown)."
+  },
+  {
+    "id": 66,
+    "name": "Courage Mask",
+    "type": "Roaming",
+    "subType": "Roaming",
+    "description": "Classic active roaming mask providing team-wide movement speed acceleration and attack power buff.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/courage_mask.png",
+    "stats": "{\"hp\": 700, \"cooldownReduction\": 10, \"moveSpeed\": 25}",
+    "passive": "Encourage (Active) - Increases movement speed of self and nearby allies by 30% and raises physical/magic attack by 20% for 3s (cooldown 80s)."
+  },
+  {
+    "id": 67,
+    "name": "Shadow Mask",
+    "type": "Roaming",
+    "subType": "Roaming",
+    "description": "Classic roaming mask granting team camouflage and movement speed to reposition unseen.",
+    "iconUrl": "https://raw.githubusercontent.com/user/ml-counters-data/main/items/shadow_mask.png",
+    "stats": "{\"hp\": 700, \"cooldownReduction\": 10, \"moveSpeed\": 25}",
+    "passive": "Conceal (Active) - Enters camouflage state with nearby teammates for 5s, boosting movement speed by 15% (cooldown 80s)."
+  }
+]

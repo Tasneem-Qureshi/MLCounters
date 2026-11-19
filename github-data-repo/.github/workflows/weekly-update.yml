@@ -1,0 +1,37 @@
+name: Weekly Data Update & Validation
+
+on:
+  schedule:
+    # Runs every Monday at 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  validate-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate data integrity
+        run: python3 update_data.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet || echo "has_changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "ML Counters Bot"
+          git config user.email "bot@mlcounters.app"
+          git add -A
+          git commit -m "chore: weekly data validation and manifest bump [$(date +'%Y-%m-%d')]"
+          git push

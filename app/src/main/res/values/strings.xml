@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ML Counters</string>
+    <string name="app_description">Mobile Legends Counter Pick Assistant</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_heroes">Heroes</string>
+    <string name="nav_counters">Counters</string>
+    <string name="nav_items">Items</string>
+    <string name="nav_mastery">Mastery</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Roles -->
+    <string name="role_all">All</string>
+    <string name="role_tank">Tank</string>
+    <string name="role_fighter">Fighter</string>
+    <string name="role_assassin">Assassin</string>
+    <string name="role_mage">Mage</string>
+    <string name="role_marksman">Marksman</string>
+    <string name="role_support">Support</string>
+
+    <!-- Mastery Levels -->
+    <string name="mastery_none">Not Played</string>
+    <string name="mastery_beginner">Beginner</string>
+    <string name="mastery_intermediate">Intermediate</string>
+    <string name="mastery_expert">Expert</string>
+    <string name="mastery_master">Master</string>
+
+    <!-- Overlay -->
+    <string name="overlay_start">Start Overlay</string>
+    <string name="overlay_stop">Stop Overlay</string>
+    <string name="overlay_permission_title">Overlay Permission Required</string>
+    <string name="overlay_permission_desc">ML Counters needs permission to draw over other apps to show counter suggestions while you play.</string>
+    <string name="screen_capture_title">Screen Capture</string>
+    <string name="screen_capture_desc">ML Counters needs to capture the screen to detect enemy heroes during draft.</string>
+    <string name="notification_channel_name">ML Counters Overlay</string>
+    <string name="notification_channel_desc">Shows when ML Counters overlay is active</string>
+
+    <!-- Detection -->
+    <string name="detection_scanning">Scanning for heroes…</string>
+    <string name="detection_found">Heroes detected!</string>
+    <string name="detection_none">No heroes detected. Try manual input.</string>
+    <string name="detection_confidence">Confidence: %1$d%%</string>
+
+    <!-- Counter -->
+    <string name="counter_weak_against">Weak Against (Countered By)</string>
+    <string name="counter_strong_against">Strong Against (Counters)</string>
+    <string name="counter_items_title">Counter Items</string>
+    <string name="counter_tips">Tips</string>
+
+    <!-- Data -->
+    <string name="data_last_updated">Last updated: %1$s</string>
+    <string name="data_updating">Updating counter data…</string>
+    <string name="data_update_success">Data updated successfully!</string>
+    <string name="data_update_failed">Update failed. Using cached data.</string>
+
+    <!-- Search -->
+    <string name="search_heroes">Search heroes…</string>
+    <string name="search_items">Search items…</string>
+
+    <!-- Settings -->
+    <string name="settings_detection_sensitivity">Detection Sensitivity</string>
+    <string name="settings_overlay_opacity">Overlay Opacity</string>
+    <string name="settings_auto_detect">Auto-detect heroes</string>
+    <string name="settings_data_source">Data Source URL</string>
+    <string name="settings_resolution">Screen Resolution Override</string>
+    <string name="settings_about">About ML Counters</string>
+    <string name="settings_version">Version %1$s</string>
+</resources>
