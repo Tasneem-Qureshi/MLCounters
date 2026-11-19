@@ -340,7 +340,7 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
 
         val notification: Notification = NotificationCompat.Builder(this, MLCountersApp.OVERLAY_CHANNEL_ID)
             .setContentTitle(getString(R.string.notification_channel_name))
-            .setContentText("ML Counters floating overlay is active")
+            .setContentText("ML Helper floating overlay is active")
             .setSmallIcon(android.R.drawable.ic_dialog_info)
             .setOngoing(true)
             .addAction(android.R.drawable.ic_menu_close_clear_cancel, "Close Overlay", stopPendingIntent)

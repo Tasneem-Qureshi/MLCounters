@@ -47,30 +47,33 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x gradlew
 
-      - name: Build Debug APK
-        run: ./gradlew assembleDebug --stacktrace
+      - name: Build APKs
+        run: |
+          ./gradlew assembleRelease --stacktrace
+          cp app/build/outputs/apk/release/app-release.apk app/build/outputs/apk/release/MLHelper.apk
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: MLCounters-debug
-          path: app/build/outputs/apk/debug/*.apk
+          name: MLHelper-apk
+          path: app/build/outputs/apk/release/MLHelper.apk
 
-      - name: Create GitHub Release
+      - name: Create or Update GitHub Release
         if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.0
-          name: ML Counters v1.0.0
+          tag_name: v1.0.1
+          name: ML Helper v1.0.1
           body: |
-            ### 📱 ML Counters v1.0.0
-            - Real-Time Screen Hero Detection (OpenCV, down to 35px)
-            - Floating Overlay Service with draggable & collapsible UI
-            - Official Counter Recommendations & 834 Matchup Pairs
-            - Counter Item Builds for All Heroes
-            - Hero Mastery Tracking & Role Filters
-            - Full Material 3 Dark Gaming Theme
-          files: app/build/outputs/apk/debug/*.apk
+            ### 📱 ML Helper v1.0.1
+            - **Renamed to ML Helper** with fresh package ID (`com.mlhelper.app`) for clean 1-tap installation
+            - **Custom Adaptive Gaming Icon**: Mythic Gold & Cyber Cyan crest with helper stars
+            - **Optimized ARM APK**: Includes `arm64-v8a` and `armeabi-v7a` ABIs for quick downloading and instant install
+            - **OpenCV Screen Recognition Engine**: Multi-scale template matching down to 35px
+            - **Live Floating Overlay**: Draggable, collapsible gaming HUD with manual hero search
+            - **834 Matchup Pairs & 390 Counter Items**: Sourced from official data with zero duplicates
+            - **Hero Mastery & Role Filters**: Prioritizes counters in your champion pool
+          files: app/build/outputs/apk/release/MLHelper.apk
           draft: false
           prerelease: false
         env:

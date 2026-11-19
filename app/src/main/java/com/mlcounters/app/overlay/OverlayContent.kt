@@ -411,7 +411,7 @@ private fun HeaderSection(
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
-                    text = "ML COUNTERS",
+                    text = "ML HELPER",
                     color = TextWhite,
                     fontWeight = FontWeight.Black,
                     fontSize = 13.sp,

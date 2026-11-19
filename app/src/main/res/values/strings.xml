@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ML Counters</string>
-    <string name="app_description">Mobile Legends Counter Pick Assistant</string>
+    <string name="app_name">ML Helper</string>
+    <string name="app_description">Mobile Legends Live Draft &amp; Counter Assistant</string>
 
     <!-- Navigation -->
     <string name="nav_home">Home</string>
@@ -31,11 +31,11 @@
     <string name="overlay_start">Start Overlay</string>
     <string name="overlay_stop">Stop Overlay</string>
     <string name="overlay_permission_title">Overlay Permission Required</string>
-    <string name="overlay_permission_desc">ML Counters needs permission to draw over other apps to show counter suggestions while you play.</string>
+    <string name="overlay_permission_desc">ML Helper needs permission to draw over other apps to show counter suggestions while you play.</string>
     <string name="screen_capture_title">Screen Capture</string>
-    <string name="screen_capture_desc">ML Counters needs to capture the screen to detect enemy heroes during draft.</string>
-    <string name="notification_channel_name">ML Counters Overlay</string>
-    <string name="notification_channel_desc">Shows when ML Counters overlay is active</string>
+    <string name="screen_capture_desc">ML Helper needs to capture the screen to detect enemy heroes during draft.</string>
+    <string name="notification_channel_name">ML Helper Overlay</string>
+    <string name="notification_channel_desc">Shows when ML Helper overlay is active</string>
 
     <!-- Detection -->
     <string name="detection_scanning">Scanning for heroes…</string>
@@ -65,6 +65,6 @@
     <string name="settings_auto_detect">Auto-detect heroes</string>
     <string name="settings_data_source">Data Source URL</string>
     <string name="settings_resolution">Screen Resolution Override</string>
-    <string name="settings_about">About ML Counters</string>
+    <string name="settings_about">About ML Helper</string>
     <string name="settings_version">Version %1$s</string>
 </resources>

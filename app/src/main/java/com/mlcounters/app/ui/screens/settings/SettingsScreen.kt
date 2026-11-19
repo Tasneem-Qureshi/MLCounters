@@ -287,7 +287,7 @@ fun SettingsScreen(
                 Spacer(modifier = Modifier.height(8.dp))
 
                 Text(
-                    text = "ML Counters is an esports draft strategy and live item counter recommendation tool for Mobile Legends: Bang Bang.",
+                    text = "ML Helper is an esports draft strategy and live item counter recommendation tool for Mobile Legends: Bang Bang.",
                     style = MaterialTheme.typography.bodySmall,
                     color = TextMutedGray
                 )
