@@ -2,6 +2,7 @@ package com.mlcounters.app.overlay
 
 import android.app.Notification
 import android.app.PendingIntent
+import android.app.Service
 import android.content.BroadcastReceiver
 import android.content.ComponentName
 import android.content.Context
@@ -18,7 +19,9 @@ import android.view.View
 import android.view.WindowManager
 import androidx.compose.ui.platform.ComposeView
 import androidx.core.app.NotificationCompat
-import androidx.lifecycle.LifecycleService
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleOwner
+import androidx.lifecycle.LifecycleRegistry
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelStore
 import androidx.lifecycle.ViewModelStoreOwner
@@ -42,7 +45,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class OverlayService : LifecycleService(), SavedStateRegistryOwner, ViewModelStoreOwner {
+class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewModelStoreOwner {
 
     @Inject
     lateinit var detectionEngine: HeroDetectionEngine
@@ -53,6 +56,10 @@ class OverlayService : LifecycleService(), SavedStateRegistryOwner, ViewModelSto
     @Inject
     lateinit var viewModel: OverlayViewModel
 
+    private val lifecycleRegistry = LifecycleRegistry(this)
+    override val lifecycle: Lifecycle
+        get() = lifecycleRegistry
+
     private val savedStateRegistryController = SavedStateRegistryController.create(this)
     private val vStore = ViewModelStore()
 
@@ -61,6 +68,8 @@ class OverlayService : LifecycleService(), SavedStateRegistryOwner, ViewModelSto
 
     override val viewModelStore: ViewModelStore
         get() = vStore
+
+    override fun onBind(intent: Intent?): IBinder? = null
 
     private var windowManager: WindowManager? = null
     private var overlayComposeView: ComposeView? = null
@@ -118,6 +127,7 @@ class OverlayService : LifecycleService(), SavedStateRegistryOwner, ViewModelSto
 
     override fun onCreate() {
         super.onCreate()
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_CREATE)
         Log.d(TAG, "OverlayService onCreate()")
         savedStateRegistryController.performRestore(null)
         windowManager = getSystemService(Context.WINDOW_SERVICE) as? WindowManager
@@ -138,6 +148,7 @@ class OverlayService : LifecycleService(), SavedStateRegistryOwner, ViewModelSto
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         super.onStartCommand(intent, flags, startId)
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_START)
         when (intent?.action) {
             ACTION_SHOW_OVERLAY -> showOverlay()
             ACTION_HIDE_OVERLAY -> hideOverlay()
@@ -351,6 +362,7 @@ class OverlayService : LifecycleService(), SavedStateRegistryOwner, ViewModelSto
             unbindService(captureServiceConnection)
             isCaptureBound = false
         }
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_DESTROY)
         vStore.clear()
     }
 

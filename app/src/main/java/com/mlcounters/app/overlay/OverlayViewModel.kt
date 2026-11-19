@@ -18,7 +18,6 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-@HiltViewModel
 class OverlayViewModel @Inject constructor(
     private val repository: CounterRepository,
     private val detectionEngine: HeroDetectionEngine
