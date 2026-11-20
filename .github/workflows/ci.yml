@@ -75,8 +75,5 @@ jobs:
           files: app/build/outputs/apk/release/MLHelper.apk
           draft: false
           prerelease: false
-          files: app/build/outputs/apk/release/MLHelper.apk
-          draft: false
-          prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
