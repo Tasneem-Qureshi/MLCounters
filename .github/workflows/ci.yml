@@ -62,15 +62,14 @@ jobs:
         if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.3
-          name: ML Helper v1.0.3 - Overlay Service & Crash Fixes
+          tag_name: v1.0.4
+          name: ML Helper v1.0.4 - Overlay Lifecycle & Composition Fixes
           body: |
-            ### 📱 ML Helper v1.0.3
-            - **Fixed Floating Overlay**: Added interactive 'Display over other apps' runtime permission check and Foreground Service type (`specialUse`) for Android 14+ / targetSdk 35 compatibility. Starts immediately on tap.
-            - **Fixed Duplicate Heroes in Counters**: Database schema composite primary keys (`heroId`, `counterHeroId`) and ViewModels now deduplicate matchups by hero ID.
-            - **Fixed Compose LazyColumn Key Collision Crash**: Unique composite keys applied across Counter, Hero Detail, and Item guide screens to eliminate `IllegalArgumentException: Key was already used`.
-            - **Transparent Online/Offline Asset Fallback**: Hero portraits and item icons load from local bundled assets or fallback to GitHub raw without APK updates.
-            - **Full 134-Hero Roster & Ranked Counters**: Complete 134-hero dataset with 1,601 counter edges, 1,094 item counter tips, and in-game OpenCV draft scanner.
+            ### 📱 ML Helper v1.0.4
+            - **Fixed Overlay Crash & Display**: Fixed SavedStateRegistry initialization sequence (`performAttach()` before `performRestore()`), prevented lifecycle exceptions on WindowManager attachment.
+            - **Fixed Overlay Window Sizing**: Eliminated unbounded Column weight constraints and nested scrolling conflicts in the floating WindowManager ComposeView.
+            - **Refined Floating Bubble**: Bubble tap gesture expands overlay, drag gesture moves bubble across screen without gesture cancellation.
+            - **Complete 134-Hero Roster & Item Guides**: Full offline assets with automatic online fallback sync.
           files: app/build/outputs/apk/release/MLHelper.apk
           draft: false
           prerelease: false

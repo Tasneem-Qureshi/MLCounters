@@ -133,33 +133,48 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
 
     override fun onCreate() {
         super.onCreate()
-        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_CREATE)
-        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_START)
-        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_RESUME)
-        isRunning.value = true
         Log.d(TAG, "OverlayService onCreate()")
-        savedStateRegistryController.performRestore(null)
+
+        // 1. Initialize SavedStateRegistry and Lifecycle in correct state sequence
+        try {
+            savedStateRegistryController.performAttach()
+            savedStateRegistryController.performRestore(null)
+        } catch (e: Exception) {
+            Log.w(TAG, "Error in performAttach/Restore: ${e.message}")
+        }
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_CREATE)
+
+        isRunning.value = true
         windowManager = getSystemService(Context.WINDOW_SERVICE) as? WindowManager
 
         startForegroundWithNotification()
         bindToCaptureService()
 
-        val filter = IntentFilter(ScreenCaptureService.ACTION_HEROES_DETECTED)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            registerReceiver(detectionBroadcastReceiver, filter, Context.RECEIVER_NOT_EXPORTED)
-        } else {
-            registerReceiver(detectionBroadcastReceiver, filter)
+        try {
+            val filter = IntentFilter(ScreenCaptureService.ACTION_HEROES_DETECTED)
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                registerReceiver(detectionBroadcastReceiver, filter, Context.RECEIVER_NOT_EXPORTED)
+            } else {
+                registerReceiver(detectionBroadcastReceiver, filter)
+            }
+        } catch (e: Exception) {
+            Log.w(TAG, "Error registering detection receiver: ${e.message}")
         }
 
         // Show floating overlay window
         showOverlay()
+
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_START)
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_RESUME)
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         super.onStartCommand(intent, flags, startId)
-        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_START)
-        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_RESUME)
         isRunning.value = true
+        if (lifecycleRegistry.currentState != Lifecycle.State.RESUMED) {
+            lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_START)
+            lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_RESUME)
+        }
         when (intent?.action) {
             ACTION_SHOW_OVERLAY -> showOverlay()
             ACTION_HIDE_OVERLAY -> hideOverlay()
@@ -199,8 +214,7 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
                 WindowManager.LayoutParams.TYPE_PHONE
             },
             WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE or
-                WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN or
-                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
+                WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL,
             PixelFormat.TRANSLUCENT
         ).apply {
             gravity = Gravity.TOP or Gravity.START
@@ -210,10 +224,10 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
         layoutParams = params
 
         val composeView = ComposeView(this).apply {
-            setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnDetachedFromWindowOrReleasedFromPool)
+            setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnViewTreeLifecycleDestroyed)
             setViewTreeLifecycleOwner(this@OverlayService)
-            setViewTreeSavedStateRegistryOwner(this@OverlayService)
             setViewTreeViewModelStoreOwner(this@OverlayService)
+            setViewTreeSavedStateRegistryOwner(this@OverlayService)
 
             setContent {
                 OverlayContent(
@@ -408,7 +422,11 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
             Log.w(TAG, "Broadcast receiver already unregistered: ${e.message}")
         }
         if (isCaptureBound) {
-            unbindService(captureServiceConnection)
+            try {
+                unbindService(captureServiceConnection)
+            } catch (e: Exception) {
+                Log.w(TAG, "Unbind capture service error: ${e.message}")
+            }
             isCaptureBound = false
         }
         lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_PAUSE)

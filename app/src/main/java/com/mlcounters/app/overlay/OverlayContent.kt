@@ -156,14 +156,25 @@ private fun CollapsedOverlayView(
         label = "pulseAlpha"
     )
 
+    var totalDrag by remember { mutableStateOf(0f) }
+
     Box(
         modifier = Modifier
             .size(62.dp)
             .pointerInput(Unit) {
-                detectDragGestures { change, dragAmount ->
-                    change.consume()
-                    onDragDelta(dragAmount.x, dragAmount.y)
-                }
+                detectDragGestures(
+                    onDragStart = { totalDrag = 0f },
+                    onDragEnd = {
+                        if (totalDrag < 12f) {
+                            onExpandClicked()
+                        }
+                    },
+                    onDrag = { change, dragAmount ->
+                        change.consume()
+                        totalDrag += Math.abs(dragAmount.x) + Math.abs(dragAmount.y)
+                        onDragDelta(dragAmount.x, dragAmount.y)
+                    }
+                )
             }
             .clip(CircleShape)
             .background(
@@ -178,8 +189,7 @@ private fun CollapsedOverlayView(
                 width = if (isScanning) 2.5.dp else 1.5.dp,
                 color = if (isScanning) AccentCyan.copy(alpha = pulseBorder) else AccentCyan.copy(alpha = 0.7f),
                 shape = CircleShape
-            )
-            .clickable { onExpandClicked() },
+            ),
         contentAlignment = Alignment.Center
     ) {
         Column(
@@ -273,7 +283,8 @@ private fun ExpandedOverlayView(
             // Scrollable main body
             Column(
                 modifier = Modifier
-                    .weight(1f, fill = false)
+                    .fillMaxWidth()
+                    .heightIn(max = 440.dp)
                     .verticalScroll(rememberScrollState())
                     .padding(horizontal = 12.dp, vertical = 6.dp)
             ) {
@@ -799,13 +810,13 @@ private fun ManualHeroPicker(
 
             Spacer(modifier = Modifier.height(6.dp))
 
-            // List of matching heroes
-            LazyColumn(
+            // List of matching heroes (non-nested to avoid verticalScroll crashes)
+            Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .heightIn(max = 140.dp)
+                    .padding(vertical = 4.dp)
             ) {
-                items(filteredHeroes, key = { it.id }) { hero ->
+                filteredHeroes.take(8).forEach { hero ->
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
