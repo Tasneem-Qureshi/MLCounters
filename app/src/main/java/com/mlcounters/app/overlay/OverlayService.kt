@@ -83,39 +83,6 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
 
     private var isOverlayVisible = false
 
-    // ScreenCaptureService binding
-    private var screenCaptureService: ScreenCaptureService? = null
-    private var isCaptureBound = false
-
-    private val captureServiceConnection = object : ServiceConnection {
-        override fun onServiceConnected(name: ComponentName?, service: IBinder?) {
-            Log.d(TAG, "Connected to ScreenCaptureService.")
-            val binder = service as? ScreenCaptureService.LocalBinder
-            screenCaptureService = binder?.getService()
-            isCaptureBound = true
-
-            // Observe continuous detections from screen capture
-            lifecycleScope.launch {
-                screenCaptureService?.detectionFlow?.collectLatest { detections ->
-                    updateResults(detections)
-                }
-            }
-
-            // Observe if capture permission was revoked/stopped
-            lifecycleScope.launch {
-                screenCaptureService?.projectionLostFlow?.collectLatest {
-                    viewModel.stopScan()
-                }
-            }
-        }
-
-        override fun onServiceDisconnected(name: ComponentName?) {
-            Log.d(TAG, "Disconnected from ScreenCaptureService.")
-            screenCaptureService = null
-            isCaptureBound = false
-        }
-    }
-
     // Broadcast receiver for detection events
     private val detectionBroadcastReceiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {
@@ -148,7 +115,6 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
         windowManager = getSystemService(Context.WINDOW_SERVICE) as? WindowManager
 
         startForegroundWithNotification()
-        bindToCaptureService()
 
         try {
             val filter = IntentFilter(ScreenCaptureService.ACTION_HEROES_DETECTED)
@@ -338,26 +304,22 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
     }
 
     /**
-     * Triggers immediate manual screen capture via bound ScreenCaptureService.
+     * Triggers immediate manual screen capture via ScreenCaptureService.
      */
     private fun triggerManualScan() {
         lifecycleScope.launch(Dispatchers.IO) {
             viewModel.startScan()
-            val bitmap = screenCaptureService?.captureScreen()
-            if (bitmap != null) {
-                val results = detectionEngine.detectHeroes(bitmap)
-                bitmap.recycle()
-                updateResults(results)
-            } else {
-                Log.w(TAG, "Manual scan requested but screen capture returned null frame.")
+            try {
+                val scanIntent = Intent(this@OverlayService, ScreenCaptureService::class.java).apply {
+                    action = ScreenCaptureService.ACTION_TRIGGER_SCAN
+                }
+                startService(scanIntent)
+            } catch (e: Exception) {
+                Log.w(TAG, "Error requesting manual scan: ${e.message}")
             }
+            kotlinx.coroutines.delay(1200)
             viewModel.stopScan()
         }
-    }
-
-    private fun bindToCaptureService() {
-        val intent = Intent(this, ScreenCaptureService::class.java)
-        bindService(intent, captureServiceConnection, Context.BIND_AUTO_CREATE)
     }
 
     private fun startForegroundWithNotification() {
@@ -421,13 +383,13 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
         } catch (e: Exception) {
             Log.w(TAG, "Broadcast receiver already unregistered: ${e.message}")
         }
-        if (isCaptureBound) {
-            try {
-                unbindService(captureServiceConnection)
-            } catch (e: Exception) {
-                Log.w(TAG, "Unbind capture service error: ${e.message}")
+        try {
+            val stopCaptureIntent = Intent(this, ScreenCaptureService::class.java).apply {
+                action = ScreenCaptureService.ACTION_STOP_CAPTURE
             }
-            isCaptureBound = false
+            startService(stopCaptureIntent)
+        } catch (e: Exception) {
+            Log.w(TAG, "Error stopping capture service: ${e.message}")
         }
         lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_PAUSE)
         lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_STOP)

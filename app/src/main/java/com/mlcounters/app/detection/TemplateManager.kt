@@ -11,6 +11,7 @@ import android.os.Build
 import android.util.DisplayMetrics
 import android.util.Log
 import android.view.WindowManager
+import dagger.hilt.android.qualifiers.ApplicationContext
 import org.opencv.android.Utils
 import org.opencv.core.CvType
 import org.opencv.core.Mat
@@ -23,7 +24,9 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-class TemplateManager @Inject constructor() {
+class TemplateManager @Inject constructor(
+    @ApplicationContext private val context: Context
+) {
 
     // Cache structure: Resolution -> (HeroId -> OpenCV Grayscale Mat)
     private val templateCache = ConcurrentHashMap<Int, ConcurrentHashMap<Int, Mat>>()
@@ -38,7 +41,7 @@ class TemplateManager @Inject constructor() {
      * Templates are converted to grayscale and preprocessed with Gaussian blur.
      */
     @Synchronized
-    fun loadTemplates(context: Context, resolution: Int) {
+    fun loadTemplates(context: Context = this.context, resolution: Int) {
         val validResolution = if (resolution in SUPPORTED_RESOLUTIONS) resolution else selectResolution(1920, 1080)
         Log.d(TAG, "Loading templates for target resolution: ${validResolution}px...")
 
@@ -189,9 +192,30 @@ class TemplateManager @Inject constructor() {
 
     /**
      * Retrieves all loaded hero portrait templates for a given resolution.
+     * Auto-loads or scales from existing resolution cache if not yet present.
      */
     fun getAllTemplates(resolution: Int): Map<Int, Mat> {
-        val resMap = templateCache[resolution]
+        var resMap = templateCache[resolution]
+        if (resMap == null || resMap.isEmpty()) {
+            val existingEntry = templateCache.entries.firstOrNull { it.value.isNotEmpty() }
+            if (existingEntry != null) {
+                val newMap = ConcurrentHashMap<Int, Mat>()
+                for ((id, srcMat) in existingEntry.value) {
+                    try {
+                        val dstMat = Mat()
+                        Imgproc.resize(srcMat, dstMat, Size(resolution.toDouble(), resolution.toDouble()))
+                        newMap[id] = dstMat
+                    } catch (e: Exception) {
+                        Log.w(TAG, "Error scaling template for hero $id: ${e.message}")
+                    }
+                }
+                templateCache[resolution] = newMap
+                resMap = newMap
+            } else {
+                loadTemplates(context, resolution)
+                resMap = templateCache[resolution]
+            }
+        }
         return if (resMap != null) {
             HashMap(resMap)
         } else {

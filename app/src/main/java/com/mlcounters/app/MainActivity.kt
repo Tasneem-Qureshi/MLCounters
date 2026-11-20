@@ -7,6 +7,7 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
+import android.util.Log
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -34,6 +35,8 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.mlcounters.app.data.repository.HeroRepository
 import com.mlcounters.app.data.repository.ItemRepository
+import com.mlcounters.app.detection.ScreenCaptureService
+import com.mlcounters.app.overlay.OverlayService
 import com.mlcounters.app.ui.navigation.NavGraph
 import com.mlcounters.app.ui.navigation.Screen
 import com.mlcounters.app.ui.navigation.bottomNavItems
@@ -62,9 +65,10 @@ class MainActivity : ComponentActivity() {
     ) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (Settings.canDrawOverlays(this)) {
-                Toast.makeText(this, "Overlay permission granted", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Overlay permission granted! Requesting screen capture...", Toast.LENGTH_SHORT).show()
+                requestMediaProjectionPermission()
             } else {
-                Toast.makeText(this, "Overlay permission denied", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Overlay permission is required for ML Helper floating HUD", Toast.LENGTH_LONG).show()
             }
         }
     }
@@ -73,10 +77,12 @@ class MainActivity : ComponentActivity() {
         ActivityResultContracts.StartActivityForResult()
     ) { result ->
         if (result.resultCode == RESULT_OK && result.data != null) {
-            Toast.makeText(this, "Screen capture permission granted", Toast.LENGTH_SHORT).show()
-            // Forward result.data intent to ScreenCaptureService if starting screen analysis
+            Toast.makeText(this, "Auto-detection enabled! Starting overlay...", Toast.LENGTH_SHORT).show()
+            startCaptureService(result.resultCode, result.data!!)
+            startOverlayService()
         } else {
-            Toast.makeText(this, "Screen capture permission denied", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Screen capture not granted. Starting overlay in manual mode.", Toast.LENGTH_LONG).show()
+            startOverlayService()
         }
     }
 
@@ -90,24 +96,33 @@ class MainActivity : ComponentActivity() {
         setContent {
             MLCountersTheme {
                 MainAppScaffold(
-                    onRequestOverlayPermission = { requestOverlayPermission() },
-                    onRequestMediaProjectionPermission = { requestMediaProjectionPermission() }
+                    onToggleOverlay = {
+                        val isRunning = OverlayService.isRunning.value
+                        if (isRunning) {
+                            stopOverlayAndCapture()
+                        } else {
+                            startOverlayFlow()
+                        }
+                    }
                 )
             }
         }
     }
 
-    fun requestOverlayPermission() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            if (!Settings.canDrawOverlays(this)) {
-                val intent = Intent(
-                    Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
-                    Uri.parse("package:$packageName")
-                )
-                overlayPermissionLauncher.launch(intent)
-            } else {
-                Toast.makeText(this, "Overlay permission already active", Toast.LENGTH_SHORT).show()
-            }
+    fun startOverlayFlow() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && !Settings.canDrawOverlays(this)) {
+            val intent = Intent(
+                Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                Uri.parse("package:$packageName")
+            )
+            overlayPermissionLauncher.launch(intent)
+            Toast.makeText(
+                this,
+                "Please enable 'Display over other apps' to use the floating overlay",
+                Toast.LENGTH_LONG
+            ).show()
+        } else {
+            requestMediaProjectionPermission()
         }
     }
 
@@ -115,9 +130,69 @@ class MainActivity : ComponentActivity() {
         val mediaProjectionManager =
             getSystemService(Context.MEDIA_PROJECTION_SERVICE) as? MediaProjectionManager
         if (mediaProjectionManager != null) {
-            val captureIntent = mediaProjectionManager.createScreenCaptureIntent()
-            mediaProjectionLauncher.launch(captureIntent)
+            try {
+                val captureIntent = mediaProjectionManager.createScreenCaptureIntent()
+                mediaProjectionLauncher.launch(captureIntent)
+            } catch (e: Exception) {
+                Log.e("MainActivity", "Failed to launch screen capture intent: ${e.message}", e)
+                startOverlayService()
+            }
+        } else {
+            startOverlayService()
         }
+    }
+
+    private fun startCaptureService(resultCode: Int, data: Intent) {
+        val captureIntent = Intent(this, ScreenCaptureService::class.java).apply {
+            action = ScreenCaptureService.ACTION_START_CAPTURE
+            putExtra(ScreenCaptureService.EXTRA_RESULT_CODE, resultCode)
+            putExtra(ScreenCaptureService.EXTRA_DATA_INTENT, data)
+        }
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                startForegroundService(captureIntent)
+            } else {
+                startService(captureIntent)
+            }
+        } catch (e: Exception) {
+            Log.e("MainActivity", "Failed to start ScreenCaptureService: ${e.message}", e)
+        }
+    }
+
+    private fun startOverlayService() {
+        val overlayIntent = Intent(this, OverlayService::class.java).apply {
+            action = OverlayService.ACTION_SHOW_OVERLAY
+        }
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                startForegroundService(overlayIntent)
+            } else {
+                startService(overlayIntent)
+            }
+        } catch (e: Exception) {
+            Log.e("MainActivity", "Failed to start OverlayService: ${e.message}", e)
+        }
+    }
+
+    fun stopOverlayAndCapture() {
+        try {
+            val stopCaptureIntent = Intent(this, ScreenCaptureService::class.java).apply {
+                action = ScreenCaptureService.ACTION_STOP_CAPTURE
+            }
+            startService(stopCaptureIntent)
+        } catch (e: Exception) {
+            Log.w("MainActivity", "Error stopping ScreenCaptureService: ${e.message}")
+        }
+
+        try {
+            val stopOverlayIntent = Intent(this, OverlayService::class.java).apply {
+                action = OverlayService.ACTION_STOP_SERVICE
+            }
+            startService(stopOverlayIntent)
+        } catch (e: Exception) {
+            Log.w("MainActivity", "Error stopping OverlayService: ${e.message}")
+        }
+        Toast.makeText(this, "ML Helper floating overlay stopped", Toast.LENGTH_SHORT).show()
     }
 
     private fun loadInitialDataIfNeeded() {
@@ -142,8 +217,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MainAppScaffold(
-    onRequestOverlayPermission: () -> Unit,
-    onRequestMediaProjectionPermission: () -> Unit
+    onToggleOverlay: () -> Unit
 ) {
     val navController = rememberNavController()
     val navBackStackEntry by navController.currentBackStackEntryAsState()
@@ -207,6 +281,7 @@ fun MainAppScaffold(
     ) { innerPadding ->
         NavGraph(
             navController = navController,
+            onToggleOverlay = onToggleOverlay,
             modifier = Modifier
                 .fillMaxSize()
                 .padding(innerPadding)

@@ -18,6 +18,7 @@ import com.mlcounters.app.ui.screens.settings.SettingsScreen
 @Composable
 fun NavGraph(
     navController: NavHostController,
+    onToggleOverlay: () -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     NavHost(
@@ -30,7 +31,8 @@ fun NavGraph(
                 onNavigateToSettings = { navController.navigate(Screen.Settings.route) },
                 onNavigateToHeroDetail = { heroId ->
                     navController.navigate(Screen.HeroDetail.createRoute(heroId))
-                }
+                },
+                onToggleOverlay = onToggleOverlay
             )
         }
 

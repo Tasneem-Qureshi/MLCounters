@@ -25,6 +25,8 @@ import android.view.WindowManager
 import androidx.core.app.NotificationCompat
 import com.mlcounters.app.MLCountersApp
 import com.mlcounters.app.R
+import com.mlcounters.app.data.repository.CounterRepository
+import com.mlcounters.app.overlay.OverlayViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -47,6 +49,12 @@ class ScreenCaptureService : Service() {
 
     @Inject
     lateinit var detectionEngine: HeroDetectionEngine
+
+    @Inject
+    lateinit var overlayViewModel: OverlayViewModel
+
+    @Inject
+    lateinit var counterRepository: CounterRepository
 
     private val binder = LocalBinder()
     private val serviceScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
@@ -95,12 +103,20 @@ class ScreenCaptureService : Service() {
         when (intent?.action) {
             ACTION_START_CAPTURE -> {
                 val resultCode = intent.getIntExtra(EXTRA_RESULT_CODE, 0)
-                val data = intent.getParcelableExtra<Intent>(EXTRA_DATA_INTENT)
+                val data: Intent? = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                    intent.getParcelableExtra(EXTRA_DATA_INTENT, Intent::class.java)
+                } else {
+                    @Suppress("DEPRECATION")
+                    intent.getParcelableExtra(EXTRA_DATA_INTENT)
+                }
                 if (resultCode != 0 && data != null) {
                     startCapture(resultCode, data)
                 } else {
                     Log.e(TAG, "Cannot start capture: Missing resultCode or data Intent.")
                 }
+            }
+            ACTION_TRIGGER_SCAN -> {
+                triggerSingleScan()
             }
             ACTION_STOP_CAPTURE -> {
                 stopCapture()
@@ -199,17 +215,19 @@ class ScreenCaptureService : Service() {
             val buffer = planes[0].buffer
             val pixelStride = planes[0].pixelStride
             val rowStride = planes[0].rowStride
-            val rowPadding = rowStride - pixelStride * screenWidth
+            val width = image.width
+            val height = image.height
+            val rowPadding = rowStride - pixelStride * width
 
             val bitmap = Bitmap.createBitmap(
-                screenWidth + rowPadding / pixelStride,
-                screenHeight,
+                width + rowPadding / pixelStride,
+                height,
                 Bitmap.Config.ARGB_8888
             )
             bitmap.copyPixelsFromBuffer(buffer)
 
             if (rowPadding != 0) {
-                val croppedBitmap = Bitmap.createBitmap(bitmap, 0, 0, screenWidth, screenHeight)
+                val croppedBitmap = Bitmap.createBitmap(bitmap, 0, 0, width, height)
                 bitmap.recycle()
                 croppedBitmap
             } else {
@@ -240,12 +258,43 @@ class ScreenCaptureService : Service() {
                             Log.d(TAG, "Captured and detected ${results.size} heroes.")
                             _detectionFlow.emit(results)
                             broadcastResults(results)
+
+                            val heroIds = results.map { it.heroId }
+                            val heroes = counterRepository.getHeroesByIds(heroIds)
+                            overlayViewModel.setDetectedHeroes(heroes)
                         }
                     }
                 } catch (e: Exception) {
                     Log.e(TAG, "Exception in capture loop: ${e.message}", e)
                 }
                 delay(captureIntervalMs)
+            }
+        }
+    }
+
+    /**
+     * Executes an immediate single-frame capture and detection for on-demand scans.
+     */
+    fun triggerSingleScan() {
+        serviceScope.launch {
+            try {
+                val bitmap = captureScreen()
+                if (bitmap != null) {
+                    val results = detectionEngine.detectHeroes(bitmap)
+                    bitmap.recycle()
+
+                    if (results.isNotEmpty()) {
+                        Log.d(TAG, "Single scan detected ${results.size} heroes.")
+                        _detectionFlow.emit(results)
+                        broadcastResults(results)
+
+                        val heroIds = results.map { it.heroId }
+                        val heroes = counterRepository.getHeroesByIds(heroIds)
+                        overlayViewModel.setDetectedHeroes(heroes)
+                    }
+                }
+            } catch (e: Exception) {
+                Log.e(TAG, "Exception in triggerSingleScan: ${e.message}", e)
             }
         }
     }
@@ -358,6 +407,7 @@ class ScreenCaptureService : Service() {
 
     private fun broadcastResults(results: List<DetectionResult>) {
         val intent = Intent(ACTION_HEROES_DETECTED).apply {
+            setPackage(packageName)
             putIntegerArrayListExtra(EXTRA_HERO_IDS, ArrayList(results.map { it.heroId }))
             putExtra(EXTRA_DETECTED_COUNT, results.size)
         }
@@ -381,6 +431,7 @@ class ScreenCaptureService : Service() {
 
         const val ACTION_START_CAPTURE = "com.mlcounters.app.action.START_CAPTURE"
         const val ACTION_STOP_CAPTURE = "com.mlcounters.app.action.STOP_CAPTURE"
+        const val ACTION_TRIGGER_SCAN = "com.mlcounters.app.action.TRIGGER_SCAN"
         const val ACTION_SET_INTERVAL = "com.mlcounters.app.action.SET_INTERVAL"
         const val ACTION_HEROES_DETECTED = "com.mlcounters.app.action.HEROES_DETECTED"
 

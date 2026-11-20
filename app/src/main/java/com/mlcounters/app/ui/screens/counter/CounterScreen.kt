@@ -65,6 +65,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.mlcounters.app.data.local.entity.HeroEntity
+import com.mlcounters.app.util.ImageUtils
 import com.mlcounters.app.ui.components.RoleChipRow
 import com.mlcounters.app.ui.components.SearchBar
 import com.mlcounters.app.ui.components.TierBadge
@@ -151,7 +152,7 @@ fun CounterScreen(
                             if (selectedHero?.portraitUrl?.isNotBlank() == true) {
                                 AsyncImage(
                                     model = ImageRequest.Builder(LocalContext.current)
-                                        .data(selectedHero!!.portraitUrl)
+                                        .data(ImageUtils.resolveHeroPortraitUrl(LocalContext.current, selectedHero!!.portraitUrl))
                                         .crossfade(true)
                                         .build(),
                                     contentDescription = selectedHero?.name,
@@ -395,7 +396,7 @@ fun ScoredHeroItem(
                     if (hero.portraitUrl.isNotBlank()) {
                         AsyncImage(
                             model = ImageRequest.Builder(LocalContext.current)
-                                .data(hero.portraitUrl)
+                                .data(ImageUtils.resolveHeroPortraitUrl(LocalContext.current, hero.portraitUrl))
                                 .crossfade(true)
                                 .build(),
                             contentDescription = hero.name,

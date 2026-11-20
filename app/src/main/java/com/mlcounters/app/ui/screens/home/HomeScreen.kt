@@ -86,6 +86,7 @@ import com.mlcounters.app.util.ImageUtils
 fun HomeScreen(
     onNavigateToSettings: () -> Unit,
     onNavigateToHeroDetail: (Int) -> Unit,
+    onToggleOverlay: () -> Unit = {},
     modifier: Modifier = Modifier,
     viewModel: HomeViewModel = hiltViewModel()
 ) {
@@ -143,7 +144,6 @@ fun HomeScreen(
             )
         }
     ) { innerPadding ->
-        val context = LocalContext.current
         Column(
             modifier = Modifier
                 .fillMaxSize()
@@ -154,38 +154,7 @@ fun HomeScreen(
             // Prominent Start/Stop Overlay Button
             OverlayToggleButton(
                 isActive = isOverlayActive,
-                onToggle = {
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && !Settings.canDrawOverlays(context)) {
-                        val intent = Intent(
-                            Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
-                            Uri.parse("package:${context.packageName}")
-                        ).apply {
-                            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                        }
-                        context.startActivity(intent)
-                        Toast.makeText(
-                            context,
-                            "Please enable 'Display over other apps' to use the floating overlay",
-                            Toast.LENGTH_LONG
-                        ).show()
-                    } else {
-                        if (isOverlayActive) {
-                            val intent = Intent(context, OverlayService::class.java).apply {
-                                action = OverlayService.ACTION_STOP_SERVICE
-                            }
-                            context.stopService(intent)
-                        } else {
-                            val intent = Intent(context, OverlayService::class.java).apply {
-                                action = OverlayService.ACTION_SHOW_OVERLAY
-                            }
-                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                                context.startForegroundService(intent)
-                            } else {
-                                context.startService(intent)
-                            }
-                        }
-                    }
-                }
+                onToggle = onToggleOverlay
             )
 
             Spacer(modifier = Modifier.height(16.dp))

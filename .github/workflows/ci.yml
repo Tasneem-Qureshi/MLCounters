@@ -62,14 +62,15 @@ jobs:
         if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.4
-          name: ML Helper v1.0.4 - Overlay Lifecycle & Composition Fixes
+          tag_name: v1.0.5
+          name: ML Helper v1.0.5 - Auto Screen Detection & Overlay Stability
           body: |
-            ### 📱 ML Helper v1.0.4
-            - **Fixed Overlay Crash & Display**: Fixed SavedStateRegistry initialization sequence (`performAttach()` before `performRestore()`), prevented lifecycle exceptions on WindowManager attachment.
-            - **Fixed Overlay Window Sizing**: Eliminated unbounded Column weight constraints and nested scrolling conflicts in the floating WindowManager ComposeView.
-            - **Refined Floating Bubble**: Bubble tap gesture expands overlay, drag gesture moves bubble across screen without gesture cancellation.
-            - **Complete 134-Hero Roster & Item Guides**: Full offline assets with automatic online fallback sync.
+            ### 📱 ML Helper v1.0.5
+            - **Automatic Real-Time Screen Detection**: ML Helper now automatically recognizes drafted enemy heroes directly from the game screen via MediaProjection and OpenCV template matching without any manual input.
+            - **Overlay Crash Resolved**: Fully decoupled OverlayService from binding to MediaProjection service on startup, eliminating Android 14+ Foreground Service permission crashes (`SecurityException` / `ForegroundServiceStartNotAllowedException`).
+            - **Seamless Permission & Capture Pipeline**: Launching the overlay seamlessly requests the system screen recording consent and begins continuous background frame capture and auto-counter analysis.
+            - **MLBB Draft-Slot Optimized Detection**: OpenCV template matching is focused on the draft slot columns, yielding fast, reliable hero identification with zero false positives.
+            - **Counter Screen Image Resolution**: Fixed image loading in Counter analysis screen to use resolved offline and CDN asset endpoints.
           files: app/build/outputs/apk/release/MLHelper.apk
           draft: false
           prerelease: false

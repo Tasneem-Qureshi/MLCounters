@@ -86,89 +86,106 @@ class HeroDetectionEngine @Inject constructor(
         // 1. Determine best template resolution based on screen dimensions
         val primaryResolution = templateManager.selectResolution(screenWidth, screenHeight)
 
-        // 2. Crop ROI if provided and valid
-        val effectiveRoi = calculateSafeRoi(screenWidth, screenHeight, roi)
-        val roiOffsetX = effectiveRoi?.left ?: 0
-        val roiOffsetY = effectiveRoi?.top ?: 0
+        // 2. Determine target search regions
+        val targetRois: List<Rect> = if (roi != null) {
+            val safe = calculateSafeRoi(screenWidth, screenHeight, roi)
+            if (safe != null) listOf(safe) else listOf(Rect(0, 0, screenWidth, screenHeight))
+        } else if (screenWidth > screenHeight) {
+            // MLBB landscape draft: Left team slots (0-28% width) & Right team slots (72-100% width)
+            listOf(
+                Rect(0, (screenHeight * 0.10).toInt(), (screenWidth * 0.28).toInt(), (screenHeight * 0.90).toInt()),
+                Rect((screenWidth * 0.72).toInt(), (screenHeight * 0.10).toInt(), screenWidth, (screenHeight * 0.90).toInt())
+            )
+        } else {
+            listOf(Rect(0, 0, screenWidth, screenHeight))
+        }
 
-        // 3. Convert Bitmap to Mat
         val screenRgbaMat = Mat()
-        var croppedMat: Mat? = null
-        val grayMat = Mat()
-        val blurredMat = Mat()
+        val allCandidates = mutableListOf<CandidateDetection>()
 
         try {
             Utils.bitmapToMat(screenBitmap, screenRgbaMat)
 
-            if (effectiveRoi != null && (effectiveRoi.width() < screenWidth || effectiveRoi.height() < screenHeight)) {
+            val templates = templateManager.getAllTemplates(primaryResolution)
+            if (templates.isEmpty()) {
+                Log.w(TAG, "No templates available for resolution: $primaryResolution")
+                return@withContext emptyList()
+            }
+
+            // 3. Scan each target ROI (draft columns)
+            for (targetRoi in targetRois) {
+                if (targetRoi.width() < primaryResolution || targetRoi.height() < primaryResolution) continue
                 val opencvRoi = org.opencv.core.Rect(
-                    effectiveRoi.left,
-                    effectiveRoi.top,
-                    effectiveRoi.width(),
-                    effectiveRoi.height()
+                    targetRoi.left,
+                    targetRoi.top,
+                    targetRoi.width(),
+                    targetRoi.height()
                 )
-                croppedMat = Mat(screenRgbaMat, opencvRoi)
-            } else {
-                croppedMat = screenRgbaMat
-            }
+                val croppedMat = Mat(screenRgbaMat, opencvRoi)
+                val grayMat = Mat()
+                val blurredMat = Mat()
 
-            // 4. Optimize: Convert to grayscale once
-            Imgproc.cvtColor(croppedMat, grayMat, Imgproc.COLOR_RGBA2GRAY)
+                try {
+                    Imgproc.cvtColor(croppedMat, grayMat, Imgproc.COLOR_RGBA2GRAY)
+                    Imgproc.GaussianBlur(grayMat, blurredMat, Size(3.0, 3.0), 0.0)
 
-            // 5. Apply Gaussian blur preprocessing for noise reduction at small sizes (e.g. 35px)
-            val kernelSize = if (primaryResolution <= TemplateManager.RESOLUTION_35) {
-                Size(3.0, 3.0)
-            } else {
-                Size(3.0, 3.0)
-            }
-            Imgproc.GaussianBlur(grayMat, blurredMat, kernelSize, 0.0)
-
-            // 6. Multi-scale detection: try primary resolution first, and fallback scales if needed
-            val resolutionsToTry = mutableListOf(primaryResolution)
-            if (primaryResolution == TemplateManager.RESOLUTION_48) {
-                resolutionsToTry.add(TemplateManager.RESOLUTION_35)
-                resolutionsToTry.add(TemplateManager.RESOLUTION_64)
-            } else if (primaryResolution == TemplateManager.RESOLUTION_35) {
-                resolutionsToTry.add(TemplateManager.RESOLUTION_48)
-            } else if (primaryResolution == TemplateManager.RESOLUTION_64) {
-                resolutionsToTry.add(TemplateManager.RESOLUTION_48)
-            }
-
-            // 7. Parallel matching using coroutines
-            val allCandidates = mutableListOf<CandidateDetection>()
-
-            for (res in resolutionsToTry) {
-                val templates = templateManager.getAllTemplates(res)
-                if (templates.isEmpty()) continue
-
-                val candidatesForRes = coroutineScope {
-                    templates.entries.map { (heroId, templateMat) ->
-                        async(Dispatchers.Default) {
-                            matchHeroTemplate(
-                                heroId = heroId,
-                                templateMat = templateMat,
-                                searchMat = blurredMat,
-                                templateResolution = res,
-                                roiOffsetX = roiOffsetX,
-                                roiOffsetY = roiOffsetY,
-                                threshold = confidenceThreshold
-                            )
-                        }
-                    }.awaitAll().filterNotNull()
-                }
-
-                allCandidates.addAll(candidatesForRes)
-
-                // If primary resolution gave high quality candidates, no need to over-search
-                if (candidatesForRes.size >= 5 && res == primaryResolution) {
-                    break
+                    val candidatesForRoi = coroutineScope {
+                        templates.entries.map { (heroId, templateMat) ->
+                            async(Dispatchers.Default) {
+                                matchHeroTemplate(
+                                    heroId = heroId,
+                                    templateMat = templateMat,
+                                    searchMat = blurredMat,
+                                    templateResolution = primaryResolution,
+                                    roiOffsetX = targetRoi.left,
+                                    roiOffsetY = targetRoi.top,
+                                    threshold = confidenceThreshold
+                                )
+                            }
+                        }.awaitAll().filterNotNull()
+                    }
+                    allCandidates.addAll(candidatesForRoi)
+                } finally {
+                    blurredMat.release()
+                    grayMat.release()
+                    croppedMat.release()
                 }
             }
 
-            // 8. Apply Non-Maximum Suppression (NMS) to eliminate overlapping duplicate detections
+            // 4. If draft column search found nothing, fall back to full screen search
+            if (allCandidates.isEmpty() && targetRois.size > 1) {
+                val grayMat = Mat()
+                val blurredMat = Mat()
+                try {
+                    Imgproc.cvtColor(screenRgbaMat, grayMat, Imgproc.COLOR_RGBA2GRAY)
+                    Imgproc.GaussianBlur(grayMat, blurredMat, Size(3.0, 3.0), 0.0)
+
+                    val fullCandidates = coroutineScope {
+                        templates.entries.map { (heroId, templateMat) ->
+                            async(Dispatchers.Default) {
+                                matchHeroTemplate(
+                                    heroId = heroId,
+                                    templateMat = templateMat,
+                                    searchMat = blurredMat,
+                                    templateResolution = primaryResolution,
+                                    roiOffsetX = 0,
+                                    roiOffsetY = 0,
+                                    threshold = confidenceThreshold
+                                )
+                            }
+                        }.awaitAll().filterNotNull()
+                    }
+                    allCandidates.addAll(fullCandidates)
+                } finally {
+                    blurredMat.release()
+                    grayMat.release()
+                }
+            }
+
+            // 5. Apply Non-Maximum Suppression (NMS) to eliminate duplicate/overlapping detections
             val filteredResults = applyNonMaximumSuppression(allCandidates, iouThreshold = 0.35f)
 
-            // 9. Return sorted by confidence descending (draft enemy team at most 5 heroes)
+            // 6. Return sorted by confidence descending (draft enemy team at most 5 heroes)
             val sortedResults = filteredResults.sortedByDescending { it.confidence }
             Log.d(TAG, "Detection completed. Found ${sortedResults.size} heroes.")
             sortedResults
@@ -176,16 +193,7 @@ class HeroDetectionEngine @Inject constructor(
             Log.e(TAG, "Exception during hero detection: ${e.message}", e)
             emptyList()
         } finally {
-            try {
-                blurredMat.release()
-                grayMat.release()
-                if (croppedMat != null && croppedMat != screenRgbaMat) {
-                    croppedMat.release()
-                }
-                screenRgbaMat.release()
-            } catch (e: Exception) {
-                Log.w(TAG, "Error cleaning up OpenCV Mat: ${e.message}")
-            }
+            screenRgbaMat.release()
         }
     }
 
@@ -322,6 +330,6 @@ class HeroDetectionEngine @Inject constructor(
 
     companion object {
         private const val TAG = "HeroDetectionEngine"
-        const val DEFAULT_CONFIDENCE_THRESHOLD = 0.75f
+        const val DEFAULT_CONFIDENCE_THRESHOLD = 0.58f
     }
 }
