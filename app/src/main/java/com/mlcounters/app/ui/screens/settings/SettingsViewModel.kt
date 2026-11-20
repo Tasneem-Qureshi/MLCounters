@@ -2,8 +2,8 @@ package com.mlcounters.app.ui.screens.settings
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.mlcounters.app.data.repository.HeroRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -14,7 +14,9 @@ import java.util.Locale
 import javax.inject.Inject
 
 @HiltViewModel
-class SettingsViewModel @Inject constructor() : ViewModel() {
+class SettingsViewModel @Inject constructor(
+    private val heroRepository: HeroRepository
+) : ViewModel() {
 
     private val _detectionSensitivity = MutableStateFlow(0.85f)
     val detectionSensitivity: StateFlow<Float> = _detectionSensitivity.asStateFlow()
@@ -25,10 +27,10 @@ class SettingsViewModel @Inject constructor() : ViewModel() {
     private val _autoDetect = MutableStateFlow(true)
     val autoDetect: StateFlow<Boolean> = _autoDetect.asStateFlow()
 
-    private val _dataSourceUrl = MutableStateFlow("https://api.mlcounters.com/v1/meta")
+    private val _dataSourceUrl = MutableStateFlow("https://raw.githubusercontent.com/Tasneem-Qureshi/MLCounters/main/data/")
     val dataSourceUrl: StateFlow<String> = _dataSourceUrl.asStateFlow()
 
-    private val _appVersion = MutableStateFlow("1.0.0 (Build 34)")
+    private val _appVersion = MutableStateFlow("1.0.2 (Build 36)")
     val appVersion: StateFlow<String> = _appVersion.asStateFlow()
 
     private val _lastSyncTime = MutableStateFlow(getFormattedTimestamp())
@@ -36,6 +38,9 @@ class SettingsViewModel @Inject constructor() : ViewModel() {
 
     private val _isSyncing = MutableStateFlow(false)
     val isSyncing: StateFlow<Boolean> = _isSyncing.asStateFlow()
+
+    private val _syncStatus = MutableStateFlow<String?>(null)
+    val syncStatus: StateFlow<String?> = _syncStatus.asStateFlow()
 
     fun setSensitivity(value: Float) {
         _detectionSensitivity.value = value.coerceIn(0.5f, 1.0f)
@@ -56,9 +61,20 @@ class SettingsViewModel @Inject constructor() : ViewModel() {
     fun triggerSync() {
         viewModelScope.launch {
             _isSyncing.value = true
-            delay(1000L)
-            _lastSyncTime.value = getFormattedTimestamp()
-            _isSyncing.value = false
+            _syncStatus.value = "Syncing data from GitHub..."
+            try {
+                val res = heroRepository.refreshData()
+                if (res.isSuccess) {
+                    _lastSyncTime.value = getFormattedTimestamp()
+                    _syncStatus.value = "Sync successful (${res.getOrNull()} heroes loaded)"
+                } else {
+                    _syncStatus.value = "Sync error: ${res.exceptionOrNull()?.message}"
+                }
+            } catch (e: Exception) {
+                _syncStatus.value = "Sync failed: ${e.message}"
+            } finally {
+                _isSyncing.value = false
+            }
         }
     }
 

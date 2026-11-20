@@ -75,10 +75,13 @@ class HomeViewModel @Inject constructor(
 
     fun refreshData() {
         viewModelScope.launch {
+            try {
+                heroRepository.refreshData()
+            } catch (_: Exception) {}
             _dataLastUpdated.value = getCurrentFormattedTime()
             val heroes = heroRepository.getAllHeroes().first()
             if (heroes.isNotEmpty()) {
-                _recentDetections.value = heroes.shuffled().take(5)
+                _recentDetections.value = heroes.take(5)
             }
         }
     }

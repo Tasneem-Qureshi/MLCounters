@@ -46,6 +46,32 @@ class TemplateManager @Inject constructor() {
 
         try {
             val assetManager = context.assets
+
+            // Build slug to heroId map from data/heroes.json
+            val slugToIdMap = mutableMapOf<String, Int>()
+            try {
+                val heroesJsonStream = try {
+                    assetManager.open("data/heroes.json")
+                } catch (_: Exception) {
+                    assetManager.open("heroes.json")
+                }
+                heroesJsonStream.use { stream ->
+                    val text = stream.bufferedReader().use { it.readText() }
+                    val jsonArray = org.json.JSONArray(text)
+                    for (i in 0 until jsonArray.length()) {
+                        val obj = jsonArray.getJSONObject(i)
+                        val id = obj.getInt("id")
+                        val name = obj.getString("name")
+                        heroNameCache[id] = name
+                        val slug = name.lowercase().replace(Regex("[\\s\\.\\-]+"), "_").replace("'", "_")
+                        slugToIdMap[slug] = id
+                        slugToIdMap[name.lowercase()] = id
+                    }
+                }
+            } catch (e: Exception) {
+                Log.w(TAG, "Could not load heroes.json for slug mapping: ${e.message}")
+            }
+
             // 1. Try resolution-specific directory first: portraits/{resolution}
             val resPath = "portraits/$validResolution"
             var files = try {
@@ -56,7 +82,17 @@ class TemplateManager @Inject constructor() {
 
             var basePath = resPath
             if (files.isEmpty()) {
-                // 2. Fall back to root portraits/ directory
+                // 2. Fall back to heroes/ directory
+                basePath = "heroes"
+                files = try {
+                    assetManager.list(basePath) ?: emptyArray()
+                } catch (e: IOException) {
+                    emptyArray()
+                }
+            }
+
+            if (files.isEmpty()) {
+                // 3. Fall back to portraits/ directory
                 basePath = "portraits"
                 files = try {
                     assetManager.list(basePath) ?: emptyArray()
@@ -76,8 +112,12 @@ class TemplateManager @Inject constructor() {
                     continue
                 }
 
-                val heroId = extractHeroIdFromFilename(filename) ?: continue
-                val heroName = extractHeroNameFromFilename(filename)
+                val nameWithoutExt = filename.substringBeforeLast(".")
+                val heroId = slugToIdMap[nameWithoutExt.lowercase()]
+                    ?: extractHeroIdFromFilename(filename)
+                    ?: continue
+
+                val heroName = heroNameCache[heroId] ?: extractHeroNameFromFilename(filename)
                 if (heroName.isNotEmpty()) {
                     heroNameCache[heroId] = heroName
                 }

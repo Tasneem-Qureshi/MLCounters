@@ -15,6 +15,7 @@ import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.SearchOff
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -58,8 +59,7 @@ fun HeroListScreen(
     val searchQuery by viewModel.searchQuery.collectAsState()
     val masteryMap by viewModel.masteryMap.collectAsState()
 
-    var isRefreshing by remember { mutableStateOf(false) }
-    val coroutineScope = rememberCoroutineScope()
+    val isRefreshing by viewModel.isRefreshing.collectAsState()
 
     Scaffold(
         modifier = modifier.fillMaxSize(),
@@ -68,10 +68,21 @@ fun HeroListScreen(
             TopAppBar(
                 title = {
                     Text(
-                        text = "HERO ROSTER",
+                        text = "HERO ROSTER (${heroes.size})",
                         style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Black),
                         color = TextWhite
                     )
+                },
+                actions = {
+                    androidx.compose.material3.IconButton(
+                        onClick = { viewModel.refreshData() }
+                    ) {
+                        androidx.compose.material3.Icon(
+                            imageVector = androidx.compose.material.icons.Icons.Default.Refresh,
+                            contentDescription = "Sync from Remote",
+                            tint = ElectricBlue
+                        )
+                    }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = DeepBlack)
             )
@@ -99,13 +110,7 @@ fun HeroListScreen(
 
             PullToRefreshBox(
                 isRefreshing = isRefreshing,
-                onRefresh = {
-                    isRefreshing = true
-                    coroutineScope.launch {
-                        delay(600L)
-                        isRefreshing = false
-                    }
-                },
+                onRefresh = { viewModel.refreshData() },
                 modifier = Modifier
                     .fillMaxSize()
                     .weight(1f)

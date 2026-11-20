@@ -2,6 +2,7 @@ package com.mlcounters.app.data.repository
 
 import android.content.Context
 import android.util.Log
+import androidx.room.withTransaction
 import com.mlcounters.app.data.local.AppDatabase
 import com.mlcounters.app.data.local.dao.CounterDao
 import com.mlcounters.app.data.local.dao.CounterItemDao
@@ -13,11 +14,24 @@ import com.mlcounters.app.data.local.entity.CounterItemEntity
 import com.mlcounters.app.data.local.entity.HeroEntity
 import com.mlcounters.app.data.local.entity.ItemEntity
 import com.mlcounters.app.data.local.entity.MasteryEntity
+import com.mlcounters.app.data.remote.GitHubDataApi
+import com.mlcounters.app.data.remote.dto.RemoteCounter
+import com.mlcounters.app.data.remote.dto.RemoteCounterItem
+import com.mlcounters.app.data.remote.dto.RemoteHero
+import com.mlcounters.app.data.remote.dto.RemoteItem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.withContext
+import kotlinx.serialization.json.Json
 import javax.inject.Inject
 import javax.inject.Singleton
+
+data class CounterResult(
+    val hero: HeroEntity,
+    val counterScore: Int,
+    val counterReasons: List<String>,
+    val heroesCountered: List<Int>
+)
 
 @Singleton
 class CounterRepository @Inject constructor(
@@ -26,7 +40,8 @@ class CounterRepository @Inject constructor(
     private val counterDao: CounterDao,
     private val itemDao: ItemDao,
     private val counterItemDao: CounterItemDao,
-    private val masteryDao: MasteryDao
+    private val masteryDao: MasteryDao,
+    private val gitHubDataApi: dagger.Lazy<GitHubDataApi>
 ) {
 
     fun getAllHeroes(): Flow<List<HeroEntity>> = heroDao.getAll()
@@ -45,58 +60,73 @@ class CounterRepository @Inject constructor(
         if (query.isBlank()) emptyList() else heroDao.searchHeroes(query)
     }
 
-    suspend fun getTopCountersForHero(
-        heroId: Int,
-        roleFilter: String? = null,
-        limit: Int = 3
-    ): List<Pair<HeroEntity, Int>> = withContext(Dispatchers.IO) {
-        val counterList = counterDao.getTopCountersForHero(heroId, limit = 20)
-        if (counterList.isEmpty()) return@withContext emptyList()
+    suspend fun getCounterPicks(enemyHeroIds: List<Int>): List<CounterResult> = withContext(Dispatchers.IO) {
+        if (enemyHeroIds.isEmpty()) return@withContext emptyList()
 
-        val counterHeroIds = counterList.map { it.counterHeroId }
+        val counters = counterDao.getCountersForHeroes(enemyHeroIds)
+        if (counters.isEmpty()) return@withContext emptyList()
+
+        val counterHeroIds = counters.map { it.counterHeroId }.distinct()
         val heroes = heroDao.getHeroesByIds(counterHeroIds).associateBy { it.id }
 
-        counterList
-            .mapNotNull { counter ->
-                val hero = heroes[counter.counterHeroId] ?: return@mapNotNull null
-                if (roleFilter != null && roleFilter != "All" &&
-                    hero.role != roleFilter && hero.secondaryRole != roleFilter
-                ) {
-                    null
-                } else {
-                    Pair(hero, counter.counterScore)
-                }
+        val scoredCounters = counters.groupBy { it.counterHeroId }
+            .mapNotNull { (heroId, counterList) ->
+                val hero = heroes[heroId] ?: return@mapNotNull null
+                val totalScore = counterList.sumOf { it.counterScore }
+                val averageScore = totalScore / counterList.size
+                val reasons = counterList.map { it.reason }
+
+                CounterResult(
+                    hero = hero,
+                    counterScore = averageScore,
+                    counterReasons = reasons,
+                    heroesCountered = counterList.map { it.heroId }
+                )
             }
-            .take(limit)
+            .sortedByDescending { it.counterScore }
+
+        scoredCounters
     }
 
     suspend fun getCountersForEnemyTeam(
         enemyIds: List<Int>,
         roleFilter: String? = null
     ): Map<Int, List<Pair<HeroEntity, Int>>> = withContext(Dispatchers.IO) {
+        if (enemyIds.isEmpty()) return@withContext emptyMap()
         val result = mutableMapOf<Int, List<Pair<HeroEntity, Int>>>()
-        for (heroId in enemyIds) {
-            result[heroId] = getTopCountersForHero(heroId, roleFilter, limit = 3)
+        for (enemyId in enemyIds) {
+            val counters = counterDao.getTopCountersForHero(enemyId, limit = 5)
+            val heroIds = counters.map { it.counterHeroId }
+            val heroes = heroDao.getHeroesByIds(heroIds).associateBy { it.id }
+            val pairs = counters.mapNotNull { c ->
+                val h = heroes[c.counterHeroId] ?: return@mapNotNull null
+                if (roleFilter.isNullOrBlank() || roleFilter.equals("All", ignoreCase = true) ||
+                    h.role.equals(roleFilter, ignoreCase = true) ||
+                    h.secondaryRole?.equals(roleFilter, ignoreCase = true) == true
+                ) {
+                    h to c.counterScore
+                } else null
+            }
+            result[enemyId] = pairs
         }
         result
     }
 
-    suspend fun getCounterItemsForEnemyTeam(
-        enemyIds: List<Int>
-    ): List<Pair<ItemEntity, String>> = withContext(Dispatchers.IO) {
-        if (enemyIds.isEmpty()) return@withContext emptyList()
+    suspend fun getCounterItems(enemyHeroIds: List<Int>): List<Pair<ItemEntity, String>> = withContext(Dispatchers.IO) {
+        if (enemyHeroIds.isEmpty()) return@withContext emptyList()
 
-        val itemCounters = counterItemDao.getItemCountersForHeroes(enemyIds)
-        if (itemCounters.isEmpty()) return@withContext emptyList()
+        val counterItems = counterItemDao.getItemCountersForHeroes(enemyHeroIds)
+        if (counterItems.isEmpty()) return@withContext emptyList()
 
-        val itemIds = itemCounters.map { it.itemId }.distinct()
-        val itemMap = itemDao.getItemsByIds(itemIds).associateBy { it.id }
+        val itemIds = counterItems.map { it.itemId }.distinct()
+        val items = itemDao.getItemsByIds(itemIds)
+        val itemMap = items.associateBy { it.id }
 
         val aggregated = mutableMapOf<Int, Pair<Int, String>>()
-        for (ic in itemCounters) {
-            val current = aggregated[ic.itemId]
-            if (current == null || ic.priority > current.first) {
-                aggregated[ic.itemId] = Pair(ic.priority, ic.reason)
+        for (ci in counterItems) {
+            val current = aggregated[ci.itemId]
+            if (current == null || ci.priority > current.first) {
+                aggregated[ci.itemId] = Pair(ci.priority, ci.reason)
             }
         }
 
@@ -108,132 +138,107 @@ class CounterRepository @Inject constructor(
             }
     }
 
+    suspend fun getCounterItemsForEnemyTeam(enemyIds: List<Int>): List<Pair<ItemEntity, String>> = withContext(Dispatchers.IO) {
+        getCounterItems(enemyIds)
+    }
+
     suspend fun isDatabaseEmpty(): Boolean = withContext(Dispatchers.IO) {
         heroDao.getHeroCount() == 0
     }
 
-    suspend fun seedInitialDataIfEmpty(context: Context) = withContext(Dispatchers.IO) {
+    suspend fun refreshFromRemote(force: Boolean = true): Result<Int> = withContext(Dispatchers.IO) {
         try {
-            if (!isDatabaseEmpty()) {
-                Log.d(TAG, "Database already initialized.")
-                return@withContext
-            }
+            Log.d(TAG, "Fetching remote data bundle from GitHub...")
+            val remoteHeroes = gitHubDataApi.get().getHeroes()
+            val remoteCounters = gitHubDataApi.get().getCounters()
+            val remoteItems = gitHubDataApi.get().getItems()
+            val remoteCounterItems = gitHubDataApi.get().getCounterItems()
 
-            Log.d(TAG, "Seeding database with default heroes and counters...")
-            seedDefaultHeroes()
-            seedDefaultItems()
-            seedDefaultCounters()
-            seedDefaultMastery()
-            Log.d(TAG, "Database successfully seeded.")
+            database.withTransaction {
+                database.heroDao().insertAll(remoteHeroes.map { it.toEntity() })
+                database.counterDao().deleteAll()
+                database.counterDao().insertAll(remoteCounters.map { it.toEntity() })
+                database.itemDao().insertAll(remoteItems.map { it.toEntity() })
+                database.counterItemDao().deleteAll()
+                database.counterItemDao().insertAll(remoteCounterItems.map { it.toEntity() })
+            }
+            Log.i(TAG, "Successfully refreshed remote data: ${remoteHeroes.size} heroes, ${remoteCounters.size} counters.")
+            Result.success(remoteHeroes.size)
         } catch (e: Exception) {
-            Log.e(TAG, "Error seeding database: ${e.message}", e)
+            Log.e(TAG, "Error refreshing data from remote: ${e.message}", e)
+            Result.failure(e)
         }
     }
 
-    private suspend fun seedDefaultHeroes() {
-        val heroes = listOf(
-            HeroEntity(1, "Miya", "Marksman", null, "", "A"),
-            HeroEntity(2, "Balmond", "Fighter", null, "", "B"),
-            HeroEntity(3, "Saber", "Assassin", null, "", "A"),
-            HeroEntity(4, "Alice", "Mage", "Tank", "", "A"),
-            HeroEntity(5, "Nana", "Mage", "Support", "", "S"),
-            HeroEntity(6, "Tigreal", "Tank", "Support", "", "S"),
-            HeroEntity(7, "Alucard", "Fighter", "Assassin", "", "B"),
-            HeroEntity(8, "Karina", "Assassin", null, "", "A"),
-            HeroEntity(9, "Akai", "Tank", "Support", "", "A"),
-            HeroEntity(10, "Franco", "Tank", "Support", "", "S"),
-            HeroEntity(17, "Fanny", "Assassin", null, "", "S"),
-            HeroEntity(20, "Lolita", "Support", "Tank", "", "S"),
-            HeroEntity(24, "Chou", "Fighter", null, "", "S"),
-            HeroEntity(27, "Ruby", "Fighter", "Tank", "", "S"),
-            HeroEntity(29, "Moskov", "Marksman", null, "", "S"),
-            HeroEntity(38, "Karrie", "Marksman", null, "", "S"),
-            HeroEntity(44, "Lancelot", "Assassin", null, "", "S"),
-            HeroEntity(45, "Diggie", "Support", null, "", "S"),
-            HeroEntity(50, "Lesley", "Marksman", "Assassin", "", "A"),
-            HeroEntity(53, "Gusion", "Assassin", "Mage", "", "S"),
-            HeroEntity(56, "Uranus", "Tank", null, "", "A"),
-            HeroEntity(71, "Minsitthar", "Fighter", "Support", "", "A"),
-            HeroEntity(75, "Khufra", "Tank", "Support", "", "S"),
-            HeroEntity(78, "Esmeralda", "Mage", "Tank", "", "A"),
-            HeroEntity(80, "Ling", "Assassin", null, "", "S"),
-            HeroEntity(81, "Dyrroth", "Fighter", null, "", "A"),
-            HeroEntity(85, "Baxia", "Tank", null, "", "A"),
-            HeroEntity(87, "Wanwan", "Marksman", null, "", "S"),
-            HeroEntity(93, "Yu Zhong", "Fighter", null, "", "S"),
-            HeroEntity(104, "Phoveus", "Fighter", null, "", "S"),
-            HeroEntity(115, "Fredrinn", "Tank", "Fighter", "", "S")
-        )
-        heroDao.insertAll(heroes)
-    }
+    suspend fun seedInitialDataIfEmpty(context: Context) = withContext(Dispatchers.IO) {
+        try {
+            val currentHeroCount = heroDao.getHeroCount()
+            if (currentHeroCount >= 100) {
+                Log.d(TAG, "Database already initialized with $currentHeroCount heroes.")
+                return@withContext
+            }
 
-    private suspend fun seedDefaultItems() {
-        val items = listOf(
-            ItemEntity(1, "Sea Halberd", "Attack", "Physical", "Reduces shield & HP regen by 50%", "", "+80 Phys Atk, +20% Atk Spd", "Lifebane"),
-            ItemEntity(2, "Glowing Wand", "Magic", "Magic", "Causes burn & reduces shield/HP regen by 50%", "", "+75 Magic Power, +400 HP", "Scorch & Lifebane"),
-            ItemEntity(3, "Dominance Ice", "Defense", "Physical Defense", "Reduces nearby enemy attack speed & HP regen by 50%", "", "+500 Mana, +70 Phys Def", "Arctic Cold & Lifebane"),
-            ItemEntity(4, "Antique Cuirass", "Defense", "Physical Defense", "Reduces physical attack of enemy skill casters", "", "+920 HP, +54 Phys Def", "Deter"),
-            ItemEntity(5, "Blade Armor", "Defense", "Physical Defense", "Reflects basic attack damage and reduces critical damage", "", "+90 Phys Def", "Bladed Armor"),
-            ItemEntity(6, "Athena's Shield", "Defense", "Magic Defense", "Grants 25% magic damage reduction shield against burst", "", "+900 HP, +62 Magic Def", "Shield"),
-            ItemEntity(7, "Radiant Armor", "Defense", "Magic Defense", "Continuous magic damage reduction stacking up to 6 times", "", "+950 HP, +52 Magic Def", "Holy Blessing"),
-            ItemEntity(8, "Demon Hunter Sword", "Attack", "Physical", "Deals % of enemy current HP as extra damage", "", "+35 Phys Atk, +25% Atk Spd", "Devour"),
-            ItemEntity(9, "Malefic Roar", "Attack", "Physical", "Physical penetration scaling with enemy physical defense", "", "+60 Phys Atk", "Armor Buster"),
-            ItemEntity(13, "Wind of Nature", "Attack", "Physical", "Grants physical damage immunity for 2s", "", "+30 Phys Atk, +20% Atk Spd", "Wind Chant")
-        )
-        itemDao.insertAll(items)
+            Log.i(TAG, "Seeding database with full roster from bundled assets...")
+            val json = Json {
+                ignoreUnknownKeys = true
+                coerceInputValues = true
+                isLenient = true
+            }
 
-        val itemCounters = listOf(
-            CounterItemEntity(againstHeroId = 56, itemId = 3, priority = 10, reason = "Anti-Regen: Dominance Ice counters Uranus passive healing"),
-            CounterItemEntity(againstHeroId = 56, itemId = 1, priority = 9, reason = "Anti-Regen: Physical heroes build Sea Halberd against Uranus"),
-            CounterItemEntity(againstHeroId = 78, itemId = 3, priority = 10, reason = "Anti-Shield: Dominance Ice counters Esmeralda shield generation"),
-            CounterItemEntity(againstHeroId = 17, itemId = 4, priority = 10, reason = "Skill Defense: Antique Cuirass mitigates Fanny cable dives"),
-            CounterItemEntity(againstHeroId = 17, itemId = 13, priority = 9, reason = "Immunity: Wind of Nature survives Fanny burst damage"),
-            CounterItemEntity(againstHeroId = 80, itemId = 13, priority = 10, reason = "Immunity: Wind of Nature survives Ling tempest burst"),
-            CounterItemEntity(againstHeroId = 53, itemId = 6, priority = 10, reason = "Magic Shield: Athena's Shield survives Gusion dagger combo"),
-            CounterItemEntity(againstHeroId = 6, itemId = 8, priority = 10, reason = "DHS deals percentage HP damage to Tigreal massive health pool")
-        )
-        counterItemDao.insertAll(itemCounters)
-    }
+            fun openAsset(filename: String): java.io.InputStream {
+                return try {
+                    context.assets.open("data/$filename")
+                } catch (_: Exception) {
+                    context.assets.open(filename)
+                }
+            }
 
-    private suspend fun seedDefaultCounters() {
-        val counters = listOf(
-            CounterEntity(heroId = 1, counterHeroId = 3, counterScore = 92, reason = "Saber point-and-click knockup bursts Miya before she ults"),
-            CounterEntity(heroId = 1, counterHeroId = 24, counterScore = 88, reason = "Chou kicks Miya out of safety"),
-            CounterEntity(heroId = 1, counterHeroId = 10, counterScore = 85, reason = "Franco suppress hook prevents Miya escape"),
+            try {
+                openAsset("heroes.json").use { stream ->
+                    val text = stream.bufferedReader().use { it.readText() }
+                    val heroes = json.decodeFromString<List<RemoteHero>>(text)
+                    heroDao.insertAll(heroes.map { it.toEntity() })
+                }
+            } catch (e: Exception) {
+                Log.e(TAG, "Failed seeding heroes: ${e.message}")
+            }
 
-            CounterEntity(heroId = 17, counterHeroId = 75, counterScore = 98, reason = "Khufra bouncing ball immediately stops Fanny cables"),
-            CounterEntity(heroId = 17, counterHeroId = 24, counterScore = 94, reason = "Chou instant ultimate intercepts Fanny in flight"),
-            CounterEntity(heroId = 17, counterHeroId = 29, counterScore = 90, reason = "Moskov pins Fanny to walls during cables"),
+            try {
+                openAsset("counters.json").use { stream ->
+                    val text = stream.bufferedReader().use { it.readText() }
+                    val counters = json.decodeFromString<List<RemoteCounter>>(text)
+                    counterDao.deleteAll()
+                    counterDao.insertAll(counters.map { it.toEntity() })
+                }
+            } catch (e: Exception) {
+                Log.e(TAG, "Failed seeding counters: ${e.message}")
+            }
 
-            CounterEntity(heroId = 78, counterHeroId = 85, counterScore = 95, reason = "Baxia anti-heal passive neuters Esmeralda shield gain"),
-            CounterEntity(heroId = 78, counterHeroId = 81, counterScore = 93, reason = "Dyrroth melts Esmeralda defense with armor break"),
-            CounterEntity(heroId = 78, counterHeroId = 38, counterScore = 89, reason = "Karrie true damage pierces Esmeralda shields"),
+            try {
+                openAsset("items.json").use { stream ->
+                    val text = stream.bufferedReader().use { it.readText() }
+                    val items = json.decodeFromString<List<RemoteItem>>(text)
+                    itemDao.insertAll(items.map { it.toEntity() })
+                }
+            } catch (e: Exception) {
+                Log.e(TAG, "Failed seeding items: ${e.message}")
+            }
 
-            CounterEntity(heroId = 80, counterHeroId = 71, counterScore = 97, reason = "Minsitthar ultimate grounds Ling preventing wall leaps"),
-            CounterEntity(heroId = 80, counterHeroId = 75, counterScore = 95, reason = "Khufra intercepts Ling wall jumps with bouncing ball"),
-            CounterEntity(heroId = 80, counterHeroId = 27, counterScore = 89, reason = "Ruby chained crowd control locks Ling down"),
+            try {
+                openAsset("counter_items.json").use { stream ->
+                    val text = stream.bufferedReader().use { it.readText() }
+                    val counterItems = json.decodeFromString<List<RemoteCounterItem>>(text)
+                    counterItemDao.deleteAll()
+                    counterItemDao.insertAll(counterItems.map { it.toEntity() })
+                }
+            } catch (e: Exception) {
+                Log.e(TAG, "Failed seeding counter items: ${e.message}")
+            }
 
-            CounterEntity(heroId = 24, counterHeroId = 45, counterScore = 96, reason = "Diggie ultimate cleanses Chou crowd control combo"),
-            CounterEntity(heroId = 24, counterHeroId = 104, counterScore = 91, reason = "Phoveus repeatedly smashes onto Chou dashes"),
-            CounterEntity(heroId = 24, counterHeroId = 115, counterScore = 87, reason = "Fredrinn out-sustains and taunts Chou"),
-
-            CounterEntity(heroId = 6, counterHeroId = 45, counterScore = 99, reason = "Diggie cleanses Tigreal ultimate instantly"),
-            CounterEntity(heroId = 6, counterHeroId = 9, counterScore = 88, reason = "Akai spin knocks Tigreal away from team"),
-
-            CounterEntity(heroId = 87, counterHeroId = 104, counterScore = 95, reason = "Phoveus triggers non-stop jumps on Wanwan hops"),
-            CounterEntity(heroId = 87, counterHeroId = 20, counterScore = 92, reason = "Lolita shield completely blocks Wanwan crossbow darts"),
-            CounterEntity(heroId = 87, counterHeroId = 75, counterScore = 88, reason = "Khufra bounces stop Wanwan movement")
-        )
-        counterDao.insertAll(counters)
-    }
-
-    private suspend fun seedDefaultMastery() {
-        val masteries = listOf(
-            MasteryEntity(heroId = 3, level = 5, notes = "Main Assassin"),
-            MasteryEntity(heroId = 24, level = 4, notes = "Comfort pick Fighter"),
-            MasteryEntity(heroId = 75, level = 5, notes = "Tank specialist")
-        )
-        masteryDao.insertAll(masteries)
+            Log.i(TAG, "Database successfully seeded from assets: ${heroDao.getHeroCount()} heroes.")
+        } catch (e: Exception) {
+            Log.e(TAG, "Error seeding database: ${e.message}", e)
+        }
     }
 
     companion object {

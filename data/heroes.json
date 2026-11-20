@@ -1,0 +1,1074 @@
+[
+  {
+    "id": 1,
+    "name": "Aamon",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/aamon.png",
+    "tier": "A"
+  },
+  {
+    "id": 2,
+    "name": "Akai",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/akai.png",
+    "tier": "A"
+  },
+  {
+    "id": 3,
+    "name": "Aldous",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/aldous.png",
+    "tier": "A"
+  },
+  {
+    "id": 4,
+    "name": "Alice",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/alice.png",
+    "tier": "A"
+  },
+  {
+    "id": 5,
+    "name": "Alpha",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/alpha.png",
+    "tier": "B"
+  },
+  {
+    "id": 6,
+    "name": "Alucard",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/alucard.png",
+    "tier": "B"
+  },
+  {
+    "id": 7,
+    "name": "Angela",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/angela.png",
+    "tier": "A"
+  },
+  {
+    "id": 8,
+    "name": "Argus",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/argus.png",
+    "tier": "S"
+  },
+  {
+    "id": 9,
+    "name": "Arlott",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/arlott.png",
+    "tier": "B"
+  },
+  {
+    "id": 10,
+    "name": "Atlas",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/atlas.png",
+    "tier": "A"
+  },
+  {
+    "id": 11,
+    "name": "Aulus",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/aulus.png",
+    "tier": "S"
+  },
+  {
+    "id": 12,
+    "name": "Aurora",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/aurora.png",
+    "tier": "B"
+  },
+  {
+    "id": 13,
+    "name": "Badang",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/badang.png",
+    "tier": "A"
+  },
+  {
+    "id": 14,
+    "name": "Balmond",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/balmond.png",
+    "tier": "B"
+  },
+  {
+    "id": 15,
+    "name": "Bane",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/bane.png",
+    "tier": "A"
+  },
+  {
+    "id": 16,
+    "name": "Barats",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/barats.png",
+    "tier": "A"
+  },
+  {
+    "id": 17,
+    "name": "Baxia",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/baxia.png",
+    "tier": "B"
+  },
+  {
+    "id": 18,
+    "name": "Beatrix",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/beatrix.png",
+    "tier": "A"
+  },
+  {
+    "id": 19,
+    "name": "Belerick",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/belerick.png",
+    "tier": "S"
+  },
+  {
+    "id": 20,
+    "name": "Benedetta",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/benedetta.png",
+    "tier": "S"
+  },
+  {
+    "id": 21,
+    "name": "Brody",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/brody.png",
+    "tier": "A"
+  },
+  {
+    "id": 22,
+    "name": "Bruno",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/bruno.png",
+    "tier": "S"
+  },
+  {
+    "id": 23,
+    "name": "Carmilla",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/carmilla.png",
+    "tier": "S"
+  },
+  {
+    "id": 24,
+    "name": "Cecilion",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/cecilion.png",
+    "tier": "A"
+  },
+  {
+    "id": 25,
+    "name": "Chang'e",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/chang_e.png",
+    "tier": "B"
+  },
+  {
+    "id": 26,
+    "name": "Chip",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/chip.png",
+    "tier": "B"
+  },
+  {
+    "id": 27,
+    "name": "Chou",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/chou.png",
+    "tier": "B"
+  },
+  {
+    "id": 28,
+    "name": "Cici",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/cici.png",
+    "tier": "A"
+  },
+  {
+    "id": 29,
+    "name": "Claude",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/claude.png",
+    "tier": "A"
+  },
+  {
+    "id": 30,
+    "name": "Clint",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/clint.png",
+    "tier": "A"
+  },
+  {
+    "id": 31,
+    "name": "Cyclops",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/cyclops.png",
+    "tier": "A"
+  },
+  {
+    "id": 32,
+    "name": "Diggie",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/diggie.png",
+    "tier": "S"
+  },
+  {
+    "id": 33,
+    "name": "Dori",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/dori.png",
+    "tier": "B"
+  },
+  {
+    "id": 34,
+    "name": "Dyrroth",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/dyrroth.png",
+    "tier": "B"
+  },
+  {
+    "id": 35,
+    "name": "Edith",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/edith.png",
+    "tier": "S"
+  },
+  {
+    "id": 36,
+    "name": "Esmeralda",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/esmeralda.png",
+    "tier": "B"
+  },
+  {
+    "id": 37,
+    "name": "Estes",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/estes.png",
+    "tier": "S"
+  },
+  {
+    "id": 38,
+    "name": "Eudora",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/eudora.png",
+    "tier": "A"
+  },
+  {
+    "id": 39,
+    "name": "Fanny",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/fanny.png",
+    "tier": "B"
+  },
+  {
+    "id": 40,
+    "name": "Faramis",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/faramis.png",
+    "tier": "A"
+  },
+  {
+    "id": 41,
+    "name": "Floryn",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/floryn.png",
+    "tier": "S"
+  },
+  {
+    "id": 42,
+    "name": "Franco",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/franco.png",
+    "tier": "B"
+  },
+  {
+    "id": 43,
+    "name": "Fredrinn",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/fredrinn.png",
+    "tier": "A"
+  },
+  {
+    "id": 44,
+    "name": "Freya",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/freya.png",
+    "tier": "B"
+  },
+  {
+    "id": 45,
+    "name": "Gatotkaca",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/gatotkaca.png",
+    "tier": "B"
+  },
+  {
+    "id": 46,
+    "name": "Gloo",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/gloo.png",
+    "tier": "S"
+  },
+  {
+    "id": 47,
+    "name": "Gord",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/gord.png",
+    "tier": "S"
+  },
+  {
+    "id": 48,
+    "name": "Granger",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/granger.png",
+    "tier": "B"
+  },
+  {
+    "id": 49,
+    "name": "Grock",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/grock.png",
+    "tier": "B"
+  },
+  {
+    "id": 50,
+    "name": "Guinevere",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/guinevere.png",
+    "tier": "A"
+  },
+  {
+    "id": 51,
+    "name": "Gusion",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/gusion.png",
+    "tier": "B"
+  },
+  {
+    "id": 52,
+    "name": "Hanabi",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/hanabi.png",
+    "tier": "S"
+  },
+  {
+    "id": 53,
+    "name": "Hanzo",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/hanzo.png",
+    "tier": "A"
+  },
+  {
+    "id": 54,
+    "name": "Harith",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/harith.png",
+    "tier": "B"
+  },
+  {
+    "id": 55,
+    "name": "Harley",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/harley.png",
+    "tier": "B"
+  },
+  {
+    "id": 56,
+    "name": "Hayabusa",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/hayabusa.png",
+    "tier": "B"
+  },
+  {
+    "id": 57,
+    "name": "Helcurt",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/helcurt.png",
+    "tier": "B"
+  },
+  {
+    "id": 58,
+    "name": "Hilda",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/hilda.png",
+    "tier": "A"
+  },
+  {
+    "id": 59,
+    "name": "Hirara",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/hirara.png",
+    "tier": "S"
+  },
+  {
+    "id": 60,
+    "name": "Hylos",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/hylos.png",
+    "tier": "B"
+  },
+  {
+    "id": 61,
+    "name": "Irithel",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/irithel.png",
+    "tier": "S"
+  },
+  {
+    "id": 62,
+    "name": "Ixia",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/ixia.png",
+    "tier": "A"
+  },
+  {
+    "id": 63,
+    "name": "Jawhead",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/jawhead.png",
+    "tier": "B"
+  },
+  {
+    "id": 64,
+    "name": "Johnson",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/johnson.png",
+    "tier": "B"
+  },
+  {
+    "id": 65,
+    "name": "Joy",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/joy.png",
+    "tier": "B"
+  },
+  {
+    "id": 66,
+    "name": "Julian",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/julian.png",
+    "tier": "A"
+  },
+  {
+    "id": 67,
+    "name": "Kadita",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/kadita.png",
+    "tier": "A"
+  },
+  {
+    "id": 68,
+    "name": "Kagura",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/kagura.png",
+    "tier": "A"
+  },
+  {
+    "id": 69,
+    "name": "Kaja",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/kaja.png",
+    "tier": "A"
+  },
+  {
+    "id": 70,
+    "name": "Kalea",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/kalea.png",
+    "tier": "B"
+  },
+  {
+    "id": 71,
+    "name": "Karina",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/karina.png",
+    "tier": "B"
+  },
+  {
+    "id": 72,
+    "name": "Karrie",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/karrie.png",
+    "tier": "B"
+  },
+  {
+    "id": 73,
+    "name": "Khaleed",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/khaleed.png",
+    "tier": "A"
+  },
+  {
+    "id": 74,
+    "name": "Khufra",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/khufra.png",
+    "tier": "S"
+  },
+  {
+    "id": 75,
+    "name": "Kimmy",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/kimmy.png",
+    "tier": "B"
+  },
+  {
+    "id": 76,
+    "name": "Lancelot",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/lancelot.png",
+    "tier": "B"
+  },
+  {
+    "id": 77,
+    "name": "Lapu-Lapu",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/lapu_lapu.png",
+    "tier": "B"
+  },
+  {
+    "id": 78,
+    "name": "Layla",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/layla.png",
+    "tier": "A"
+  },
+  {
+    "id": 79,
+    "name": "Leomord",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/leomord.png",
+    "tier": "A"
+  },
+  {
+    "id": 80,
+    "name": "Lesley",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/lesley.png",
+    "tier": "B"
+  },
+  {
+    "id": 81,
+    "name": "Ling",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/ling.png",
+    "tier": "S"
+  },
+  {
+    "id": 82,
+    "name": "Lolita",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/lolita.png",
+    "tier": "S"
+  },
+  {
+    "id": 83,
+    "name": "Lukas",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/lukas.png",
+    "tier": "S"
+  },
+  {
+    "id": 84,
+    "name": "Lunox",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/lunox.png",
+    "tier": "B"
+  },
+  {
+    "id": 85,
+    "name": "Luo Yi",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/luo_yi.png",
+    "tier": "B"
+  },
+  {
+    "id": 86,
+    "name": "Lylia",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/lylia.png",
+    "tier": "A"
+  },
+  {
+    "id": 87,
+    "name": "Marcel",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/marcel.png",
+    "tier": "S"
+  },
+  {
+    "id": 88,
+    "name": "Martis",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/martis.png",
+    "tier": "B"
+  },
+  {
+    "id": 89,
+    "name": "Masha",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/masha.png",
+    "tier": "S"
+  },
+  {
+    "id": 90,
+    "name": "Mathilda",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/mathilda.png",
+    "tier": "B"
+  },
+  {
+    "id": 91,
+    "name": "Melissa",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/melissa.png",
+    "tier": "B"
+  },
+  {
+    "id": 92,
+    "name": "Minotaur",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/minotaur.png",
+    "tier": "S"
+  },
+  {
+    "id": 93,
+    "name": "Minsitthar",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/minsitthar.png",
+    "tier": "A"
+  },
+  {
+    "id": 94,
+    "name": "Miya",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/miya.png",
+    "tier": "A"
+  },
+  {
+    "id": 95,
+    "name": "Moskov",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/moskov.png",
+    "tier": "A"
+  },
+  {
+    "id": 96,
+    "name": "Nana",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/nana.png",
+    "tier": "B"
+  },
+  {
+    "id": 97,
+    "name": "Natalia",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/natalia.png",
+    "tier": "A"
+  },
+  {
+    "id": 98,
+    "name": "Natan",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/natan.png",
+    "tier": "A"
+  },
+  {
+    "id": 99,
+    "name": "Nolan",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/nolan.png",
+    "tier": "B"
+  },
+  {
+    "id": 100,
+    "name": "Novaria",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/novaria.png",
+    "tier": "A"
+  },
+  {
+    "id": 101,
+    "name": "Obsidia",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/obsidia.png",
+    "tier": "S"
+  },
+  {
+    "id": 102,
+    "name": "Odette",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/odette.png",
+    "tier": "A"
+  },
+  {
+    "id": 103,
+    "name": "Paquito",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/paquito.png",
+    "tier": "A"
+  },
+  {
+    "id": 104,
+    "name": "Pharsa",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/pharsa.png",
+    "tier": "B"
+  },
+  {
+    "id": 105,
+    "name": "Phoveus",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/phoveus.png",
+    "tier": "B"
+  },
+  {
+    "id": 106,
+    "name": "Popol and Kupa",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/popol_and_kupa.png",
+    "tier": "S"
+  },
+  {
+    "id": 107,
+    "name": "Rafaela",
+    "role": "Support",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/rafaela.png",
+    "tier": "S"
+  },
+  {
+    "id": 108,
+    "name": "Roger",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/roger.png",
+    "tier": "B"
+  },
+  {
+    "id": 109,
+    "name": "Ruby",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/ruby.png",
+    "tier": "A"
+  },
+  {
+    "id": 110,
+    "name": "Saber",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/saber.png",
+    "tier": "A"
+  },
+  {
+    "id": 111,
+    "name": "Selena",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/selena.png",
+    "tier": "B"
+  },
+  {
+    "id": 112,
+    "name": "Silvanna",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/silvanna.png",
+    "tier": "A"
+  },
+  {
+    "id": 113,
+    "name": "Sora",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/sora.png",
+    "tier": "A"
+  },
+  {
+    "id": 114,
+    "name": "Sun",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/sun.png",
+    "tier": "S"
+  },
+  {
+    "id": 115,
+    "name": "Suyou",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/suyou.png",
+    "tier": "A"
+  },
+  {
+    "id": 116,
+    "name": "Terizla",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/terizla.png",
+    "tier": "A"
+  },
+  {
+    "id": 117,
+    "name": "Thamuz",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/thamuz.png",
+    "tier": "B"
+  },
+  {
+    "id": 118,
+    "name": "Tigreal",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/tigreal.png",
+    "tier": "B"
+  },
+  {
+    "id": 119,
+    "name": "Uranus",
+    "role": "Tank",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/uranus.png",
+    "tier": "A"
+  },
+  {
+    "id": 120,
+    "name": "Vale",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/vale.png",
+    "tier": "A"
+  },
+  {
+    "id": 121,
+    "name": "Valentina",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/valentina.png",
+    "tier": "B"
+  },
+  {
+    "id": 122,
+    "name": "Valir",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/valir.png",
+    "tier": "S"
+  },
+  {
+    "id": 123,
+    "name": "Vexana",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/vexana.png",
+    "tier": "A"
+  },
+  {
+    "id": 124,
+    "name": "Wanwan",
+    "role": "Marksman",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/wanwan.png",
+    "tier": "B"
+  },
+  {
+    "id": 125,
+    "name": "X.Borg",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/x_borg.png",
+    "tier": "A"
+  },
+  {
+    "id": 126,
+    "name": "Xavier",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/xavier.png",
+    "tier": "A"
+  },
+  {
+    "id": 127,
+    "name": "Yi Sun-shin",
+    "role": "Assassin",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/yi_sun_shin.png",
+    "tier": "A"
+  },
+  {
+    "id": 128,
+    "name": "Yin",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/yin.png",
+    "tier": "B"
+  },
+  {
+    "id": 129,
+    "name": "Yu Zhong",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/yu_zhong.png",
+    "tier": "A"
+  },
+  {
+    "id": 130,
+    "name": "Yve",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/yve.png",
+    "tier": "S"
+  },
+  {
+    "id": 131,
+    "name": "Zetian",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/zetian.png",
+    "tier": "A"
+  },
+  {
+    "id": 132,
+    "name": "Zhask",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/zhask.png",
+    "tier": "S"
+  },
+  {
+    "id": 133,
+    "name": "Zhuxin",
+    "role": "Mage",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/zhuxin.png",
+    "tier": "A"
+  },
+  {
+    "id": 134,
+    "name": "Zilong",
+    "role": "Fighter",
+    "secondaryRole": null,
+    "portraitUrl": "file:///android_asset/heroes/zilong.png",
+    "tier": "B"
+  }
+]

@@ -18,7 +18,7 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object NetworkModule {
 
-    private const val GITHUB_RAW_BASE_URL = "https://raw.githubusercontent.com/mlcounters/ml-data/main/"
+    private const val GITHUB_RAW_BASE_URL = "https://raw.githubusercontent.com/Tasneem-Qureshi/MLCounters/main/data/"
 
     @Provides
     @Singleton

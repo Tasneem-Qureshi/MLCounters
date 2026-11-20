@@ -62,6 +62,14 @@ object DatabaseModule {
         return database
     }
 
+    private fun openAsset(context: Context, filename: String): java.io.InputStream {
+        return try {
+            context.assets.open("data/$filename")
+        } catch (_: Exception) {
+            context.assets.open(filename)
+        }
+    }
+
     private suspend fun loadInitialData(context: Context, database: AppDatabase) {
         val json = Json {
             ignoreUnknownKeys = true
@@ -71,7 +79,7 @@ object DatabaseModule {
 
         // 1. Try reading initial_data.json bundle if present
         try {
-            context.assets.open("initial_data.json").use { stream ->
+            openAsset(context, "initial_data.json").use { stream ->
                 val text = stream.bufferedReader().use { it.readText() }
                 val bundle = json.decodeFromString<RemoteDataBundle>(text)
                 if (bundle.heroes.isNotEmpty()) {
@@ -90,9 +98,9 @@ object DatabaseModule {
             }
         } catch (_: Exception) {}
 
-        // 2. Fallback to individual asset files
+        // 2. Individual asset files from data/ or root
         try {
-            context.assets.open("heroes.json").use { stream ->
+            openAsset(context, "heroes.json").use { stream ->
                 val text = stream.bufferedReader().use { it.readText() }
                 val heroes = json.decodeFromString<List<RemoteHero>>(text)
                 database.heroDao().insertAll(heroes.map { it.toEntity() })
@@ -100,7 +108,7 @@ object DatabaseModule {
         } catch (_: Exception) {}
 
         try {
-            context.assets.open("counters.json").use { stream ->
+            openAsset(context, "counters.json").use { stream ->
                 val text = stream.bufferedReader().use { it.readText() }
                 val counters = json.decodeFromString<List<RemoteCounter>>(text)
                 database.counterDao().insertAll(counters.map { it.toEntity() })
@@ -108,7 +116,7 @@ object DatabaseModule {
         } catch (_: Exception) {}
 
         try {
-            context.assets.open("items.json").use { stream ->
+            openAsset(context, "items.json").use { stream ->
                 val text = stream.bufferedReader().use { it.readText() }
                 val items = json.decodeFromString<List<RemoteItem>>(text)
                 database.itemDao().insertAll(items.map { it.toEntity() })
@@ -116,7 +124,7 @@ object DatabaseModule {
         } catch (_: Exception) {}
 
         try {
-            context.assets.open("counter_items.json").use { stream ->
+            openAsset(context, "counter_items.json").use { stream ->
                 val text = stream.bufferedReader().use { it.readText() }
                 val counterItems = json.decodeFromString<List<RemoteCounterItem>>(text)
                 database.counterItemDao().insertAll(counterItems.map { it.toEntity() })

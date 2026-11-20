@@ -15,7 +15,8 @@ import javax.inject.Singleton
 class HeroRepository @Inject constructor(
     private val heroDao: HeroDao,
     private val counterDao: CounterDao,
-    private val masteryDao: MasteryDao
+    private val masteryDao: MasteryDao,
+    private val counterRepository: dagger.Lazy<CounterRepository>
 ) {
     fun getAllHeroes(): Flow<List<HeroEntity>> = heroDao.getAll()
 
@@ -57,5 +58,9 @@ class HeroRepository @Inject constructor(
 
     suspend fun insertCounters(counters: List<CounterEntity>) {
         counterDao.insertAll(counters)
+    }
+
+    suspend fun refreshData(): Result<Int> {
+        return counterRepository.get().refreshFromRemote(force = true)
     }
 }

@@ -1,0 +1,6566 @@
+[
+  {
+    "againstHeroId": 1,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 1,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 1,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Use Oracle, Athena\u2019s Shield, Radiant Armor or Cursed Helmet to reduce Aamon\u2019s magic damage."
+  },
+  {
+    "againstHeroId": 1,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Use Oracle, Athena\u2019s Shield, Radiant Armor or Cursed Helmet to reduce Aamon\u2019s magic damage."
+  },
+  {
+    "againstHeroId": 1,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Use Oracle, Athena\u2019s Shield, Radiant Armor or Cursed Helmet to reduce Aamon\u2019s magic damage."
+  },
+  {
+    "againstHeroId": 1,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Use Winter Crown, Immortality or Queen\u2019s Wings to counter Aamon\u2019s burst damage."
+  },
+  {
+    "againstHeroId": 1,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Use Winter Crown, Immortality or Queen\u2019s Wings to counter Aamon\u2019s burst damage."
+  },
+  {
+    "againstHeroId": 1,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 1,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 1,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 16,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 46,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 2,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 3,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 3,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 3,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Use Twilight Armor and Antique Cuirass to minimize damage from Aldous\u2019s 1st skill."
+  },
+  {
+    "againstHeroId": 3,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Use Twilight Armor and Antique Cuirass to minimize damage from Aldous\u2019s 1st skill."
+  },
+  {
+    "againstHeroId": 3,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature will help you neutralize the physical damage that Aldous causes for a period of time."
+  },
+  {
+    "againstHeroId": 3,
+    "itemId": 17,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe. It will help you ignore the armor that Aldous creates from skills."
+  },
+  {
+    "againstHeroId": 3,
+    "itemId": 45,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe. It will help you ignore the armor that Aldous creates from skills."
+  },
+  {
+    "againstHeroId": 3,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 3,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 4,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 4,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 4,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use Sea Halberd and Glowing Wand to reduce Alice\u2019s healing ability."
+  },
+  {
+    "againstHeroId": 4,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use Sea Halberd and Glowing Wand to reduce Alice\u2019s healing ability."
+  },
+  {
+    "againstHeroId": 4,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 4,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 4,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 4,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Alice\u2019s skills."
+  },
+  {
+    "againstHeroId": 4,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 4,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 5,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 5,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 5,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is an item that makes you immune to physical damage. It is very suitable to counter Alpha."
+  },
+  {
+    "againstHeroId": 5,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Use Twilight Armor and Antique Cuirass to reduce the damage Alpha deals you."
+  },
+  {
+    "againstHeroId": 5,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Use Twilight Armor and Antique Cuirass to reduce the damage Alpha deals you."
+  },
+  {
+    "againstHeroId": 5,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Alpha\u2019s skills."
+  },
+  {
+    "againstHeroId": 5,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 5,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 6,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 6,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 6,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor and Antique Cuirass are items that reduce the explosive damage Alucard deals to you."
+  },
+  {
+    "againstHeroId": 6,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor and Antique Cuirass are items that reduce the explosive damage Alucard deals to you."
+  },
+  {
+    "againstHeroId": 6,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor."
+  },
+  {
+    "againstHeroId": 6,
+    "itemId": 7,
+    "priority": 2,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor."
+  },
+  {
+    "againstHeroId": 6,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor."
+  },
+  {
+    "againstHeroId": 6,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is immune to all physical damage caused by Alucard."
+  },
+  {
+    "againstHeroId": 6,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Alucard\u2019s skills."
+  },
+  {
+    "againstHeroId": 7,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 7,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 7,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Angela\u2019s healing and shield."
+  },
+  {
+    "againstHeroId": 7,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Angela\u2019s healing and shield."
+  },
+  {
+    "againstHeroId": 7,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Angela\u2019s healing and shield."
+  },
+  {
+    "againstHeroId": 7,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Angela\u2019s skills."
+  },
+  {
+    "againstHeroId": 7,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand and Thunder Belt."
+  },
+  {
+    "againstHeroId": 7,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand and Thunder Belt."
+  },
+  {
+    "againstHeroId": 7,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand and Thunder Belt."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Twilight Armor, Twilight Armor, Antique Cuirass, Blade Armor, Brute Force Breastplate, Immortality."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor, Twilight Armor, Antique Cuirass, Blade Armor, Brute Force Breastplate, Immortality."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 7,
+    "priority": 2,
+    "reason": "Twilight Armor, Twilight Armor, Antique Cuirass, Blade Armor, Brute Force Breastplate, Immortality."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor, Twilight Armor, Antique Cuirass, Blade Armor, Brute Force Breastplate, Immortality."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Twilight Armor, Twilight Armor, Antique Cuirass, Blade Armor, Brute Force Breastplate, Immortality."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Dominance Ice to reduce Argus\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 8,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature will be immune to physical damage for a period of time."
+  },
+  {
+    "againstHeroId": 9,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 9,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 9,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce Arlott\u2019s healing ability."
+  },
+  {
+    "againstHeroId": 9,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce Arlott\u2019s healing ability."
+  },
+  {
+    "againstHeroId": 9,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce Arlott\u2019s healing ability."
+  },
+  {
+    "againstHeroId": 9,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is an item that makes you immune to Arlott\u2019s physical damage."
+  },
+  {
+    "againstHeroId": 9,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor and Antique Cuirass."
+  },
+  {
+    "againstHeroId": 9,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor and Antique Cuirass."
+  },
+  {
+    "againstHeroId": 9,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Arlott\u2019s skills."
+  },
+  {
+    "againstHeroId": 10,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 10,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 10,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 10,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar or magical armor-piercing items such as: Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 10,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar or magical armor-piercing items such as: Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 10,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar or magical armor-piercing items such as: Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 10,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 10,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 10,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown helps you avoid Atlas\u2019 skills."
+  },
+  {
+    "againstHeroId": 11,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 11,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 11,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Use Blade Armor to reduce the critical damage Aulus deals."
+  },
+  {
+    "againstHeroId": 11,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Dominance Ice to reduce Aulus\u2019 attack speed."
+  },
+  {
+    "againstHeroId": 12,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 12,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 12,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 12,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 12,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 12,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 13,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 13,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 14,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 14,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 14,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Fortress Shield cuts the shields and HP regen keeping it alive."
+  },
+  {
+    "againstHeroId": 14,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand or Dominance Ice will reduce healing from Balmond\u2019s passive."
+  },
+  {
+    "againstHeroId": 14,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand or Dominance Ice will reduce healing from Balmond\u2019s passive."
+  },
+  {
+    "againstHeroId": 14,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand or Dominance Ice will reduce healing from Balmond\u2019s passive."
+  },
+  {
+    "againstHeroId": 14,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive if you see that Balmond has a lot of physical or magical armor."
+  },
+  {
+    "againstHeroId": 14,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive if you see that Balmond has a lot of physical or magical armor."
+  },
+  {
+    "againstHeroId": 14,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive if you see that Balmond has a lot of physical or magical armor."
+  },
+  {
+    "againstHeroId": 15,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 15,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 15,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce Bane\u2019s HP regeneration."
+  },
+  {
+    "againstHeroId": 15,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce Bane\u2019s HP regeneration."
+  },
+  {
+    "againstHeroId": 15,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce Bane\u2019s HP regeneration."
+  },
+  {
+    "againstHeroId": 15,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 15,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 15,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 17,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 45,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 16,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 16,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern, Golden Staff used to counter Baxia."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 28,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern, Golden Staff used to counter Baxia."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 46,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern, Golden Staff used to counter Baxia."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand and Thunder Belt."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand and Thunder Belt."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand and Thunder Belt."
+  },
+  {
+    "againstHeroId": 17,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown will help you avoid Baxia\u2019s skills."
+  },
+  {
+    "againstHeroId": 18,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 18,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 18,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Beatrix\u2019s skills."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 16,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 46,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand and Divine Glaive."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand and Divine Glaive."
+  },
+  {
+    "againstHeroId": 19,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand and Divine Glaive."
+  },
+  {
+    "againstHeroId": 20,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 20,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 20,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 20,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 20,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Use Wind of Nature to block Benedetta\u2019s physical attacks."
+  },
+  {
+    "againstHeroId": 20,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "When activating Winter Crown you will avoid Benedetta\u2019s skills."
+  },
+  {
+    "againstHeroId": 20,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 20,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 20,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Brody deals physical damage so using Twilight Armor and Antique Cuirass will reduce most of the damage that Brody deals."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Brody deals physical damage so using Twilight Armor and Antique Cuirass will reduce most of the damage that Brody deals."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor, Dominance Ice, Immortality."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor, Dominance Ice, Immortality."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 7,
+    "priority": 2,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor, Dominance Ice, Immortality."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor, Dominance Ice, Immortality."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor, Dominance Ice, Immortality."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is an item used for Assassin or Marksman. It help them immune to physical damage that Brody causes for a certain period of time."
+  },
+  {
+    "againstHeroId": 21,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Brody\u2019s skills."
+  },
+  {
+    "againstHeroId": 22,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 22,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 22,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Use Blade Armor to reduce critical damage and return damage to Bruno when he attacks you."
+  },
+  {
+    "againstHeroId": 22,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor, Antique Cuirass and other physical defense items."
+  },
+  {
+    "againstHeroId": 22,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass and other physical defense items."
+  },
+  {
+    "againstHeroId": 22,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature will make you immune to all types of physical damage. It helps you block burst damage from Bruno."
+  },
+  {
+    "againstHeroId": 22,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Bruno\u2019s skills. Suitable for mage."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use items \u201cSea Halberd, Glowing Wand, and Dominance Ice\u201d to counter Carmilla\u2019s healing ability."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use items \u201cSea Halberd, Glowing Wand, and Dominance Ice\u201d to counter Carmilla\u2019s healing ability."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use items \u201cSea Halberd, Glowing Wand, and Dominance Ice\u201d to counter Carmilla\u2019s healing ability."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Use items \u201cMalefic Roar, Genius Wand, Divine Glaive\u201d to penetrate Carmilla\u2019s physical and magical defenses."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Use items \u201cMalefic Roar, Genius Wand, Divine Glaive\u201d to penetrate Carmilla\u2019s physical and magical defenses."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Use items \u201cMalefic Roar, Genius Wand, Divine Glaive\u201d to penetrate Carmilla\u2019s physical and magical defenses."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 23,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Use Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet to reduce magic damage from Cecilion."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Use Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet to reduce magic damage from Cecilion."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Use Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet to reduce magic damage from Cecilion."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Cecilion\u2019s skills."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Use Corrosion Scythe, Ice Queen Wand or Thunder Belt to reduce Cecilion\u2019s movement speed."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Use Corrosion Scythe, Ice Queen Wand or Thunder Belt to reduce Cecilion\u2019s movement speed."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Use Corrosion Scythe, Ice Queen Wand or Thunder Belt to reduce Cecilion\u2019s movement speed."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce Cecilion\u2019s shield."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce Cecilion\u2019s shield."
+  },
+  {
+    "againstHeroId": 24,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce Cecilion\u2019s shield."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Use Winter Crown to avoid Chang\u2019e\u2019s skills."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 25,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 26,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 26,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 26,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 26,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 26,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 26,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 26,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 26,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 26,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Antique Cuirass, Immortality, Queen\u2019s Wings, Wind of Nature will help you resist Chou\u2019s burst damage ability."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Antique Cuirass, Immortality, Queen\u2019s Wings, Wind of Nature will help you resist Chou\u2019s burst damage ability."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Antique Cuirass, Immortality, Queen\u2019s Wings, Wind of Nature will help you resist Chou\u2019s burst damage ability."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Chou\u2019s skills."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor, Twilight Armor."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 7,
+    "priority": 2,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor, Twilight Armor."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor, Twilight Armor."
+  },
+  {
+    "againstHeroId": 27,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor, Twilight Armor."
+  },
+  {
+    "againstHeroId": 28,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 28,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 28,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Fortress Shield cuts the shields and HP regen keeping it alive."
+  },
+  {
+    "againstHeroId": 28,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Using Twilight Armor, Antique Cuirass will help you take less damage when attacked or Wind of Nature helps negate damage caused by Cici."
+  },
+  {
+    "againstHeroId": 28,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Using Twilight Armor, Antique Cuirass will help you take less damage when attacked or Wind of Nature helps negate damage caused by Cici."
+  },
+  {
+    "againstHeroId": 28,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Using Twilight Armor, Antique Cuirass will help you take less damage when attacked or Wind of Nature helps negate damage caused by Cici."
+  },
+  {
+    "againstHeroId": 28,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Cici\u2019s skills."
+  },
+  {
+    "againstHeroId": 28,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Because Cici moves quite flexibly and mobilely. You can use \u201cCorrosion Scythe, Ice Queen Wand or Thunder Belt\u201d to slow down Cici\u2019s movement speed."
+  },
+  {
+    "againstHeroId": 28,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Because Cici moves quite flexibly and mobilely. You can use \u201cCorrosion Scythe, Ice Queen Wand or Thunder Belt\u201d to slow down Cici\u2019s movement speed."
+  },
+  {
+    "againstHeroId": 28,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Because Cici moves quite flexibly and mobilely. You can use \u201cCorrosion Scythe, Ice Queen Wand or Thunder Belt\u201d to slow down Cici\u2019s movement speed."
+  },
+  {
+    "againstHeroId": 29,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 29,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 29,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "The item you should have to counter Claude is Dominance Ice. It helps you limit Claude\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 29,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 29,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 29,
+    "itemId": 7,
+    "priority": 2,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 29,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 29,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 29,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Using Wind of Nature will make you immune to all types of physical damage."
+  },
+  {
+    "againstHeroId": 29,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Claude\u2019s skills."
+  },
+  {
+    "againstHeroId": 30,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 30,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 30,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is an item that will be immune to all physical damage caused by Clint. This is a suitable item for Marksman or Assassin."
+  },
+  {
+    "againstHeroId": 30,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice will slow down Clint\u2019s attack speed. This is a suitable item for Tank or Fighter."
+  },
+  {
+    "againstHeroId": 30,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor and Antique Cuirass."
+  },
+  {
+    "againstHeroId": 30,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor and Antique Cuirass."
+  },
+  {
+    "againstHeroId": 30,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Immortality will help you live again."
+  },
+  {
+    "againstHeroId": 31,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 31,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 31,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 31,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet. These are magical defensive items."
+  },
+  {
+    "againstHeroId": 31,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet. These are magical defensive items."
+  },
+  {
+    "againstHeroId": 31,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet. These are magical defensive items."
+  },
+  {
+    "againstHeroId": 31,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Use Winter Crown, Immortality, Queen\u2019s Wings to counter burst damage from Cyclops."
+  },
+  {
+    "againstHeroId": 31,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Use Winter Crown, Immortality, Queen\u2019s Wings to counter burst damage from Cyclops."
+  },
+  {
+    "againstHeroId": 31,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe and Ice Queen Wand. You will easily catch Cyclops."
+  },
+  {
+    "againstHeroId": 31,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe and Ice Queen Wand. You will easily catch Cyclops."
+  },
+  {
+    "againstHeroId": 32,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 32,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 32,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 32,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 32,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 33,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "You can use Oracle, Athena\u2019s Shield, Radiant Armor, and Cursed Helmet. These items boost your HP and magic resistance, significantly reducing the damage dealt by Dori."
+  },
+  {
+    "againstHeroId": 33,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "You can use Oracle, Athena\u2019s Shield, Radiant Armor, and Cursed Helmet. These items boost your HP and magic resistance, significantly reducing the damage dealt by Dori."
+  },
+  {
+    "againstHeroId": 33,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "You can use Oracle, Athena\u2019s Shield, Radiant Armor, and Cursed Helmet. These items boost your HP and magic resistance, significantly reducing the damage dealt by Dori."
+  },
+  {
+    "againstHeroId": 33,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "When activated, Winter Crown negates damage from Dori, buying time for teammates to come to the rescue."
+  },
+  {
+    "againstHeroId": 34,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 34,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 34,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor and Antique Cuirass are items that will help you reduce physical damage caused by Dyrroth."
+  },
+  {
+    "againstHeroId": 34,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor and Antique Cuirass are items that will help you reduce physical damage caused by Dyrroth."
+  },
+  {
+    "againstHeroId": 34,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is an item that helps you become immune to physical damage caused by Dyrroth."
+  },
+  {
+    "againstHeroId": 34,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Using Immortality helps you revive if Dyrroth kills you. (Physical Defense)."
+  },
+  {
+    "againstHeroId": 34,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Dominance Ice. Dominance Ice is an item that reduces Dyrroth\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 34,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Dominance Ice. Dominance Ice is an item that reduces Dyrroth\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 34,
+    "itemId": 7,
+    "priority": 2,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Dominance Ice. Dominance Ice is an item that reduces Dyrroth\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 34,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Dominance Ice. Dominance Ice is an item that reduces Dyrroth\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 35,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 35,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 35,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 35,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Edith\u2019s ultimate shield. Dominant Ice will reduce Edith\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 35,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Edith\u2019s ultimate shield. Dominant Ice will reduce Edith\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 35,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Edith\u2019s ultimate shield. Dominant Ice will reduce Edith\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 35,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Athena\u2019s Shield, Radiant Armor to reduce damage caused by Edith."
+  },
+  {
+    "againstHeroId": 36,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 36,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 36,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Fortress Shield cuts the shields and HP regen keeping it alive."
+  },
+  {
+    "againstHeroId": 36,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 36,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 36,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 37,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 37,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 37,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "To reduce healing from Estes, use Sea Halberd (for Marksman/Assassin), Glowing Wand (Mage), Dominance Ice (Fighter, Tank)."
+  },
+  {
+    "againstHeroId": 37,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "To reduce healing from Estes, use Sea Halberd (for Marksman/Assassin), Glowing Wand (Mage), Dominance Ice (Fighter, Tank)."
+  },
+  {
+    "againstHeroId": 37,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "To reduce healing from Estes, use Sea Halberd (for Marksman/Assassin), Glowing Wand (Mage), Dominance Ice (Fighter, Tank)."
+  },
+  {
+    "againstHeroId": 38,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 38,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 38,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 38,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 38,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 38,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 38,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Eudora\u2019s skills."
+  },
+  {
+    "againstHeroId": 38,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Immortality will help you revive if you are destroyed by Eudora."
+  },
+  {
+    "againstHeroId": 39,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 39,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 39,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Tank and Fighter heroes should use Twilight Armor, Antique Cuirass, Blade Armor to counter damage from Fanny."
+  },
+  {
+    "againstHeroId": 39,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Tank and Fighter heroes should use Twilight Armor, Antique Cuirass, Blade Armor to counter damage from Fanny."
+  },
+  {
+    "againstHeroId": 39,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Tank and Fighter heroes should use Twilight Armor, Antique Cuirass, Blade Armor to counter damage from Fanny."
+  },
+  {
+    "againstHeroId": 39,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Assassin and Marksman heroes should use Wind of Nature to be immune to physical damage from Fanny."
+  },
+  {
+    "againstHeroId": 39,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Mage heroes can use Winter Crown to avoid Fanny\u2019s skills."
+  },
+  {
+    "againstHeroId": 39,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Using Immortality helps you revive if Fanny kills you."
+  },
+  {
+    "againstHeroId": 40,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 40,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 40,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 40,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 40,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 40,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 40,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 40,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 41,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 41,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 41,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 41,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 41,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 41,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 41,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 41,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 42,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 43,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 43,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 43,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 43,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 43,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 43,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 43,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 43,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 43,
+    "itemId": 17,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 43,
+    "itemId": 45,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 44,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 44,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 44,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Freya has high attack speed from her passive, use Dominance Ice to reduce her attack speed."
+  },
+  {
+    "againstHeroId": 44,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Wind of Nature, Winter Crown, Immortality, Antique Cuirass, Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 44,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Wind of Nature, Winter Crown, Immortality, Antique Cuirass, Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 44,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature, Winter Crown, Immortality, Antique Cuirass, Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 44,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Wind of Nature, Winter Crown, Immortality, Antique Cuirass, Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 44,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use Sea Halberd or Glowing Wand to counter Freya\u2019s shield ability."
+  },
+  {
+    "againstHeroId": 44,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use Sea Halberd or Glowing Wand to counter Freya\u2019s shield ability."
+  },
+  {
+    "againstHeroId": 45,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 45,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 45,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 45,
+    "itemId": 17,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 45,
+    "itemId": 45,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice to reduce Gloo\u2019s recovery ability."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice to reduce Gloo\u2019s recovery ability."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice to reduce Gloo\u2019s recovery ability."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive to reduce Gloo\u2019s defense."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive to reduce Gloo\u2019s defense."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive to reduce Gloo\u2019s defense."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 16,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 46,
+    "itemId": 46,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 47,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 47,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 47,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet. You will reduce Gord\u2019s magic damage."
+  },
+  {
+    "againstHeroId": 47,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet. You will reduce Gord\u2019s magic damage."
+  },
+  {
+    "againstHeroId": 47,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet. You will reduce Gord\u2019s magic damage."
+  },
+  {
+    "againstHeroId": 47,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown can avoid Gord\u2019s skills. You need to activate it quickly before Gord uses the skill on you."
+  },
+  {
+    "againstHeroId": 48,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 48,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 48,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice will reduce Granger\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 49,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 49,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 49,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 49,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar."
+  },
+  {
+    "againstHeroId": 49,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 49,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 49,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 49,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 49,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 49,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 50,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 50,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 50,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Radiant Armor, Oracle, Cursed Helmet. It is suitable for Tank or Fighter."
+  },
+  {
+    "againstHeroId": 50,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Radiant Armor, Oracle, Cursed Helmet. It is suitable for Tank or Fighter."
+  },
+  {
+    "againstHeroId": 50,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Radiant Armor, Oracle, Cursed Helmet. It is suitable for Tank or Fighter."
+  },
+  {
+    "againstHeroId": 50,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Guinevere\u2019s skills."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Use Oracle, Athena\u2019s Shield, Radiant Armor or Cursed Helmet."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Use Oracle, Athena\u2019s Shield, Radiant Armor or Cursed Helmet."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Use Oracle, Athena\u2019s Shield, Radiant Armor or Cursed Helmet."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Use Winter Crown, Queen\u2019s Wings, Rose Gold Meteor to reduce explosive damage from Gusion."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Use Winter Crown, Queen\u2019s Wings, Rose Gold Meteor to reduce explosive damage from Gusion."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 51,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 52,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 52,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 52,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Using Dominance Ice will slow down Hanabi\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 52,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Using Wind of Nature will make you immune to all types of physical damage."
+  },
+  {
+    "againstHeroId": 52,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor and Antique Cuirass."
+  },
+  {
+    "againstHeroId": 52,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor and Antique Cuirass."
+  },
+  {
+    "againstHeroId": 52,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Hanabi\u2019s skills."
+  },
+  {
+    "againstHeroId": 53,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 53,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 53,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature helps negate damage caused by Hanzo."
+  },
+  {
+    "againstHeroId": 53,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown will make you invulnerable."
+  },
+  {
+    "againstHeroId": 54,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 54,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 54,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Harith\u2019s lifesteal and shield."
+  },
+  {
+    "againstHeroId": 54,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Harith\u2019s lifesteal and shield."
+  },
+  {
+    "againstHeroId": 54,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Harith\u2019s lifesteal and shield."
+  },
+  {
+    "againstHeroId": 54,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 54,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 54,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 55,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 55,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 55,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 55,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 55,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 55,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Winter Crown, Immortality, Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 55,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown, Immortality, Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 55,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 55,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 56,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 56,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 56,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass, Blade Armor, Queen\u2019s Wings, Immortality. These items can resist explosive damage from Hayabusa."
+  },
+  {
+    "againstHeroId": 56,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor, Antique Cuirass, Blade Armor, Queen\u2019s Wings, Immortality. These items can resist explosive damage from Hayabusa."
+  },
+  {
+    "againstHeroId": 56,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass, Blade Armor, Queen\u2019s Wings, Immortality. These items can resist explosive damage from Hayabusa."
+  },
+  {
+    "againstHeroId": 56,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass, Blade Armor, Queen\u2019s Wings, Immortality. These items can resist explosive damage from Hayabusa."
+  },
+  {
+    "againstHeroId": 56,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is immune to physical damage for a period of time."
+  },
+  {
+    "againstHeroId": 56,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Using Dominance Ice will slow down Hayabusa\u2019s attack speed. Besides, it also provides physical defense."
+  },
+  {
+    "againstHeroId": 56,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown you can avoid Hayabusa\u2019s ultimate."
+  },
+  {
+    "againstHeroId": 57,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 57,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 57,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature will block some physical damage (for marksmen)."
+  },
+  {
+    "againstHeroId": 57,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown will make you invulnerable for a period of time (for mage)."
+  },
+  {
+    "againstHeroId": 57,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "You will be brought back to life when using Immortality."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Fortress Shield cuts the shields and HP regen keeping it alive."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Glowing Wand (Mage), Dominance Ice (Fighter, Tank), Sea Halberd (for Marksman/Assassin)."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Glowing Wand (Mage), Dominance Ice (Fighter, Tank), Sea Halberd (for Marksman/Assassin)."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Glowing Wand (Mage), Dominance Ice (Fighter, Tank), Sea Halberd (for Marksman/Assassin)."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Use Corrosion Scythe, Ice Queen Wand, Thunder Belt to reduce Hilda\u2019s movement speed. You will easily fly a kite or escape Hilda."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Use Corrosion Scythe, Ice Queen Wand, Thunder Belt to reduce Hilda\u2019s movement speed. You will easily fly a kite or escape Hilda."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Use Corrosion Scythe, Ice Queen Wand, Thunder Belt to reduce Hilda\u2019s movement speed. You will easily fly a kite or escape Hilda."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Use Malefic Roar (for Marksman/Assassin), Genius Wand and Divine Glaive (for Mage) to penetrate Hilda\u2019s defenses."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Use Malefic Roar (for Marksman/Assassin), Genius Wand and Divine Glaive (for Mage) to penetrate Hilda\u2019s defenses."
+  },
+  {
+    "againstHeroId": 58,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Use Malefic Roar (for Marksman/Assassin), Genius Wand and Divine Glaive (for Mage) to penetrate Hilda\u2019s defenses."
+  },
+  {
+    "againstHeroId": 59,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 59,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 16,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 46,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Use items Malefic Roar, Genius Wand, Divine Glaive to penetrate Hylos\u2019 defense."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Use items Malefic Roar, Genius Wand, Divine Glaive to penetrate Hylos\u2019 defense."
+  },
+  {
+    "againstHeroId": 60,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Use items Malefic Roar, Genius Wand, Divine Glaive to penetrate Hylos\u2019 defense."
+  },
+  {
+    "againstHeroId": 61,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 61,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 61,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Dominance Ice to reduce Irithel\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 61,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is often used on Marksman and Assassin to block Irithel\u2019s physical damage for a short period of time."
+  },
+  {
+    "againstHeroId": 61,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown is often used on Mages to avoid Irithel\u2019s skills and damage."
+  },
+  {
+    "againstHeroId": 62,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 62,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 62,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "When using Wind of Nature, you will be immune to all physical damage for 2 seconds. It will give you enough time to destroy Ixia."
+  },
+  {
+    "againstHeroId": 62,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Using Dominance Ice will slow down Ixia\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 62,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor and Antique Cuirass will help you reduce most of the damage that Ixia deals."
+  },
+  {
+    "againstHeroId": 62,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor and Antique Cuirass will help you reduce most of the damage that Ixia deals."
+  },
+  {
+    "againstHeroId": 62,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Ixia\u2019s skills."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Use Antique Cuirass, Twilight Armor, Queen\u2019s Wings, Immortality for Fighter/Tank to counter Jawhead\u2019s burst damage."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Use Antique Cuirass, Twilight Armor, Queen\u2019s Wings, Immortality for Fighter/Tank to counter Jawhead\u2019s burst damage."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Use Antique Cuirass, Twilight Armor, Queen\u2019s Wings, Immortality for Fighter/Tank to counter Jawhead\u2019s burst damage."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Use Wind of Nature, Rose Gold Meteor for Marksman/Assassin to counter Jawhead\u2019s burst damage."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Use Wind of Nature, Rose Gold Meteor for Marksman/Assassin to counter Jawhead\u2019s burst damage."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Use Winter Crown for Mage to counter Jawhead\u2019s burst damage."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 63,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Johnson\u2019s shield when active."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Johnson\u2019s shield when active."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Johnson\u2019s shield when active."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 17,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 45,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 64,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 65,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 65,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 65,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 65,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 65,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 65,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 65,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Julian\u2019s skills."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 66,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 67,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 67,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 67,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 67,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 67,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 67,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice, Sea Halberd, Glowing Wand."
+  },
+  {
+    "againstHeroId": 67,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Dominance Ice, Sea Halberd, Glowing Wand."
+  },
+  {
+    "againstHeroId": 67,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Dominance Ice, Sea Halberd, Glowing Wand."
+  },
+  {
+    "againstHeroId": 68,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 68,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 68,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 68,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 68,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 68,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Kagura\u2019s skills."
+  },
+  {
+    "againstHeroId": 68,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Immortality, Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 69,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 69,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 69,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 69,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 69,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 69,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 70,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 70,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 70,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Fortress Shield cuts the shields and HP regen keeping it alive."
+  },
+  {
+    "againstHeroId": 70,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 70,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass, Blade Armor."
+  },
+  {
+    "againstHeroId": 70,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor, Antique Cuirass, Blade Armor."
+  },
+  {
+    "againstHeroId": 70,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass, Blade Armor."
+  },
+  {
+    "againstHeroId": 70,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Activating Winter Crown will help you avoid Kalea\u2019s skills."
+  },
+  {
+    "againstHeroId": 71,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 71,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 71,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 71,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 71,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 71,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Winter Crown, Queen\u2019s Wings and Immortality."
+  },
+  {
+    "againstHeroId": 71,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown, Queen\u2019s Wings and Immortality."
+  },
+  {
+    "againstHeroId": 71,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Kite her with Corrosion Scythe and Ice Queen Wand. These items slow Karina\u2019s running speed."
+  },
+  {
+    "againstHeroId": 71,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Kite her with Corrosion Scythe and Ice Queen Wand. These items slow Karina\u2019s running speed."
+  },
+  {
+    "againstHeroId": 72,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 72,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 72,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice is the most effective counter item against Karrie. It helps you reduce Karrie\u2019s attack speed and increase physical defense."
+  },
+  {
+    "againstHeroId": 72,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Using Wind of Nature will make you immune to all types of physical damage."
+  },
+  {
+    "againstHeroId": 72,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Use Twilight Armor and Antique Cuirass to counter Karrie\u2019s burst damage."
+  },
+  {
+    "againstHeroId": 72,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Use Twilight Armor and Antique Cuirass to counter Karrie\u2019s burst damage."
+  },
+  {
+    "againstHeroId": 72,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Use Winter Crown to avoid Karrie\u2019s damage for a period of time."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Fortress Shield cuts the shields and HP regen keeping it alive."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Winter Crown, Wind of Nature, Antique Cuirass, Immortality, Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Winter Crown, Wind of Nature, Antique Cuirass, Immortality, Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Winter Crown, Wind of Nature, Antique Cuirass, Immortality, Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 73,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown, Wind of Nature, Antique Cuirass, Immortality, Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 16,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 74,
+    "itemId": 46,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 75,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 75,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 75,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Use Blade Armor to counter Kimmy build physical items."
+  },
+  {
+    "againstHeroId": 76,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 76,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 76,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Lancelot\u2019s skills."
+  },
+  {
+    "againstHeroId": 76,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor, Twilight Armor."
+  },
+  {
+    "againstHeroId": 76,
+    "itemId": 7,
+    "priority": 2,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor, Twilight Armor."
+  },
+  {
+    "againstHeroId": 76,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor, Twilight Armor."
+  },
+  {
+    "againstHeroId": 76,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Brute Force Breastplate, Thunder Belt, Blade Armor, Twilight Armor."
+  },
+  {
+    "againstHeroId": 76,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice will reduce the healing from Lancelot\u2019s skill 2 and attack speed when he attacks you."
+  },
+  {
+    "againstHeroId": 77,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 77,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 77,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce Lapu Lapu\u2019s shield."
+  },
+  {
+    "againstHeroId": 77,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce Lapu Lapu\u2019s shield."
+  },
+  {
+    "againstHeroId": 77,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce Lapu Lapu\u2019s shield."
+  },
+  {
+    "againstHeroId": 77,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Using Immortality helps you revive if Lapu Lapu kills you."
+  },
+  {
+    "againstHeroId": 77,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature resists physical damage for a period of time. (for Assassin, Marksman)."
+  },
+  {
+    "againstHeroId": 77,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown will help you resist explosive damage from Lapu Lapu."
+  },
+  {
+    "againstHeroId": 78,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 78,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 78,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice will slow down Layla\u2019s attack speed. This is the item used to counter Layla most effectively."
+  },
+  {
+    "againstHeroId": 78,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature can negate all physical damage Layla deals for a period of time."
+  },
+  {
+    "againstHeroId": 78,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor and Antique Cuirass."
+  },
+  {
+    "againstHeroId": 78,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor and Antique Cuirass."
+  },
+  {
+    "againstHeroId": 79,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 79,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 79,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Use Blade Armor to reduce critical damage from Leomord."
+  },
+  {
+    "againstHeroId": 79,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Use Wind of Nature to block physical damage for a period of time."
+  },
+  {
+    "againstHeroId": 79,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 79,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 79,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 80,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 80,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 80,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice."
+  },
+  {
+    "againstHeroId": 80,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor will reduce critical damage and reflect part of the damage Lesley deals."
+  },
+  {
+    "againstHeroId": 80,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is suitable for Marksman/Assassin, it blocks physical damage when Lesley attacks you."
+  },
+  {
+    "againstHeroId": 80,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor, Antique Cuirass, Brute Force Breastplate."
+  },
+  {
+    "againstHeroId": 80,
+    "itemId": 7,
+    "priority": 2,
+    "reason": "Twilight Armor, Antique Cuirass, Brute Force Breastplate."
+  },
+  {
+    "againstHeroId": 80,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass, Brute Force Breastplate."
+  },
+  {
+    "againstHeroId": 81,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 81,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 81,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Use Blade Armor to reduce the critical hit Ling gives you."
+  },
+  {
+    "againstHeroId": 81,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Using Twilight Armor and Antique Cuirass will reduce damage from Ling\u2019s skills. These items are suitable for Tanks and Fighters."
+  },
+  {
+    "againstHeroId": 81,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Using Twilight Armor and Antique Cuirass will reduce damage from Ling\u2019s skills. These items are suitable for Tanks and Fighters."
+  },
+  {
+    "againstHeroId": 81,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is an item that is immune to physical damage. It helps you block Ling\u2019s explosive attacks. Use it for Assassin or Marksman."
+  },
+  {
+    "againstHeroId": 81,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "When activating Winter Crown you will avoid Ling\u2019s skills."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 17,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 82,
+    "itemId": 45,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 83,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 83,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 83,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Fortress Shield cuts the shields and HP regen keeping it alive."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor and Cursed Helmet."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor and Cursed Helmet."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor and Cursed Helmet."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd and Glowing Wand."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd and Glowing Wand."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Winter Crown, Immortality and Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown, Immortality and Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 84,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 85,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 85,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 85,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 85,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Luo Yi\u2019s skills."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Lylia\u2019s skills."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 86,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 87,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 87,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 87,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 88,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 88,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 88,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Use Wind of Nature for Assassin or Marksman to counter Martis. It help them immune to all physical damage caused by Martis."
+  },
+  {
+    "againstHeroId": 88,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Use Twilight Armor and Antique Cuirass for Tank, Fighter. It helps them reduce the damage Martis deals."
+  },
+  {
+    "againstHeroId": 88,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Use Twilight Armor and Antique Cuirass for Tank, Fighter. It helps them reduce the damage Martis deals."
+  },
+  {
+    "againstHeroId": 88,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Martis\u2019s skills."
+  },
+  {
+    "againstHeroId": 88,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 88,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 89,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 89,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 89,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice. Besides, Dominance Ice will reduce Masha\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 89,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice. Besides, Dominance Ice will reduce Masha\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 89,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice. Besides, Dominance Ice will reduce Masha\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 89,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 89,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 89,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Masha\u2019s skills."
+  },
+  {
+    "againstHeroId": 89,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature helps negate damage caused by Masha."
+  },
+  {
+    "againstHeroId": 90,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 90,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 90,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 91,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 91,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 91,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice will reduce Melissa\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 91,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass, Blade Armor."
+  },
+  {
+    "againstHeroId": 91,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor, Antique Cuirass, Blade Armor."
+  },
+  {
+    "againstHeroId": 91,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass, Blade Armor."
+  },
+  {
+    "againstHeroId": 91,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Using Wind of Nature will make you immune to all types of physical damage."
+  },
+  {
+    "againstHeroId": 91,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Melissa\u2019s skills."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 17,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 92,
+    "itemId": 45,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 93,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 93,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 93,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 93,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is immune to physical damage for a short period of time."
+  },
+  {
+    "againstHeroId": 93,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown will make you invulnerable. You will easily dodge Minsitthar\u2019s skills."
+  },
+  {
+    "againstHeroId": 94,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 94,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 94,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Miya has high attack speed so you need to use Dominance Ice to reduce her attack speed."
+  },
+  {
+    "againstHeroId": 94,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Use Wind of Nature to be immune to physical damage that Miya inflicts on you."
+  },
+  {
+    "againstHeroId": 94,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Using Twilight Armor and Antique Cuirass will block most of the damage Miya deals to you."
+  },
+  {
+    "againstHeroId": 94,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Using Twilight Armor and Antique Cuirass will block most of the damage Miya deals to you."
+  },
+  {
+    "againstHeroId": 94,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Miya\u2019s skills."
+  },
+  {
+    "againstHeroId": 95,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 95,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 95,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass, Brute Force Breastplate, Blade Armor."
+  },
+  {
+    "againstHeroId": 95,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor, Antique Cuirass, Brute Force Breastplate, Blade Armor."
+  },
+  {
+    "againstHeroId": 95,
+    "itemId": 7,
+    "priority": 2,
+    "reason": "Twilight Armor, Antique Cuirass, Brute Force Breastplate, Blade Armor."
+  },
+  {
+    "againstHeroId": 95,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass, Brute Force Breastplate, Blade Armor."
+  },
+  {
+    "againstHeroId": 95,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "To reduce Moskov\u2019s attack speed, use Dominance Ice."
+  },
+  {
+    "againstHeroId": 95,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Immortality will help you live again."
+  },
+  {
+    "againstHeroId": 96,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 96,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 96,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 96,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 96,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 96,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Nana\u2019s skills."
+  },
+  {
+    "againstHeroId": 96,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 96,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 97,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 97,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 97,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Use Twilight Armor, Antique Cuirass or Blade Armor to block explosive damage from Natalia."
+  },
+  {
+    "againstHeroId": 97,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Use Twilight Armor, Antique Cuirass or Blade Armor to block explosive damage from Natalia."
+  },
+  {
+    "againstHeroId": 97,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Use Twilight Armor, Antique Cuirass or Blade Armor to block explosive damage from Natalia."
+  },
+  {
+    "againstHeroId": 97,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is immune to physical damage for a period of time."
+  },
+  {
+    "againstHeroId": 97,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Using Dominance Ice will slow down Natalia\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 97,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Mage heroes can use Winter Crown to avoid Natalia\u2019s skills."
+  },
+  {
+    "againstHeroId": 98,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 98,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 98,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Natan\u2019s lifesteal."
+  },
+  {
+    "againstHeroId": 98,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Natan\u2019s lifesteal."
+  },
+  {
+    "againstHeroId": 98,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Natan\u2019s lifesteal."
+  },
+  {
+    "againstHeroId": 98,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand and Thunder Belt."
+  },
+  {
+    "againstHeroId": 98,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand and Thunder Belt."
+  },
+  {
+    "againstHeroId": 98,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand and Thunder Belt."
+  },
+  {
+    "againstHeroId": 99,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 99,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 99,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Tank heroes should use Twilight Armor or Antique Cuirass to counter Nolan. Their passive will negate most of the damage Nolan deals you."
+  },
+  {
+    "againstHeroId": 99,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Tank heroes should use Twilight Armor or Antique Cuirass to counter Nolan. Their passive will negate most of the damage Nolan deals you."
+  },
+  {
+    "againstHeroId": 99,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Use Wind of Nature for Assassin, Marksman. It helps them to be immune to all physical damage that Nolan causes."
+  },
+  {
+    "againstHeroId": 99,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Nolan\u2019s skills."
+  },
+  {
+    "againstHeroId": 99,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand is an item that can slow down Nolan\u2019s movement speed."
+  },
+  {
+    "againstHeroId": 99,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand is an item that can slow down Nolan\u2019s movement speed."
+  },
+  {
+    "againstHeroId": 100,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 100,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 100,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet, Rose Gold Meteor."
+  },
+  {
+    "againstHeroId": 100,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet, Rose Gold Meteor."
+  },
+  {
+    "againstHeroId": 100,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet, Rose Gold Meteor."
+  },
+  {
+    "againstHeroId": 100,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet, Rose Gold Meteor."
+  },
+  {
+    "againstHeroId": 100,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Novaria\u2019s skills."
+  },
+  {
+    "againstHeroId": 100,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 100,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 101,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 101,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 101,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice will reduce Obsidian\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 101,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Brute Force Breastplate, Twilight Armor, Antique Cuirass, Blade Armor, Brute Force Breastplate."
+  },
+  {
+    "againstHeroId": 101,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Brute Force Breastplate, Twilight Armor, Antique Cuirass, Blade Armor, Brute Force Breastplate."
+  },
+  {
+    "againstHeroId": 101,
+    "itemId": 7,
+    "priority": 2,
+    "reason": "Brute Force Breastplate, Twilight Armor, Antique Cuirass, Blade Armor, Brute Force Breastplate."
+  },
+  {
+    "againstHeroId": 101,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Brute Force Breastplate, Twilight Armor, Antique Cuirass, Blade Armor, Brute Force Breastplate."
+  },
+  {
+    "againstHeroId": 102,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 102,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 102,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "To reduce damage from Odette\u2019s ultimate, use Athena\u2019s Shield and Radiant Armor."
+  },
+  {
+    "againstHeroId": 103,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 103,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 103,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature helps negate damage caused by Paquito (for Assassin, Marksman)."
+  },
+  {
+    "againstHeroId": 103,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Use Winter Crown to avoid Paquito\u2019s skill."
+  },
+  {
+    "againstHeroId": 103,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 103,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 103,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 104,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 104,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 104,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 104,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 104,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 104,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Use Winter Crown to become invulnerable."
+  },
+  {
+    "againstHeroId": 104,
+    "itemId": 20,
+    "priority": 2,
+    "reason": "Rose Gold Meteor, Queen\u2019s Wings."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Fortress Shield cuts the shields and HP regen keeping it alive."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Use Malefic Roar, Genius Wand, Divine Glaive to reduce Phoveus\u2019s defense."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Use Malefic Roar, Genius Wand, Divine Glaive to reduce Phoveus\u2019s defense."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Use Malefic Roar, Genius Wand, Divine Glaive to reduce Phoveus\u2019s defense."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 16,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 105,
+    "itemId": 46,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 106,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 106,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 106,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice to reduce Popol and Kupa\u2019s HP recovery ability. Dominance Ice reduces Popol and Kupa\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 106,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice to reduce Popol and Kupa\u2019s HP recovery ability. Dominance Ice reduces Popol and Kupa\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 106,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice to reduce Popol and Kupa\u2019s HP recovery ability. Dominance Ice reduces Popol and Kupa\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 106,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Use Wind of Nature to block the physical damage caused by Popol and Kupa."
+  },
+  {
+    "againstHeroId": 106,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Popol and Kupa\u2019s skills."
+  },
+  {
+    "againstHeroId": 107,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 107,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 107,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 107,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 107,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 107,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Rafaela\u2019s skills."
+  },
+  {
+    "againstHeroId": 108,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 108,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 108,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature will block physical damage for a period of time. (for Assassin, Marksman)."
+  },
+  {
+    "againstHeroId": 108,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 108,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 108,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 108,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Using Immortality helps you revive if Roger kills you."
+  },
+  {
+    "againstHeroId": 109,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 109,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 109,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Fortress Shield cuts the shields and HP regen keeping it alive."
+  },
+  {
+    "againstHeroId": 109,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 109,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 109,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 109,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 109,
+    "itemId": 17,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 109,
+    "itemId": 45,
+    "priority": 2,
+    "reason": "Endless Battle, Starlium Scythe."
+  },
+  {
+    "againstHeroId": 110,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 110,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 110,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Using Twilight Armor, Antique Cuirass will help you take less damage when attacked by Saber (for Tank, Fighter)."
+  },
+  {
+    "againstHeroId": 110,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Using Twilight Armor, Antique Cuirass will help you take less damage when attacked by Saber (for Tank, Fighter)."
+  },
+  {
+    "againstHeroId": 110,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature helps negate damage caused by Saber (for Assassin, Marksman)."
+  },
+  {
+    "againstHeroId": 110,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown will help you resist explosive damage from Saber."
+  },
+  {
+    "againstHeroId": 110,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 110,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 111,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 111,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 111,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 111,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Use Winter Crown to avoid Selena\u2019s skills."
+  },
+  {
+    "againstHeroId": 111,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 111,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 111,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 112,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 112,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 112,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 112,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Silvanna\u2019s lifesteal ability."
+  },
+  {
+    "againstHeroId": 112,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Silvanna\u2019s lifesteal ability."
+  },
+  {
+    "againstHeroId": 112,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use Sea Halberd, Glowing Wand, Dominance Ice to reduce Silvanna\u2019s lifesteal ability."
+  },
+  {
+    "againstHeroId": 112,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Silvanna\u2019s skills."
+  },
+  {
+    "againstHeroId": 113,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 113,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 113,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Queen\u2019s Wings, Winter Crown, Immortality, Wind of Nature or Antique Cuirass."
+  },
+  {
+    "againstHeroId": 113,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Queen\u2019s Wings, Winter Crown, Immortality, Wind of Nature or Antique Cuirass."
+  },
+  {
+    "againstHeroId": 113,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Queen\u2019s Wings, Winter Crown, Immortality, Wind of Nature or Antique Cuirass."
+  },
+  {
+    "againstHeroId": 113,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Queen\u2019s Wings, Winter Crown, Immortality, Wind of Nature or Antique Cuirass."
+  },
+  {
+    "againstHeroId": 113,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Ice Queen Wand, Corrosion Scythe, or Thunder Belt."
+  },
+  {
+    "againstHeroId": 113,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Ice Queen Wand, Corrosion Scythe, or Thunder Belt."
+  },
+  {
+    "againstHeroId": 113,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Ice Queen Wand, Corrosion Scythe, or Thunder Belt."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Dominance Ice, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Dominance Ice, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Dominance Ice, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 7,
+    "priority": 2,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Dominance Ice, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Dominance Ice, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Thunder Belt, Brute Force Breastplate, Blade Armor, Dominance Ice, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is used for Assassin, Marksman. It is immune to physical damage for a while."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown is used for Mages. It will help you avoid Sun\u2019s skills."
+  },
+  {
+    "againstHeroId": 114,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Using Immortality helps you revive if Sun kills you."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Blade Armor, Brute Force Breastplate, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Blade Armor, Brute Force Breastplate, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 7,
+    "priority": 2,
+    "reason": "Blade Armor, Brute Force Breastplate, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Blade Armor, Brute Force Breastplate, Twilight Armor, Antique Cuirass."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Queen\u2019s Wings, Winter Crown, Immortality."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Queen\u2019s Wings, Winter Crown, Immortality."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 115,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 116,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 116,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 116,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 116,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive. It will help you deal more damage to Terizla."
+  },
+  {
+    "againstHeroId": 116,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive. It will help you deal more damage to Terizla."
+  },
+  {
+    "againstHeroId": 116,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive. It will help you deal more damage to Terizla."
+  },
+  {
+    "againstHeroId": 116,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce his healing."
+  },
+  {
+    "againstHeroId": 116,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce his healing."
+  },
+  {
+    "againstHeroId": 116,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Use Sea Halberd, Glowing Wand or Dominance Ice to reduce his healing."
+  },
+  {
+    "againstHeroId": 116,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Terizla\u2019s skills."
+  },
+  {
+    "againstHeroId": 117,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 117,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 117,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Dominance Ice reduces Thamuz\u2019s attack speed. This is a necessary item to counter Thamuz."
+  },
+  {
+    "againstHeroId": 117,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Reduced Thamuz\u2019s healing ability with Sea Halberd, Glowing Wand."
+  },
+  {
+    "againstHeroId": 117,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Reduced Thamuz\u2019s healing ability with Sea Halberd, Glowing Wand."
+  },
+  {
+    "againstHeroId": 117,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "You will take less damage when using Using Twilight Armor and Antique Cuirass."
+  },
+  {
+    "againstHeroId": 117,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "You will take less damage when using Using Twilight Armor and Antique Cuirass."
+  },
+  {
+    "againstHeroId": 117,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature will be immune to physical damage caused by Thamuz."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 16,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 46,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 118,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 16,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 119,
+    "itemId": 46,
+    "priority": 2,
+    "reason": "Demon Hunter Sword, Wishing Lantern."
+  },
+  {
+    "againstHeroId": 120,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 120,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 120,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 120,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 120,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 120,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 120,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Vale\u2019s skills."
+  },
+  {
+    "againstHeroId": 120,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 120,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 120,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 121,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 121,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 121,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Valentina\u2019s skills."
+  },
+  {
+    "againstHeroId": 122,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 122,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 122,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 122,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 122,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 122,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Valir\u2019s skills."
+  },
+  {
+    "againstHeroId": 122,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 122,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe and Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 123,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 123,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 123,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 123,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 123,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 123,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 123,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Use Winter Crown to avoid Vexana\u2019s abilities."
+  },
+  {
+    "againstHeroId": 123,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 123,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 123,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt."
+  },
+  {
+    "againstHeroId": 124,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 124,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 124,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe and Ice Queen Wand will slow down Wanwan\u2019s movement speed."
+  },
+  {
+    "againstHeroId": 124,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe and Ice Queen Wand will slow down Wanwan\u2019s movement speed."
+  },
+  {
+    "againstHeroId": 124,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature helps you block physical damage caused by Wanwan for a period of time."
+  },
+  {
+    "againstHeroId": 124,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor and Antique Cuirass."
+  },
+  {
+    "againstHeroId": 124,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor and Antique Cuirass."
+  },
+  {
+    "againstHeroId": 125,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 125,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 125,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Fortress Shield cuts the shields and HP regen keeping it alive."
+  },
+  {
+    "againstHeroId": 125,
+    "itemId": 15,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive to counter X.Borg."
+  },
+  {
+    "againstHeroId": 125,
+    "itemId": 33,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive to counter X.Borg."
+  },
+  {
+    "againstHeroId": 125,
+    "itemId": 39,
+    "priority": 2,
+    "reason": "Malefic Roar, Genius Wand, Divine Glaive to counter X.Borg."
+  },
+  {
+    "againstHeroId": 125,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid X.Borg\u2019s skills."
+  },
+  {
+    "againstHeroId": 125,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 125,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand."
+  },
+  {
+    "againstHeroId": 126,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 126,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 126,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 126,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 126,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 126,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Xavier\u2019s skills."
+  },
+  {
+    "againstHeroId": 127,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 127,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 127,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass, Brute Force Breastplate, Blade Armor."
+  },
+  {
+    "againstHeroId": 127,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Twilight Armor, Antique Cuirass, Brute Force Breastplate, Blade Armor."
+  },
+  {
+    "againstHeroId": 127,
+    "itemId": 7,
+    "priority": 2,
+    "reason": "Twilight Armor, Antique Cuirass, Brute Force Breastplate, Blade Armor."
+  },
+  {
+    "againstHeroId": 127,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Twilight Armor, Antique Cuirass, Brute Force Breastplate, Blade Armor."
+  },
+  {
+    "againstHeroId": 127,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "To reduce Yi Sun-shin\u2019s attack speed, use Dominance Ice."
+  },
+  {
+    "againstHeroId": 127,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Using Wind of Nature will make you immune to all types of physical damage."
+  },
+  {
+    "againstHeroId": 127,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Yi Sun-shin\u2019s skills."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Winter Crown, Immortality, Queen\u2019s Wings, Wind of Nature or Antique Cuirass."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 9,
+    "priority": 1,
+    "reason": "Winter Crown, Immortality, Queen\u2019s Wings, Wind of Nature or Antique Cuirass."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Winter Crown, Immortality, Queen\u2019s Wings, Wind of Nature or Antique Cuirass."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown, Immortality, Queen\u2019s Wings, Wind of Nature or Antique Cuirass."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand or Dominance Ice."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand or Dominance Ice."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand or Dominance Ice."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt. This makes it easier for you to kite him."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt. This makes it easier for you to kite him."
+  },
+  {
+    "againstHeroId": 128,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand or Thunder Belt. This makes it easier for you to kite him."
+  },
+  {
+    "againstHeroId": 129,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 129,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 129,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Fortress Shield cuts the shields and HP regen keeping it alive."
+  },
+  {
+    "againstHeroId": 129,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Yu Zhong has pretty good healing, use Sea Halberd, Glowing Wand or Dominance Ice to reduce his healing."
+  },
+  {
+    "againstHeroId": 129,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Yu Zhong has pretty good healing, use Sea Halberd, Glowing Wand or Dominance Ice to reduce his healing."
+  },
+  {
+    "againstHeroId": 129,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Yu Zhong has pretty good healing, use Sea Halberd, Glowing Wand or Dominance Ice to reduce his healing."
+  },
+  {
+    "againstHeroId": 129,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature is immune to all physical damage caused by Yu Zhong."
+  },
+  {
+    "againstHeroId": 129,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Using Winter Crown will help you avoid Yu Zhong\u2019s skills."
+  },
+  {
+    "againstHeroId": 130,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 130,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 130,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "When you activate Winter Crown, you will become invulnerable."
+  },
+  {
+    "againstHeroId": 130,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 130,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 130,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand, Dominance Ice."
+  },
+  {
+    "againstHeroId": 131,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 131,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 131,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 131,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Radiant Armor, Athena\u2019s Shield, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 131,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Radiant Armor, Athena\u2019s Shield, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 131,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Avoid skill damage with Winter Crown."
+  },
+  {
+    "againstHeroId": 131,
+    "itemId": 19,
+    "priority": 1,
+    "reason": "Sea Halberd, Glowing Wand."
+  },
+  {
+    "againstHeroId": 131,
+    "itemId": 35,
+    "priority": 2,
+    "reason": "Sea Halberd, Glowing Wand."
+  },
+  {
+    "againstHeroId": 132,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 132,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 132,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 132,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 132,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 132,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Use Winter Crown to become invulnerable."
+  },
+  {
+    "againstHeroId": 133,
+    "itemId": 4,
+    "priority": 1,
+    "reason": "+48 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 133,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "+40 Magic Defense blunts the magic damage."
+  },
+  {
+    "againstHeroId": 133,
+    "itemId": 49,
+    "priority": 2,
+    "reason": "Fortitude shortens the lockdown that sets up the kill."
+  },
+  {
+    "againstHeroId": 133,
+    "itemId": 5,
+    "priority": 1,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 133,
+    "itemId": 6,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 133,
+    "itemId": 13,
+    "priority": 2,
+    "reason": "Oracle, Athena\u2019s Shield, Radiant Armor, Cursed Helmet."
+  },
+  {
+    "againstHeroId": 133,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown will help you avoid Zhuxin\u2019s skills."
+  },
+  {
+    "againstHeroId": 133,
+    "itemId": 12,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 133,
+    "itemId": 27,
+    "priority": 2,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 133,
+    "itemId": 36,
+    "priority": 1,
+    "reason": "Corrosion Scythe, Ice Queen Wand, Thunder Belt."
+  },
+  {
+    "againstHeroId": 134,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "+80 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 134,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "+40 Physical Defense blunts the physical damage."
+  },
+  {
+    "againstHeroId": 134,
+    "itemId": 1,
+    "priority": 1,
+    "reason": "Using Twilight Armor, Antique Cuirass or Blade Armor will help you take less damage when attacked by Zilong."
+  },
+  {
+    "againstHeroId": 134,
+    "itemId": 3,
+    "priority": 2,
+    "reason": "Using Twilight Armor, Antique Cuirass or Blade Armor will help you take less damage when attacked by Zilong."
+  },
+  {
+    "againstHeroId": 134,
+    "itemId": 8,
+    "priority": 1,
+    "reason": "Using Twilight Armor, Antique Cuirass or Blade Armor will help you take less damage when attacked by Zilong."
+  },
+  {
+    "againstHeroId": 134,
+    "itemId": 2,
+    "priority": 1,
+    "reason": "Using Dominance Ice will slow down Zilong\u2019s attack speed."
+  },
+  {
+    "againstHeroId": 134,
+    "itemId": 21,
+    "priority": 1,
+    "reason": "Wind of Nature can block physical damage from Zilong for a period of time."
+  },
+  {
+    "againstHeroId": 134,
+    "itemId": 43,
+    "priority": 1,
+    "reason": "Winter Crown can freeze when used, helping you avoid being attacked by Zilong."
+  }
+]
