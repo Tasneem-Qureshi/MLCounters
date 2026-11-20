@@ -62,15 +62,13 @@ jobs:
         if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.5
-          name: ML Helper v1.0.5 - Auto Screen Detection & Overlay Stability
+          tag_name: v1.0.6
+          name: ML Helper v1.0.6 - Fast 0.5s Screen Capture Interval
           body: |
-            ### 📱 ML Helper v1.0.5
-            - **Automatic Real-Time Screen Detection**: ML Helper now automatically recognizes drafted enemy heroes directly from the game screen via MediaProjection and OpenCV template matching without any manual input.
-            - **Overlay Crash Resolved**: Fully decoupled OverlayService from binding to MediaProjection service on startup, eliminating Android 14+ Foreground Service permission crashes (`SecurityException` / `ForegroundServiceStartNotAllowedException`).
-            - **Seamless Permission & Capture Pipeline**: Launching the overlay seamlessly requests the system screen recording consent and begins continuous background frame capture and auto-counter analysis.
-            - **MLBB Draft-Slot Optimized Detection**: OpenCV template matching is focused on the draft slot columns, yielding fast, reliable hero identification with zero false positives.
-            - **Counter Screen Image Resolution**: Fixed image loading in Counter analysis screen to use resolved offline and CDN asset endpoints.
+            ### 📱 ML Helper v1.0.6
+            - **High-Speed 0.5s Frame Capture**: Updated screen frame capture rate to every 0.5 seconds (500ms) for ultra-responsive hero draft detection and instant counter updates.
+            - **Automatic Real-Time Screen Detection**: Continues to automatically detect picked enemy heroes directly from the MLBB draft screen with zero manual input.
+            - **Robust Overlay Stability**: Completely decoupled overlay lifecycle on Android 14+ with full offline and CDN asset resolution.
           files: app/build/outputs/apk/release/MLHelper.apk
           draft: false
           prerelease: false

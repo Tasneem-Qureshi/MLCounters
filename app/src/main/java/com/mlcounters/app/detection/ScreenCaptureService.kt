@@ -300,7 +300,7 @@ class ScreenCaptureService : Service() {
     }
 
     fun setCaptureInterval(intervalMs: Long) {
-        captureIntervalMs = intervalMs.coerceAtLeast(500L)
+        captureIntervalMs = intervalMs.coerceAtLeast(250L)
         Log.d(TAG, "Capture interval updated to ${captureIntervalMs}ms")
     }
 
@@ -427,7 +427,7 @@ class ScreenCaptureService : Service() {
         private const val NOTIFICATION_ID = 2001
         private const val VIRTUAL_DISPLAY_NAME = "MLCountersCaptureDisplay"
 
-        const val DEFAULT_CAPTURE_INTERVAL_MS = 2000L
+        const val DEFAULT_CAPTURE_INTERVAL_MS = 500L
 
         const val ACTION_START_CAPTURE = "com.mlcounters.app.action.START_CAPTURE"
         const val ACTION_STOP_CAPTURE = "com.mlcounters.app.action.STOP_CAPTURE"
