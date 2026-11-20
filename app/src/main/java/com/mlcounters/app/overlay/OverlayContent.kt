@@ -76,6 +76,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -85,6 +86,7 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.mlcounters.app.data.local.entity.HeroEntity
 import com.mlcounters.app.data.local.entity.ItemEntity
+import com.mlcounters.app.util.ImageUtils
 
 // Dark Gaming Color Palette
 private val DarkBgBase = Color(0xFF0F121C)
@@ -614,7 +616,7 @@ private fun EnemyHeroesSection(
             ) {
                 if (hero.portraitUrl.isNotEmpty()) {
                     AsyncImage(
-                        model = hero.portraitUrl,
+                        model = ImageUtils.resolveHeroPortraitUrl(LocalContext.current, hero.portraitUrl),
                         contentDescription = hero.name,
                         contentScale = ContentScale.Crop,
                         modifier = Modifier.matchParentSize()
@@ -954,7 +956,7 @@ private fun EnemyCounterCard(
                         ) {
                             if (counterHero.portraitUrl.isNotEmpty()) {
                                 AsyncImage(
-                                    model = counterHero.portraitUrl,
+                                    model = ImageUtils.resolveHeroPortraitUrl(LocalContext.current, counterHero.portraitUrl),
                                     contentDescription = counterHero.name,
                                     contentScale = ContentScale.Crop,
                                     modifier = Modifier.matchParentSize()
@@ -1048,7 +1050,7 @@ private fun CounterItemCard(
             ) {
                 if (item.iconUrl.isNotEmpty()) {
                     AsyncImage(
-                        model = item.iconUrl,
+                        model = ImageUtils.resolveItemIconUrl(LocalContext.current, item.iconUrl),
                         contentDescription = item.name,
                         contentScale = ContentScale.Crop,
                         modifier = Modifier.matchParentSize()

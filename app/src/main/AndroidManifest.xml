@@ -8,6 +8,7 @@
     <!-- Screen capture -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
 
     <!-- Network for data sync -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -45,7 +46,12 @@
         <!-- Overlay Service -->
         <service
             android:name=".overlay.OverlayService"
-            android:exported="false" />
+            android:foregroundServiceType="specialUse"
+            android:exported="false">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Floating game draft counter overlay" />
+        </service>
 
         <!-- Data Sync Worker -->
         <provider

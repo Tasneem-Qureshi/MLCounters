@@ -39,6 +39,7 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.mlcounters.app.data.local.entity.HeroEntity
+import com.mlcounters.app.util.ImageUtils
 import com.mlcounters.app.ui.theme.BorderDark
 import com.mlcounters.app.ui.theme.CyberPurple
 import com.mlcounters.app.ui.theme.DarkGraySurface
@@ -113,7 +114,7 @@ fun StandardHeroCard(
                     if (hero.portraitUrl.isNotBlank()) {
                         AsyncImage(
                             model = ImageRequest.Builder(LocalContext.current)
-                                .data(hero.portraitUrl)
+                                .data(ImageUtils.resolveHeroPortraitUrl(LocalContext.current, hero.portraitUrl))
                                 .crossfade(true)
                                 .build(),
                             contentDescription = hero.name,
@@ -218,7 +219,7 @@ fun CompactHeroCard(
                     if (hero.portraitUrl.isNotBlank()) {
                         AsyncImage(
                             model = ImageRequest.Builder(LocalContext.current)
-                                .data(hero.portraitUrl)
+                                .data(ImageUtils.resolveHeroPortraitUrl(LocalContext.current, hero.portraitUrl))
                                 .crossfade(true)
                                 .build(),
                             contentDescription = hero.name,

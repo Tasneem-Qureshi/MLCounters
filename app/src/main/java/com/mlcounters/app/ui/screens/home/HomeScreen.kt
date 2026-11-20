@@ -1,5 +1,10 @@
 package com.mlcounters.app.ui.screens.home
 
+import android.content.Intent
+import android.net.Uri
+import android.os.Build
+import android.provider.Settings
+import android.widget.Toast
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -59,6 +64,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.mlcounters.app.data.local.entity.HeroEntity
+import com.mlcounters.app.overlay.OverlayService
 import com.mlcounters.app.ui.components.HeroCard
 import com.mlcounters.app.ui.components.TierBadge
 import com.mlcounters.app.ui.theme.BorderDark
@@ -73,6 +79,7 @@ import com.mlcounters.app.ui.theme.TextLightGray
 import com.mlcounters.app.ui.theme.TextMutedGray
 import com.mlcounters.app.ui.theme.TextWhite
 import com.mlcounters.app.ui.theme.getRoleColor
+import com.mlcounters.app.util.ImageUtils
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -105,7 +112,7 @@ fun HomeScreen(
                         )
                         Spacer(modifier = Modifier.width(8.dp))
                         Text(
-                            text = "ML COUNTERS",
+                            text = "ML HELPER",
                             style = MaterialTheme.typography.titleLarge.copy(
                                 fontWeight = FontWeight.Black,
                                 letterSpacing = 2.sp
@@ -136,6 +143,7 @@ fun HomeScreen(
             )
         }
     ) { innerPadding ->
+        val context = LocalContext.current
         Column(
             modifier = Modifier
                 .fillMaxSize()
@@ -146,15 +154,46 @@ fun HomeScreen(
             // Prominent Start/Stop Overlay Button
             OverlayToggleButton(
                 isActive = isOverlayActive,
-                onToggle = { viewModel.toggleOverlay() }
+                onToggle = {
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && !Settings.canDrawOverlays(context)) {
+                        val intent = Intent(
+                            Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                            Uri.parse("package:${context.packageName}")
+                        ).apply {
+                            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                        }
+                        context.startActivity(intent)
+                        Toast.makeText(
+                            context,
+                            "Please enable 'Display over other apps' to use the floating overlay",
+                            Toast.LENGTH_LONG
+                        ).show()
+                    } else {
+                        if (isOverlayActive) {
+                            val intent = Intent(context, OverlayService::class.java).apply {
+                                action = OverlayService.ACTION_STOP_SERVICE
+                            }
+                            context.stopService(intent)
+                        } else {
+                            val intent = Intent(context, OverlayService::class.java).apply {
+                                action = OverlayService.ACTION_SHOW_OVERLAY
+                            }
+                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                                context.startForegroundService(intent)
+                            } else {
+                                context.startService(intent)
+                            }
+                        }
+                    }
+                }
             )
 
             Spacer(modifier = Modifier.height(16.dp))
 
             // Quick Stats Card
             QuickStatsCard(
-                heroCount = if (heroCount > 0) heroCount else 125,
-                version = "v1.0.0 (Patch S34)",
+                heroCount = if (heroCount > 0) heroCount else 134,
+                version = "v1.0.3 (Patch S34)",
                 lastUpdated = dataLastUpdated
             )
 
@@ -403,7 +442,7 @@ fun CounterPairCard(
                     if (targetHero.portraitUrl.isNotBlank()) {
                         AsyncImage(
                             model = ImageRequest.Builder(LocalContext.current)
-                                .data(targetHero.portraitUrl)
+                                .data(ImageUtils.resolveHeroPortraitUrl(LocalContext.current, targetHero.portraitUrl))
                                 .crossfade(true)
                                 .build(),
                             contentDescription = targetHero.name,
@@ -466,7 +505,7 @@ fun CounterPairCard(
                         if (counter.portraitUrl.isNotBlank()) {
                             AsyncImage(
                                 model = ImageRequest.Builder(LocalContext.current)
-                                    .data(counter.portraitUrl)
+                                    .data(ImageUtils.resolveHeroPortraitUrl(LocalContext.current, counter.portraitUrl))
                                     .crossfade(true)
                                     .build(),
                                 contentDescription = counter.name,

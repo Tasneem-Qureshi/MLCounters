@@ -56,7 +56,7 @@ class OverlayViewModel @Inject constructor(
     val isScanning: StateFlow<Boolean> = _isScanning.asStateFlow()
 
     // 8. Expanded/Collapsed state
-    private val _isExpanded = MutableStateFlow(false)
+    private val _isExpanded = MutableStateFlow(true)
     val isExpanded: StateFlow<Boolean> = _isExpanded.asStateFlow()
 
     // 9. Mastered hero IDs

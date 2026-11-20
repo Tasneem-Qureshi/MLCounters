@@ -121,12 +121,7 @@ class MLCountersApp : Application(), Configuration.Provider {
 
     private suspend fun seedInitialData() {
         try {
-            if (counterRepository.isDatabaseEmpty()) {
-                Log.i(TAG, "Database is empty. Loading initial hero & counter data from assets...")
-                counterRepository.seedInitialDataIfEmpty(this)
-            } else {
-                Log.d(TAG, "Database already populated. Skipping initial seeding.")
-            }
+            counterRepository.seedInitialDataIfEmpty(this)
         } catch (e: Exception) {
             Log.e(TAG, "Failed to load initial data from assets: ${e.message}", e)
         }

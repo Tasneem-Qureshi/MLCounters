@@ -91,7 +91,10 @@ class CounterViewModel @Inject constructor(
                     if (matchesMastered && matchesRole && matchesQuery) {
                         counterHero to ce.counterScore
                     } else null
-                }.sortedByDescending { it.second }
+                }
+                    .groupBy { it.first.id }
+                    .map { (_, pairs) -> pairs.maxByOrNull { it.second }!! }
+                    .sortedByDescending { it.second }
             }
         }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
@@ -121,7 +124,10 @@ class CounterViewModel @Inject constructor(
                     if (matchesMastered && matchesRole && matchesQuery) {
                         victimHero to se.counterScore
                     } else null
-                }.sortedByDescending { it.second }
+                }
+                    .groupBy { it.first.id }
+                    .map { (_, pairs) -> pairs.maxByOrNull { it.second }!! }
+                    .sortedByDescending { it.second }
             }
         }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())

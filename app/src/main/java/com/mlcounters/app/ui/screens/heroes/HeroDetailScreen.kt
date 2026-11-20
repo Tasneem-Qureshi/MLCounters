@@ -65,6 +65,7 @@ import com.mlcounters.app.ui.theme.TextLightGray
 import com.mlcounters.app.ui.theme.TextMutedGray
 import com.mlcounters.app.ui.theme.TextWhite
 import com.mlcounters.app.ui.theme.getRoleColor
+import com.mlcounters.app.util.ImageUtils
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -153,7 +154,7 @@ fun HeroDetailScreen(
                         if (currentHero.portraitUrl.isNotBlank()) {
                             AsyncImage(
                                 model = ImageRequest.Builder(LocalContext.current)
-                                    .data(currentHero.portraitUrl)
+                                    .data(ImageUtils.resolveHeroPortraitUrl(LocalContext.current, currentHero.portraitUrl))
                                     .crossfade(true)
                                     .build(),
                                 contentDescription = currentHero.name,
@@ -273,7 +274,8 @@ fun HeroDetailScreen(
                     when (selectedTabIndex) {
                         0 -> {
                             // "Countered By" tab
-                            if (counters.isEmpty()) {
+                            val distinctCounters = remember(counters) { counters.distinctBy { it.counterHeroId } }
+                            if (distinctCounters.isEmpty()) {
                                 EmptyTabPlaceholder(message = "No specific counter heroes recorded for ${currentHero.name}.")
                             } else {
                                 LazyColumn(
@@ -281,7 +283,7 @@ fun HeroDetailScreen(
                                     verticalArrangement = Arrangement.spacedBy(10.dp),
                                     modifier = Modifier.fillMaxSize()
                                 ) {
-                                    items(counters, key = { it.id }) { counter ->
+                                    items(distinctCounters, key = { "c_${it.heroId}_${it.counterHeroId}" }) { counter ->
                                         val enemyHero = heroesMap[counter.counterHeroId]
                                         if (enemyHero != null) {
                                             CounterCard(
@@ -298,7 +300,8 @@ fun HeroDetailScreen(
                         }
                         1 -> {
                             // "Strong Against" tab
-                            if (strongAgainst.isEmpty()) {
+                            val distinctStrong = remember(strongAgainst) { strongAgainst.distinctBy { it.heroId } }
+                            if (distinctStrong.isEmpty()) {
                                 EmptyTabPlaceholder(message = "${currentHero.name} has no notable hard counter advantages recorded.")
                             } else {
                                 LazyColumn(
@@ -306,7 +309,7 @@ fun HeroDetailScreen(
                                     verticalArrangement = Arrangement.spacedBy(10.dp),
                                     modifier = Modifier.fillMaxSize()
                                 ) {
-                                    items(strongAgainst, key = { it.id }) { strong ->
+                                    items(distinctStrong, key = { "s_${it.heroId}_${it.counterHeroId}" }) { strong ->
                                         val victimHero = heroesMap[strong.heroId]
                                         if (victimHero != null) {
                                             CounterCard(
@@ -323,7 +326,8 @@ fun HeroDetailScreen(
                         }
                         2 -> {
                             // "Counter Items" tab
-                            if (counterItems.isEmpty()) {
+                            val distinctItems = remember(counterItems) { counterItems.distinctBy { it.itemId } }
+                            if (distinctItems.isEmpty()) {
                                 EmptyTabPlaceholder(message = "No specialized counter items assigned for ${currentHero.name}.")
                             } else {
                                 LazyColumn(
@@ -331,7 +335,7 @@ fun HeroDetailScreen(
                                     verticalArrangement = Arrangement.spacedBy(10.dp),
                                     modifier = Modifier.fillMaxSize()
                                 ) {
-                                    items(counterItems, key = { it.id }) { counterItem ->
+                                    items(distinctItems, key = { "ci_${it.againstHeroId}_${it.itemId}" }) { counterItem ->
                                         val item = itemsMap[counterItem.itemId]
                                         if (item != null) {
                                             ItemCard(

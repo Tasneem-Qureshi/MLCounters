@@ -50,6 +50,7 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.mlcounters.app.data.local.entity.ItemEntity
+import com.mlcounters.app.util.ImageUtils
 import com.mlcounters.app.ui.theme.BorderDark
 import com.mlcounters.app.ui.theme.CyberPurple
 import com.mlcounters.app.ui.theme.DarkGraySurface
@@ -122,7 +123,7 @@ fun ItemCard(
                         if (item.iconUrl.isNotBlank()) {
                             AsyncImage(
                                 model = ImageRequest.Builder(LocalContext.current)
-                                    .data(item.iconUrl)
+                                    .data(ImageUtils.resolveItemIconUrl(LocalContext.current, item.iconUrl))
                                     .crossfade(true)
                                     .build(),
                                 contentDescription = item.name,

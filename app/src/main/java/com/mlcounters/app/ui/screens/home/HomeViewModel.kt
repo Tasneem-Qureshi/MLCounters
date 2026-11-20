@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.mlcounters.app.data.local.entity.HeroEntity
 import com.mlcounters.app.data.repository.HeroRepository
+import com.mlcounters.app.overlay.OverlayService
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -23,8 +24,7 @@ class HomeViewModel @Inject constructor(
     private val heroRepository: HeroRepository
 ) : ViewModel() {
 
-    private val _isOverlayActive = MutableStateFlow(false)
-    val isOverlayActive: StateFlow<Boolean> = _isOverlayActive.asStateFlow()
+    val isOverlayActive: StateFlow<Boolean> = OverlayService.isRunning.asStateFlow()
 
     private val _dataLastUpdated = MutableStateFlow(getCurrentFormattedTime())
     val dataLastUpdated: StateFlow<String> = _dataLastUpdated.asStateFlow()
@@ -70,7 +70,7 @@ class HomeViewModel @Inject constructor(
     }
 
     fun toggleOverlay() {
-        _isOverlayActive.value = !_isOverlayActive.value
+        // Overlay service lifecycle is controlled directly via Intent in HomeScreen
     }
 
     fun refreshData() {

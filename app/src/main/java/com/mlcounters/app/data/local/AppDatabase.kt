@@ -21,7 +21,7 @@ import com.mlcounters.app.data.local.entity.MasteryEntity
         CounterItemEntity::class,
         MasteryEntity::class
     ],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {

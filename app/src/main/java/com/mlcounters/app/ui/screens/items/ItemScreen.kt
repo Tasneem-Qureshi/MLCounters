@@ -355,7 +355,8 @@ fun ItemScreen(
                                 }
                             }
 
-                            items(counterItems, key = { it.id }) { ci ->
+                            val distinctCI = counterItems.distinctBy { it.itemId }
+                            items(distinctCI, key = { "ci_${it.againstHeroId}_${it.itemId}" }) { ci ->
                                 val itemEntity = itemsMap[ci.itemId]
                                 if (itemEntity != null) {
                                     ItemCard(

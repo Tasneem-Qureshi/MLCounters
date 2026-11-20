@@ -340,7 +340,7 @@ fun CounterScreen(
                         contentPadding = androidx.compose.foundation.layout.PaddingValues(16.dp),
                         verticalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
-                        items(list, key = { it.first.id }) { (hero, score) ->
+                        items(list, key = { "${it.first.id}_$selectedSplitTabIndex" }) { (hero, score) ->
                             ScoredHeroItem(
                                 hero = hero,
                                 score = score,

@@ -60,7 +60,7 @@ class ItemViewModel @Inject constructor(
                     item.stats.contains(query, ignoreCase = true)
 
             matchesType && matchesQuery
-        }
+        }.distinctBy { it.id }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 
     fun setType(type: String?) {

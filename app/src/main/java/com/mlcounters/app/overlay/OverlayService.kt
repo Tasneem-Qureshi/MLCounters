@@ -1,6 +1,8 @@
 package com.mlcounters.app.overlay
 
 import android.app.Notification
+import android.app.NotificationChannel
+import android.app.NotificationManager
 import android.app.PendingIntent
 import android.app.Service
 import android.content.BroadcastReceiver
@@ -9,15 +11,18 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.content.ServiceConnection
+import android.content.pm.ServiceInfo
 import android.graphics.PixelFormat
 import android.os.Build
 import android.os.IBinder
+import android.provider.Settings
 import android.util.Log
 import android.view.Gravity
 import android.view.MotionEvent
 import android.view.View
 import android.view.WindowManager
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.platform.ViewCompositionStrategy
 import androidx.core.app.NotificationCompat
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
@@ -40,6 +45,7 @@ import com.mlcounters.app.detection.HeroDetectionEngine
 import com.mlcounters.app.detection.ScreenCaptureService
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -128,6 +134,9 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
     override fun onCreate() {
         super.onCreate()
         lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_CREATE)
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_START)
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_RESUME)
+        isRunning.value = true
         Log.d(TAG, "OverlayService onCreate()")
         savedStateRegistryController.performRestore(null)
         windowManager = getSystemService(Context.WINDOW_SERVICE) as? WindowManager
@@ -149,6 +158,8 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         super.onStartCommand(intent, flags, startId)
         lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_START)
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_RESUME)
+        isRunning.value = true
         when (intent?.action) {
             ACTION_SHOW_OVERLAY -> showOverlay()
             ACTION_HIDE_OVERLAY -> hideOverlay()
@@ -156,6 +167,7 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
                 hideOverlay()
                 stopSelf()
             }
+            else -> showOverlay()
         }
         return START_NOT_STICKY
     }
@@ -169,7 +181,13 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
             return
         }
 
-        val wm = windowManager ?: return
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && !Settings.canDrawOverlays(this)) {
+            Log.w(TAG, "Cannot show overlay: SYSTEM_ALERT_WINDOW permission not granted")
+            return
+        }
+
+        val wm = windowManager ?: (getSystemService(Context.WINDOW_SERVICE) as? WindowManager) ?: return
+        windowManager = wm
 
         val params = WindowManager.LayoutParams(
             WindowManager.LayoutParams.WRAP_CONTENT,
@@ -192,6 +210,7 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
         layoutParams = params
 
         val composeView = ComposeView(this).apply {
+            setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnDetachedFromWindowOrReleasedFromPool)
             setViewTreeLifecycleOwner(this@OverlayService)
             setViewTreeSavedStateRegistryOwner(this@OverlayService)
             setViewTreeViewModelStoreOwner(this@OverlayService)
@@ -328,30 +347,60 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
     }
 
     private fun startForegroundWithNotification() {
-        val stopIntent = Intent(this, OverlayService::class.java).apply {
-            action = ACTION_STOP_SERVICE
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as? NotificationManager
+                if (notificationManager != null && notificationManager.getNotificationChannel(MLCountersApp.OVERLAY_CHANNEL_ID) == null) {
+                    val channel = NotificationChannel(
+                        MLCountersApp.OVERLAY_CHANNEL_ID,
+                        "ML Helper Overlay",
+                        NotificationManager.IMPORTANCE_LOW
+                    ).apply {
+                        description = "Shows when ML Helper overlay is active"
+                        setShowBadge(false)
+                    }
+                    notificationManager.createNotificationChannel(channel)
+                }
+            }
+
+            val stopIntent = Intent(this, OverlayService::class.java).apply {
+                action = ACTION_STOP_SERVICE
+            }
+            val stopPendingIntent = PendingIntent.getService(
+                this,
+                2,
+                stopIntent,
+                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+            )
+
+            val notification: Notification = NotificationCompat.Builder(this, MLCountersApp.OVERLAY_CHANNEL_ID)
+                .setContentTitle(getString(R.string.notification_channel_name))
+                .setContentText("ML Helper floating overlay is active")
+                .setSmallIcon(android.R.drawable.ic_dialog_info)
+                .setOngoing(true)
+                .addAction(android.R.drawable.ic_menu_close_clear_cancel, "Close Overlay", stopPendingIntent)
+                .build()
+
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+                startForeground(
+                    NOTIFICATION_ID,
+                    notification,
+                    ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE
+                )
+            } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                startForeground(NOTIFICATION_ID, notification)
+            } else {
+                startForeground(NOTIFICATION_ID, notification)
+            }
+        } catch (e: Exception) {
+            Log.e(TAG, "Error starting foreground notification: ${e.message}", e)
         }
-        val stopPendingIntent = PendingIntent.getService(
-            this,
-            2,
-            stopIntent,
-            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
-        )
-
-        val notification: Notification = NotificationCompat.Builder(this, MLCountersApp.OVERLAY_CHANNEL_ID)
-            .setContentTitle(getString(R.string.notification_channel_name))
-            .setContentText("ML Helper floating overlay is active")
-            .setSmallIcon(android.R.drawable.ic_dialog_info)
-            .setOngoing(true)
-            .addAction(android.R.drawable.ic_menu_close_clear_cancel, "Close Overlay", stopPendingIntent)
-            .build()
-
-        startForeground(NOTIFICATION_ID, notification)
     }
 
     override fun onDestroy() {
         super.onDestroy()
         Log.d(TAG, "OverlayService onDestroy()")
+        isRunning.value = false
         hideOverlay()
         try {
             unregisterReceiver(detectionBroadcastReceiver)
@@ -362,6 +411,8 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
             unbindService(captureServiceConnection)
             isCaptureBound = false
         }
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_PAUSE)
+        lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_STOP)
         lifecycleRegistry.handleLifecycleEvent(Lifecycle.Event.ON_DESTROY)
         vStore.clear()
     }
@@ -373,5 +424,7 @@ class OverlayService : Service(), LifecycleOwner, SavedStateRegistryOwner, ViewM
         const val ACTION_SHOW_OVERLAY = "com.mlcounters.app.action.SHOW_OVERLAY"
         const val ACTION_HIDE_OVERLAY = "com.mlcounters.app.action.HIDE_OVERLAY"
         const val ACTION_STOP_SERVICE = "com.mlcounters.app.action.STOP_OVERLAY_SERVICE"
+
+        val isRunning = MutableStateFlow(false)
     }
 }

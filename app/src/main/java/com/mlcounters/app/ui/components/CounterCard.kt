@@ -52,6 +52,7 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.mlcounters.app.data.local.entity.HeroEntity
+import com.mlcounters.app.util.ImageUtils
 import com.mlcounters.app.ui.theme.BorderDark
 import com.mlcounters.app.ui.theme.DarkGraySurface
 import com.mlcounters.app.ui.theme.SurfaceVariantDark
@@ -112,7 +113,7 @@ fun CounterCard(
                         if (counterHero.portraitUrl.isNotBlank()) {
                             AsyncImage(
                                 model = ImageRequest.Builder(LocalContext.current)
-                                    .data(counterHero.portraitUrl)
+                                    .data(ImageUtils.resolveHeroPortraitUrl(LocalContext.current, counterHero.portraitUrl))
                                     .crossfade(true)
                                     .build(),
                                 contentDescription = counterHero.name,

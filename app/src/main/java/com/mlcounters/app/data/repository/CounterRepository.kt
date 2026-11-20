@@ -106,7 +106,7 @@ class CounterRepository @Inject constructor(
                 ) {
                     h to c.counterScore
                 } else null
-            }
+            }.distinctBy { it.first.id }
             result[enemyId] = pairs
         }
         result
